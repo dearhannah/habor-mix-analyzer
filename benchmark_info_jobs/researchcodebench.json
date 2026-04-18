@@ -1,5 +1,5 @@
 {
-  "name": "RExBench",
+  "name": "ResearchCodeBench",
   "category": "",
   "used_llm_or_agent": "",
   "links": {
@@ -18,5 +18,5 @@
     "harbor_aligned_metric": null
   },
   "results_over_time": [],
-  "notes": null
+  "notes": "Former adapter slug typo 'reaserchcodebench'; file renamed to researchcodebench.json."
 }

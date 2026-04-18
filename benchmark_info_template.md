@@ -3,7 +3,7 @@
 ```jsonc
 {
   "name":              // string, required. Official benchmark name
-  "category":          // string, required. One of:
+  "category":          // string, optional. One of:
                        //   Repo-level Software Engineering | Competitive/Function-level Programming | Math | Reasoning | Science & Research | Agentic/Interactive | Code Performance | Machine Learning | Misc
   "used_llm_or_agent": // string, required. llm | agent | both
 

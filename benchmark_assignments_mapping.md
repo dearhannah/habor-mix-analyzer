@@ -1,50 +1,22 @@
-# People → benchmarks (10 per person; 50 of 60 assigned)
+# Benchmark info coverage (72 adapters)
 
-Assigned work lives under `benchmark_info_by_person/<name>/`.  
-Unclaimed benchmarks live under `benchmark_info_todo/`.  
-Field definitions and schema: `benchmark_info_template.md`.
+All templates live in **`benchmark_info_jobs/`**: **one JSON file per adapter**, filename = slug (see [`benchmark_assignments_ordered.md`](benchmark_assignments_ordered.md)).
 
-## What to do (short)
+Schema / field guide: **`benchmark_info_template.md`**.
 
-1. **Find your list** below (10 benchmarks per person; the **todo** pool is unclaimed).
-2. **Source from originals**: For each benchmark, confirm details against **official sources** (project site, paper, GitHub, Hugging Face, public leaderboard, etc.)—names, links, metric definitions, and published results. Do not invent numbers or URLs.
-3. **Fill the JSON**: Write one `.json` per benchmark in your folder, following the template fields (`links`, `evaluation`, `results_over_time`, etc.).
-4. **Later**: We will run **analysis** on this structured dataset (format TBD). Fill fields as completely as you can and keep source URLs explicit so results can be reconciled with Harbor (and similar) experiment outputs later.
+## Source list
 
----
+Slugs match the current **adapter registry** you provided (including items such as OfficeQA, CyberGym, browsecomp, SWE-Bench-Live, etc.). **GAIA** and **GAIA2** are separate rows.
 
-## han (10)
+## Notes
 
-Reasoning Gym, SLDBench, Spider 2, StrongReject, SWE-Bench Pro, SWE-smith, MMMLU, USACO, KUMO, Finance Agent Benchmark
+- **`researchcodebench.json`**: registry string was misspelled `reaserchcodebench`; file uses the canonical stem `researchcodebench`.
+- **`swe_fficiency.json`**: registry shows **SWE-fficiency**; confirm the official benchmark spelling when filling links.
 
----
+## What to do
 
-## xiangning (10)
+1. Open [`benchmark_assignments_ordered.md`](benchmark_assignments_ordered.md), find your adapter, edit the listed file under `benchmark_info_jobs/`.
+2. Pull facts from official sites / papers / repos / leaderboards only.
+3. Fill every JSON field per the template.
 
-AIME, ARC-AGI-2, CompileBench, GPQA Diamond, HumanEvalFix, IneqMath, LAB-Bench, MMAU, QCircuitBench, SWE-Lancer
-
----
-
-## ashley (10)
-
-Aider Polyglot, BFCL (Berkeley Function Calling Leaderboard), CRUST-Bench, CodePDE, BigCodeBench, DA-Code, FeatureBench, HLE, LawBench, RExBench
-
----
-
-## yang (10)
-
-AlgoTune, BixBench, CooperBench, DeepSynth, GAIA, LiveCodeBench, Seal0, QuixBugs, RusticationBench, PIXIU
-
----
-
-## shanda (10)
-
-BLEP-Bench, CRMArena, DevOps-Gym, MedAgentBench, Omni-math, ReplicationBench, Scicode, FeatBench, GSO, MLGym-Bench
-
----
-
-## todo (10, unclaimed)
-
-Multi-SWE-bench, SWE-Bench-Multilingual, SWE-Gym, SWE-bench-verified, SWT-Bench, SimpleQA, SkillsBench, SpreadsheetBench, TerminalBench 2.0, ResearchCodeBench
-
-**Note:** Han’s preferred list had 11 items; with a cap of **10 per person**, **Multi-SWE-bench** stays in **todo** until someone claims it and moves that JSON into their folder.
+There is **no job / remainder split** in this revision—only this flat list of **72** adapters.
