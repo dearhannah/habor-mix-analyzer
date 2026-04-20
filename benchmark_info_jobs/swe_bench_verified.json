@@ -1,22 +1,108 @@
 {
   "name": "SWE-bench-verified",
-  "category": "",
-  "used_llm_or_agent": "",
+  "category": "Repo-level Software Engineering",
+  "used_llm_or_agent": "agent",
   "links": {
-    "website": null,
-    "leaderboard": null,
-    "paper": null,
-    "github": null,
-    "dataset": null
+    "website": "https://openai.com/index/introducing-swe-bench-verified/",
+    "leaderboard": "https://www.swebench.com/index.html",
+    "paper": "https://openreview.net/forum?id=VTF8yNQM66",
+    "github": "https://github.com/SWE-bench/SWE-bench",
+    "dataset": "https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified"
   },
   "meta": {
-    "release_date": "",
-    "num_tasks": null
+    "release_date": "2024-08-13",
+    "num_tasks": 500
   },
   "evaluation": {
-    "primary_metric": "",
+    "primary_metric": "% Resolved",
     "harbor_aligned_metric": null
   },
-  "results_over_time": [],
-  "notes": null
+  "results_over_time": [
+    {
+      "date": "2024-08-13",
+      "source_type": "blog",
+      "source_url": "https://openai.com/index/introducing-swe-bench-verified/",
+      "results": [
+        {
+          "model": "GPT-4o",
+          "system_description": "Agentless",
+          "score": 0.332
+        },
+        {
+          "model": "GPT-4o",
+          "system_description": "AutoCodeRover",
+          "score": 0.288
+        },
+        {
+          "model": "GPT-4o",
+          "system_description": "Moatless Tools",
+          "score": 0.302
+        },
+        {
+          "model": "GPT-4o",
+          "system_description": "Aider",
+          "score": 0.284
+        },
+        {
+          "model": "GPT-4o",
+          "system_description": "SWE-Agent",
+          "score": 0.230
+        }                
+      ],
+      "note": "Release baseline reported by OpenAI at Verified launch. Agentless was the best-performing open-source scaffold at release time."
+    },
+    {
+      "date": "2026-02-17",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Claude 4.5 Opus (high reasoning)",
+          "system_description": "mini-SWE-agent",
+          "score": 0.768
+        }
+      ],
+      "note": "Submission date per the swebench.com SWE-bench Verified leaderboard (mini-SWE-agent filtered view)."
+    },
+    {
+      "date": "2026-02-19",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "GPT-5-2 Codex",
+          "system_description": "mini-SWE-agent",
+          "score": 0.728
+        }
+      ],
+      "note": "Submission date per the swebench.com SWE-bench Verified leaderboard (mini-SWE-agent filtered view)."
+    },
+    {
+      "date": "2026-02-26",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Gemini 3 Pro",
+          "system_description": "mini-SWE-agent",
+          "score": 0.696
+        }
+      ],
+      "note": "Submission date per the swebench.com SWE-bench Verified leaderboard (mini-SWE-agent filtered view)."
+    },
+    {
+      "date": "2026-04-19",
+      "source_type": "other",
+      "source_url": "https://www.anthropic.com/claude-mythos-preview-system-card",
+      "results": [
+        {
+          "model": "Claude Mythos Preview",
+          "system_description": "Claude Mythos Preview",
+          "score": 0.939
+        }
+      ],
+      "note": "Anthropic system card §6.4, Table 6.3.A. Per product convention, model = system_description. Date is the capture date; card has no explicit publication date."
+    }
+  ],
+  "notes": "500-task human-validated subset of SWE-bench (1,699 candidates screened by 93 Python developers). Official name is \"SWE-bench Verified\"; stub casing preserved. No standalone paper; methodology is in OpenAI's launch blog, and `paper` links to the original SWE-bench paper. All leaderboard entries use a scaffold — no bare-LLM submissions exist."
 }

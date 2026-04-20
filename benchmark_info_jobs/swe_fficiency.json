@@ -1,22 +1,101 @@
 {
   "name": "SWE-fficiency",
-  "category": "",
-  "used_llm_or_agent": "",
+  "category": "Code Performance",
+  "used_llm_or_agent": "agent",
   "links": {
-    "website": null,
-    "leaderboard": null,
-    "paper": null,
-    "github": null,
-    "dataset": null
+    "website": "https://swefficiency.com",
+    "leaderboard": "https://swefficiency.com/",
+    "paper": "https://arxiv.org/abs/2511.06090",
+    "github": "https://github.com/swefficiency/swefficiency",
+    "dataset": "https://huggingface.co/datasets/swefficiency-anon/swefficiency"
   },
   "meta": {
-    "release_date": "",
-    "num_tasks": null
+    "release_date": "2025-11-08",
+    "num_tasks": 498
   },
   "evaluation": {
-    "primary_metric": "",
+    "primary_metric": "speedup ratio (SR)",
     "harbor_aligned_metric": null
   },
-  "results_over_time": [],
-  "notes": "Adapter list spells this SWE-fficiency; confirm official benchmark name."
+  "results_over_time": [
+    {
+      "date": "2025-11-08",
+      "source_type": "paper",
+      "source_url": "https://arxiv.org/abs/2511.06090",
+      "results": [
+        {
+          "model": "GPT-5",
+          "system_description": "OpenHands",
+          "score": 0.150
+        },
+        {
+          "model": "Claude 4.1 Opus",
+          "system_description": "OpenHands",
+          "score": 0.098
+        },
+        {
+          "model": "Qwen3 Coder Plus",
+          "system_description": "OpenHands",
+          "score": 0.064
+        },
+        {
+          "model": "Claude 3.7 Sonnet",
+          "system_description": "OpenHands",
+          "score": 0.047
+        },
+        {
+          "model": "Claude 4.5 Sonnet",
+          "system_description": "OpenHands",
+          "score": 0.041
+        },
+        {
+          "model": "GLM-4.6",
+          "system_description": "OpenHands",
+          "score": 0.026
+        },
+        {
+          "model": "GPT-5 Mini",
+          "system_description": "OpenHands",
+          "score": 0.019
+        },
+        {
+          "model": "Kimi K2-0905",
+          "system_description": "OpenHands",
+          "score": 0.008
+        },
+        {
+          "model": "Gemini 2.5 Flash",
+          "system_description": "OpenHands",
+          "score": 0.008
+        },
+        {
+          "model": "DeepSeek V3.1",
+          "system_description": "OpenHands",
+          "score": 0.007
+        },
+        {
+          "model": "Gemini 2.5 Pro",
+          "system_description": "OpenHands",
+          "score": 0.007
+        },
+        {
+          "model": "Claude 3.7 Sonnet",
+          "system_description": "SWE-agent",
+          "score": 0.041
+        },
+        {
+          "model": "GPT-5 Mini",
+          "system_description": "SWE-agent",
+          "score": 0.026
+        },
+        {
+          "model": "Gemini 2.5 Flash",
+          "system_description": "SWE-agent",
+          "score": 0.006
+        }
+      ],
+      "note": "Paper Table 6. Score is speedup ratio (SR) = LM speedup / expert speedup — a dimensionless ratio (not a percentage); 1.0 = matches expert, <1.0 = slower than expert. Aggregated via harmonic mean. Expert gold baseline = 1.0 (not listed). Pass-to-pass correctness required: all unit tests must still pass after the edit."
+    }
+  ],
+  "notes": "498 performance-optimization tasks across 9 data-science / ML / HPC repos (numpy, pandas, scipy, and others). Task: given a slow workload and the complete codebase, produce a patch that matches or exceeds expert speedup while keeping all tests green. Stratified by pre-edit workload runtime, gold-patch length, and target speedup magnitude. Preprint submitted to ICLR 2026 (OpenReview forum id=J1lgJyP4Tm); code repo not yet public. Dataset on HuggingFace under `swefficiency-anon/` (anonymous for review)."
 }

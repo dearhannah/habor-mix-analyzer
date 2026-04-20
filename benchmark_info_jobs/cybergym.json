@@ -1,22 +1,107 @@
 {
   "name": "CyberGym",
-  "category": "",
-  "used_llm_or_agent": "",
+  "category": "Agentic/Interactive",
+  "used_llm_or_agent": "agent",
   "links": {
-    "website": null,
-    "leaderboard": null,
-    "paper": null,
-    "github": null,
-    "dataset": null
+    "website": "https://cybergym.io",
+    "leaderboard": "https://www.cybergym.io/",
+    "paper": "https://arxiv.org/abs/2506.02548",
+    "github": "https://github.com/sunblaze-ucb/cybergym",
+    "dataset": "https://huggingface.co/datasets/sunblaze-ucb/cybergym"
   },
   "meta": {
-    "release_date": "",
-    "num_tasks": null
+    "release_date": "2025-06",
+    "num_tasks": 1507
   },
   "evaluation": {
-    "primary_metric": "",
+    "primary_metric": "success rate",
     "harbor_aligned_metric": null
   },
-  "results_over_time": [],
-  "notes": null
+  "results_over_time": [
+    {
+      "date": "2025-06",
+      "source_type": "paper",
+      "source_url": "https://arxiv.org/abs/2506.02548",
+      "results": [
+        {
+          "model": "Claude-Sonnet-4",
+          "system_description": "OpenHands",
+          "score": 0.179
+        },
+        {
+          "model": "Claude-3.7-Sonnet",
+          "system_description": "OpenHands",
+          "score": 0.119
+        },
+        {
+          "model": "GPT-4.1",
+          "system_description": "OpenHands",
+          "score": 0.094
+        },
+        {
+          "model": "GPT-5 (minimal reasoning)",
+          "system_description": "OpenHands",
+          "score": 0.078
+        },
+        {
+          "model": "Gemini-2.5-Flash",
+          "system_description": "OpenHands",
+          "score": 0.048
+        },
+        {
+          "model": "DeepSeek-V3",
+          "system_description": "OpenHands",
+          "score": 0.036
+        },
+        {
+          "model": "o4-mini",
+          "system_description": "OpenHands",
+          "score": 0.025
+        },
+        {
+          "model": "R2E-Gym-32B",
+          "system_description": "OpenHands",
+          "score": 0.020
+        },
+        {
+          "model": "OpenHands-LM-32B",
+          "system_description": "OpenHands",
+          "score": 0.017
+        },
+        {
+          "model": "SWE-Gym-32B",
+          "system_description": "OpenHands",
+          "score": 0.001
+        }
+      ],
+      "note": "Paper success rate = % of instances where the agent generates a successful PoC. All rows use OpenHands as the agent scaffold (max 100 iterations per task). GPT-5 rows split by reasoning mode. SWE-Gym / R2E-Gym / OpenHands-LM are 32B specialized coding agents approximated at ≤2.0% per paper. Union across all models reaches 27.2%; CyberGym led to 34 zero-day discoveries (4 CVE assignments)."
+    },
+    {
+      "date": "2026-04-07",
+      "source_type": "leaderboard",
+      "source_url": "https://www.cybergym.io/",
+      "results": [
+        {
+          "model": "GLM-5.1",
+          "system_description": "Claude Code",
+          "score": 0.687
+        }
+      ],
+      "note": "CyberGym leaderboard rank 2; 1 trial. Source column: Zhipu AI."
+    },
+    {
+      "date": "2026-04-07",
+      "source_type": "leaderboard",
+      "source_url": "https://www.cybergym.io/",
+      "results": [
+        {
+          "model": "Claude Mythos Preview",
+          "system_description": "Anthropic Agent",
+          "score": 0.831
+        }
+      ],
+      "note": "CyberGym leaderboard rank 1; 1 trial. Source column: Anthropic."
+    }
+  ],
+  "notes": "1,507 real-world vulnerabilities across 188 software projects. Task: given the vulnerability text description and corresponding codebase, agent must generate a PoC test that reproduces the vulnerability. Paper defines 4 difficulty levels (0–3) based on input information provided, plus a 300-instance subset for budget-friendly evals. `category`=Agentic/Interactive because the original Cybersecurity category was dropped from the team taxonomy on 2026-04-16."
 }

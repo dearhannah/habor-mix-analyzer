@@ -1,22 +1,91 @@
 {
   "name": "OfficeQA",
-  "category": "",
-  "used_llm_or_agent": "",
+  "category": "Agentic/Interactive",
+  "used_llm_or_agent": "agent",
   "links": {
-    "website": null,
+    "website": "https://www.databricks.com/blog/introducing-officeqa-benchmark-end-to-end-grounded-reasoning",
     "leaderboard": null,
-    "paper": null,
-    "github": null,
-    "dataset": null
+    "paper": "https://arxiv.org/abs/2603.08655",
+    "github": "https://github.com/databricks/officeqa",
+    "dataset": "https://github.com/databricks/officeqa"
   },
   "meta": {
-    "release_date": "",
-    "num_tasks": null
+    "release_date": "2026-03-09",
+    "num_tasks": 133
   },
   "evaluation": {
-    "primary_metric": "",
+    "primary_metric": "correctness",
     "harbor_aligned_metric": null
   },
-  "results_over_time": [],
-  "notes": null
+  "results_over_time": [
+    {
+      "date": "2026-03-09",
+      "source_type": "paper",
+      "source_url": "https://arxiv.org/abs/2603.08655",
+      "results": [
+        {
+          "model": "Claude Opus 4.6",
+          "system_description": "Claude Agent SDK (Full corpus, PDF)",
+          "score": 0.481
+        },
+        {
+          "model": "Claude Opus 4.6",
+          "system_description": "Claude Agent SDK (Full corpus, DBX Parsed)",
+          "score": 0.541
+        },
+        {
+          "model": "Claude Opus 4.6",
+          "system_description": "Claude Agent SDK (Oracle corpus, PDF)",
+          "score": 0.609
+        },
+        {
+          "model": "Claude Opus 4.6",
+          "system_description": "Claude Agent SDK (Oracle corpus, DBX Parsed)",
+          "score": 0.669
+        },
+        {
+          "model": "GPT-5.4",
+          "system_description": "OpenAI Codex CLI (Full corpus, PDF)",
+          "score": 0.361
+        },
+        {
+          "model": "GPT-5.4",
+          "system_description": "OpenAI Codex CLI (Full corpus, DBX Parsed)",
+          "score": 0.564
+        },
+        {
+          "model": "GPT-5.4",
+          "system_description": "OpenAI Codex CLI (Oracle corpus, PDF)",
+          "score": 0.549
+        },
+        {
+          "model": "GPT-5.4",
+          "system_description": "OpenAI Codex CLI (Oracle corpus, DBX Parsed)",
+          "score": 0.654
+        },
+        {
+          "model": "Gemini 3.1 Pro Preview",
+          "system_description": "Gemini CLI (Full corpus, PDF)",
+          "score": 0.181
+        },
+        {
+          "model": "Gemini 3.1 Pro Preview",
+          "system_description": "Gemini CLI (Full corpus, DBX Parsed)",
+          "score": 0.293
+        },
+        {
+          "model": "Gemini 3.1 Pro Preview",
+          "system_description": "Gemini CLI (Oracle corpus, PDF)",
+          "score": 0.391
+        },
+        {
+          "model": "Gemini 3.1 Pro Preview",
+          "system_description": "Gemini CLI (Oracle corpus, DBX Parsed)",
+          "score": 0.466
+        }
+      ],
+      "note": "Paper Table 1 (correctness at 0.0% allowable absolute relative error). system_description suffix encodes two orthogonal dimensions: corpus (Full = all bulletins, Oracle = only relevant pages) × format (PDF = raw, DBX Parsed = Databricks-parsed text). Each frontier model is paired with its vendor's agent scaffold."
+    }
+  ],
+  "notes": "Paper title is 'OfficeQA Pro'; stub name 'OfficeQA' preserved. Pro set is 133 questions; paper also defines OfficeQA Full (Pro + 113 easier questions = 246) for non-frontier systems. Corpus is U.S. Treasury Bulletins (100–200 page reports mixing prose, tables, figures, charts). Capabilities tested: data analysis (56.1%), coding/SQL (15.9%), retrieval (21.8%), chart understanding (5.0%)."
 }

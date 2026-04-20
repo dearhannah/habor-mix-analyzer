@@ -1,22 +1,56 @@
 {
   "name": "browsecomp",
-  "category": "",
-  "used_llm_or_agent": "",
+  "category": "Agentic/Interactive",
+  "used_llm_or_agent": "both",
   "links": {
-    "website": null,
-    "leaderboard": null,
-    "paper": null,
-    "github": null,
-    "dataset": null
+    "website": "https://openai.com/index/browsecomp/",
+    "leaderboard": "https://www.kaggle.com/benchmarks/openai/browsecomp",
+    "paper": "https://arxiv.org/abs/2504.12516",
+    "github": "https://github.com/openai/simple-evals",
+    "dataset": "https://www.kaggle.com/datasets/openai/browsecomp-a-benchmark-for-browsing-agents?_gl=1*1czk936*_ga*NjYyMjEwNDg0LjE3NzY2NTE1MTM.*_ga_T7QHS60L4Q*czE3NzY2NTcxMDMkbzIkZzEkdDE3NzY2NTc1NjUkajYwJGwwJGgw"
   },
   "meta": {
-    "release_date": "",
-    "num_tasks": null
+    "release_date": "2025-04-10",
+    "num_tasks": 1266
   },
   "evaluation": {
-    "primary_metric": "",
+    "primary_metric": "accuracy",
     "harbor_aligned_metric": null
   },
-  "results_over_time": [],
-  "notes": null
+  "results_over_time": [
+    {
+      "date": "2025-04-16",
+      "source_type": "paper",
+      "source_url": "https://arxiv.org/abs/2504.12516",
+      "results": [
+        {
+          "model": "GPT-4o (2024-08-06)",
+          "system_description": null,
+          "score": 0.006
+        },
+        {
+          "model": "GPT-4o (2024-08-06)",
+          "system_description": "with browsing",
+          "score": 0.019
+        },
+        {
+          "model": "GPT-4.5 (2025-02-27)",
+          "system_description": null,
+          "score": 0.009
+        },
+        {
+          "model": "OpenAI o1 (2024-12-17, medium reasoning)",
+          "system_description": null,
+          "score": 0.099
+        },
+        {
+          "model": "Deep Research",
+          "system_description": null,
+          "score": 0.515
+        }
+      ],
+      "note": "Paper Table 3 (accuracy). null system_description = self-contained model with no external scaffold column. 'with browsing' = GPT-4o given a browse tool. Paper §4.1 calls Deep Research 'an agent model', and footnote 1 warns it was trained on BrowseComp-style data — not a generic frontier number."
+    }
+  ],
+  "notes": "Stub casing preserved; official name in paper and blog is 'BrowseComp'. Dataset originally 1,287 questions; 21 removed after Deep Research 0% pass-rate review, leaving 1,266. Code distributed via openai/simple-evals."
 }

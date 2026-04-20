@@ -1,22 +1,66 @@
 {
   "name": "ARC-AGI-2",
-  "category": "",
-  "used_llm_or_agent": "",
+  "category": "Reasoning",
+  "used_llm_or_agent": "llm",
   "links": {
-    "website": null,
-    "leaderboard": null,
-    "paper": null,
-    "github": null,
-    "dataset": null
+    "website": "https://arcprize.org/arc-agi/2/",
+    "leaderboard": "https://arcprize.org/leaderboard",
+    "paper": "https://arxiv.org/abs/2505.11831",
+    "github": "https://github.com/arcprize/ARC-AGI-2",
+    "dataset": "https://github.com/arcprize/ARC-AGI-2"
   },
   "meta": {
-    "release_date": "",
-    "num_tasks": null
+    "release_date": "2025-05-17",
+    "num_tasks": 360
   },
   "evaluation": {
-    "primary_metric": "",
+    "primary_metric": "accuracy",
     "harbor_aligned_metric": null
   },
-  "results_over_time": [],
-  "notes": null
+  "results_over_time": [
+    {
+      "date": "2025-05-17",
+      "source_type": "paper",
+      "source_url": "https://arxiv.org/abs/2505.11831",
+      "results": [
+        {
+          "model": "o3-mini (High)",
+          "system_description": null,
+          "score": 0.030
+        },
+        {
+          "model": "o3 (Medium)",
+          "system_description": null,
+          "score": 0.030
+        },
+        {
+          "model": "o4-mini (Medium)",
+          "system_description": null,
+          "score": 0.024
+        },
+        {
+          "model": "o1-pro (Low)",
+          "system_description": null,
+          "score": 0.009
+        },
+        {
+          "model": "Claude 3.7 (8K)",
+          "system_description": null,
+          "score": 0.009
+        },
+        {
+          "model": "ARChitects",
+          "system_description": "program synthesis (ARC Prize 2024 winner)",
+          "score": 0.025
+        },
+        {
+          "model": "Icecuber",
+          "system_description": "program synthesis (ARC Prize 2020 winner)",
+          "score": 0.016
+        }
+      ],
+      "note": "Paper Table 1, Semi-Private Evaluation set (n=120). o-series and Claude rows are bare LLM; ARChitects and Icecuber use program synthesis."
+    }
+  ],
+  "notes": "2025 successor to ARC-AGI, released with the ARC Prize 2025 competition. Task breakdown: 1000 public training + 120 public eval + 120 semi-private + 120 private = 1360 total; num_tasks=360 counts only the three 120-task eval sets. Paper Table 1 scores are on the Semi-Private set; the Private set powers Kaggle competition scoring and is not released. Paper's baseline runner lives in a separate repo: github.com/arcprize/model_baseline."
 }

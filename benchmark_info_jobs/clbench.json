@@ -1,22 +1,81 @@
 {
   "name": "CLBench",
-  "category": "",
-  "used_llm_or_agent": "",
+  "category": "Reasoning",
+  "used_llm_or_agent": "llm",
   "links": {
-    "website": null,
-    "leaderboard": null,
-    "paper": null,
-    "github": null,
-    "dataset": null
+    "website": "https://clbench.com",
+    "leaderboard": "https://clbench.com",
+    "paper": "https://arxiv.org/abs/2602.03587",
+    "github": "https://github.com/Tencent-Hunyuan/CL-bench",
+    "dataset": "https://huggingface.co/datasets/tencent/CL-bench"
   },
   "meta": {
-    "release_date": "",
-    "num_tasks": null
+    "release_date": "2026-02-03",
+    "num_tasks": 1899
   },
   "evaluation": {
-    "primary_metric": "",
+    "primary_metric": "Solving Rate",
     "harbor_aligned_metric": null
   },
-  "results_over_time": [],
-  "notes": null
+  "results_over_time": [
+    {
+      "date": "2026-02-03",
+      "source_type": "paper",
+      "source_url": "https://arxiv.org/abs/2602.03587",
+      "results": [
+        {
+          "model": "GPT-5.1 (High)",
+          "system_description": null,
+          "score": 0.237
+        },
+        {
+          "model": "Claude Opus 4.5",
+          "system_description": null,
+          "score": 0.211
+        },
+        {
+          "model": "GPT-5.2 (High)",
+          "system_description": null,
+          "score": 0.181
+        },
+        {
+          "model": "o3 (High)",
+          "system_description": null,
+          "score": 0.178
+        },
+        {
+          "model": "Kimi K2 Thinking",
+          "system_description": null,
+          "score": 0.176
+        },
+        {
+          "model": "HY 2.0 Thinking",
+          "system_description": null,
+          "score": 0.172
+        },
+        {
+          "model": "Gemini 3 Pro (High)",
+          "system_description": null,
+          "score": 0.158
+        },
+        {
+          "model": "Qwen 3 Max Thinking",
+          "system_description": null,
+          "score": 0.141
+        },
+        {
+          "model": "Doubao 1.6 Thinking",
+          "system_description": null,
+          "score": 0.134
+        },
+        {
+          "model": "DeepSeek V3.2 Thinking",
+          "system_description": null,
+          "score": 0.132
+        }
+      ],
+      "note": "Paper Table 2, overall Solving Rate across 4 categories. Scores are binary rubric-based accuracy (avg 63.2 rubrics per context). Category-level scores also reported: Domain Knowledge Reasoning, Rule System Application, Procedural Task Execution, Empirical Discovery & Simulation. All rows are bare LLM; no agent scaffold tested in paper's Table 2."
+    }
+  ],
+  "notes": "500 complex contexts, 1,899 tasks, 31,607 verification rubrics, all authored/refined by domain experts. Tests whether LMs can learn new knowledge from provided context (fictional worldbuilding / modified real knowledge / niche emerging knowledge) and apply reasoning. 4 context categories: Domain Knowledge Reasoning (39.2%), Rule System Application (28%), Procedural Task Execution (14%), Empirical Discovery & Simulation (16%). `used_llm_or_agent=llm` because evaluation is single-pass context → answer; no tool use or agent loop."
 }

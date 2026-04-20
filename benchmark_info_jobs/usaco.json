@@ -1,22 +1,152 @@
 {
   "name": "USACO",
-  "category": "",
-  "used_llm_or_agent": "",
+  "category": "Competitive/Function-level Programming",
+  "used_llm_or_agent": "both",
   "links": {
-    "website": null,
-    "leaderboard": null,
-    "paper": null,
-    "github": null,
-    "dataset": null
+    "website": "https://princeton-nlp.github.io/USACOBench/",
+    "leaderboard": "https://hal.cs.princeton.edu/usaco",
+    "paper": "https://arxiv.org/abs/2404.10952",
+    "github": "https://github.com/princeton-nlp/USACO",
+    "dataset": "https://drive.google.com/file/d/1z5ODOJMqyer1QxzYtEUZ2hbAx-7nU8Vi/view"
   },
   "meta": {
-    "release_date": "",
-    "num_tasks": null
+    "release_date": "2024-04-16",
+    "num_tasks": 307
   },
   "evaluation": {
-    "primary_metric": "",
+    "primary_metric": "pass@1",
     "harbor_aligned_metric": null
   },
-  "results_over_time": [],
-  "notes": null
+  "results_over_time": [
+    {
+      "date": "2024-04-16",
+      "source_type": "paper",
+      "source_url": "https://arxiv.org/abs/2404.10952",
+      "results": [
+        {
+          "model": "CodeLlama (7B)",
+          "system_description": null,
+          "score": 0.0019
+        },
+        {
+          "model": "DeepSeek Coder (7B)",
+          "system_description": null,
+          "score": 0.0104
+        },
+        {
+          "model": "Claude-3-Sonnet",
+          "system_description": null,
+          "score": 0.0261
+        },
+        {
+          "model": "GPT-3.5",
+          "system_description": null,
+          "score": 0.0059
+        },
+        {
+          "model": "GPT-4",
+          "system_description": null,
+          "score": 0.087
+        },
+        {
+          "model": "GPT-3.5",
+          "system_description": "Reflexion",
+          "score": 0.0097
+        },
+        {
+          "model": "GPT-4",
+          "system_description": "Reflexion",
+          "score": 0.1238
+        },
+        {
+          "model": "GPT-3.5",
+          "system_description": "Semantic Retrieval",
+          "score": 0.0204
+        },
+        {
+          "model": "GPT-4",
+          "system_description": "Semantic Retrieval",
+          "score": 0.1026
+        },
+        {
+          "model": "GPT-3.5",
+          "system_description": "Episodic Retrieval",
+          "score": 0.0549
+        },
+        {
+          "model": "GPT-4",
+          "system_description": "Episodic Retrieval",
+          "score": 0.1433
+        },
+        {
+          "model": "GPT-3.5",
+          "system_description": "Semantic + Episodic",
+          "score": 0.0676
+        },
+        {
+          "model": "GPT-4",
+          "system_description": "Semantic + Episodic",
+          "score": 0.1254
+        },
+        {
+          "model": "GPT-3.5",
+          "system_description": "Semantic + Reflexion",
+          "score": 0.0264
+        },
+        {
+          "model": "GPT-4",
+          "system_description": "Semantic + Reflexion",
+          "score": 0.1182
+        },
+        {
+          "model": "GPT-3.5",
+          "system_description": "Episodic + Reflexion",
+          "score": 0.0879
+        },
+        {
+          "model": "GPT-4",
+          "system_description": "Episodic + Reflexion",
+          "score": 0.2020
+        },
+        {
+          "model": "GPT-3.5",
+          "system_description": "Semantic + Episodic + Reflexion",
+          "score": 0.0752
+        },
+        {
+          "model": "GPT-4",
+          "system_description": "Semantic + Episodic + Reflexion",
+          "score": 0.1805
+        }
+      ],
+      "note": "GPT-3.5 and GPT-4 rows from Figure 3 (pass@1 across 8 scaffold combinations). CodeLlama / DeepSeek Coder / Claude-3-Sonnet rows are zero-shot baselines from the paper's other baseline tables. system_description names the scaffold; null = bare-LLM zero-shot."
+    },
+    {
+      "date": "2025-04",
+      "source_type": "leaderboard",
+      "source_url": "https://hal.cs.princeton.edu/usaco",
+      "results": [
+        {
+          "model": "o4-mini High",
+          "system_description": "Episodic + Semantic",
+          "score": 0.5798
+        }
+      ],
+      "note": "HAL Princeton USACO leaderboard; Pareto-optimal, verified. Run cost: $44.04."
+    },
+    {
+      "date": "2025-08",
+      "source_type": "leaderboard",
+      "source_url": "https://hal.cs.princeton.edu/usaco",
+      "results": [
+        {
+          "model": "GPT-5 Medium",
+          "system_description": "Episodic + Semantic",
+          "score": 0.6971
+        }
+      ],
+      "note": "HAL Princeton USACO leaderboard; Pareto-optimal, verified. Run cost: $64.13."
+    }
+  ],
+  "notes": "307 problems from the USA Computing Olympiad. Accepted at COLM 2024 (OpenReview id=kGa4fMtP9l). Paper reports bare-LLM and Reflexion+retrieval baselines; benchmark does not mandate a specific harness."
 }
