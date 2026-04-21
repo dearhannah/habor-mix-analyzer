@@ -11,10 +11,10 @@
   },
   "meta": {
     "release_date": "2024-11-04",
-    "num_tasks": 9
+    "num_tasks": 1170
   },
   "evaluation": {
-    "primary_metric": "average task score (KQA: F1; others: exact match)",
+    "primary_metric": "overall_mean",
     "harbor_aligned_metric": null
   },
   "results_over_time": [
@@ -28,7 +28,7 @@
           "system_description": "Act",
           "scores": [
             {
-              "metric": "average task score (KQA: F1; others: exact match)",
+              "metric": "overall_mean",
               "value": 0.294,
               "unit": null
             }
@@ -39,7 +39,7 @@
           "system_description": "Act",
           "scores": [
             {
-              "metric": "average task score (KQA: F1; others: exact match)",
+              "metric": "overall_mean",
               "value": 0.167,
               "unit": null
             }
@@ -50,7 +50,7 @@
           "system_description": "Act",
           "scores": [
             {
-              "metric": "average task score (KQA: F1; others: exact match)",
+              "metric": "overall_mean",
               "value": 0.374,
               "unit": null
             }
@@ -61,7 +61,7 @@
           "system_description": "Act",
           "scores": [
             {
-              "metric": "average task score (KQA: F1; others: exact match)",
+              "metric": "overall_mean",
               "value": 0.166,
               "unit": null
             }
@@ -72,7 +72,7 @@
           "system_description": "Act",
           "scores": [
             {
-              "metric": "average task score (KQA: F1; others: exact match)",
+              "metric": "overall_mean",
               "value": 0.222,
               "unit": null
             }
@@ -83,7 +83,7 @@
           "system_description": "Act",
           "scores": [
             {
-              "metric": "average task score (KQA: F1; others: exact match)",
+              "metric": "overall_mean",
               "value": 0.186,
               "unit": null
             }
@@ -94,19 +94,18 @@
           "system_description": "Act",
           "scores": [
             {
-              "metric": "average task score (KQA: F1; others: exact match)",
+              "metric": "overall_mean",
               "value": 0.025,
               "unit": null
             }
           ]
         },
-
         {
           "model": "gpt-4o",
           "system_description": "ReAct",
           "scores": [
             {
-              "metric": "average task score (KQA: F1; others: exact match)",
+              "metric": "overall_mean",
               "value": 0.382,
               "unit": null
             }
@@ -117,7 +116,7 @@
           "system_description": "ReAct",
           "scores": [
             {
-              "metric": "average task score (KQA: F1; others: exact match)",
+              "metric": "overall_mean",
               "value": 0.283,
               "unit": null
             }
@@ -128,7 +127,7 @@
           "system_description": "ReAct",
           "scores": [
             {
-              "metric": "average task score (KQA: F1; others: exact match)",
+              "metric": "overall_mean",
               "value": 0.343,
               "unit": null
             }
@@ -139,7 +138,7 @@
           "system_description": "ReAct",
           "scores": [
             {
-              "metric": "average task score (KQA: F1; others: exact match)",
+              "metric": "overall_mean",
               "value": 0.173,
               "unit": null
             }
@@ -150,7 +149,7 @@
           "system_description": "ReAct",
           "scores": [
             {
-              "metric": "average task score (KQA: F1; others: exact match)",
+              "metric": "overall_mean",
               "value": 0.338,
               "unit": null
             }
@@ -161,7 +160,7 @@
           "system_description": "ReAct",
           "scores": [
             {
-              "metric": "average task score (KQA: F1; others: exact match)",
+              "metric": "overall_mean",
               "value": 0.278,
               "unit": null
             }
@@ -172,7 +171,7 @@
           "system_description": "ReAct",
           "scores": [
             {
-              "metric": "average task score (KQA: F1; others: exact match)",
+              "metric": "overall_mean",
               "value": 0.031,
               "unit": null
             }
@@ -183,7 +182,7 @@
           "system_description": "ReAct",
           "scores": [
             {
-              "metric": "average task score (KQA: F1; others: exact match)",
+              "metric": "overall_mean",
               "value": 0.577,
               "unit": null
             }
@@ -194,19 +193,18 @@
           "system_description": "ReAct",
           "scores": [
             {
-              "metric": "average task score (KQA: F1; others: exact match)",
+              "metric": "overall_mean",
               "value": 0.351,
               "unit": null
             }
           ]
         },
-
         {
           "model": "gpt-4o",
           "system_description": "Function Calling",
           "scores": [
             {
-              "metric": "average task score (KQA: F1; others: exact match)",
+              "metric": "overall_mean",
               "value": 0.544,
               "unit": null
             }
@@ -217,7 +215,7 @@
           "system_description": "Function Calling",
           "scores": [
             {
-              "metric": "average task score (KQA: F1; others: exact match)",
+              "metric": "overall_mean",
               "value": 0.195,
               "unit": null
             }
@@ -228,7 +226,7 @@
           "system_description": "Function Calling",
           "scores": [
             {
-              "metric": "average task score (KQA: F1; others: exact match)",
+              "metric": "overall_mean",
               "value": 0.418,
               "unit": null
             }
@@ -239,7 +237,7 @@
           "system_description": "Function Calling",
           "scores": [
             {
-              "metric": "average task score (KQA: F1; others: exact match)",
+              "metric": "overall_mean",
               "value": 0.151,
               "unit": null
             }
@@ -250,7 +248,7 @@
           "system_description": "Function Calling (prompt)",
           "scores": [
             {
-              "metric": "average task score (KQA: F1; others: exact match)",
+              "metric": "overall_mean",
               "value": 0.513,
               "unit": null
             }
@@ -261,7 +259,7 @@
           "system_description": "Function Calling (prompt)",
           "scores": [
             {
-              "metric": "average task score (KQA: F1; others: exact match)",
+              "metric": "overall_mean",
               "value": 0.411,
               "unit": null
             }
@@ -272,7 +270,7 @@
           "system_description": "Function Calling (prompt)",
           "scores": [
             {
-              "metric": "average task score (KQA: F1; others: exact match)",
+              "metric": "overall_mean",
               "value": 0.0,
               "unit": null
             }
@@ -283,7 +281,7 @@
           "system_description": "Function Calling (prompt)",
           "scores": [
             {
-              "metric": "average task score (KQA: F1; others: exact match)",
+              "metric": "overall_mean",
               "value": 0.643,
               "unit": null
             }
@@ -294,15 +292,15 @@
           "system_description": "Function Calling (prompt)",
           "scores": [
             {
-              "metric": "average task score (KQA: F1; others: exact match)",
+              "metric": "overall_mean",
               "value": 0.09,
               "unit": null
             }
           ]
         }
       ],
-      "note": "Paper Table 2 reports per-task scores for 9 tasks plus ALL. Here I only kept the aggregate ALL column as the main benchmark score, as shown in the leaderboard. The paper states KQA uses F1, while all other tasks use exact match."
+      "note": "Paper Table 2 reports per-task scores for 9 tasks plus ALL. Here I only kept the aggregate ALL/overall_mean column as the main benchmark score, as shown in the leaderboard. The paper states KQA uses F1, while all other tasks use exact match."
     }
   ],
-  "notes": null
+  "notes": "num_tasks counts benchmark instances: CRMArena has 1,170 test instances, organized as 9 task types * 130 instances each. The primary metric name is overall_mean, matching the adapter README parity metric. It is an overall mean across task types; knowledge_qa is scored by fuzzy token-level F1 and all other task types are scored by exact match."
 }

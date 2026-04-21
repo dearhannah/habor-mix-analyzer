@@ -14,7 +14,7 @@
     "num_tasks": 225
   },
   "evaluation": {
-    "primary_metric": "accuracy",
+    "primary_metric": "pass rate",
     "harbor_aligned_metric": null
   },
   "results_over_time": [
@@ -28,7 +28,7 @@
           "system_description": "aider",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.617,
               "unit": null
             },
@@ -44,7 +44,7 @@
           "system_description": "aider",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.453,
               "unit": null
             },
@@ -60,7 +60,7 @@
           "system_description": "aider",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.382,
               "unit": null
             },
@@ -76,7 +76,7 @@
           "system_description": "aider",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.329,
               "unit": null
             },
@@ -92,7 +92,7 @@
           "system_description": "aider",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.28,
               "unit": null
             },
@@ -108,7 +108,7 @@
           "system_description": "aider",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.222,
               "unit": null
             },
@@ -124,7 +124,7 @@
           "system_description": "aider",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.178,
               "unit": null
             },
@@ -140,7 +140,7 @@
           "system_description": "aider",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.151,
               "unit": null
             },
@@ -156,7 +156,7 @@
           "system_description": "aider",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.08,
               "unit": null
             },
@@ -172,7 +172,7 @@
           "system_description": "aider",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.036,
               "unit": null
             },
@@ -184,7 +184,7 @@
           ]
         }
       ],
-      "note": "Release snapshot from the Aider Polyglot launch post. Percentage metrics are stored as rates in [0, 1]."
+      "note": null
     },
     {
       "date": "2025-11-20",
@@ -197,7 +197,7 @@
           "run_date": "2025-08-23",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.88,
               "unit": null
             },
@@ -219,7 +219,7 @@
           "run_date": "2025-08-25",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.867,
               "unit": null
             },
@@ -241,7 +241,7 @@
           "run_date": "2025-06-28",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.849,
               "unit": null
             },
@@ -263,7 +263,7 @@
           "run_date": "2025-06-06",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.831,
               "unit": null
             },
@@ -285,7 +285,7 @@
           "run_date": "2025-08-25",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.813,
               "unit": null
             },
@@ -307,7 +307,7 @@
           "run_date": "2025-06-25",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.813,
               "unit": null
             },
@@ -329,7 +329,7 @@
           "run_date": "2025-07-11",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.796,
               "unit": null
             },
@@ -351,7 +351,7 @@
           "run_date": "2025-06-06",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.791,
               "unit": null
             },
@@ -373,7 +373,7 @@
           "run_date": "2025-06-27",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.782,
               "unit": null
             },
@@ -395,7 +395,7 @@
           "run_date": "2025-06-25",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.769,
               "unit": null
             },
@@ -417,7 +417,7 @@
           "run_date": "2025-05-07",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.769,
               "unit": null
             },
@@ -439,7 +439,7 @@
           "run_date": "2025-10-03",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.742,
               "unit": null
             },
@@ -461,7 +461,7 @@
           "run_date": "2025-04-12",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.729,
               "unit": null
             },
@@ -483,7 +483,7 @@
           "run_date": "2025-05-25",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.72,
               "unit": null
             },
@@ -505,7 +505,7 @@
           "run_date": "2025-04-16",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.72,
               "unit": null
             },
@@ -527,7 +527,7 @@
           "run_date": "2025-06-06",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.714,
               "unit": null
             },
@@ -549,7 +549,7 @@
           "run_date": "2025-05-25",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.707,
               "unit": null
             },
@@ -571,7 +571,7 @@
           "run_date": "2025-10-03",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.702,
               "unit": null
             },
@@ -593,7 +593,7 @@
           "run_date": "2025-02-24",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.649,
               "unit": null
             },
@@ -615,7 +615,7 @@
           "run_date": "2025-01-23",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.64,
               "unit": null
             },
@@ -637,7 +637,7 @@
           "run_date": "2024-12-21",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.617,
               "unit": null
             },
@@ -659,7 +659,7 @@
           "run_date": "2025-05-24",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.613,
               "unit": null
             },
@@ -681,7 +681,7 @@
           "run_date": "2025-02-24",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.604,
               "unit": null
             },
@@ -703,7 +703,7 @@
           "run_date": "2025-01-31",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.604,
               "unit": null
             },
@@ -725,7 +725,7 @@
           "run_date": "2025-05-09",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.596,
               "unit": null
             },
@@ -747,7 +747,7 @@
           "run_date": "2025-07-17",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.591,
               "unit": null
             },
@@ -769,7 +769,7 @@
           "run_date": "2025-01-20",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.569,
               "unit": null
             },
@@ -791,7 +791,7 @@
           "run_date": "2025-05-24",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.564,
               "unit": null
             },
@@ -813,7 +813,7 @@
           "run_date": "2025-05-25",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.551,
               "unit": null
             },
@@ -835,7 +835,7 @@
           "run_date": "2025-03-24",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.551,
               "unit": null
             },
@@ -857,7 +857,7 @@
           "run_date": "2025-04-04",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.547,
               "unit": null
             },
@@ -879,7 +879,7 @@
           "run_date": "2025-01-31",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.538,
               "unit": null
             },
@@ -901,7 +901,7 @@
           "run_date": "2025-04-10",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.533,
               "unit": null
             },
@@ -923,7 +923,7 @@
           "run_date": "2025-04-10",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.529,
               "unit": null
             },
@@ -945,7 +945,7 @@
           "run_date": "2025-04-14",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.524,
               "unit": null
             },
@@ -967,7 +967,7 @@
           "run_date": "2025-01-17",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.516,
               "unit": null
             },
@@ -989,7 +989,7 @@
           "run_date": "2025-04-10",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.493,
               "unit": null
             },
@@ -1011,7 +1011,7 @@
           "run_date": "2024-12-25",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.484,
               "unit": null
             },
@@ -1033,7 +1033,7 @@
           "run_date": "2025-04-20",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.471,
               "unit": null
             },
@@ -1055,7 +1055,7 @@
           "run_date": "2025-03-29",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.453,
               "unit": null
             },
@@ -1077,7 +1077,7 @@
           "run_date": "2025-02-27",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.449,
               "unit": null
             },
@@ -1099,7 +1099,7 @@
           "run_date": "2025-05-26",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.44,
               "unit": null
             },
@@ -1121,7 +1121,7 @@
           "run_date": "2025-08-06",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.418,
               "unit": null
             },
@@ -1143,7 +1143,7 @@
           "run_date": "2025-05-08",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.4,
               "unit": null
             },
@@ -1165,7 +1165,7 @@
           "run_date": "2024-12-22",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.382,
               "unit": null
             },
@@ -1187,7 +1187,7 @@
           "run_date": "2025-02-25",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.356,
               "unit": null
             },
@@ -1209,7 +1209,7 @@
           "run_date": "2025-04-10",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.347,
               "unit": null
             },
@@ -1231,7 +1231,7 @@
           "run_date": "2024-12-22",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.329,
               "unit": null
             },
@@ -1253,7 +1253,7 @@
           "run_date": "2025-04-14",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.324,
               "unit": null
             },
@@ -1275,7 +1275,7 @@
           "run_date": "2024-12-21",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.28,
               "unit": null
             },
@@ -1297,7 +1297,7 @@
           "run_date": "2025-02-15",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.271,
               "unit": null
             },
@@ -1319,7 +1319,7 @@
           "run_date": "2025-03-07",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.262,
               "unit": null
             },
@@ -1341,7 +1341,7 @@
           "run_date": "2024-12-30",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.231,
               "unit": null
             },
@@ -1363,7 +1363,7 @@
           "run_date": "2024-12-22",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.222,
               "unit": null
             },
@@ -1385,7 +1385,7 @@
           "run_date": "2025-01-28",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.218,
               "unit": null
             },
@@ -1402,7 +1402,7 @@
           "run_date": "2025-03-06",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.209,
               "unit": null
             },
@@ -1424,7 +1424,7 @@
           "run_date": "2025-01-21",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.182,
               "unit": null
             },
@@ -1446,7 +1446,7 @@
           "run_date": "2024-12-30",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.182,
               "unit": null
             },
@@ -1468,7 +1468,7 @@
           "run_date": "2024-12-21",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.178,
               "unit": null
             },
@@ -1490,7 +1490,7 @@
           "run_date": "2024-12-26",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.164,
               "unit": null
             },
@@ -1512,7 +1512,7 @@
           "run_date": "2025-04-06",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.156,
               "unit": null
             },
@@ -1534,7 +1534,7 @@
           "run_date": "2024-12-23",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.129,
               "unit": null
             },
@@ -1556,7 +1556,7 @@
           "run_date": "2025-03-14",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.12,
               "unit": null
             },
@@ -1578,7 +1578,7 @@
           "run_date": "2025-01-13",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.111,
               "unit": null
             },
@@ -1600,7 +1600,7 @@
           "run_date": "2025-04-19",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.102,
               "unit": null
             },
@@ -1622,7 +1622,7 @@
           "run_date": "2025-04-14",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.089,
               "unit": null
             },
@@ -1644,7 +1644,7 @@
           "run_date": "2024-12-22",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.08,
               "unit": null
             },
@@ -1666,7 +1666,7 @@
           "run_date": "2025-03-15",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.049,
               "unit": null
             },
@@ -1688,7 +1688,7 @@
           "run_date": "2024-12-21",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.036,
               "unit": null
             },
@@ -1705,8 +1705,8 @@
           ]
         }
       ],
-      "note": "Official Aider polyglot coding leaderboard snapshot. Percentage metrics are stored as rates in [0, 1]."
+      "note": null
     }
   ],
-  "notes": "Aider Polyglot evaluates code editing on 225 challenging Exercism exercises across C++, Go, Java, JavaScript, Python, and Rust. Leaderboard runs use the aider CLI as the coding scaffold."
+  "notes": "The public Aider leaderboard also reports cost and correct edit format; those two extra metrics are retained in results as leaderboard metadata/secondary measurements, but they are not adapter verifier metrics."
 }

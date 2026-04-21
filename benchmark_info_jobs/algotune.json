@@ -14,7 +14,7 @@
     "num_tasks": 154
   },
   "evaluation": {
-    "primary_metric": "speedup",
+    "primary_metric": "AlgoTune Score",
     "harbor_aligned_metric": null
   },
   "results_over_time": [
@@ -28,7 +28,7 @@
           "system_description": "AlgoTuner",
           "scores": [
             {
-              "metric": "speedup",
+              "metric": "AlgoTune Score",
               "value": 1.72,
               "unit": "x"
             }
@@ -39,8 +39,8 @@
           "system_description": "AlgoTuner",
           "scores": [
             {
-              "metric": "speedup",
-              "value": 1.70,
+              "metric": "AlgoTune Score",
+              "value": 1.7,
               "unit": "x"
             }
           ]
@@ -50,7 +50,7 @@
           "system_description": "AlgoTuner",
           "scores": [
             {
-              "metric": "speedup",
+              "metric": "AlgoTune Score",
               "value": 1.51,
               "unit": "x"
             }
@@ -61,7 +61,7 @@
           "system_description": "AlgoTuner",
           "scores": [
             {
-              "metric": "speedup",
+              "metric": "AlgoTune Score",
               "value": 1.33,
               "unit": "x"
             }
@@ -80,7 +80,7 @@
           "system_description": "AlgoTuner",
           "scores": [
             {
-              "metric": "speedup",
+              "metric": "AlgoTune Score",
               "value": 2.05,
               "unit": "x"
             }
@@ -91,7 +91,7 @@
           "system_description": "AlgoTuner",
           "scores": [
             {
-              "metric": "speedup",
+              "metric": "AlgoTune Score",
               "value": 2.02,
               "unit": "x"
             }
@@ -102,7 +102,7 @@
           "system_description": "AlgoTuner",
           "scores": [
             {
-              "metric": "speedup",
+              "metric": "AlgoTune Score",
               "value": 1.85,
               "unit": "x"
             }
@@ -113,7 +113,7 @@
           "system_description": "AlgoTuner",
           "scores": [
             {
-              "metric": "speedup",
+              "metric": "AlgoTune Score",
               "value": 1.83,
               "unit": "x"
             }
@@ -124,7 +124,7 @@
           "system_description": "AlgoTuner",
           "scores": [
             {
-              "metric": "speedup",
+              "metric": "AlgoTune Score",
               "value": 1.77,
               "unit": "x"
             }
@@ -135,7 +135,7 @@
           "system_description": "AlgoTuner",
           "scores": [
             {
-              "metric": "speedup",
+              "metric": "AlgoTune Score",
               "value": 1.72,
               "unit": "x"
             }
@@ -146,8 +146,8 @@
           "system_description": "AlgoTuner",
           "scores": [
             {
-              "metric": "speedup",
-              "value": 1.70,
+              "metric": "AlgoTune Score",
+              "value": 1.7,
               "unit": "x"
             }
           ]
@@ -157,7 +157,7 @@
           "system_description": "AlgoTuner",
           "scores": [
             {
-              "metric": "speedup",
+              "metric": "AlgoTune Score",
               "value": 1.67,
               "unit": "x"
             }
@@ -168,7 +168,7 @@
           "system_description": "AlgoTuner",
           "scores": [
             {
-              "metric": "speedup",
+              "metric": "AlgoTune Score",
               "value": 1.52,
               "unit": "x"
             }
@@ -179,7 +179,7 @@
           "system_description": "AlgoTuner",
           "scores": [
             {
-              "metric": "speedup",
+              "metric": "AlgoTune Score",
               "value": 1.52,
               "unit": "x"
             }
@@ -190,7 +190,7 @@
           "system_description": "AlgoTuner",
           "scores": [
             {
-              "metric": "speedup",
+              "metric": "AlgoTune Score",
               "value": 1.51,
               "unit": "x"
             }
@@ -201,7 +201,7 @@
           "system_description": "AlgoTuner",
           "scores": [
             {
-              "metric": "speedup",
+              "metric": "AlgoTune Score",
               "value": 1.47,
               "unit": "x"
             }
@@ -212,7 +212,7 @@
           "system_description": "AlgoTuner",
           "scores": [
             {
-              "metric": "speedup",
+              "metric": "AlgoTune Score",
               "value": 1.44,
               "unit": "x"
             }
@@ -223,7 +223,7 @@
           "system_description": "AlgoTuner",
           "scores": [
             {
-              "metric": "speedup",
+              "metric": "AlgoTune Score",
               "value": 1.41,
               "unit": "x"
             }
@@ -234,7 +234,7 @@
           "system_description": "AlgoTuner",
           "scores": [
             {
-              "metric": "speedup",
+              "metric": "AlgoTune Score",
               "value": 1.38,
               "unit": "x"
             }
@@ -245,7 +245,7 @@
           "system_description": "AlgoTuner",
           "scores": [
             {
-              "metric": "speedup",
+              "metric": "AlgoTune Score",
               "value": 1.34,
               "unit": "x"
             }
@@ -256,7 +256,7 @@
           "system_description": "AlgoTuner",
           "scores": [
             {
-              "metric": "speedup",
+              "metric": "AlgoTune Score",
               "value": 1.33,
               "unit": "x"
             }
@@ -267,15 +267,15 @@
           "system_description": "AlgoTuner",
           "scores": [
             {
-              "metric": "speedup",
+              "metric": "AlgoTune Score",
               "value": 1.31,
               "unit": "x"
             }
           ]
         }
       ],
-      "note": "Snapshot of the public leaderboard on 2026-04-20. Speedup is the harmonic mean of speedups across all AlgoTune tasks."
+      "note": "Snapshot of the public leaderboard on 2026-04-20. AlgoTune Score is the harmonic mean of speedups across all AlgoTune tasks."
     }
   ],
-  "notes": null
+  "notes": "Primary metric is AlgoTune Score: the harmonic mean of speedup ratios (baseline_time / solver_time) across tasks, with failing or slower solutions receiving a mercy score of 1.0. The unit x is retained on score values because the score is speedup-derived."
 }

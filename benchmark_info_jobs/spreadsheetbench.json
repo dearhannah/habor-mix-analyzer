@@ -1,7 +1,7 @@
 {
   "name": "SpreadsheetBench",
   "category": "Agentic/Interactive",
-  "used_llm_or_agent": "both",
+  "used_llm_or_agent": "agent",
   "links": {
     "website": "https://spreadsheetbench.github.io/",
     "leaderboard": "https://spreadsheetbench.github.io/",
@@ -11,380 +11,13 @@
   },
   "meta": {
     "release_date": "2024-06-21",
-    "num_tasks": 912
+    "num_tasks": 400
   },
   "evaluation": {
-    "primary_metric": "accuracy",
+    "primary_metric": "pass rate",
     "harbor_aligned_metric": null
   },
   "results_over_time": [
-    {
-      "date": "2024-06-21",
-      "source_type": "paper",
-      "source_url": "https://arxiv.org/abs/2406.14991",
-      "results": [
-        {
-          "model": "GPT-3.5",
-          "system_description": "Binder",
-          "scores": [
-            {
-              "metric": "accuracy (soft restriction overall)",
-              "value": 0.0117,
-              "unit": null
-            },
-            {
-              "metric": "accuracy (hard restriction overall)",
-              "value": 0.0,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "CodeQwen (7B)",
-          "system_description": null,
-          "scores": [
-            {
-              "metric": "accuracy (soft restriction overall)",
-              "value": 0.0051,
-              "unit": null
-            },
-            {
-              "metric": "accuracy (hard restriction overall)",
-              "value": 0.0033,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "CodeQwen (7B)",
-          "system_description": "Multi-Round",
-          "scores": [
-            {
-              "metric": "accuracy (soft restriction overall)",
-              "value": 0.0366,
-              "unit": null
-            },
-            {
-              "metric": "accuracy (hard restriction overall)",
-              "value": 0.0297,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "DeepseekCoder (33B)",
-          "system_description": null,
-          "scores": [
-            {
-              "metric": "accuracy (soft restriction overall)",
-              "value": 0.026,
-              "unit": null
-            },
-            {
-              "metric": "accuracy (hard restriction overall)",
-              "value": 0.022,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "DeepseekCoder (33B)",
-          "system_description": "Multi-Round",
-          "scores": [
-            {
-              "metric": "accuracy (soft restriction overall)",
-              "value": 0.0531,
-              "unit": null
-            },
-            {
-              "metric": "accuracy (hard restriction overall)",
-              "value": 0.0385,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "Mixtral-8x7B",
-          "system_description": null,
-          "scores": [
-            {
-              "metric": "accuracy (soft restriction overall)",
-              "value": 0.0311,
-              "unit": null
-            },
-            {
-              "metric": "accuracy (hard restriction overall)",
-              "value": 0.0242,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "Mixtral-8x7B",
-          "system_description": "Multi-Round",
-          "scores": [
-            {
-              "metric": "accuracy (soft restriction overall)",
-              "value": 0.0388,
-              "unit": null
-            },
-            {
-              "metric": "accuracy (hard restriction overall)",
-              "value": 0.0285,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "Llama-3 (70B)",
-          "system_description": null,
-          "scores": [
-            {
-              "metric": "accuracy (soft restriction overall)",
-              "value": 0.0132,
-              "unit": null
-            },
-            {
-              "metric": "accuracy (hard restriction overall)",
-              "value": 0.011,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "Llama-3 (70B)",
-          "system_description": "Multi-Round",
-          "scores": [
-            {
-              "metric": "accuracy (soft restriction overall)",
-              "value": 0.0374,
-              "unit": null
-            },
-            {
-              "metric": "accuracy (hard restriction overall)",
-              "value": 0.0318,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "GPT-3.5",
-          "system_description": null,
-          "scores": [
-            {
-              "metric": "accuracy (soft restriction overall)",
-              "value": 0.0234,
-              "unit": null
-            },
-            {
-              "metric": "accuracy (hard restriction overall)",
-              "value": 0.0164,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "GPT-3.5",
-          "system_description": "Multi-Round",
-          "scores": [
-            {
-              "metric": "accuracy (soft restriction overall)",
-              "value": 0.0709,
-              "unit": null
-            },
-            {
-              "metric": "accuracy (hard restriction overall)",
-              "value": 0.0537,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "GPT-4o",
-          "system_description": null,
-          "scores": [
-            {
-              "metric": "accuracy (soft restriction overall)",
-              "value": 0.1835,
-              "unit": null
-            },
-            {
-              "metric": "accuracy (hard restriction overall)",
-              "value": 0.1502,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "GPT-4o",
-          "system_description": "Multi-Round",
-          "scores": [
-            {
-              "metric": "accuracy (soft restriction overall)",
-              "value": 0.1696,
-              "unit": null
-            },
-            {
-              "metric": "accuracy (hard restriction overall)",
-              "value": 0.1327,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "GPT-4",
-          "system_description": "SheetCopilot",
-          "scores": [
-            {
-              "metric": "accuracy (soft restriction overall)",
-              "value": 0.14,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "Copilot in Excel",
-          "system_description": "Copilot in Excel",
-          "scores": [
-            {
-              "metric": "accuracy (soft restriction overall)",
-              "value": 0.2,
-              "unit": null
-            }
-          ]
-        }
-      ],
-      "note": "Original paper Table 2 baseline on SpreadsheetBench V1. The paper reports OJ-style soft and hard restriction overall accuracies; product rows did not report hard-restriction scores."
-    },
-    {
-      "date": "2026-03-10",
-      "source_type": "leaderboard",
-      "source_url": "https://spreadsheetbench.github.io/",
-      "results": [
-        {
-          "model": "Gemini in Google Sheets",
-          "system_description": "Gemini in Google Sheets",
-          "scores": [
-            {
-              "metric": "accuracy",
-              "value": 0.7048,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "Qingqiu Agent",
-          "system_description": "Qingqiu Agent",
-          "scores": [
-            {
-              "metric": "accuracy",
-              "value": 0.6996,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "Univer",
-          "system_description": "Univer",
-          "scores": [
-            {
-              "metric": "accuracy",
-              "value": 0.6886,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "灵犀",
-          "system_description": "灵犀",
-          "scores": [
-            {
-              "metric": "accuracy",
-              "value": 0.6689,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "Bluebox",
-          "system_description": "Bluebox",
-          "scores": [
-            {
-              "metric": "accuracy",
-              "value": 0.629,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "Shortcut.ai",
-          "system_description": "Shortcut.ai",
-          "scores": [
-            {
-              "metric": "accuracy",
-              "value": 0.5925,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "Copilot in Excel (Agent Mode)",
-          "system_description": "Copilot in Excel (Agent Mode)",
-          "scores": [
-            {
-              "metric": "accuracy",
-              "value": 0.572,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "ChatGPT Agent w/ .xlsx",
-          "system_description": "ChatGPT Agent w/ .xlsx",
-          "scores": [
-            {
-              "metric": "accuracy",
-              "value": 0.455,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "Claude Files Opus 4.1",
-          "system_description": "Claude Files Opus 4.1",
-          "scores": [
-            {
-              "metric": "accuracy",
-              "value": 0.429,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "ChatGPT Agent",
-          "system_description": "ChatGPT Agent",
-          "scores": [
-            {
-              "metric": "accuracy",
-              "value": 0.353,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "OpenAI o3",
-          "system_description": null,
-          "scores": [
-            {
-              "metric": "accuracy",
-              "value": 0.233,
-              "unit": null
-            }
-          ]
-        }
-      ],
-      "note": "Official SpreadsheetBench V1 Full (912) leaderboard snapshot. Percentages are stored as rates in [0, 1]."
-    },
     {
       "date": "2026-03-07",
       "source_type": "leaderboard",
@@ -395,7 +28,7 @@
           "system_description": "Tetra-Beta-2",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.9425,
               "unit": null
             }
@@ -406,7 +39,7 @@
           "system_description": "Nobie Agent",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.91,
               "unit": null
             }
@@ -417,7 +50,7 @@
           "system_description": "Qingqiu Agent",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.8925,
               "unit": null
             }
@@ -428,7 +61,7 @@
           "system_description": "Shortcut.ai",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.86,
               "unit": null
             }
@@ -439,7 +72,7 @@
           "system_description": "Kyra",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.8425,
               "unit": null
             }
@@ -450,15 +83,15 @@
           "system_description": "Decide Agent",
           "scores": [
             {
-              "metric": "accuracy",
+              "metric": "pass rate",
               "value": 0.825,
               "unit": null
             }
           ]
         }
       ],
-      "note": "Official SpreadsheetBench V1 Verified (400) leaderboard snapshot. Percentages are stored as rates in [0, 1]."
+      "note": null
     }
   ],
-  "notes": "SpreadsheetBench V1 evaluates agents and LLMs on real-world spreadsheet manipulation with 912 instructions and 2,729 spreadsheet test cases. The official site also hosts SpreadsheetBench 2 results; those are not included here because they are a separate end-to-end workflow benchmark."
+  "notes": "Only SpreadsheetBench V1 Verified (400) is retained; num_tasks therefore reflects the verified_400 split rather than the 912-task V1 Full benchmark. The metric is pass rate: the percentage of tasks whose spreadsheet output matches the ground-truth answer file at the benchmark answer_position."
 }
