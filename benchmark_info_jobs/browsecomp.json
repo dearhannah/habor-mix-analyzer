@@ -50,6 +50,58 @@
         }
       ],
       "note": "Paper Table 3 (accuracy). null system_description = self-contained model with no external scaffold column. 'with browsing' = GPT-4o given a browse tool. Paper §4.1 calls Deep Research 'an agent model', and footnote 1 warns it was trained on BrowseComp-style data — not a generic frontier number."
+    },
+    {
+      "date": "2026-02-04",
+      "source_type": "leaderboard",
+      "source_url": "https://llm-stats.com/benchmarks/browsecomp",
+      "results": [
+        {
+          "model": "Claude Opus 4.6",
+          "system_description": null,
+          "score": 0.840
+        }
+      ],
+      "note": "llm-stats.com tooltip (Anthropic). Tooltip does not expose system_description (tool use / browsing / reasoning level)."
+    },
+    {
+      "date": "2026-02-18",
+      "source_type": "leaderboard",
+      "source_url": "https://llm-stats.com/benchmarks/browsecomp",
+      "results": [
+        {
+          "model": "Gemini 3.1 Pro",
+          "system_description": null,
+          "score": 0.859
+        }
+      ],
+      "note": "llm-stats.com tooltip (Google). Tooltip does not expose system_description (tool use / browsing / reasoning level)."
+    },
+    {
+      "date": "2026-04-06",
+      "source_type": "leaderboard",
+      "source_url": "https://llm-stats.com/benchmarks/browsecomp",
+      "results": [
+        {
+          "model": "Claude Mythos Preview",
+          "system_description": null,
+          "score": 0.869
+        }
+      ],
+      "note": "llm-stats.com tooltip (Anthropic). Tooltip does not expose system_description (tool use / browsing / reasoning level)."
+    },
+    {
+      "date": "2026-04-19",
+      "source_type": "leaderboard",
+      "source_url": "https://llm-stats.com/benchmarks/browsecomp",
+      "results": [
+        {
+          "model": "Kimi K2.6",
+          "system_description": null,
+          "score": 0.863
+        }
+      ],
+      "note": "llm-stats.com tooltip (Moonshot AI). Tooltip does not expose system_description (tool use / browsing / reasoning level)."
     }
   ],
   "notes": "Stub casing preserved; official name in paper and blog is 'BrowseComp'. Dataset originally 1,287 questions; 21 removed after Deep Research 0% pass-rate review, leaving 1,266. Code distributed via openai/simple-evals."

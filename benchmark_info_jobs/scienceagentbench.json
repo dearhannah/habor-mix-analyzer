@@ -195,6 +195,32 @@
         }
       ],
       "note": "Paper Table 3, Other metrics in Table 3: CBS, VER, Cost."
+    },
+    {
+      "date": "2025-04",
+      "source_type": "leaderboard",
+      "source_url": "https://hal.cs.princeton.edu/scienceagentbench",
+      "results": [
+        {
+          "model": "o3 Medium",
+          "system_description": "SAB Self-Debug",
+          "score": 0.3333
+        }
+      ],
+      "note": "HAL (Holistic Agent Leaderboard) rank 1 as captured 2026-04-21. SAB Self-Debug scaffold, marked 'Pareto optimal' and 'Verified'. Outer date (2025-04) is the model release month shown on HAL — HAL does not expose per-row submission timestamps, so model release date is used as a time-series proxy."
+    },
+    {
+      "date": "2025-09",
+      "source_type": "leaderboard",
+      "source_url": "https://hal.cs.princeton.edu/scienceagentbench",
+      "results": [
+        {
+          "model": "Claude Sonnet 4.5 High",
+          "system_description": "SAB Self-Debug",
+          "score": 0.3039
+        }
+      ],
+      "note": "HAL (Holistic Agent Leaderboard) rank 2 as captured 2026-04-21. SAB Self-Debug scaffold, marked 'Pareto optimal' and 'Verified'. Outer date (2025-09) is the model release month shown on HAL — HAL does not expose per-row submission timestamps, so model release date is used as a time-series proxy."
     }
   ],
   "notes": "102 tasks from 44 peer-reviewed papers across Bioinformatics, Computational Chemistry, GIS, and Psychology/Cognitive Neuroscience. Each target output is a self-contained Python program. Accepted at ICLR 2025. Harbor adapter at github.com/harbor-framework/harbor/tree/main/adapters/scienceagentbench."

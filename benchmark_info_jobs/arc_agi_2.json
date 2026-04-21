@@ -60,6 +60,34 @@
         }
       ],
       "note": "Paper Table 1, Semi-Private Evaluation set (n=120). o-series and Claude rows are bare LLM; ARChitects and Icecuber use program synthesis."
+    },
+    {
+      "date": "2026-04-16",
+      "source_type": "leaderboard",
+      "source_url": "https://arcprize.org/leaderboard",
+      "results": [
+        {
+          "model": "Claude 4.7 (Low)",
+          "system_description": "CoT",
+          "score": 0.621
+        },
+        {
+          "model": "Claude 4.7 (Medium)",
+          "system_description": "CoT",
+          "score": 0.675
+        },
+        {
+          "model": "Claude 4.7 (High)",
+          "system_description": "CoT",
+          "score": 0.683
+        },
+        {
+          "model": "Claude 4.7 (Max)",
+          "system_description": "CoT",
+          "score": 0.758
+        }
+      ],
+      "note": "ARC Prize public leaderboard snapshot. Only ARC-AGI-2 column captured; the ARC-AGI-1 scores in the same rows belong to a different benchmark."
     }
   ],
   "notes": "2025 successor to ARC-AGI, released with the ARC Prize 2025 competition. Task breakdown: 1000 public training + 120 public eval + 120 semi-private + 120 private = 1360 total; num_tasks=360 counts only the three 120-task eval sets. Paper Table 1 scores are on the Semi-Private set; the Private set powers Kaggle competition scoring and is not released. Paper's baseline runner lives in a separate repo: github.com/arcprize/model_baseline."

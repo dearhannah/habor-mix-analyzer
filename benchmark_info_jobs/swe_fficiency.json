@@ -95,6 +95,19 @@
         }
       ],
       "note": "Paper Table 6. Score is speedup ratio (SR) = LM speedup / expert speedup — a dimensionless ratio (not a percentage); 1.0 = matches expert, <1.0 = slower than expert. Aggregated via harmonic mean. Expert gold baseline = 1.0 (not listed). Pass-to-pass correctness required: all unit tests must still pass after the edit."
+    },
+    {
+      "date": "2026-02",
+      "source_type": "leaderboard",
+      "source_url": "https://swefficiency.com/",
+      "results": [
+        {
+          "model": "Claude 4.5 Opus",
+          "system_description": "OpenHands",
+          "score": 0.225
+        }
+      ],
+      "note": "swefficiency.com leaderboard captured 2026-04-21. Only the Claude row is added; Human Expert row (1.000×) is the reference baseline, not a submission. Leaderboard exposes neither submission date nor model release date, so outer date = last updated date. Score is a speedup ratio, not a percentage (see paper entry note)."
     }
   ],
   "notes": "498 performance-optimization tasks across 9 data-science / ML / HPC repos (numpy, pandas, scipy, and others). Task: given a slow workload and the complete codebase, produce a patch that matches or exceeds expert speedup while keeping all tests green. Stratified by pre-edit workload runtime, gold-patch length, and target speedup magnitude. Preprint submitted to ICLR 2026 (OpenReview forum id=J1lgJyP4Tm); code repo not yet public. Dataset on HuggingFace under `swefficiency-anon/` (anonymous for review)."
