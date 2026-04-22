@@ -25,171 +25,205 @@
       "results": [
         {
           "model": "Llama-3.1-Instruct-70B",
+          "effort": null,
           "system_description": "Direct Prompting (without knowledge)",
           "score": 0.059
         },
         {
           "model": "Llama-3.1-Instruct-405B",
+          "effort": null,
           "system_description": "Direct Prompting (without knowledge)",
           "score": 0.039
         },
         {
           "model": "Mistral-Large-2 (2407)",
+          "effort": null,
           "system_description": "Direct Prompting (without knowledge)",
           "score": 0.137
         },
         {
           "model": "GPT-4o (2024-05-13)",
+          "effort": null,
           "system_description": "Direct Prompting (without knowledge)",
           "score": 0.118
         },
         {
           "model": "Claude-3.5-Sonnet (2024-06-20)",
+          "effort": null,
           "system_description": "Direct Prompting (without knowledge)",
           "score": 0.177
         },
         {
           "model": "OpenAI o1-preview",
+          "effort": null,
           "system_description": "Direct Prompting (without knowledge)",
           "score": 0.343
         },
         {
           "model": "Llama-3.1-Instruct-70B",
+          "effort": null,
           "system_description": "Direct Prompting (with knowledge)",
           "score": 0.049
         },
         {
           "model": "Llama-3.1-Instruct-405B",
+          "effort": null,
           "system_description": "Direct Prompting (with knowledge)",
           "score": 0.029
         },
         {
           "model": "Mistral-Large-2 (2407)",
+          "effort": null,
           "system_description": "Direct Prompting (with knowledge)",
           "score": 0.167
         },
         {
           "model": "GPT-4o (2024-05-13)",
+          "effort": null,
           "system_description": "Direct Prompting (with knowledge)",
           "score": 0.108
         },
         {
           "model": "Claude-3.5-Sonnet (2024-06-20)",
+          "effort": null,
           "system_description": "Direct Prompting (with knowledge)",
           "score": 0.216
         },
         {
           "model": "OpenAI o1-preview",
+          "effort": null,
           "system_description": "Direct Prompting (with knowledge)",
           "score": 0.314
         },
         {
           "model": "Llama-3.1-Instruct-70B",
+          "effort": null,
           "system_description": "OpenHands CodeAct (without knowledge)",
           "score": 0.069
         },
         {
           "model": "Llama-3.1-Instruct-405B",
+          "effort": null,
           "system_description": "OpenHands CodeAct (without knowledge)",
           "score": 0.059
         },
         {
           "model": "Mistral-Large-2 (2407)",
+          "effort": null,
           "system_description": "OpenHands CodeAct (without knowledge)",
           "score": 0.098
         },
         {
           "model": "GPT-4o (2024-05-13)",
+          "effort": null,
           "system_description": "OpenHands CodeAct (without knowledge)",
           "score": 0.196
         },
         {
           "model": "Claude-3.5-Sonnet (2024-06-20)",
+          "effort": null,
           "system_description": "OpenHands CodeAct (without knowledge)",
           "score": 0.216
         },
         {
           "model": "Llama-3.1-Instruct-70B",
+          "effort": null,
           "system_description": "OpenHands CodeAct (with knowledge)",
           "score": 0.029
         },
         {
           "model": "Llama-3.1-Instruct-405B",
+          "effort": null,
           "system_description": "OpenHands CodeAct (with knowledge)",
           "score": 0.088
         },
         {
           "model": "Mistral-Large-2 (2407)",
+          "effort": null,
           "system_description": "OpenHands CodeAct (with knowledge)",
           "score": 0.137
         },
         {
           "model": "GPT-4o (2024-05-13)",
+          "effort": null,
           "system_description": "OpenHands CodeAct (with knowledge)",
           "score": 0.275
         },
         {
           "model": "Claude-3.5-Sonnet (2024-06-20)",
+          "effort": null,
           "system_description": "OpenHands CodeAct (with knowledge)",
           "score": 0.245
         },
         {
           "model": "Llama-3.1-Instruct-70B",
+          "effort": null,
           "system_description": "Self-Debug (without knowledge)",
           "score": 0.137
         },
         {
           "model": "Llama-3.1-Instruct-405B",
+          "effort": null,
           "system_description": "Self-Debug (without knowledge)",
           "score": 0.147
         },
         {
           "model": "Mistral-Large-2 (2407)",
+          "effort": null,
           "system_description": "Self-Debug (without knowledge)",
           "score": 0.235
         },
         {
           "model": "GPT-4o (2024-05-13)",
+          "effort": null,
           "system_description": "Self-Debug (without knowledge)",
           "score": 0.226
         },
         {
           "model": "Claude-3.5-Sonnet (2024-06-20)",
+          "effort": null,
           "system_description": "Self-Debug (without knowledge)",
           "score": 0.324
         },
         {
           "model": "OpenAI o1-preview",
+          "effort": null,
           "system_description": "Self-Debug (without knowledge)",
           "score": 0.422
         },
         {
           "model": "Llama-3.1-Instruct-70B",
+          "effort": null,
           "system_description": "Self-Debug (with knowledge)",
           "score": 0.167
         },
         {
           "model": "Llama-3.1-Instruct-405B",
+          "effort": null,
           "system_description": "Self-Debug (with knowledge)",
           "score": 0.137
         },
         {
           "model": "Mistral-Large-2 (2407)",
+          "effort": null,
           "system_description": "Self-Debug (with knowledge)",
           "score": 0.275
         },
         {
           "model": "GPT-4o (2024-05-13)",
+          "effort": null,
           "system_description": "Self-Debug (with knowledge)",
           "score": 0.235
         },
         {
           "model": "Claude-3.5-Sonnet (2024-06-20)",
+          "effort": null,
           "system_description": "Self-Debug (with knowledge)",
           "score": 0.343
         },
         {
           "model": "OpenAI o1-preview",
+          "effort": null,
           "system_description": "Self-Debug (with knowledge)",
           "score": 0.412
         }
@@ -197,17 +231,158 @@
       "note": "Paper Table 3, Other metrics in Table 3: CBS, VER, Cost."
     },
     {
+      "date": "2025-01",
+      "source_type": "leaderboard",
+      "source_url": "https://hal.cs.princeton.edu/scienceagentbench",
+      "results": [
+        {
+          "model": "DeepSeek R1",
+          "effort": null,
+          "system_description": "SAB Self-Debug",
+          "score": 0.2353
+        }
+      ],
+      "note": "HAL (Holistic Agent Leaderboard) rows dated 2025-01 (captured 2026-04-21). Model names parsed: 'X <Effort> (Month YYYY)' → model=X, effort=<Effort>; 'X (Month YYYY)' → effort=null. Outer date is model release month per HAL convention."
+    },
+    {
+      "date": "2025-02",
+      "source_type": "leaderboard",
+      "source_url": "https://hal.cs.princeton.edu/scienceagentbench",
+      "results": [
+        {
+          "model": "Claude-3.7 Sonnet",
+          "effort": "High",
+          "system_description": "SAB Self-Debug",
+          "score": 0.3039
+        },
+        {
+          "model": "Claude-3.7 Sonnet",
+          "effort": null,
+          "system_description": "SAB Self-Debug",
+          "score": 0.2255
+        },
+        {
+          "model": "Claude-3.7 Sonnet",
+          "effort": "High",
+          "system_description": "HAL Generalist Agent",
+          "score": 0.1765
+        },
+        {
+          "model": "Gemini 2.0 Flash",
+          "effort": null,
+          "system_description": "SAB Self-Debug",
+          "score": 0.1275
+        },
+        {
+          "model": "Claude-3.7 Sonnet",
+          "effort": null,
+          "system_description": "HAL Generalist Agent",
+          "score": 0.1078
+        }
+      ],
+      "note": "HAL (Holistic Agent Leaderboard) rows dated 2025-02 (captured 2026-04-21). Model names parsed: 'X <Effort> (Month YYYY)' → model=X, effort=<Effort>; 'X (Month YYYY)' → effort=null. Outer date is model release month per HAL convention."
+    },
+    {
+      "date": "2025-03",
+      "source_type": "leaderboard",
+      "source_url": "https://hal.cs.princeton.edu/scienceagentbench",
+      "results": [
+        {
+          "model": "DeepSeek V3",
+          "effort": null,
+          "system_description": "SAB Self-Debug",
+          "score": 0.1569
+        },
+        {
+          "model": "DeepSeek V3",
+          "effort": null,
+          "system_description": "HAL Generalist Agent",
+          "score": 0.0098
+        }
+      ],
+      "note": "HAL (Holistic Agent Leaderboard) rows dated 2025-03 (captured 2026-04-21). Model names parsed: 'X <Effort> (Month YYYY)' → model=X, effort=<Effort>; 'X (Month YYYY)' → effort=null. Outer date is model release month per HAL convention."
+    },
+    {
       "date": "2025-04",
       "source_type": "leaderboard",
       "source_url": "https://hal.cs.princeton.edu/scienceagentbench",
       "results": [
         {
-          "model": "o3 Medium",
+          "model": "o3",
+          "effort": "Medium",
           "system_description": "SAB Self-Debug",
           "score": 0.3333
+        },
+        {
+          "model": "o4-mini",
+          "effort": "Low",
+          "system_description": "SAB Self-Debug",
+          "score": 0.2745
+        },
+        {
+          "model": "o4-mini",
+          "effort": "High",
+          "system_description": "SAB Self-Debug",
+          "score": 0.2745
+        },
+        {
+          "model": "GPT-4.1",
+          "effort": null,
+          "system_description": "SAB Self-Debug",
+          "score": 0.2451
+        },
+        {
+          "model": "o4-mini",
+          "effort": "High",
+          "system_description": "HAL Generalist Agent",
+          "score": 0.2157
+        },
+        {
+          "model": "o4-mini",
+          "effort": "Low",
+          "system_description": "HAL Generalist Agent",
+          "score": 0.1961
+        },
+        {
+          "model": "o3",
+          "effort": "Medium",
+          "system_description": "HAL Generalist Agent",
+          "score": 0.098
+        },
+        {
+          "model": "GPT-4.1",
+          "effort": null,
+          "system_description": "HAL Generalist Agent",
+          "score": 0.0686
         }
       ],
-      "note": "HAL (Holistic Agent Leaderboard) rank 1 as captured 2026-04-21. SAB Self-Debug scaffold, marked 'Pareto optimal' and 'Verified'. Outer date (2025-04) is the model release month shown on HAL — HAL does not expose per-row submission timestamps, so model release date is used as a time-series proxy."
+      "note": "HAL (Holistic Agent Leaderboard) rows dated 2025-04 (captured 2026-04-21). Model names parsed: 'X <Effort> (Month YYYY)' → model=X, effort=<Effort>; 'X (Month YYYY)' → effort=null. Outer date is model release month per HAL convention."
+    },
+    {
+      "date": "2025-08",
+      "source_type": "leaderboard",
+      "source_url": "https://hal.cs.princeton.edu/scienceagentbench",
+      "results": [
+        {
+          "model": "GPT-5",
+          "effort": "Medium",
+          "system_description": "SAB Self-Debug",
+          "score": 0.3039
+        },
+        {
+          "model": "Claude Opus 4.1",
+          "effort": null,
+          "system_description": "SAB Self-Debug",
+          "score": 0.2745
+        },
+        {
+          "model": "Claude Opus 4.1",
+          "effort": "High",
+          "system_description": "SAB Self-Debug",
+          "score": 0.2647
+        }
+      ],
+      "note": "HAL (Holistic Agent Leaderboard) rows dated 2025-08 (captured 2026-04-21). Model names parsed: 'X <Effort> (Month YYYY)' → model=X, effort=<Effort>; 'X (Month YYYY)' → effort=null. Outer date is model release month per HAL convention."
     },
     {
       "date": "2025-09",
@@ -215,12 +390,39 @@
       "source_url": "https://hal.cs.princeton.edu/scienceagentbench",
       "results": [
         {
-          "model": "Claude Sonnet 4.5 High",
+          "model": "Claude Sonnet 4.5",
+          "effort": "High",
           "system_description": "SAB Self-Debug",
           "score": 0.3039
+        },
+        {
+          "model": "Claude Sonnet 4.5",
+          "effort": null,
+          "system_description": "SAB Self-Debug",
+          "score": 0.2941
         }
       ],
-      "note": "HAL (Holistic Agent Leaderboard) rank 2 as captured 2026-04-21. SAB Self-Debug scaffold, marked 'Pareto optimal' and 'Verified'. Outer date (2025-09) is the model release month shown on HAL — HAL does not expose per-row submission timestamps, so model release date is used as a time-series proxy."
+      "note": "HAL (Holistic Agent Leaderboard) rows dated 2025-09 (captured 2026-04-21). Model names parsed: 'X <Effort> (Month YYYY)' → model=X, effort=<Effort>; 'X (Month YYYY)' → effort=null. Outer date is model release month per HAL convention."
+    },
+    {
+      "date": "2025-10",
+      "source_type": "leaderboard",
+      "source_url": "https://hal.cs.princeton.edu/scienceagentbench",
+      "results": [
+        {
+          "model": "Claude Haiku 4.5",
+          "effort": "High",
+          "system_description": "SAB Self-Debug",
+          "score": 0.2353
+        },
+        {
+          "model": "Claude Haiku 4.5",
+          "effort": null,
+          "system_description": "SAB Self-Debug",
+          "score": 0.1863
+        }
+      ],
+      "note": "HAL (Holistic Agent Leaderboard) rows dated 2025-10 (captured 2026-04-21). Model names parsed: 'X <Effort> (Month YYYY)' → model=X, effort=<Effort>; 'X (Month YYYY)' → effort=null. Outer date is model release month per HAL convention."
     }
   ],
   "notes": "102 tasks from 44 peer-reviewed papers across Bioinformatics, Computational Chemistry, GIS, and Psychology/Cognitive Neuroscience. Each target output is a self-contained Python program. Accepted at ICLR 2025. Harbor adapter at github.com/harbor-framework/harbor/tree/main/adapters/scienceagentbench."

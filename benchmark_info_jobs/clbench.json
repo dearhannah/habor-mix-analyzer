@@ -24,58 +24,154 @@
       "source_url": "https://arxiv.org/abs/2602.03587",
       "results": [
         {
-          "model": "GPT-5.1 (High)",
+          "model": "GPT-5.1",
+          "effort": "High",
           "system_description": null,
           "score": 0.237
         },
         {
           "model": "Claude Opus 4.5",
+          "effort": null,
           "system_description": null,
           "score": 0.211
         },
         {
-          "model": "GPT-5.2 (High)",
+          "model": "GPT-5.2",
+          "effort": "High",
           "system_description": null,
           "score": 0.181
         },
         {
-          "model": "o3 (High)",
+          "model": "o3",
+          "effort": "High",
           "system_description": null,
           "score": 0.178
         },
         {
           "model": "Kimi K2 Thinking",
+          "effort": null,
           "system_description": null,
           "score": 0.176
         },
         {
           "model": "HY 2.0 Thinking",
+          "effort": null,
           "system_description": null,
           "score": 0.172
         },
         {
-          "model": "Gemini 3 Pro (High)",
+          "model": "Gemini 3 Pro",
+          "effort": "High",
           "system_description": null,
           "score": 0.158
         },
         {
           "model": "Qwen 3 Max Thinking",
+          "effort": null,
           "system_description": null,
           "score": 0.141
         },
         {
           "model": "Doubao 1.6 Thinking",
+          "effort": null,
           "system_description": null,
           "score": 0.134
         },
         {
           "model": "DeepSeek V3.2 Thinking",
+          "effort": null,
           "system_description": null,
           "score": 0.132
         }
       ],
-      "note": "Paper Table 2, overall Solving Rate across 4 categories. Scores are binary rubric-based accuracy (avg 63.2 rubrics per context). Category-level scores also reported: Domain Knowledge Reasoning, Rule System Application, Procedural Task Execution, Empirical Discovery & Simulation. All rows are bare LLM; no agent scaffold tested in paper's Table 2."
+      "note": "Paper Table 2, overall Solving Rate across 4 categories. Scores are binary rubric-based accuracy (avg 63.2 rubrics per context). Category-level scores also reported: Domain Knowledge Reasoning, Rule System Application, Procedural Task Execution, Empirical Discovery & Simulation. All rows are bare LLM; no agent scaffold tested in paper's Table 2. Note: paper's 'Claude Opus 4.5' row (0.211) matches the leaderboard's 'Claude Opus 4.5 Thinking' variant — the paper omitted the 'Thinking' suffix."
+    },
+    {
+      "date": "2026-01",
+      "source_type": "leaderboard",
+      "source_url": "https://clbench.com",
+      "results": [
+        {
+          "model": "GPT 5.1",
+          "effort": null,
+          "system_description": null,
+          "score": 0.211
+        },
+        {
+          "model": "Kimi K2.5",
+          "effort": null,
+          "system_description": null,
+          "score": 0.194
+        },
+        {
+          "model": "Kimi K2.5 Thinking",
+          "effort": null,
+          "system_description": null,
+          "score": 0.192
+        },
+        {
+          "model": "Claude Opus 4.5",
+          "effort": null,
+          "system_description": null,
+          "score": 0.191
+        },
+        {
+          "model": "GPT 5.2",
+          "effort": null,
+          "system_description": null,
+          "score": 0.182
+        },
+        {
+          "model": "HY 2.0",
+          "effort": null,
+          "system_description": null,
+          "score": 0.150
+        },
+        {
+          "model": "Gemini 3 Pro",
+          "effort": null,
+          "system_description": null,
+          "score": 0.148
+        },
+        {
+          "model": "Qwen 3 Max",
+          "effort": null,
+          "system_description": null,
+          "score": 0.145
+        },
+        {
+          "model": "Doubao 1.8",
+          "effort": "High",
+          "system_description": null,
+          "score": 0.142
+        },
+        {
+          "model": "Doubao 1.8",
+          "effort": "Minimal",
+          "system_description": null,
+          "score": 0.135
+        },
+        {
+          "model": "Doubao 1.6",
+          "effort": null,
+          "system_description": null,
+          "score": 0.131
+        },
+        {
+          "model": "DeepSeek V3.2",
+          "effort": null,
+          "system_description": null,
+          "score": 0.124
+        },
+        {
+          "model": "Kimi K2",
+          "effort": null,
+          "system_description": null,
+          "score": 0.119
+        }
+      ],
+      "note": "clbench.com leaderboard, last updated January 2026 (date = 2026-01 per leaderboard footer; no per-row submission timestamps exposed). Duplicate rows already in the paper entry omitted per DRY: GPT 5.1 (High), Claude Opus 4.5 Thinking (= paper's 'Claude Opus 4.5'), GPT 5.2 (High), o3 (High), Kimi K2 Thinking, HY 2.0 Thinking, Gemini 3 Pro (High), Qwen 3 Max Thinking, Doubao 1.6 Thinking, DeepSeek V3.2 Thinking. Leaderboard naming uses 'GPT 5.x' with a space; paper uses 'GPT-5.x' with a hyphen — same models. Note that 'Claude Opus 4.5' here at 0.191 is the non-thinking variant (distinct from paper's 0.211 Thinking-variant row)."
     }
   ],
-  "notes": "500 complex contexts, 1,899 tasks, 31,607 verification rubrics, all authored/refined by domain experts. Tests whether LMs can learn new knowledge from provided context (fictional worldbuilding / modified real knowledge / niche emerging knowledge) and apply reasoning. 4 context categories: Domain Knowledge Reasoning (39.2%), Rule System Application (28%), Procedural Task Execution (14%), Empirical Discovery & Simulation (16%). `used_llm_or_agent=llm` because evaluation is single-pass context → answer; no tool use or agent loop. Leaderboard at https://www.clbench.com/ checked 2026-04-20 — no results beyond the paper's Table 2 are posted, so nothing additional to add to results_over_time."
+  "notes": "500 complex contexts, 1,899 tasks, 31,607 verification rubrics, all authored/refined by domain experts. Tests whether LMs can learn new knowledge from provided context (fictional worldbuilding / modified real knowledge / niche emerging knowledge) and apply reasoning. 4 context categories: Domain Knowledge Reasoning (39.2%), Rule System Application (28%), Procedural Task Execution (14%), Empirical Discovery & Simulation (16%). `used_llm_or_agent=llm` because evaluation is single-pass context → answer; no tool use or agent loop."
 }

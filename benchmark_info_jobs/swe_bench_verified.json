@@ -19,37 +19,1948 @@
   },
   "results_over_time": [
     {
+      "date": "2023-10-10",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Claude 2",
+          "effort": null,
+          "system_description": "RAG",
+          "score": 0.044
+        },
+        {
+          "model": "SWE-Llama 7B",
+          "effort": null,
+          "system_description": "RAG",
+          "score": 0.014
+        },
+        {
+          "model": "SWE-Llama 13B",
+          "effort": null,
+          "system_description": "RAG",
+          "score": 0.012
+        },
+        {
+          "model": "ChatGPT 3.5",
+          "effort": null,
+          "system_description": "RAG",
+          "score": 0.004
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2023-10-10. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-04-02",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "GPT 4 (1106)",
+          "effort": null,
+          "system_description": "SWE-agent",
+          "score": 0.224
+        },
+        {
+          "model": "Claude 3 Opus",
+          "effort": null,
+          "system_description": "SWE-agent",
+          "score": 0.158
+        },
+        {
+          "model": "Claude 3 Opus",
+          "effort": null,
+          "system_description": "RAG",
+          "score": 0.07
+        },
+        {
+          "model": "GPT 4 (1106)",
+          "effort": null,
+          "system_description": "RAG",
+          "score": 0.028
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-04-02. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-05-09",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Amazon Q Developer Agent (v20240430-dev)",
+          "effort": null,
+          "system_description": "Amazon Q Developer Agent (v20240430-dev)",
+          "score": 0.256
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-05-09. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-06-12",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "GPT 4o (2024-06-12)",
+          "effort": null,
+          "system_description": "MASAI",
+          "score": 0.326
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-06-12. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-06-15",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "GPT 4o (2024-05-13)",
+          "effort": null,
+          "system_description": "AppMap Navie",
+          "score": 0.262
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-06-15. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-06-17",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Factory Code Droid",
+          "effort": null,
+          "system_description": "Factory Code Droid",
+          "score": 0.37
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-06-17. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-06-20",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Claude 3.5 Sonnet",
+          "effort": null,
+          "system_description": "SWE-agent",
+          "score": 0.336
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-06-20. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-06-28",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "GPT 4o (2024-05-13)",
+          "effort": null,
+          "system_description": "AutoCodeRover (v20240620)",
+          "score": 0.384
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-06-28. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-07-21",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Amazon Q Developer Agent (v20240719-dev)",
+          "effort": null,
+          "system_description": "Amazon Q Developer Agent (v20240719-dev)",
+          "score": 0.388
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-07-21. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-07-28",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "GPT 4o (2024-05-13)",
+          "effort": null,
+          "system_description": "SWE-agent",
+          "score": 0.232
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-07-28. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
       "date": "2024-08-13",
       "source_type": "blog",
       "source_url": "https://openai.com/index/introducing-swe-bench-verified/",
       "results": [
         {
           "model": "GPT-4o",
+          "effort": null,
           "system_description": "Agentless",
           "score": 0.332
         },
         {
           "model": "GPT-4o",
+          "effort": null,
           "system_description": "AutoCodeRover",
           "score": 0.288
         },
         {
           "model": "GPT-4o",
+          "effort": null,
           "system_description": "Moatless Tools",
           "score": 0.302
         },
         {
           "model": "GPT-4o",
+          "effort": null,
           "system_description": "Aider",
           "score": 0.284
         },
         {
           "model": "GPT-4o",
+          "effort": null,
           "system_description": "SWE-Agent",
-          "score": 0.230
-        }                
+          "score": 0.23
+        }
       ],
       "note": "Release baseline reported by OpenAI at Verified launch. Agentless was the best-performing open-source scaffold at release time."
+    },
+    {
+      "date": "2024-08-20",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Honeycomb",
+          "effort": null,
+          "system_description": "Honeycomb",
+          "score": 0.406
+        },
+        {
+          "model": "GPT4o",
+          "effort": null,
+          "system_description": "EPAM AI/Run Developer Agent",
+          "score": 0.24
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-08-20. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-08-24",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Gru(2024-08-24)",
+          "effort": null,
+          "system_description": "Gru(2024-08-24)",
+          "score": 0.452
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-08-24. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-09-18",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Lingma SWE-GPT 72b (v0918)",
+          "effort": null,
+          "system_description": "Lingma Agent",
+          "score": 0.25
+        },
+        {
+          "model": "Lingma SWE-GPT 7b (v0918)",
+          "effort": null,
+          "system_description": "Lingma Agent",
+          "score": 0.102
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-09-18. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-09-20",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Solver (2024-09-12)",
+          "effort": null,
+          "system_description": "Solver (2024-09-12)",
+          "score": 0.436
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-09-20. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-09-24",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Solver (2024-09-12)",
+          "effort": null,
+          "system_description": "Solver (2024-09-12)",
+          "score": 0.454
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-09-24. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-10-01",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "nFactorial (2024-10-01)",
+          "effort": null,
+          "system_description": "nFactorial (2024-10-01)",
+          "score": 0.258
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-10-01. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-10-02",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Lingma SWE-GPT 72b (v0925)",
+          "effort": null,
+          "system_description": "Lingma Agent",
+          "score": 0.288
+        },
+        {
+          "model": "Lingma SWE-GPT 7b (v0925)",
+          "effort": null,
+          "system_description": "Lingma Agent",
+          "score": 0.182
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-10-02. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-10-07",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "nFactorial (2024-10-07)",
+          "effort": null,
+          "system_description": "nFactorial (2024-10-07)",
+          "score": 0.316
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-10-07. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-10-16",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Claude 3.5 Sonnet (2024-10-16)",
+          "effort": null,
+          "system_description": "Composio SWEkit",
+          "score": 0.406
+        },
+        {
+          "model": "GPT4o",
+          "effort": null,
+          "system_description": "EPAM AI/Run Developer Agent",
+          "score": 0.27
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-10-16. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-10-22",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Claude 3.5 Sonnet (2024-10-22)",
+          "effort": null,
+          "system_description": "Tools",
+          "score": 0.49
+        },
+        {
+          "model": "Claude 3.5 Haiku",
+          "effort": null,
+          "system_description": "Tools",
+          "score": 0.406
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-10-22. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-10-23",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Emergent E1 (v2024-10-12)",
+          "effort": null,
+          "system_description": "Emergent E1 (v2024-10-12)",
+          "score": 0.466
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-10-23. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-10-25",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Composio SWE-Kit (2024-10-25)",
+          "effort": null,
+          "system_description": "Composio SWE-Kit (2024-10-25)",
+          "score": 0.486
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-10-25. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-10-28",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Solver (2024-10-28)",
+          "effort": null,
+          "system_description": "Solver (2024-10-28)",
+          "score": 0.5
+        },
+        {
+          "model": "GPT 4o (2024-05-13)",
+          "effort": null,
+          "system_description": "Agentless-1.5",
+          "score": 0.388
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-10-28. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-10-29",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "CodeAct v2.1 (claude-3-5-sonnet-20241022)",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.53
+        },
+        {
+          "model": "Anthopic Claude 3.5 Sonnet",
+          "effort": null,
+          "system_description": "EPAM AI/Run Developer Agent v20241029",
+          "score": 0.396
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-10-29. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-10-30",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "nFactorial (2024-10-30)",
+          "effort": null,
+          "system_description": "nFactorial (2024-10-30)",
+          "score": 0.416
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-10-30. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-11-05",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "nFactorial (2024-11-05)",
+          "effort": null,
+          "system_description": "nFactorial (2024-11-05)",
+          "score": 0.492
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-11-05. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-11-06",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "AppMap Navie v2",
+          "effort": null,
+          "system_description": "AppMap Navie v2",
+          "score": 0.472
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-11-06. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-11-08",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "devlo",
+          "effort": null,
+          "system_description": "devlo",
+          "score": 0.542
+        },
+        {
+          "model": "AutoCodeRover-v2.0 (Claude-3.5-Sonnet-20241022)",
+          "effort": null,
+          "system_description": "AutoCodeRover-v2.0 (Claude-3.5-Sonnet-20241022)",
+          "score": 0.462
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-11-08. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-11-13",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "LLama 3.1 70B Critic",
+          "effort": null,
+          "system_description": "Nebius AI Qwen 2.5 72B Generator",
+          "score": 0.406
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-11-13. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-11-20",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Artemis Agent v1 (2024-11-20)",
+          "effort": null,
+          "system_description": "Artemis Agent v1 (2024-11-20)",
+          "score": 0.32
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-11-20. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-11-25",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Engine Labs (2024-11-25)",
+          "effort": null,
+          "system_description": "Engine Labs (2024-11-25)",
+          "score": 0.518
+        },
+        {
+          "model": "Bytedance MarsCode Agent",
+          "effort": null,
+          "system_description": "Bytedance MarsCode Agent",
+          "score": 0.5
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-11-25. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-11-28",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Qwen2.5-72b editor) 20241128",
+          "effort": null,
+          "system_description": "SWE-Fixer (Qwen2.5-7b retriever",
+          "score": 0.302
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-11-28. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-12-02",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Amazon Q Developer Agent (v20241202-dev)",
+          "effort": null,
+          "system_description": "Amazon Q Developer Agent (v20241202-dev)",
+          "score": 0.55
+        },
+        {
+          "model": "Claude-3.5 Sonnet (20241022)",
+          "effort": null,
+          "system_description": "Agentless-1.5",
+          "score": 0.508
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-12-02. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-12-08",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Gru(2024-12-08)",
+          "effort": null,
+          "system_description": "Gru(2024-12-08)",
+          "score": 0.57
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-12-08. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-12-12",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Anthopic Claude 3.5 Sonnet",
+          "effort": null,
+          "system_description": "EPAM AI/Run Developer Agent v20241212",
+          "score": 0.554
+        },
+        {
+          "model": "Gemini 2.0 Flash (v20241212-experimental)",
+          "effort": null,
+          "system_description": "Google Jules",
+          "score": 0.522
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-12-12. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-12-13",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "devlo",
+          "effort": null,
+          "system_description": "devlo",
+          "score": 0.582
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-12-13. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-12-21",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "swe-search",
+          "effort": null,
+          "system_description": "CodeStory Midwit Agent",
+          "score": 0.622
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-12-21. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2024-12-23",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Emergent E1 (v2024-12-23)",
+          "effort": null,
+          "system_description": "Emergent E1 (v2024-12-23)",
+          "score": 0.572
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2024-12-23. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-01-10",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Blackbox AI Agent",
+          "effort": null,
+          "system_description": "Blackbox AI Agent",
+          "score": 0.628
+        },
+        {
+          "model": "Learn-by-interact",
+          "effort": null,
+          "system_description": "Learn-by-interact",
+          "score": 0.602
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-01-10. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-01-12",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "ugaiforge",
+          "effort": null,
+          "system_description": "ugaiforge",
+          "score": 0.416
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-01-12. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-01-17",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "W&amp;B Programmer O1 crosscheck5",
+          "effort": null,
+          "system_description": "W&amp;B Programmer O1 crosscheck5",
+          "score": 0.646
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-01-17. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-01-18",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Gemini 2.0 Flash (Experimental)",
+          "effort": null,
+          "system_description": "CodeShellAgent",
+          "score": 0.442
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-01-18. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-01-20",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Bracket.sh",
+          "effort": null,
+          "system_description": "Bracket.sh",
+          "score": 0.532
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-01-20. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-01-22",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "AutoCodeRover-v2.1 (Claude-3.5-Sonnet-20241022)",
+          "effort": null,
+          "system_description": "AutoCodeRover-v2.1 (Claude-3.5-Sonnet-20241022)",
+          "score": 0.516
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-01-22. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-02-03",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "4x Scaled (2024-02-03)",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.608
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-02-03. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-02-06",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "AgentScope",
+          "effort": null,
+          "system_description": "AgentScope",
+          "score": 0.634
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-02-06. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-02-14",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "O3 Mini (20250214)",
+          "effort": null,
+          "system_description": "Agentless Lite",
+          "score": 0.424
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-02-14. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-02-24",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Claude 3.7 Sonnet (2025-02-24)",
+          "effort": null,
+          "system_description": "Tools",
+          "score": 0.632
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-02-24. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-02-25",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Claude 3.7 Sonnet w/ Review Heavy",
+          "effort": null,
+          "system_description": "SWE-agent",
+          "score": 0.624
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-02-25. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-02-26",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Agentless Mini) (20250226)",
+          "effort": null,
+          "system_description": "SWE-RL (Llama3-SWE-RL-70B",
+          "score": 0.412
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-02-26. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-02-28",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Anthopic Claude 3.5 Sonnet",
+          "effort": null,
+          "system_description": "EPAM AI/Run Developer Agent v20250219",
+          "score": 0.628
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-02-28. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-03-06",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Qwen2.5-72b editor)",
+          "effort": null,
+          "system_description": "SWE-Fixer (Qwen2.5-7b retriever",
+          "score": 0.328
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-03-06. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-03-16",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Augment Agent v0",
+          "effort": null,
+          "system_description": "Augment Agent v0",
+          "score": 0.654
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-03-16. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-04-05",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Amazon Q Developer Agent (v20250405-dev)",
+          "effort": null,
+          "system_description": "Amazon Q Developer Agent (v20250405-dev)",
+          "score": 0.654
+        },
+        {
+          "model": "SWE-Rizzo",
+          "effort": null,
+          "system_description": "SWE-Rizzo",
+          "score": 0.566
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-04-05. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-04-10",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Nemotron-CORTEXA",
+          "effort": null,
+          "system_description": "Nemotron-CORTEXA",
+          "score": 0.582
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-04-10. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-04-15",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "OpenHands",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.658
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-04-15. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-04-30",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Zencoder (2025-04-30)",
+          "effort": null,
+          "system_description": "Zencoder (2025-04-30)",
+          "score": 0.7
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-04-30. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-05-03",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "PatchPilot-v1.1",
+          "effort": null,
+          "system_description": "PatchPilot-v1.1",
+          "score": 0.646
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-05-03. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-05-11",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "SWE-agent-LM-32B",
+          "effort": null,
+          "system_description": "SWE-agent",
+          "score": 0.402
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-05-11. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-05-14",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Anthopic Claude 3.7 Sonnet",
+          "effort": null,
+          "system_description": "Aime-coder v1",
+          "score": 0.664
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-05-14. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-05-15",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Refact.ai Agent",
+          "effort": null,
+          "system_description": "Refact.ai Agent",
+          "score": 0.704
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-05-15. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-05-16",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Nemotron-CORTEXA",
+          "effort": null,
+          "system_description": "Nemotron-CORTEXA",
+          "score": 0.682
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-05-16. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-05-19",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "TRAE",
+          "effort": null,
+          "system_description": "TRAE",
+          "score": 0.706
+        },
+        {
+          "model": "devlo",
+          "effort": null,
+          "system_description": "devlo",
+          "score": 0.702
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-05-19. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-05-20",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "DevStral Small 2505",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.468
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-05-20. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-05-22",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Claude 4 Opus (2025-05-22)",
+          "effort": null,
+          "system_description": "Tools",
+          "score": 0.732
+        },
+        {
+          "model": "Claude 4 Sonnet (2025-05-22)",
+          "effort": null,
+          "system_description": "Tools",
+          "score": 0.724
+        },
+        {
+          "model": "Claude 4 Sonnet",
+          "effort": null,
+          "system_description": "SWE-agent",
+          "score": 0.666
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-05-22. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-05-24",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Claude 4 Sonnet",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.704
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-05-24. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-05-27",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Amazon Nova Premier 1.0 (2025-04-30)",
+          "effort": null,
+          "system_description": "Amazon Nova Premier 1.0 (2025-04-30)",
+          "score": 0.424
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-05-27. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-05-28",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Co-PatcheR",
+          "effort": null,
+          "system_description": "PatchPilot",
+          "score": 0.46
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-05-28. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-06-03",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Claude 4 Sonnet + o4-mini",
+          "effort": null,
+          "system_description": "Refact.ai Agent",
+          "score": 0.744
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-06-03. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-06-10",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Augment Agent v1",
+          "effort": null,
+          "system_description": "Augment Agent v1",
+          "score": 0.704
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-06-10. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-06-11",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Claude 4 Sonnet",
+          "effort": null,
+          "system_description": "Moatless Tools",
+          "score": 0.708
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-06-11. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-06-12",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Claude Sonnet 4 + Opus 4 + Sonnet 3.7 + Gemini 2.5 Pro",
+          "effort": null,
+          "system_description": "TRAE",
+          "score": 0.752
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-06-12. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-06-16",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "TTS(Bo8)",
+          "effort": null,
+          "system_description": "Skywork-SWE-32B",
+          "score": 0.47
+        },
+        {
+          "model": "Skywork-SWE-32B",
+          "effort": null,
+          "system_description": "Skywork-SWE-32B",
+          "score": 0.38
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-06-16. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-06-23",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Warp",
+          "effort": null,
+          "system_description": "Warp",
+          "score": 0.71
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-06-23. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-06-27",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "MCTS-Refine-7B",
+          "effort": null,
+          "system_description": "MCTS-Refine-7B",
+          "score": 0.232
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-06-27. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-06-29",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "TTS(Bo16)",
+          "effort": null,
+          "system_description": "DeepSWE-Preview",
+          "score": 0.588
+        },
+        {
+          "model": "DeepSWE-Preview",
+          "effort": null,
+          "system_description": "DeepSWE-Preview",
+          "score": 0.422
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-06-29. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-07-10",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Bloop",
+          "effort": null,
+          "system_description": "Bloop",
+          "score": 0.712
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-07-10. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-07-15",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Qodo Command",
+          "effort": null,
+          "system_description": "Qodo Command",
+          "score": 0.712
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-07-15. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-07-16",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Kimi K2",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.654
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-07-16. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-07-20",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Lingxi-v1.5_claude-4-sonnet-20250514",
+          "effort": null,
+          "system_description": "Lingxi-v1.5_claude-4-sonnet-20250514",
+          "score": 0.746
+        },
+        {
+          "model": "Claude 3.7 Sonnet (20250219)",
+          "effort": null,
+          "system_description": "mini-SWE-agent",
+          "score": 0.528
+        },
+        {
+          "model": "GPT-4.1-mini (2025-04-14)",
+          "effort": null,
+          "system_description": "mini-SWE-agent",
+          "score": 0.2394
+        },
+        {
+          "model": "GPT-4o (2024-11-20)",
+          "effort": null,
+          "system_description": "mini-SWE-agent",
+          "score": 0.2162
+        },
+        {
+          "model": "Llama 4 Maverick Instruct",
+          "effort": null,
+          "system_description": "mini-SWE-agent",
+          "score": 0.2104
+        },
+        {
+          "model": "Llama 4 Scout Instruct",
+          "effort": null,
+          "system_description": "mini-SWE-agent",
+          "score": 0.0906
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-07-20. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-07-25",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "DevStral Small 2507",
+          "effort": null,
+          "system_description": "SWE-agent",
+          "score": 0.38
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-07-25. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-07-26",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Claude 4 Sonnet (20250514)",
+          "effort": null,
+          "system_description": "mini-SWE-agent",
+          "score": 0.6493
+        },
+        {
+          "model": "o3 (2025-04-16)",
+          "effort": null,
+          "system_description": "mini-SWE-agent",
+          "score": 0.584
+        },
+        {
+          "model": "Gemini 2.5 Pro (2025-05-06)",
+          "effort": null,
+          "system_description": "mini-SWE-agent",
+          "score": 0.536
+        },
+        {
+          "model": "o4-mini (2025-04-16)",
+          "effort": null,
+          "system_description": "mini-SWE-agent",
+          "score": 0.45
+        },
+        {
+          "model": "GPT-4.1 (2025-04-14)",
+          "effort": null,
+          "system_description": "mini-SWE-agent",
+          "score": 0.3958
+        },
+        {
+          "model": "Gemini 2.5 Flash (2025-04-17)",
+          "effort": null,
+          "system_description": "mini-SWE-agent",
+          "score": 0.2873
+        },
+        {
+          "model": "Gemini 2.0 flash",
+          "effort": null,
+          "system_description": "mini-SWE-agent",
+          "score": 0.1352
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-07-26. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-07-28",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "GLM-4.5",
+          "effort": null,
+          "system_description": "GLM-4.5",
+          "score": 0.642
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-07-28. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-07-31",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Harness AI",
+          "effort": null,
+          "system_description": "Harness AI",
+          "score": 0.748
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-07-31. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-08-02",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Claude 4 Opus (20250514)",
+          "effort": null,
+          "system_description": "mini-SWE-agent",
+          "score": 0.676
+        },
+        {
+          "model": "Qwen3-Coder 480B/A35B Instruct",
+          "effort": null,
+          "system_description": "mini-SWE-agent",
+          "score": 0.554
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-08-02. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-08-03",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Qwen2.5-Coder 32B Instruct",
+          "effort": null,
+          "system_description": "mini-SWE-agent",
+          "score": 0.09
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-08-03. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-08-04",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Claude 4 Sonnet",
+          "effort": null,
+          "system_description": "EPAM AI/Run Developer Agent v20250719",
+          "score": 0.768
+        },
+        {
+          "model": "CodeSweep - SWE-agent - Kimi K2 Instruct",
+          "effort": null,
+          "system_description": "CodeSweep - SWE-agent - Kimi K2 Instruct",
+          "score": 0.534
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-08-04. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-08-05",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Qwen3-Coder-480B-A35B-Instruct",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.696
+        },
+        {
+          "model": "Qwen3-Coder-30B-A3B-Instruct",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.516
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-08-05. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-08-06",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "SWE-Exp",
+          "effort": null,
+          "system_description": "SWE-Exp",
+          "score": 0.42
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-08-06. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-08-07",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "GPT-5",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.718
+        },
+        {
+          "model": "GPT-5 (2025-08-07)",
+          "effort": "medium reasoning",
+          "system_description": "mini-SWE-agent",
+          "score": 0.65
+        },
+        {
+          "model": "GPT-5 mini (2025-08-07)",
+          "effort": "medium reasoning",
+          "system_description": "mini-SWE-agent",
+          "score": 0.598
+        },
+        {
+          "model": "Kimi K2 Instruct",
+          "effort": null,
+          "system_description": "mini-SWE-agent",
+          "score": 0.438
+        },
+        {
+          "model": "GPT-5 nano (2025-08-07)",
+          "effort": "medium reasoning",
+          "system_description": "mini-SWE-agent",
+          "score": 0.348
+        },
+        {
+          "model": "gpt-oss-120b",
+          "effort": null,
+          "system_description": "mini-SWE-agent",
+          "score": 0.26
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-08-07. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-08-19",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "ACoder",
+          "effort": null,
+          "system_description": "ACoder",
+          "score": 0.764
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-08-19. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-08-22",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "GLM-4.5 (2025-08-22)",
+          "effort": null,
+          "system_description": "mini-SWE-agent",
+          "score": 0.542
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-08-22. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-09-01",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Warp",
+          "effort": null,
+          "system_description": "Warp",
+          "score": 0.756
+        },
+        {
+          "model": "R2E + Qwen3-Coder-30B-A3B-Instruct",
+          "effort": null,
+          "system_description": "EntroPO",
+          "score": 0.604
+        },
+        {
+          "model": "R2E + Qwen3-Coder-30B-A3B-Instruct",
+          "effort": null,
+          "system_description": "EntroPO",
+          "score": 0.522
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-09-01. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-09-02",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Atlassian Rovo Dev (2025-09-02)",
+          "effort": null,
+          "system_description": "Atlassian Rovo Dev (2025-09-02)",
+          "score": 0.768
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-09-02. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-09-15",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Claude 4 Sonnet + GPT-4.1",
+          "effort": null,
+          "system_description": "JoyCode",
+          "score": 0.746
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-09-15. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-09-24",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Artemis Agent v2 (2025-09-24)",
+          "effort": null,
+          "system_description": "Artemis Agent v2 (2025-09-24)",
+          "score": 0.57
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-09-24. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-09-28",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Doubao-Seed-Code",
+          "effort": null,
+          "system_description": "TRAE",
+          "score": 0.788
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-09-28. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-09-29",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "GPT-5",
+          "effort": null,
+          "system_description": "Prometheus-v1.2",
+          "score": 0.712
+        },
+        {
+          "model": "Claude 4.5 Sonnet (20250929)",
+          "effort": null,
+          "system_description": "mini-SWE-agent",
+          "score": 0.706
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-09-29. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-09-30",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "GLM-4.6",
+          "effort": null,
+          "system_description": "GLM-4.6",
+          "score": 0.682
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-09-30. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-10-14",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Lingxi v1.5 x Kimi K2",
+          "effort": null,
+          "system_description": "Lingxi v1.5 x Kimi K2",
+          "score": 0.712
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-10-14. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-10-15",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "GPT-5",
+          "effort": null,
+          "system_description": "Prometheus-v1.2.1",
+          "score": 0.744
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-10-15. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-10-21",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Salesforce AI Research SAGE (bash-only)",
+          "effort": null,
+          "system_description": "Salesforce AI Research SAGE (bash-only)",
+          "score": 0.73
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-10-21. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-11-03",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Claude 4.5 Sonnet",
+          "effort": null,
+          "system_description": "Sonar Foundation Agent",
+          "score": 0.748
+        },
+        {
+          "model": "Salesforce AI Research SAGE (OpenHands)",
+          "effort": null,
+          "system_description": "Salesforce AI Research SAGE (OpenHands)",
+          "score": 0.738
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-11-03. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-11-10",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "FrogBoss-32B-2510",
+          "effort": null,
+          "system_description": "FrogBoss-32B-2510",
+          "score": 0.536
+        },
+        {
+          "model": "FrogMini-14B-2510",
+          "effort": null,
+          "system_description": "FrogMini-14B-2510",
+          "score": 0.45
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-11-10. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-11-18",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Gemini 3 Pro Preview (2025-11-18)",
+          "effort": null,
+          "system_description": "mini-SWE-agent",
+          "score": 0.742
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-11-18. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-11-20",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Gemini 3 Pro Preview (2025-11-18)",
+          "effort": null,
+          "system_description": "live-SWE-agent",
+          "score": 0.774
+        },
+        {
+          "model": "GPT-5.1 (2025-11-13)",
+          "effort": "medium reasoning",
+          "system_description": "mini-SWE-agent",
+          "score": 0.66
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-11-20. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-11-24",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Claude 4.5 Opus (20251101)",
+          "effort": "medium",
+          "system_description": "mini-SWE-agent",
+          "score": 0.744
+        },
+        {
+          "model": "GPT-5.1-codex",
+          "effort": "medium reasoning",
+          "system_description": "mini-SWE-agent",
+          "score": 0.66
+        },
+        {
+          "model": "Minimax M2",
+          "effort": null,
+          "system_description": "mini-SWE-agent",
+          "score": 0.61
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-11-24. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-12-01",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "DeepSeek V3.2 Reasoner",
+          "effort": null,
+          "system_description": "mini-SWE-agent",
+          "score": 0.6
+        },
+        {
+          "model": "GLM-4.6 (T=1)",
+          "effort": null,
+          "system_description": "mini-SWE-agent",
+          "score": 0.554
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-12-01. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-12-05",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Claude 4.5 Opus",
+          "effort": null,
+          "system_description": "Sonar Foundation Agent",
+          "score": 0.792
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-12-05. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-12-09",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Devstral small (2512)",
+          "effort": null,
+          "system_description": "mini-SWE-agent",
+          "score": 0.564
+        },
+        {
+          "model": "Devstral (2512)",
+          "effort": null,
+          "system_description": "mini-SWE-agent",
+          "score": 0.538
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-12-09. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-12-10",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Kimi K2 Thinking",
+          "effort": null,
+          "system_description": "mini-SWE-agent",
+          "score": 0.634
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-12-10. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-12-11",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "GPT-5.2 (2025-12-11)",
+          "effort": "high reasoning",
+          "system_description": "mini-SWE-agent",
+          "score": 0.718
+        },
+        {
+          "model": "GPT-5.2 (2025-12-11)",
+          "effort": null,
+          "system_description": "mini-SWE-agent",
+          "score": 0.69
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-12-11. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
+    },
+    {
+      "date": "2025-12-15",
+      "source_type": "leaderboard",
+      "source_url": "https://www.swebench.com/index.html",
+      "results": [
+        {
+          "model": "Claude 4.5 Opus (20251101)",
+          "effort": "medium",
+          "system_description": "live-SWE-agent",
+          "score": 0.792
+        }
+      ],
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2025-12-15. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
     },
     {
       "date": "2026-02-17",
@@ -57,38 +1968,67 @@
       "source_url": "https://www.swebench.com/index.html",
       "results": [
         {
-          "model": "Claude 4.5 Opus (high reasoning)",
+          "model": "Gemini 3 Flash",
+          "effort": "high reasoning",
           "system_description": "mini-SWE-agent",
-          "score": 0.768
-        }
-      ],
-      "note": "Submission date per the swebench.com SWE-bench Verified leaderboard (mini-SWE-agent filtered view)."
-    },
-    {
-      "date": "2026-02-19",
-      "source_type": "leaderboard",
-      "source_url": "https://www.swebench.com/index.html",
-      "results": [
+          "score": 0.758
+        },
         {
-          "model": "GPT-5-2 Codex",
+          "model": "MiniMax M2.5",
+          "effort": "high reasoning",
+          "system_description": "mini-SWE-agent",
+          "score": 0.758
+        },
+        {
+          "model": "Claude Opus 4.6",
+          "effort": null,
+          "system_description": "mini-SWE-agent",
+          "score": 0.756
+        },
+        {
+          "model": "GLM-5",
+          "effort": "high reasoning",
           "system_description": "mini-SWE-agent",
           "score": 0.728
-        }
-      ],
-      "note": "Submission date per the swebench.com SWE-bench Verified leaderboard (mini-SWE-agent filtered view)."
-    },
-    {
-      "date": "2026-02-26",
-      "source_type": "leaderboard",
-      "source_url": "https://www.swebench.com/index.html",
-      "results": [
+        },
         {
-          "model": "Gemini 3 Pro",
+          "model": "GPT-5-2",
+          "effort": "high reasoning",
           "system_description": "mini-SWE-agent",
-          "score": 0.696
+          "score": 0.728
+        },
+        {
+          "model": "Claude 4.5 Sonnet",
+          "effort": "high reasoning",
+          "system_description": "mini-SWE-agent",
+          "score": 0.714
+        },
+        {
+          "model": "Kimi K2.5",
+          "effort": "high reasoning",
+          "system_description": "mini-SWE-agent",
+          "score": 0.708
+        },
+        {
+          "model": "DeepSeek V3.2",
+          "effort": "high reasoning",
+          "system_description": "mini-SWE-agent",
+          "score": 0.7
+        },
+        {
+          "model": "Claude 4.5 Haiku",
+          "effort": "high reasoning",
+          "system_description": "mini-SWE-agent",
+          "score": 0.666
+        },
+        {
+          "model": "GPT-5 Mini",
+          "effort": null,
+          "system_description": "mini-SWE-agent",
+          "score": 0.562
         }
       ],
-      "note": "Submission date per the swebench.com SWE-bench Verified leaderboard (mini-SWE-agent filtered view)."
+      "note": "swebench.com SWE-bench Verified leaderboard rows dated 2026-02-17. Model-name split on first ' + ' (left=scaffold, right=model); trailing '(<level> reasoning)' parens extracted to effort."
     },
     {
       "date": "2026-04-19",
@@ -97,6 +2037,7 @@
       "results": [
         {
           "model": "Claude Mythos Preview",
+          "effort": null,
           "system_description": "Claude Mythos Preview",
           "score": 0.939
         }

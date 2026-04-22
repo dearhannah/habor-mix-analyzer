@@ -24,37 +24,44 @@
       "source_url": "https://arxiv.org/abs/2505.11831",
       "results": [
         {
-          "model": "o3-mini (High)",
+          "model": "o3-mini",
+          "effort": "High",
           "system_description": null,
-          "score": 0.030
+          "score": 0.03
         },
         {
-          "model": "o3 (Medium)",
+          "model": "o3",
+          "effort": "Medium",
           "system_description": null,
-          "score": 0.030
+          "score": 0.03
         },
         {
-          "model": "o4-mini (Medium)",
+          "model": "o4-mini",
+          "effort": "Medium",
           "system_description": null,
           "score": 0.024
         },
         {
-          "model": "o1-pro (Low)",
+          "model": "o1-pro",
+          "effort": "Low",
           "system_description": null,
           "score": 0.009
         },
         {
-          "model": "Claude 3.7 (8K)",
+          "model": "Claude 3.7",
+          "effort": "8K",
           "system_description": null,
           "score": 0.009
         },
         {
           "model": "ARChitects",
+          "effort": null,
           "system_description": "program synthesis (ARC Prize 2024 winner)",
           "score": 0.025
         },
         {
           "model": "Icecuber",
+          "effort": null,
           "system_description": "program synthesis (ARC Prize 2020 winner)",
           "score": 0.016
         }
@@ -62,27 +69,383 @@
       "note": "Paper Table 1, Semi-Private Evaluation set (n=120). o-series and Claude rows are bare LLM; ARChitects and Icecuber use program synthesis."
     },
     {
+      "date": "2025-12-01",
+      "source_type": "leaderboard",
+      "source_url": "https://arcprize.org/leaderboard",
+      "results": [
+        {
+          "model": "Deepseek V3.2",
+          "effort": null,
+          "system_description": "Base LLM",
+          "score": 0.04
+        }
+      ],
+      "note": "ARC Prize leaderboard row dated 2025-12-01. ARC-AGI-2 column only."
+    },
+    {
+      "date": "2025-12-04",
+      "source_type": "leaderboard",
+      "source_url": "https://arcprize.org/leaderboard",
+      "results": [
+        {
+          "model": "Gemini 3 Pro",
+          "effort": "Refine.",
+          "system_description": "Refinement",
+          "score": 0.54
+        }
+      ],
+      "note": "ARC Prize leaderboard row dated 2025-12-04 (Poetiq submission). ARC-AGI-2 column only."
+    },
+    {
+      "date": "2025-12-11",
+      "source_type": "leaderboard",
+      "source_url": "https://arcprize.org/leaderboard",
+      "results": [
+        {
+          "model": "GPT-5.2",
+          "effort": null,
+          "system_description": "Base LLM",
+          "score": 0.008
+        },
+        {
+          "model": "GPT-5.2",
+          "effort": "Low",
+          "system_description": "CoT",
+          "score": 0.097
+        },
+        {
+          "model": "GPT-5.2",
+          "effort": "Medium",
+          "system_description": "CoT",
+          "score": 0.267
+        },
+        {
+          "model": "GPT-5.2",
+          "effort": "High",
+          "system_description": "CoT",
+          "score": 0.433
+        },
+        {
+          "model": "GPT-5.2",
+          "effort": "X-High",
+          "system_description": "CoT",
+          "score": 0.529
+        },
+        {
+          "model": "GPT-5.2 Pro",
+          "effort": "Medium",
+          "system_description": "CoT",
+          "score": 0.385
+        },
+        {
+          "model": "GPT-5.2 Pro",
+          "effort": "High",
+          "system_description": "CoT",
+          "score": 0.542
+        }
+      ],
+      "note": "ARC Prize leaderboard rows dated 2025-12-11. GPT-5.2 Pro (X-High) row skipped — ARC-AGI-2 score is N/A in the leaderboard."
+    },
+    {
+      "date": "2025-12-17",
+      "source_type": "leaderboard",
+      "source_url": "https://arcprize.org/leaderboard",
+      "results": [
+        {
+          "model": "Gemini 3 Flash Preview",
+          "effort": "Minimal",
+          "system_description": "CoT",
+          "score": 0.033
+        },
+        {
+          "model": "Gemini 3 Flash Preview",
+          "effort": "Low",
+          "system_description": "CoT",
+          "score": 0.013
+        },
+        {
+          "model": "Gemini 3 Flash Preview",
+          "effort": "Medium",
+          "system_description": "CoT",
+          "score": 0.128
+        },
+        {
+          "model": "Gemini 3 Flash Preview",
+          "effort": "High",
+          "system_description": "CoT",
+          "score": 0.336
+        }
+      ],
+      "note": "ARC Prize leaderboard rows dated 2025-12-17. Anthropic Opus 4.6 (Max) row on the same date skipped — ARC-AGI-2 score is N/A (only a private-set teaser value is shown)."
+    },
+    {
+      "date": "2026-01-27",
+      "source_type": "leaderboard",
+      "source_url": "https://arcprize.org/leaderboard",
+      "results": [
+        {
+          "model": "Kimi K2.5",
+          "effort": null,
+          "system_description": "CoT",
+          "score": 0.118
+        }
+      ],
+      "note": "ARC Prize leaderboard row dated 2026-01-27."
+    },
+    {
+      "date": "2026-02-03",
+      "source_type": "leaderboard",
+      "source_url": "https://arcprize.org/leaderboard",
+      "results": [
+        {
+          "model": "GPT-5.2",
+          "effort": "Refine.",
+          "system_description": "Refinement",
+          "score": 0.729
+        }
+      ],
+      "note": "ARC Prize leaderboard row dated 2026-02-03 (Johan Land submission; solver at kaggle.com/code/johanland/johan-land-solver-v7-public)."
+    },
+    {
+      "date": "2026-02-05",
+      "source_type": "leaderboard",
+      "source_url": "https://arcprize.org/leaderboard",
+      "results": [
+        {
+          "model": "Claude Opus 4.6",
+          "effort": "120K, Low",
+          "system_description": "CoT",
+          "score": 0.646
+        },
+        {
+          "model": "Claude Opus 4.6",
+          "effort": "120K, Medium",
+          "system_description": "CoT",
+          "score": 0.663
+        },
+        {
+          "model": "Claude Opus 4.6",
+          "effort": "120K, High",
+          "system_description": "CoT",
+          "score": 0.692
+        },
+        {
+          "model": "Claude Opus 4.6",
+          "effort": "120K, Max",
+          "system_description": "CoT",
+          "score": 0.688
+        }
+      ],
+      "note": "ARC Prize leaderboard rows dated 2026-02-05. Parenthetical encodes (thinking-budget-context, effort): 120K context × Low/Medium/High/Max thinking budget."
+    },
+    {
+      "date": "2026-02-12",
+      "source_type": "leaderboard",
+      "source_url": "https://arcprize.org/leaderboard",
+      "results": [
+        {
+          "model": "Gemini 3 Deep Think (preview)",
+          "effort": null,
+          "system_description": "CoT",
+          "score": 0.451
+        },
+        {
+          "model": "Gemini 3 Deep Think (2/26)",
+          "effort": null,
+          "system_description": "CoT",
+          "score": 0.846
+        },
+        {
+          "model": "Minimax M2.5",
+          "effort": null,
+          "system_description": "CoT",
+          "score": 0.049
+        }
+      ],
+      "note": "ARC Prize leaderboard rows dated 2026-02-12. Deep Think '2/26' denotes the Feb-2026 revision."
+    },
+    {
+      "date": "2026-02-17",
+      "source_type": "leaderboard",
+      "source_url": "https://arcprize.org/leaderboard",
+      "results": [
+        {
+          "model": "Claude Sonnet 4.6",
+          "effort": "Max",
+          "system_description": "CoT",
+          "score": 0.583
+        },
+        {
+          "model": "Claude Sonnet 4.6",
+          "effort": "High",
+          "system_description": "CoT",
+          "score": 0.604
+        }
+      ],
+      "note": "ARC Prize leaderboard rows dated 2026-02-17."
+    },
+    {
+      "date": "2026-02-19",
+      "source_type": "leaderboard",
+      "source_url": "https://arcprize.org/leaderboard",
+      "results": [
+        {
+          "model": "Gemini 3.1 Pro (Preview)",
+          "effort": null,
+          "system_description": "CoT",
+          "score": 0.771
+        }
+      ],
+      "note": "ARC Prize leaderboard row dated 2026-02-19 (Google blog announcement: blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/)."
+    },
+    {
+      "date": "2026-02-20",
+      "source_type": "leaderboard",
+      "source_url": "https://arcprize.org/leaderboard",
+      "results": [
+        {
+          "model": "GLM-5",
+          "effort": null,
+          "system_description": "CoT",
+          "score": 0.049
+        }
+      ],
+      "note": "ARC Prize leaderboard row dated 2026-02-20."
+    },
+    {
+      "date": "2026-03-04",
+      "source_type": "leaderboard",
+      "source_url": "https://arcprize.org/leaderboard",
+      "results": [
+        {
+          "model": "GPT-5.4",
+          "effort": "Low",
+          "system_description": "CoT",
+          "score": 0.292
+        },
+        {
+          "model": "GPT-5.4",
+          "effort": "Medium",
+          "system_description": "CoT",
+          "score": 0.554
+        },
+        {
+          "model": "GPT-5.4",
+          "effort": "High",
+          "system_description": "CoT",
+          "score": 0.675
+        },
+        {
+          "model": "GPT-5.4",
+          "effort": "xHigh",
+          "system_description": "CoT",
+          "score": 0.74
+        },
+        {
+          "model": "GPT-5.4 Pro",
+          "effort": "xHigh",
+          "system_description": "CoT",
+          "score": 0.833
+        }
+      ],
+      "note": "ARC Prize leaderboard rows dated 2026-03-04."
+    },
+    {
+      "date": "2026-03-09",
+      "source_type": "leaderboard",
+      "source_url": "https://arcprize.org/leaderboard",
+      "results": [
+        {
+          "model": "Grok 4.20",
+          "effort": "Reasoning",
+          "system_description": "CoT",
+          "score": 0.651
+        }
+      ],
+      "note": "ARC Prize leaderboard row dated 2026-03-09."
+    },
+    {
+      "date": "2026-03-17",
+      "source_type": "leaderboard",
+      "source_url": "https://arcprize.org/leaderboard",
+      "results": [
+        {
+          "model": "GPT-5.4 Mini",
+          "effort": "xHigh",
+          "system_description": "CoT",
+          "score": 0.189
+        },
+        {
+          "model": "GPT-5.4 Mini",
+          "effort": "High",
+          "system_description": "CoT",
+          "score": 0.132
+        },
+        {
+          "model": "GPT-5.4 Mini",
+          "effort": "Medium",
+          "system_description": "CoT",
+          "score": 0.044
+        },
+        {
+          "model": "GPT-5.4 Mini",
+          "effort": "Low",
+          "system_description": "CoT",
+          "score": 0.011
+        },
+        {
+          "model": "GPT-5.4 Nano",
+          "effort": "xHigh",
+          "system_description": "CoT",
+          "score": 0.057
+        },
+        {
+          "model": "GPT-5.4 Nano",
+          "effort": "High",
+          "system_description": "CoT",
+          "score": 0.036
+        },
+        {
+          "model": "GPT-5.4 Nano",
+          "effort": "Medium",
+          "system_description": "CoT",
+          "score": 0.019
+        },
+        {
+          "model": "GPT-5.4 Nano",
+          "effort": "Low",
+          "system_description": "CoT",
+          "score": 0.015
+        }
+      ],
+      "note": "ARC Prize leaderboard rows dated 2026-03-17."
+    },
+    {
       "date": "2026-04-16",
       "source_type": "leaderboard",
       "source_url": "https://arcprize.org/leaderboard",
       "results": [
         {
-          "model": "Claude 4.7 (Low)",
+          "model": "Claude 4.7",
+          "effort": "Low",
           "system_description": "CoT",
           "score": 0.621
         },
         {
-          "model": "Claude 4.7 (Medium)",
+          "model": "Claude 4.7",
+          "effort": "Medium",
           "system_description": "CoT",
           "score": 0.675
         },
         {
-          "model": "Claude 4.7 (High)",
+          "model": "Claude 4.7",
+          "effort": "High",
           "system_description": "CoT",
           "score": 0.683
         },
         {
-          "model": "Claude 4.7 (Max)",
+          "model": "Claude 4.7",
+          "effort": "Max",
           "system_description": "CoT",
           "score": 0.758
         }

@@ -25,31 +25,64 @@
       "results": [
         {
           "model": "GPT-4o (2024-08-06)",
+          "effort": null,
           "system_description": null,
           "score": 0.006
         },
         {
           "model": "GPT-4o (2024-08-06)",
+          "effort": null,
           "system_description": "with browsing",
           "score": 0.019
         },
         {
           "model": "GPT-4.5 (2025-02-27)",
+          "effort": null,
           "system_description": null,
           "score": 0.009
         },
         {
-          "model": "OpenAI o1 (2024-12-17, medium reasoning)",
+          "model": "OpenAI o1 (2024-12-17)",
+          "effort": "medium reasoning",
           "system_description": null,
           "score": 0.099
         },
         {
           "model": "Deep Research",
+          "effort": null,
           "system_description": null,
           "score": 0.515
         }
       ],
       "note": "Paper Table 3 (accuracy). null system_description = self-contained model with no external scaffold column. 'with browsing' = GPT-4o given a browse tool. Paper §4.1 calls Deep Research 'an agent model', and footnote 1 warns it was trained on BrowseComp-style data — not a generic frontier number."
+    },
+    {
+      "date": "2025-09-04",
+      "source_type": "leaderboard",
+      "source_url": "https://llm-stats.com/benchmarks/browsecomp",
+      "results": [
+        {
+          "model": "Kimi K2-Thinking-0905",
+          "effort": null,
+          "system_description": null,
+          "score": 0.602
+        }
+      ],
+      "note": "llm-stats.com progress-over-time chart tooltip — State-of-the-art frontier point (Moonshot AI)."
+    },
+    {
+      "date": "2025-12-10",
+      "source_type": "leaderboard",
+      "source_url": "https://llm-stats.com/benchmarks/browsecomp",
+      "results": [
+        {
+          "model": "GPT-5.2 Pro",
+          "effort": null,
+          "system_description": null,
+          "score": 0.779
+        }
+      ],
+      "note": "llm-stats.com progress-over-time chart tooltip — State-of-the-art frontier point (OpenAI)."
     },
     {
       "date": "2026-02-04",
@@ -58,6 +91,7 @@
       "results": [
         {
           "model": "Claude Opus 4.6",
+          "effort": null,
           "system_description": null,
           "score": 0.840
         }
@@ -71,6 +105,7 @@
       "results": [
         {
           "model": "Gemini 3.1 Pro",
+          "effort": null,
           "system_description": null,
           "score": 0.859
         }
@@ -84,6 +119,7 @@
       "results": [
         {
           "model": "Claude Mythos Preview",
+          "effort": null,
           "system_description": null,
           "score": 0.869
         }
@@ -97,6 +133,7 @@
       "results": [
         {
           "model": "Kimi K2.6",
+          "effort": null,
           "system_description": null,
           "score": 0.863
         }
