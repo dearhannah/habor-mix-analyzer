@@ -6,12 +6,12 @@ Benchmark scores are simple means over the filled task matrix. The imputation re
 
 | method | rank | holdout_cells | rmse | mae |
 | --- | --- | --- | --- | --- |
-| column_median | 0 | 4325 | 13.196 | 0.739 |
-| row_mean_shrunk | 0 | 4325 | 13.156 | 0.756 |
-| iterative_svd | 2 | 4325 | 10.269 | 0.806 |
-| two_way_shrunk | 0 | 4325 | 14.487 | 1.068 |
+| column_median | 0 | 9520 | 24.428 | 0.756 |
+| iterative_svd | 2 | 9520 | 24.422 | 0.757 |
+| row_mean_shrunk | 0 | 9520 | 117.389 | 2.001 |
+| two_way_shrunk | 0 | 9520 | 117.542 | 2.303 |
 
-1. Use 40 coverage-filtered benchmarks for benchmark-level claims; keep sparse benchmarks in appendix/provisional analysis.
+1. Use 51 coverage-filtered benchmarks for benchmark-level claims; keep sparse benchmarks in appendix/provisional analysis.
 
 The filtering table is now evidence-based on the task-first pipeline: benchmark scores come from filled-task aggregates, while the missingness columns describe how much original task evidence supported each aggregate before filling.
 
@@ -19,14 +19,14 @@ The filtering table is now evidence-based on the task-first pipeline: benchmark 
 
 | benchmark | include_in_key_analysis | observed_count | task_cell_missing_fraction |
 | --- | --- | --- | --- |
-| aider-polyglot | True | 26 | 0.044 |
-| algotune | True | 26 | 0.131 |
-| bfcl | True | 26 | 0.000 |
-| bigcodebench | True | 26 | 0.559 |
-| crustbench | True | 26 | 0.117 |
-| featurebench-modal | True | 26 | 0.052 |
-| gaia | True | 26 | 0.206 |
-| lawbench | True | 26 | 0.409 |
+| aider-polyglot | True | 28 | 0.039 |
+| aime | True | 28 | 0.064 |
+| arc-agi-2 | True | 28 | 0.045 |
+| bigcodebench | True | 28 | 0.005 |
+| bixbench | True | 28 | 0.018 |
+| codepde | True | 28 | 0.000 |
+| compilebench | True | 28 | 0.155 |
+| deepsynth | True | 28 | 0.072 |
 
 2. Model identity is the larger overall factor, but the model-vs-agent balance varies by benchmark; use the per-benchmark role plot for qualified claims.
 
@@ -36,14 +36,14 @@ This is the clean answer to the agent-vs-model question: make the broad statemen
 
 | benchmark | model_partial_r2_over_agent | agent_partial_r2_over_model | dominant_dimension |
 | --- | --- | --- | --- |
-| kumo | 0.857 | 0.038 | model |
-| qcircuitbench | 0.834 | 0.019 | model |
-| sldbench | 0.827 | 0.013 | model |
-| aider-polyglot | 0.841 | 0.031 | model |
-| livecodebench | 0.792 | 0.004 | model |
-| strongreject | 0.908 | 0.142 | model |
-| swe-lancer | 0.768 | 0.011 | model |
-| algotune | 0.778 | 0.022 | model |
+| kumo | 0.885 | 0.039 | model |
+| crustbench | 0.847 | 0.008 | model |
+| terminal-bench | 0.844 | 0.028 | model |
+| aider-polyglot | 0.814 | 0.025 | model |
+| strongreject | 0.870 | 0.082 | model |
+| qcircuitbench | 0.816 | 0.030 | model |
+| algotune | 0.774 | 0.016 | model |
+| sldbench | 0.757 | 0.003 | model |
 
 3. Separate model and agent dimensions. The useful agent evidence is paired lift over `terminus-2` for the same model, not an unqualified agent+model leaderboard.
 
@@ -53,9 +53,10 @@ The Terminus table should be read as a harnessing-effect estimate: the paired co
 
 | agent | mean_delta_vs_terminus | win_rate_vs_terminus | compared_models |
 | --- | --- | --- | --- |
-| codex | 0.420 | 0.642 | 3 |
-| gemini-cli | 0.097 | 0.512 | 2 |
-| claude-code | -0.183 | 0.254 | 7 |
+| qwen-coder | 1.793 | 0.569 | 1 |
+| codex | 0.090 | 0.660 | 3 |
+| gemini-cli | 0.025 | 0.618 | 2 |
+| claude-code | -1953093.878 | 0.490 | 7 |
 
 4. BenchPress-style predictability applies here: redundant benchmarks can be compressed; least-predictable benchmarks should be preserved for behavioral breadth.
 
@@ -65,14 +66,14 @@ The benchmark-predictability result is deliberately separate from clustering: re
 
 | benchmark | cv_r2_from_other_included_benchmarks | cv_rmse |
 | --- | --- | --- |
-| bigcodebench | -0.435 | 0.593 |
-| codepde | -0.305 | 0.131 |
-| strongreject | -0.300 | 1.310 |
-| bfcl | -0.265 | 0.855 |
-| mmau | -0.207 | 0.285 |
-| swtbench | -0.184 | 0.345 |
-| swebench-verified | -0.174 | 1.618 |
-| swebench-multilingual | -0.082 | 0.766 |
+| gaia2 | -7328869232983.916 | 1367629.244 |
+| mmmlu | -6294264180510.100 | 1490833.498 |
+| seal0 | -6027652281331.326 | 1660166.450 |
+| omnimath | -5132215651331.958 | 1431221.147 |
+| spreadsheetbench | -4709106010170.977 | 2776662.397 |
+| medagentbench | -3080444906170.212 | 1456575.203 |
+| usaco | -3038326129567.491 | 1584033.348 |
+| skillsbench | -1417353578363.764 | 901302.996 |
 
 5. Task predictability and task representativeness are distinct: hard-to-predict tasks are stress tests, while representative tasks are compact proxies for a benchmark.
 
@@ -84,25 +85,25 @@ The representative-task score now uses leave-one-out aggregate correlation times
 
 | benchmark | task_id | task_unpredictability_score | difficulty_tier |
 | --- | --- | --- | --- |
-| humanevalfix | humanevalfix-python-6 | 0.920 | saturated |
-| devopsgym | devopsgym-codegen__prometheus__prometheus-7667 | 0.915 | easy |
-| gso | gso-pydantic--pydantic-addf1f9 | 0.829 | frontier |
-| swebench-verified | swebench-verified-matplotlib__matplotlib-26208 | 0.756 | frontier |
-| gso | gso-huggingface--transformers-253f9a3 | 0.727 | medium |
-| strongreject | strongreject_sexual_content_0005_pap_logical_appeal | 0.712 | saturated |
-| devopsgym | devopsgym-testgen__spotbugs__spotbugs-2795 | 0.700 | medium |
-| devopsgym | devopsgym-codegen__containerd__containerd-10275 | 0.700 | frontier |
+| swebenchpro | instance_ansible__ansible-cd473dfb2fdbc97acf3293c134b21cbbcfa89ec3-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5 | 0.846 | frontier |
+| medagentbench | task7_12 | 0.696 | frontier |
+| swebench-verified | sympy__sympy-13852 | 0.691 | frontier |
+| codepde | codepde-advection | 0.681 | easy |
+| swebench-multilingual | laravel__framework-46234 | 0.674 | hard |
+| bixbench | bix-29-q2 | 0.666 | frontier |
+| replicationbench | astm3__spectral_similarity_search | 0.664 | frontier |
+| hle | hle/hle__67190e8172e53012645b0124 | 0.659 | frontier |
 
 | benchmark | task_id | useful_representativeness_score | difficulty_tier |
 | --- | --- | --- | --- |
-| swebench-multilingual | swebench-multilingual-php-cs-fixer__php-cs-fixer-7523 | 0.441 | easy |
-| swebench-multilingual | swebench-multilingual-jqlang__jq-2658 | 0.441 | easy |
-| swebench-multilingual | swebench-multilingual-caddyserver__caddy-6288 | 0.441 | easy |
-| swebench-multilingual | swebench-multilingual-fmtlib__fmt-3729 | 0.441 | easy |
-| labbench | labbench-figqa-0036 | 0.436 | hard |
-| lawbench | lawbench-3-7-11-zero-shot | 0.436 | easy |
-| labbench | labbench-figqa-0128 | 0.433 | medium |
-| swebench-multilingual | swebench-multilingual-jqlang__jq-2919 | 0.432 | easy |
+| research-code-bench | eomt_extract_query_key_value | 0.445 | medium |
+| research-code-bench | len_split_input_and_compute_norm | 0.443 | medium |
+| research-code-bench | llm-sci-use_confidence_interval_calculation | 0.443 | medium |
+| research-code-bench | grid-cell-conformal-isometry__dx_to_theta_id_dr | 0.442 | medium |
+| research-code-bench | eomt_generate_class_logits | 0.441 | medium |
+| research-code-bench | llm-sci-use_mixture_log_likelihood_calculation | 0.441 | medium |
+| research-code-bench | tabdiff_make_sure_learnable_parameter_ks_for_categorical_features_are_positive | 0.440 | medium |
+| research-code-bench | fractalgen_unpatchify | 0.439 | medium |
 
 6. The current HaborMix final set contains 160 diversified tasks.
 
@@ -112,16 +113,16 @@ The HaborMix scorer is no longer centered on moderate difficulty. It first takes
 
 | benchmark | difficulty_tier | selected_tasks | mean_selection_score |
 | --- | --- | --- | --- |
-| arc-agi-2 | hard | 4 | 0.809 |
-| replicationbench | hard | 4 | 0.776 |
-| aider-polyglot | medium | 4 | 0.738 |
-| humanevalfix | easy | 4 | 0.689 |
-| featurebench-modal | hard | 3 | 0.822 |
-| livecodebench | medium | 3 | 0.811 |
-| algotune | hard | 3 | 0.795 |
-| spider2 | medium | 3 | 0.775 |
-| mmmlu | hard | 3 | 0.765 |
-| bixbench | medium | 3 | 0.760 |
+| featurebench-modal | hard | 4 | 0.769 |
+| reasoning-gym | medium | 4 | 0.741 |
+| financeagent | frontier | 3 | 0.793 |
+| hle | medium | 3 | 0.772 |
+| gso | hard | 3 | 0.763 |
+| gpqa-diamond | medium | 3 | 0.742 |
+| replicationbench | hard | 3 | 0.740 |
+| arc-agi-2 | hard | 3 | 0.739 |
+| scicode | medium | 3 | 0.738 |
+| crustbench | medium | 3 | 0.737 |
 
 7. Task-to-benchmark alignment should be used as a sanity check before interpreting benchmark-level scores from task-level tables.
 
@@ -131,13 +132,13 @@ This table is diagnostic rather than a gate. Weak alignment means the reliable b
 
 | benchmark | n_reliable_bounded_tasks | spearman_agent_model_correlation | alignment_quality |
 | --- | --- | --- | --- |
-| gso | 5 | 0.999 | strong |
-| qcircuitbench | 3 | 0.998 | strong |
-| usaco | 91 | 0.997 | strong |
-| aider-polyglot | 218 | 0.996 | strong |
-| simpleqa | 200 | 0.992 | strong |
-| humanevalfix | 115 | 0.991 | strong |
-| gpqa-diamond | 198 | 0.990 | strong |
-| swebench-multilingual | 270 | 0.989 | strong |
+| financeagent | 5 | 1.000 | strong |
+| swtbench | 50 | 0.999 | strong |
+| terminal-bench | 89 | 0.992 | strong |
+| usaco | 100 | 0.992 | strong |
+| research-code-bench | 212 | 0.992 | strong |
+| gaia | 165 | 0.991 | strong |
+| scicode | 80 | 0.991 | strong |
+| livecodebench | 100 | 0.990 | strong |
 
 Primary reference file: `output/key_analyses/reports/analysis_story.md`.
