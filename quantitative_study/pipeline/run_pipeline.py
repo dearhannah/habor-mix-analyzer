@@ -169,9 +169,6 @@ def main() -> None:
             summary=summary,
             direction=direction,
             lift=lift,
-            anomaly_summary=anom_summary,
-            agent_effect=eff_agent,
-            rank_corr=rank_corr,
         )
         generate_cross_figures(
             difficulty=difficulty,
@@ -179,7 +176,6 @@ def main() -> None:
             superdomain_df=superdom_sum,
             progress_df=prog,
             domain_prog_df=dom_prog,
-            model_domain_df=model_dom,
             harbor_df=harbor,
         )
 

@@ -27,34 +27,34 @@ aider-polyglot,aider_polyglot,Aider Polyglot,mimo-v2-pro,terminus-2,0.437333,,,,
 aider-polyglot,aider_polyglot,Aider Polyglot,mimo-v2-pro,claude-code,,,,,,,pass rate,2025-11-20,https://aider.chat/docs/leaderboards/,no_model_match
 aider-polyglot,aider_polyglot,Aider Polyglot,qwen3-max,terminus-2,,,,,,,pass rate,2025-11-20,https://aider.chat/docs/leaderboards/,no_model_match
 aider-polyglot,aider_polyglot,Aider Polyglot,qwen3-max,qwen-coder,,,,,,,pass rate,2025-11-20,https://aider.chat/docs/leaderboards/,no_model_match
-aime,aime,AIME,gpt-5.4,terminus-2,0.733333,,,,,,accuracy,2026-04,https://www.vellum.ai/llm-leaderboard,no_model_match
-aime,aime,AIME,gpt-5.4,codex,0.986667,,,,,,accuracy,2026-04,https://www.vellum.ai/llm-leaderboard,no_model_match
-aime,aime,AIME,gpt-5-mini,terminus-2,0.893333,0.908,-0.014666999999999986,GPT-5-Mini,,accuracy (AIME 2025),accuracy,2026-04,https://www.vellum.ai/llm-leaderboard,matched_model_only_doc_no_agent
-aime,aime,AIME,gpt-5-mini,codex,0.96,0.908,0.051999999999999935,GPT-5-Mini,,accuracy (AIME 2025),accuracy,2026-04,https://www.vellum.ai/llm-leaderboard,matched_model_only_doc_no_agent
-aime,aime,AIME,gpt-5-nano,terminus-2,0.786667,,,,,,accuracy,2026-04,https://www.vellum.ai/llm-leaderboard,no_model_match
-aime,aime,AIME,gpt-5-nano,codex,0.733333,,,,,,accuracy,2026-04,https://www.vellum.ai/llm-leaderboard,no_model_match
-aime,aime,AIME,claude-haiku-4-5-20251001,terminus-2,,,,,,,accuracy,2026-04,https://www.vellum.ai/llm-leaderboard,no_model_match
-aime,aime,AIME,claude-haiku-4-5-20251001,claude-code,0.81,,,,,,accuracy,2026-04,https://www.vellum.ai/llm-leaderboard,no_model_match
-aime,aime,AIME,claude-sonnet-4-6,terminus-2,0.98,,,,,,accuracy,2026-04,https://www.vellum.ai/llm-leaderboard,no_model_match
-aime,aime,AIME,claude-sonnet-4-6,claude-code,0.94,,,,,,accuracy,2026-04,https://www.vellum.ai/llm-leaderboard,no_model_match
-aime,aime,AIME,claude-opus-4-6,terminus-2,0.983333,0.998,-0.014666999999999986,Claude Opus 4.6,,accuracy (AIME 2025),accuracy,2026-04,https://www.vellum.ai/llm-leaderboard,matched_model_only_doc_no_agent
-aime,aime,AIME,claude-opus-4-6,claude-code,0.976667,0.998,-0.021333000000000046,Claude Opus 4.6,,accuracy (AIME 2025),accuracy,2026-04,https://www.vellum.ai/llm-leaderboard,matched_model_only_doc_no_agent
-aime,aime,AIME,gemini-3.1-pro-preview,terminus-2,0.9825,,,,,,accuracy,2026-04,https://www.vellum.ai/llm-leaderboard,no_model_match
-aime,aime,AIME,gemini-3.1-pro-preview,gemini-cli,0.993333,,,,,,accuracy,2026-04,https://www.vellum.ai/llm-leaderboard,no_model_match
-aime,aime,AIME,gemini-3-flash-preview,terminus-2,0.886667,,,,,,accuracy,2026-04,https://www.vellum.ai/llm-leaderboard,no_model_match
-aime,aime,AIME,gemini-3-flash-preview,gemini-cli,0.81,,,,,,accuracy,2026-04,https://www.vellum.ai/llm-leaderboard,no_model_match
-aime,aime,AIME,deepseek-reasoner,terminus-2,0.915833,0.74,0.17583300000000002,DeepSeek-R1,,accuracy (AIME 2025),accuracy,2026-04,https://www.vellum.ai/llm-leaderboard,matched_model_only_doc_no_agent
-aime,aime,AIME,deepseek-chat,claude-code,,,,,,,accuracy,2026-04,https://www.vellum.ai/llm-leaderboard,no_model_match
-aime,aime,AIME,kimi-k2.5,terminus-2,0.923333,,,,,,accuracy,2026-04,https://www.vellum.ai/llm-leaderboard,no_model_match
-aime,aime,AIME,kimi-k2.5,claude-code,,,,,,,accuracy,2026-04,https://www.vellum.ai/llm-leaderboard,no_model_match
-aime,aime,AIME,MiniMax-M2.5,terminus-2,0.616667,,,,,,accuracy,2026-04,https://www.vellum.ai/llm-leaderboard,no_model_match
-aime,aime,AIME,MiniMax-M2.5,claude-code,0.683333,,,,,,accuracy,2026-04,https://www.vellum.ai/llm-leaderboard,no_model_match
-aime,aime,AIME,glm-5,terminus-2,,,,,,,accuracy,2026-04,https://www.vellum.ai/llm-leaderboard,no_model_match
-aime,aime,AIME,glm-5,claude-code,0.306667,,,,,,accuracy,2026-04,https://www.vellum.ai/llm-leaderboard,no_model_match
-aime,aime,AIME,mimo-v2-pro,terminus-2,0.916667,,,,,,accuracy,2026-04,https://www.vellum.ai/llm-leaderboard,no_model_match
-aime,aime,AIME,mimo-v2-pro,claude-code,,,,,,,accuracy,2026-04,https://www.vellum.ai/llm-leaderboard,no_model_match
-aime,aime,AIME,qwen3-max,terminus-2,0.796667,,,,,,accuracy,2026-04,https://www.vellum.ai/llm-leaderboard,no_model_match
-aime,aime,AIME,qwen3-max,qwen-coder,0.84,,,,,,accuracy,2026-04,https://www.vellum.ai/llm-leaderboard,no_model_match
+aime,aime,AIME,gpt-5.4,terminus-2,0.733333,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/aime,no_model_match
+aime,aime,AIME,gpt-5.4,codex,0.986667,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/aime,no_model_match
+aime,aime,AIME,gpt-5-mini,terminus-2,0.893333,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/aime,no_model_match
+aime,aime,AIME,gpt-5-mini,codex,0.96,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/aime,no_model_match
+aime,aime,AIME,gpt-5-nano,terminus-2,0.786667,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/aime,no_model_match
+aime,aime,AIME,gpt-5-nano,codex,0.733333,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/aime,no_model_match
+aime,aime,AIME,claude-haiku-4-5-20251001,terminus-2,,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/aime,no_model_match
+aime,aime,AIME,claude-haiku-4-5-20251001,claude-code,0.81,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/aime,no_model_match
+aime,aime,AIME,claude-sonnet-4-6,terminus-2,0.98,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/aime,no_model_match
+aime,aime,AIME,claude-sonnet-4-6,claude-code,0.94,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/aime,no_model_match
+aime,aime,AIME,claude-opus-4-6,terminus-2,0.983333,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/aime,no_model_match
+aime,aime,AIME,claude-opus-4-6,claude-code,0.976667,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/aime,no_model_match
+aime,aime,AIME,gemini-3.1-pro-preview,terminus-2,0.9825,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/aime,no_model_match
+aime,aime,AIME,gemini-3.1-pro-preview,gemini-cli,0.993333,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/aime,no_model_match
+aime,aime,AIME,gemini-3-flash-preview,terminus-2,0.886667,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/aime,no_model_match
+aime,aime,AIME,gemini-3-flash-preview,gemini-cli,0.81,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/aime,no_model_match
+aime,aime,AIME,deepseek-reasoner,terminus-2,0.915833,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/aime,no_model_match
+aime,aime,AIME,deepseek-chat,claude-code,,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/aime,no_model_match
+aime,aime,AIME,kimi-k2.5,terminus-2,0.923333,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/aime,no_model_match
+aime,aime,AIME,kimi-k2.5,claude-code,,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/aime,no_model_match
+aime,aime,AIME,MiniMax-M2.5,terminus-2,0.616667,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/aime,no_model_match
+aime,aime,AIME,MiniMax-M2.5,claude-code,0.683333,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/aime,no_model_match
+aime,aime,AIME,glm-5,terminus-2,,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/aime,no_model_match
+aime,aime,AIME,glm-5,claude-code,0.306667,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/aime,no_model_match
+aime,aime,AIME,mimo-v2-pro,terminus-2,0.916667,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/aime,no_model_match
+aime,aime,AIME,mimo-v2-pro,claude-code,,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/aime,no_model_match
+aime,aime,AIME,qwen3-max,terminus-2,0.796667,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/aime,no_model_match
+aime,aime,AIME,qwen3-max,qwen-coder,0.84,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/aime,no_model_match
 algotune,algotune,AlgoTune,gpt-5.4,terminus-2,0.239646,0.38087611987235215,-0.14123011987235215,GPT-5.4 (high),AlgoTuner,AlgoTune Score,AlgoTune Score,2026-04-20,https://algotune.io/,matched_model_agent_mismatch
 algotune,algotune,AlgoTune,gpt-5.4,codex,0.254969,0.38087611987235215,-0.12590711987235215,GPT-5.4 (high),AlgoTuner,AlgoTune Score,AlgoTune Score,2026-04-20,https://algotune.io/,matched_model_agent_mismatch
 algotune,algotune,AlgoTune,gpt-5-mini,terminus-2,0.192734,,,,,,AlgoTune Score,2026-04-20,https://algotune.io/,no_model_match
@@ -83,34 +83,34 @@ algotune,algotune,AlgoTune,mimo-v2-pro,terminus-2,,,,,,,AlgoTune Score,2026-04-2
 algotune,algotune,AlgoTune,mimo-v2-pro,claude-code,0.227834,,,,,,AlgoTune Score,2026-04-20,https://algotune.io/,no_model_match
 algotune,algotune,AlgoTune,qwen3-max,terminus-2,,,,,,,AlgoTune Score,2026-04-20,https://algotune.io/,no_model_match
 algotune,algotune,AlgoTune,qwen3-max,qwen-coder,,,,,,,AlgoTune Score,2026-04-20,https://algotune.io/,no_model_match
-arc-agi-2,arc_agi_2,ARC-AGI-2,gpt-5.4,terminus-2,0.026,,,,,,,,,no_doc_data
-arc-agi-2,arc_agi_2,ARC-AGI-2,gpt-5.4,codex,0.542,,,,,,,,,no_doc_data
-arc-agi-2,arc_agi_2,ARC-AGI-2,gpt-5-mini,terminus-2,0.01,,,,,,,,,no_doc_data
-arc-agi-2,arc_agi_2,ARC-AGI-2,gpt-5-mini,codex,0.018,,,,,,,,,no_doc_data
-arc-agi-2,arc_agi_2,ARC-AGI-2,gpt-5-nano,terminus-2,0.0,,,,,,,,,no_doc_data
-arc-agi-2,arc_agi_2,ARC-AGI-2,gpt-5-nano,codex,0.0,,,,,,,,,no_doc_data
-arc-agi-2,arc_agi_2,ARC-AGI-2,claude-haiku-4-5-20251001,terminus-2,0.008,,,,,,,,,no_doc_data
-arc-agi-2,arc_agi_2,ARC-AGI-2,claude-haiku-4-5-20251001,claude-code,0.06,,,,,,,,,no_doc_data
-arc-agi-2,arc_agi_2,ARC-AGI-2,claude-sonnet-4-6,terminus-2,,,,,,,,,,no_doc_data
-arc-agi-2,arc_agi_2,ARC-AGI-2,claude-sonnet-4-6,claude-code,0.178,,,,,,,,,no_doc_data
-arc-agi-2,arc_agi_2,ARC-AGI-2,claude-opus-4-6,terminus-2,0.371,,,,,,,,,no_doc_data
-arc-agi-2,arc_agi_2,ARC-AGI-2,claude-opus-4-6,claude-code,0.428,,,,,,,,,no_doc_data
-arc-agi-2,arc_agi_2,ARC-AGI-2,gemini-3.1-pro-preview,terminus-2,0.572,,,,,,,,,no_doc_data
-arc-agi-2,arc_agi_2,ARC-AGI-2,gemini-3.1-pro-preview,gemini-cli,0.738,,,,,,,,,no_doc_data
-arc-agi-2,arc_agi_2,ARC-AGI-2,gemini-3-flash-preview,terminus-2,0.368,,,,,,,,,no_doc_data
-arc-agi-2,arc_agi_2,ARC-AGI-2,gemini-3-flash-preview,gemini-cli,0.392,,,,,,,,,no_doc_data
-arc-agi-2,arc_agi_2,ARC-AGI-2,deepseek-reasoner,terminus-2,0.004,,,,,,,,,no_doc_data
-arc-agi-2,arc_agi_2,ARC-AGI-2,deepseek-chat,claude-code,0.008,,,,,,,,,no_doc_data
-arc-agi-2,arc_agi_2,ARC-AGI-2,kimi-k2.5,terminus-2,0.034,,,,,,,,,no_doc_data
-arc-agi-2,arc_agi_2,ARC-AGI-2,kimi-k2.5,claude-code,0.0,,,,,,,,,no_doc_data
-arc-agi-2,arc_agi_2,ARC-AGI-2,MiniMax-M2.5,terminus-2,0.008,,,,,,,,,no_doc_data
-arc-agi-2,arc_agi_2,ARC-AGI-2,MiniMax-M2.5,claude-code,0.01,,,,,,,,,no_doc_data
-arc-agi-2,arc_agi_2,ARC-AGI-2,glm-5,terminus-2,,,,,,,,,,no_doc_data
-arc-agi-2,arc_agi_2,ARC-AGI-2,glm-5,claude-code,0.002,,,,,,,,,no_doc_data
-arc-agi-2,arc_agi_2,ARC-AGI-2,mimo-v2-pro,terminus-2,0.028,,,,,,,,,no_doc_data
-arc-agi-2,arc_agi_2,ARC-AGI-2,mimo-v2-pro,claude-code,0.006,,,,,,,,,no_doc_data
-arc-agi-2,arc_agi_2,ARC-AGI-2,qwen3-max,terminus-2,0.028,,,,,,,,,no_doc_data
-arc-agi-2,arc_agi_2,ARC-AGI-2,qwen3-max,qwen-coder,0.02,,,,,,,,,no_doc_data
+arc-agi-2,arc_agi_2,ARC-AGI-2,gpt-5.4,terminus-2,0.026,,,,,,accuracy,2026-04-16,https://arcprize.org/leaderboard,no_doc_data
+arc-agi-2,arc_agi_2,ARC-AGI-2,gpt-5.4,codex,0.542,,,,,,accuracy,2026-04-16,https://arcprize.org/leaderboard,no_doc_data
+arc-agi-2,arc_agi_2,ARC-AGI-2,gpt-5-mini,terminus-2,0.01,,,,,,accuracy,2026-04-16,https://arcprize.org/leaderboard,no_doc_data
+arc-agi-2,arc_agi_2,ARC-AGI-2,gpt-5-mini,codex,0.018,,,,,,accuracy,2026-04-16,https://arcprize.org/leaderboard,no_doc_data
+arc-agi-2,arc_agi_2,ARC-AGI-2,gpt-5-nano,terminus-2,0.0,,,,,,accuracy,2026-04-16,https://arcprize.org/leaderboard,no_doc_data
+arc-agi-2,arc_agi_2,ARC-AGI-2,gpt-5-nano,codex,0.0,,,,,,accuracy,2026-04-16,https://arcprize.org/leaderboard,no_doc_data
+arc-agi-2,arc_agi_2,ARC-AGI-2,claude-haiku-4-5-20251001,terminus-2,0.008,,,,,,accuracy,2026-04-16,https://arcprize.org/leaderboard,no_doc_data
+arc-agi-2,arc_agi_2,ARC-AGI-2,claude-haiku-4-5-20251001,claude-code,0.06,,,,,,accuracy,2026-04-16,https://arcprize.org/leaderboard,no_doc_data
+arc-agi-2,arc_agi_2,ARC-AGI-2,claude-sonnet-4-6,terminus-2,,,,,,,accuracy,2026-04-16,https://arcprize.org/leaderboard,no_doc_data
+arc-agi-2,arc_agi_2,ARC-AGI-2,claude-sonnet-4-6,claude-code,0.178,,,,,,accuracy,2026-04-16,https://arcprize.org/leaderboard,no_doc_data
+arc-agi-2,arc_agi_2,ARC-AGI-2,claude-opus-4-6,terminus-2,0.371,,,,,,accuracy,2026-04-16,https://arcprize.org/leaderboard,no_doc_data
+arc-agi-2,arc_agi_2,ARC-AGI-2,claude-opus-4-6,claude-code,0.428,,,,,,accuracy,2026-04-16,https://arcprize.org/leaderboard,no_doc_data
+arc-agi-2,arc_agi_2,ARC-AGI-2,gemini-3.1-pro-preview,terminus-2,0.572,,,,,,accuracy,2026-04-16,https://arcprize.org/leaderboard,no_doc_data
+arc-agi-2,arc_agi_2,ARC-AGI-2,gemini-3.1-pro-preview,gemini-cli,0.738,,,,,,accuracy,2026-04-16,https://arcprize.org/leaderboard,no_doc_data
+arc-agi-2,arc_agi_2,ARC-AGI-2,gemini-3-flash-preview,terminus-2,0.368,,,,,,accuracy,2026-04-16,https://arcprize.org/leaderboard,no_doc_data
+arc-agi-2,arc_agi_2,ARC-AGI-2,gemini-3-flash-preview,gemini-cli,0.392,,,,,,accuracy,2026-04-16,https://arcprize.org/leaderboard,no_doc_data
+arc-agi-2,arc_agi_2,ARC-AGI-2,deepseek-reasoner,terminus-2,0.004,,,,,,accuracy,2026-04-16,https://arcprize.org/leaderboard,no_doc_data
+arc-agi-2,arc_agi_2,ARC-AGI-2,deepseek-chat,claude-code,0.008,,,,,,accuracy,2026-04-16,https://arcprize.org/leaderboard,no_doc_data
+arc-agi-2,arc_agi_2,ARC-AGI-2,kimi-k2.5,terminus-2,0.034,,,,,,accuracy,2026-04-16,https://arcprize.org/leaderboard,no_doc_data
+arc-agi-2,arc_agi_2,ARC-AGI-2,kimi-k2.5,claude-code,0.0,,,,,,accuracy,2026-04-16,https://arcprize.org/leaderboard,no_doc_data
+arc-agi-2,arc_agi_2,ARC-AGI-2,MiniMax-M2.5,terminus-2,0.008,,,,,,accuracy,2026-04-16,https://arcprize.org/leaderboard,no_doc_data
+arc-agi-2,arc_agi_2,ARC-AGI-2,MiniMax-M2.5,claude-code,0.01,,,,,,accuracy,2026-04-16,https://arcprize.org/leaderboard,no_doc_data
+arc-agi-2,arc_agi_2,ARC-AGI-2,glm-5,terminus-2,,,,,,,accuracy,2026-04-16,https://arcprize.org/leaderboard,no_doc_data
+arc-agi-2,arc_agi_2,ARC-AGI-2,glm-5,claude-code,0.002,,,,,,accuracy,2026-04-16,https://arcprize.org/leaderboard,no_doc_data
+arc-agi-2,arc_agi_2,ARC-AGI-2,mimo-v2-pro,terminus-2,0.028,,,,,,accuracy,2026-04-16,https://arcprize.org/leaderboard,no_doc_data
+arc-agi-2,arc_agi_2,ARC-AGI-2,mimo-v2-pro,claude-code,0.006,,,,,,accuracy,2026-04-16,https://arcprize.org/leaderboard,no_doc_data
+arc-agi-2,arc_agi_2,ARC-AGI-2,qwen3-max,terminus-2,0.028,,,,,,accuracy,2026-04-16,https://arcprize.org/leaderboard,no_doc_data
+arc-agi-2,arc_agi_2,ARC-AGI-2,qwen3-max,qwen-coder,0.02,,,,,,accuracy,2026-04-16,https://arcprize.org/leaderboard,no_doc_data
 bfcl,bfcl,Berkeley Function Calling Leaderboard (BFCL),gpt-5.4,terminus-2,0.725203,,,,,,accuracy,2026-04-12,https://gorilla.cs.berkeley.edu/leaderboard.html,no_model_match
 bfcl,bfcl,Berkeley Function Calling Leaderboard (BFCL),gpt-5.4,codex,0.673171,,,,,,accuracy,2026-04-12,https://gorilla.cs.berkeley.edu/leaderboard.html,no_model_match
 bfcl,bfcl,Berkeley Function Calling Leaderboard (BFCL),gpt-5-mini,terminus-2,0.798374,0.72183,0.07654400000000006,GPT-5-mini-2025-08-07,FC,accuracy (overall),accuracy,2026-04-12,https://gorilla.cs.berkeley.edu/leaderboard.html,matched_model_agent_mismatch
@@ -139,34 +139,34 @@ bfcl,bfcl,Berkeley Function Calling Leaderboard (BFCL),mimo-v2-pro,terminus-2,0.
 bfcl,bfcl,Berkeley Function Calling Leaderboard (BFCL),mimo-v2-pro,claude-code,0.756098,,,,,,accuracy,2026-04-12,https://gorilla.cs.berkeley.edu/leaderboard.html,no_model_match
 bfcl,bfcl,Berkeley Function Calling Leaderboard (BFCL),qwen3-max,terminus-2,,,,,,,accuracy,2026-04-12,https://gorilla.cs.berkeley.edu/leaderboard.html,no_model_match
 bfcl,bfcl,Berkeley Function Calling Leaderboard (BFCL),qwen3-max,qwen-coder,,,,,,,accuracy,2026-04-12,https://gorilla.cs.berkeley.edu/leaderboard.html,no_model_match
-bigcodebench,bigcodebench,BigCodeBench,gpt-5.4,terminus-2,0.38931,,,,,,calibrated Pass@1,2025-04-14,https://huggingface.co/datasets/bigcode/bigcodebench-results,no_model_match
-bigcodebench,bigcodebench,BigCodeBench,gpt-5.4,codex,0.393103,,,,,,calibrated Pass@1,2025-04-14,https://huggingface.co/datasets/bigcode/bigcodebench-results,no_model_match
-bigcodebench,bigcodebench,BigCodeBench,gpt-5-mini,terminus-2,0.343793,,,,,,calibrated Pass@1,2025-04-14,https://huggingface.co/datasets/bigcode/bigcodebench-results,no_model_match
-bigcodebench,bigcodebench,BigCodeBench,gpt-5-mini,codex,0.259655,,,,,,calibrated Pass@1,2025-04-14,https://huggingface.co/datasets/bigcode/bigcodebench-results,no_model_match
-bigcodebench,bigcodebench,BigCodeBench,gpt-5-nano,terminus-2,0.226207,,,,,,calibrated Pass@1,2025-04-14,https://huggingface.co/datasets/bigcode/bigcodebench-results,no_model_match
-bigcodebench,bigcodebench,BigCodeBench,gpt-5-nano,codex,0.031839,,,,,,calibrated Pass@1,2025-04-14,https://huggingface.co/datasets/bigcode/bigcodebench-results,no_model_match
-bigcodebench,bigcodebench,BigCodeBench,claude-haiku-4-5-20251001,terminus-2,0.366207,,,,,,calibrated Pass@1,2025-04-14,https://huggingface.co/datasets/bigcode/bigcodebench-results,no_model_match
-bigcodebench,bigcodebench,BigCodeBench,claude-haiku-4-5-20251001,claude-code,0.3,,,,,,calibrated Pass@1,2025-04-14,https://huggingface.co/datasets/bigcode/bigcodebench-results,no_model_match
-bigcodebench,bigcodebench,BigCodeBench,claude-sonnet-4-6,terminus-2,0.41931,,,,,,calibrated Pass@1,2025-04-14,https://huggingface.co/datasets/bigcode/bigcodebench-results,no_model_match
-bigcodebench,bigcodebench,BigCodeBench,claude-sonnet-4-6,claude-code,0.384483,,,,,,calibrated Pass@1,2025-04-14,https://huggingface.co/datasets/bigcode/bigcodebench-results,no_model_match
-bigcodebench,bigcodebench,BigCodeBench,claude-opus-4-6,terminus-2,0.441379,,,,,,calibrated Pass@1,2025-04-14,https://huggingface.co/datasets/bigcode/bigcodebench-results,no_model_match
-bigcodebench,bigcodebench,BigCodeBench,claude-opus-4-6,claude-code,0.401724,,,,,,calibrated Pass@1,2025-04-14,https://huggingface.co/datasets/bigcode/bigcodebench-results,no_model_match
-bigcodebench,bigcodebench,BigCodeBench,gemini-3.1-pro-preview,terminus-2,0.35931,,,,,,calibrated Pass@1,2025-04-14,https://huggingface.co/datasets/bigcode/bigcodebench-results,no_model_match
-bigcodebench,bigcodebench,BigCodeBench,gemini-3.1-pro-preview,gemini-cli,0.41,,,,,,calibrated Pass@1,2025-04-14,https://huggingface.co/datasets/bigcode/bigcodebench-results,no_model_match
-bigcodebench,bigcodebench,BigCodeBench,gemini-3-flash-preview,terminus-2,0.368276,,,,,,calibrated Pass@1,2025-04-14,https://huggingface.co/datasets/bigcode/bigcodebench-results,no_model_match
-bigcodebench,bigcodebench,BigCodeBench,gemini-3-flash-preview,gemini-cli,0.376552,,,,,,calibrated Pass@1,2025-04-14,https://huggingface.co/datasets/bigcode/bigcodebench-results,no_model_match
-bigcodebench,bigcodebench,BigCodeBench,deepseek-reasoner,terminus-2,,,,,,,calibrated Pass@1,2025-04-14,https://huggingface.co/datasets/bigcode/bigcodebench-results,no_model_match
-bigcodebench,bigcodebench,BigCodeBench,deepseek-chat,claude-code,0.37931,0.622,-0.24269000000000002,DeepSeek-V3,,calibrated_pass@1_complete,calibrated Pass@1,2025-04-14,https://huggingface.co/datasets/bigcode/bigcodebench-results,matched_model_only_doc_no_agent
-bigcodebench,bigcodebench,BigCodeBench,kimi-k2.5,terminus-2,,,,,,,calibrated Pass@1,2025-04-14,https://huggingface.co/datasets/bigcode/bigcodebench-results,no_model_match
-bigcodebench,bigcodebench,BigCodeBench,kimi-k2.5,claude-code,,,,,,,calibrated Pass@1,2025-04-14,https://huggingface.co/datasets/bigcode/bigcodebench-results,no_model_match
-bigcodebench,bigcodebench,BigCodeBench,MiniMax-M2.5,terminus-2,0.37931,,,,,,calibrated Pass@1,2025-04-14,https://huggingface.co/datasets/bigcode/bigcodebench-results,no_model_match
-bigcodebench,bigcodebench,BigCodeBench,MiniMax-M2.5,claude-code,0.365172,,,,,,calibrated Pass@1,2025-04-14,https://huggingface.co/datasets/bigcode/bigcodebench-results,no_model_match
-bigcodebench,bigcodebench,BigCodeBench,glm-5,terminus-2,,,,,,,calibrated Pass@1,2025-04-14,https://huggingface.co/datasets/bigcode/bigcodebench-results,no_model_match
-bigcodebench,bigcodebench,BigCodeBench,glm-5,claude-code,0.265517,,,,,,calibrated Pass@1,2025-04-14,https://huggingface.co/datasets/bigcode/bigcodebench-results,no_model_match
-bigcodebench,bigcodebench,BigCodeBench,mimo-v2-pro,terminus-2,0.366897,,,,,,calibrated Pass@1,2025-04-14,https://huggingface.co/datasets/bigcode/bigcodebench-results,no_model_match
-bigcodebench,bigcodebench,BigCodeBench,mimo-v2-pro,claude-code,0.351724,,,,,,calibrated Pass@1,2025-04-14,https://huggingface.co/datasets/bigcode/bigcodebench-results,no_model_match
-bigcodebench,bigcodebench,BigCodeBench,qwen3-max,terminus-2,0.390345,,,,,,calibrated Pass@1,2025-04-14,https://huggingface.co/datasets/bigcode/bigcodebench-results,no_model_match
-bigcodebench,bigcodebench,BigCodeBench,qwen3-max,qwen-coder,0.366897,,,,,,calibrated Pass@1,2025-04-14,https://huggingface.co/datasets/bigcode/bigcodebench-results,no_model_match
+bigcodebench,bigcodebench,BigCodeBench,gpt-5.4,terminus-2,0.38931,,,,,,calibrated Pass@1,2026-04-22,https://bigcode-bench.github.io/results.json,no_model_match
+bigcodebench,bigcodebench,BigCodeBench,gpt-5.4,codex,0.393103,,,,,,calibrated Pass@1,2026-04-22,https://bigcode-bench.github.io/results.json,no_model_match
+bigcodebench,bigcodebench,BigCodeBench,gpt-5-mini,terminus-2,0.343793,,,,,,calibrated Pass@1,2026-04-22,https://bigcode-bench.github.io/results.json,no_model_match
+bigcodebench,bigcodebench,BigCodeBench,gpt-5-mini,codex,0.259655,,,,,,calibrated Pass@1,2026-04-22,https://bigcode-bench.github.io/results.json,no_model_match
+bigcodebench,bigcodebench,BigCodeBench,gpt-5-nano,terminus-2,0.226207,,,,,,calibrated Pass@1,2026-04-22,https://bigcode-bench.github.io/results.json,no_model_match
+bigcodebench,bigcodebench,BigCodeBench,gpt-5-nano,codex,0.031839,,,,,,calibrated Pass@1,2026-04-22,https://bigcode-bench.github.io/results.json,no_model_match
+bigcodebench,bigcodebench,BigCodeBench,claude-haiku-4-5-20251001,terminus-2,0.366207,,,,,,calibrated Pass@1,2026-04-22,https://bigcode-bench.github.io/results.json,no_model_match
+bigcodebench,bigcodebench,BigCodeBench,claude-haiku-4-5-20251001,claude-code,0.3,,,,,,calibrated Pass@1,2026-04-22,https://bigcode-bench.github.io/results.json,no_model_match
+bigcodebench,bigcodebench,BigCodeBench,claude-sonnet-4-6,terminus-2,0.41931,,,,,,calibrated Pass@1,2026-04-22,https://bigcode-bench.github.io/results.json,no_model_match
+bigcodebench,bigcodebench,BigCodeBench,claude-sonnet-4-6,claude-code,0.384483,,,,,,calibrated Pass@1,2026-04-22,https://bigcode-bench.github.io/results.json,no_model_match
+bigcodebench,bigcodebench,BigCodeBench,claude-opus-4-6,terminus-2,0.441379,,,,,,calibrated Pass@1,2026-04-22,https://bigcode-bench.github.io/results.json,no_model_match
+bigcodebench,bigcodebench,BigCodeBench,claude-opus-4-6,claude-code,0.401724,,,,,,calibrated Pass@1,2026-04-22,https://bigcode-bench.github.io/results.json,no_model_match
+bigcodebench,bigcodebench,BigCodeBench,gemini-3.1-pro-preview,terminus-2,0.35931,,,,,,calibrated Pass@1,2026-04-22,https://bigcode-bench.github.io/results.json,no_model_match
+bigcodebench,bigcodebench,BigCodeBench,gemini-3.1-pro-preview,gemini-cli,0.41,,,,,,calibrated Pass@1,2026-04-22,https://bigcode-bench.github.io/results.json,no_model_match
+bigcodebench,bigcodebench,BigCodeBench,gemini-3-flash-preview,terminus-2,0.368276,,,,,,calibrated Pass@1,2026-04-22,https://bigcode-bench.github.io/results.json,no_model_match
+bigcodebench,bigcodebench,BigCodeBench,gemini-3-flash-preview,gemini-cli,0.376552,,,,,,calibrated Pass@1,2026-04-22,https://bigcode-bench.github.io/results.json,no_model_match
+bigcodebench,bigcodebench,BigCodeBench,deepseek-reasoner,terminus-2,,,,,,,calibrated Pass@1,2026-04-22,https://bigcode-bench.github.io/results.json,no_model_match
+bigcodebench,bigcodebench,BigCodeBench,deepseek-chat,claude-code,0.37931,0.622,-0.24269000000000002,DeepSeek-V3,,calibrated_pass@1_complete,calibrated Pass@1,2026-04-22,https://bigcode-bench.github.io/results.json,matched_model_only_doc_no_agent
+bigcodebench,bigcodebench,BigCodeBench,kimi-k2.5,terminus-2,,,,,,,calibrated Pass@1,2026-04-22,https://bigcode-bench.github.io/results.json,no_model_match
+bigcodebench,bigcodebench,BigCodeBench,kimi-k2.5,claude-code,,,,,,,calibrated Pass@1,2026-04-22,https://bigcode-bench.github.io/results.json,no_model_match
+bigcodebench,bigcodebench,BigCodeBench,MiniMax-M2.5,terminus-2,0.37931,,,,,,calibrated Pass@1,2026-04-22,https://bigcode-bench.github.io/results.json,no_model_match
+bigcodebench,bigcodebench,BigCodeBench,MiniMax-M2.5,claude-code,0.365172,,,,,,calibrated Pass@1,2026-04-22,https://bigcode-bench.github.io/results.json,no_model_match
+bigcodebench,bigcodebench,BigCodeBench,glm-5,terminus-2,,,,,,,calibrated Pass@1,2026-04-22,https://bigcode-bench.github.io/results.json,no_model_match
+bigcodebench,bigcodebench,BigCodeBench,glm-5,claude-code,0.265517,,,,,,calibrated Pass@1,2026-04-22,https://bigcode-bench.github.io/results.json,no_model_match
+bigcodebench,bigcodebench,BigCodeBench,mimo-v2-pro,terminus-2,0.366897,,,,,,calibrated Pass@1,2026-04-22,https://bigcode-bench.github.io/results.json,no_model_match
+bigcodebench,bigcodebench,BigCodeBench,mimo-v2-pro,claude-code,0.351724,,,,,,calibrated Pass@1,2026-04-22,https://bigcode-bench.github.io/results.json,no_model_match
+bigcodebench,bigcodebench,BigCodeBench,qwen3-max,terminus-2,0.390345,,,,,,calibrated Pass@1,2026-04-22,https://bigcode-bench.github.io/results.json,no_model_match
+bigcodebench,bigcodebench,BigCodeBench,qwen3-max,qwen-coder,0.366897,,,,,,calibrated Pass@1,2026-04-22,https://bigcode-bench.github.io/results.json,no_model_match
 bixbench,bix_bench,BIX-Bench,gpt-5.4,terminus-2,0.288,,,,,,Accuracy,2025-10-08,https://arxiv.org/pdf/2503.00096,no_model_match
 bixbench,bix_bench,BIX-Bench,gpt-5.4,codex,0.408,,,,,,Accuracy,2025-10-08,https://arxiv.org/pdf/2503.00096,no_model_match
 bixbench,bix_bench,BIX-Bench,gpt-5-mini,terminus-2,0.192,,,,,,Accuracy,2025-10-08,https://arxiv.org/pdf/2503.00096,no_model_match
@@ -223,34 +223,34 @@ codepde,codepde,CodePDE,mimo-v2-pro,terminus-2,0.44,,,,,,"nRMSE (geometric mean 
 codepde,codepde,CodePDE,mimo-v2-pro,claude-code,0.4,,,,,,"nRMSE (geometric mean over 5 PDE families, lower is better)",2025-05,https://arxiv.org/abs/2505.08783,no_model_match
 codepde,codepde,CodePDE,qwen3-max,terminus-2,0.4,,,,,,"nRMSE (geometric mean over 5 PDE families, lower is better)",2025-05,https://arxiv.org/abs/2505.08783,no_model_match
 codepde,codepde,CodePDE,qwen3-max,qwen-coder,0.28,,,,,,"nRMSE (geometric mean over 5 PDE families, lower is better)",2025-05,https://arxiv.org/abs/2505.08783,no_model_match
-compilebench,compilebench,CompileBench,gpt-5.4,terminus-2,0.826667,,,,,,accuracy (pass@1),2025-09,https://quesma.com/blog/introducing-compilebench/,no_model_match
-compilebench,compilebench,CompileBench,gpt-5.4,codex,1.0,,,,,,accuracy (pass@1),2025-09,https://quesma.com/blog/introducing-compilebench/,no_model_match
-compilebench,compilebench,CompileBench,gpt-5-mini,terminus-2,0.533333,0.8,-0.2666670000000001,GPT-5-mini (high reasoning),,accuracy (pass@1),accuracy (pass@1),2025-09,https://quesma.com/blog/introducing-compilebench/,matched_model_only_doc_no_agent
-compilebench,compilebench,CompileBench,gpt-5-mini,codex,0.586667,0.8,-0.213333,GPT-5-mini (high reasoning),,accuracy (pass@1),accuracy (pass@1),2025-09,https://quesma.com/blog/introducing-compilebench/,matched_model_only_doc_no_agent
-compilebench,compilebench,CompileBench,gpt-5-nano,terminus-2,0.386667,,,,,,accuracy (pass@1),2025-09,https://quesma.com/blog/introducing-compilebench/,no_model_match
-compilebench,compilebench,CompileBench,gpt-5-nano,codex,0.133333,,,,,,accuracy (pass@1),2025-09,https://quesma.com/blog/introducing-compilebench/,no_model_match
-compilebench,compilebench,CompileBench,claude-haiku-4-5-20251001,terminus-2,,0.87,,Claude Haiku 4.5,,accuracy (pass@1),accuracy (pass@1),2025-09,https://quesma.com/blog/introducing-compilebench/,matched_model_only_doc_no_agent
-compilebench,compilebench,CompileBench,claude-haiku-4-5-20251001,claude-code,0.6,0.87,-0.27,Claude Haiku 4.5,,accuracy (pass@1),accuracy (pass@1),2025-09,https://quesma.com/blog/introducing-compilebench/,matched_model_only_doc_no_agent
-compilebench,compilebench,CompileBench,claude-sonnet-4-6,terminus-2,,,,,,,accuracy (pass@1),2025-09,https://quesma.com/blog/introducing-compilebench/,no_model_match
-compilebench,compilebench,CompileBench,claude-sonnet-4-6,claude-code,0.866667,,,,,,accuracy (pass@1),2025-09,https://quesma.com/blog/introducing-compilebench/,no_model_match
-compilebench,compilebench,CompileBench,claude-opus-4-6,terminus-2,,,,,,,accuracy (pass@1),2025-09,https://quesma.com/blog/introducing-compilebench/,no_model_match
-compilebench,compilebench,CompileBench,claude-opus-4-6,claude-code,0.893333,,,,,,accuracy (pass@1),2025-09,https://quesma.com/blog/introducing-compilebench/,no_model_match
-compilebench,compilebench,CompileBench,gemini-3.1-pro-preview,terminus-2,0.826667,,,,,,accuracy (pass@1),2025-09,https://quesma.com/blog/introducing-compilebench/,no_model_match
-compilebench,compilebench,CompileBench,gemini-3.1-pro-preview,gemini-cli,,,,,,,accuracy (pass@1),2025-09,https://quesma.com/blog/introducing-compilebench/,no_model_match
-compilebench,compilebench,CompileBench,gemini-3-flash-preview,terminus-2,0.773333,,,,,,accuracy (pass@1),2025-09,https://quesma.com/blog/introducing-compilebench/,no_model_match
-compilebench,compilebench,CompileBench,gemini-3-flash-preview,gemini-cli,,,,,,,accuracy (pass@1),2025-09,https://quesma.com/blog/introducing-compilebench/,no_model_match
-compilebench,compilebench,CompileBench,deepseek-reasoner,terminus-2,0.693333,,,,,,accuracy (pass@1),2025-09,https://quesma.com/blog/introducing-compilebench/,no_model_match
-compilebench,compilebench,CompileBench,deepseek-chat,claude-code,0.8,,,,,,accuracy (pass@1),2025-09,https://quesma.com/blog/introducing-compilebench/,no_model_match
-compilebench,compilebench,CompileBench,kimi-k2.5,terminus-2,0.773333,,,,,,accuracy (pass@1),2025-09,https://quesma.com/blog/introducing-compilebench/,no_model_match
-compilebench,compilebench,CompileBench,kimi-k2.5,claude-code,0.893333,,,,,,accuracy (pass@1),2025-09,https://quesma.com/blog/introducing-compilebench/,no_model_match
-compilebench,compilebench,CompileBench,MiniMax-M2.5,terminus-2,0.826667,,,,,,accuracy (pass@1),2025-09,https://quesma.com/blog/introducing-compilebench/,no_model_match
-compilebench,compilebench,CompileBench,MiniMax-M2.5,claude-code,0.68,,,,,,accuracy (pass@1),2025-09,https://quesma.com/blog/introducing-compilebench/,no_model_match
-compilebench,compilebench,CompileBench,glm-5,terminus-2,,,,,,,accuracy (pass@1),2025-09,https://quesma.com/blog/introducing-compilebench/,no_model_match
-compilebench,compilebench,CompileBench,glm-5,claude-code,,,,,,,accuracy (pass@1),2025-09,https://quesma.com/blog/introducing-compilebench/,no_model_match
-compilebench,compilebench,CompileBench,mimo-v2-pro,terminus-2,,,,,,,accuracy (pass@1),2025-09,https://quesma.com/blog/introducing-compilebench/,no_model_match
-compilebench,compilebench,CompileBench,mimo-v2-pro,claude-code,0.066667,,,,,,accuracy (pass@1),2025-09,https://quesma.com/blog/introducing-compilebench/,no_model_match
-compilebench,compilebench,CompileBench,qwen3-max,terminus-2,0.653333,0.67,-0.016666999999999987,Qwen3-Max,,accuracy (pass@1),accuracy (pass@1),2025-09,https://quesma.com/blog/introducing-compilebench/,matched_model_only_doc_no_agent
-compilebench,compilebench,CompileBench,qwen3-max,qwen-coder,,0.67,,Qwen3-Max,,accuracy (pass@1),accuracy (pass@1),2025-09,https://quesma.com/blog/introducing-compilebench/,matched_model_only_doc_no_agent
+compilebench,compilebench,CompileBench,gpt-5.4,terminus-2,0.826667,,,,,,accuracy (pass@1),2026-04,https://www.compilebench.com/,no_model_match
+compilebench,compilebench,CompileBench,gpt-5.4,codex,1.0,,,,,,accuracy (pass@1),2026-04,https://www.compilebench.com/,no_model_match
+compilebench,compilebench,CompileBench,gpt-5-mini,terminus-2,0.533333,,,,,,accuracy (pass@1),2026-04,https://www.compilebench.com/,no_model_match
+compilebench,compilebench,CompileBench,gpt-5-mini,codex,0.586667,,,,,,accuracy (pass@1),2026-04,https://www.compilebench.com/,no_model_match
+compilebench,compilebench,CompileBench,gpt-5-nano,terminus-2,0.386667,,,,,,accuracy (pass@1),2026-04,https://www.compilebench.com/,no_model_match
+compilebench,compilebench,CompileBench,gpt-5-nano,codex,0.133333,,,,,,accuracy (pass@1),2026-04,https://www.compilebench.com/,no_model_match
+compilebench,compilebench,CompileBench,claude-haiku-4-5-20251001,terminus-2,,,,,,,accuracy (pass@1),2026-04,https://www.compilebench.com/,no_model_match
+compilebench,compilebench,CompileBench,claude-haiku-4-5-20251001,claude-code,0.6,,,,,,accuracy (pass@1),2026-04,https://www.compilebench.com/,no_model_match
+compilebench,compilebench,CompileBench,claude-sonnet-4-6,terminus-2,,,,,,,accuracy (pass@1),2026-04,https://www.compilebench.com/,no_model_match
+compilebench,compilebench,CompileBench,claude-sonnet-4-6,claude-code,0.866667,,,,,,accuracy (pass@1),2026-04,https://www.compilebench.com/,no_model_match
+compilebench,compilebench,CompileBench,claude-opus-4-6,terminus-2,,,,,,,accuracy (pass@1),2026-04,https://www.compilebench.com/,no_model_match
+compilebench,compilebench,CompileBench,claude-opus-4-6,claude-code,0.893333,,,,,,accuracy (pass@1),2026-04,https://www.compilebench.com/,no_model_match
+compilebench,compilebench,CompileBench,gemini-3.1-pro-preview,terminus-2,0.826667,,,,,,accuracy (pass@1),2026-04,https://www.compilebench.com/,no_model_match
+compilebench,compilebench,CompileBench,gemini-3.1-pro-preview,gemini-cli,,,,,,,accuracy (pass@1),2026-04,https://www.compilebench.com/,no_model_match
+compilebench,compilebench,CompileBench,gemini-3-flash-preview,terminus-2,0.773333,,,,,,accuracy (pass@1),2026-04,https://www.compilebench.com/,no_model_match
+compilebench,compilebench,CompileBench,gemini-3-flash-preview,gemini-cli,,,,,,,accuracy (pass@1),2026-04,https://www.compilebench.com/,no_model_match
+compilebench,compilebench,CompileBench,deepseek-reasoner,terminus-2,0.693333,,,,,,accuracy (pass@1),2026-04,https://www.compilebench.com/,no_model_match
+compilebench,compilebench,CompileBench,deepseek-chat,claude-code,0.8,0.8,0.0,deepseek-v3.1,,accuracy (pass@1),accuracy (pass@1),2026-04,https://www.compilebench.com/,matched_model_only_doc_no_agent
+compilebench,compilebench,CompileBench,kimi-k2.5,terminus-2,0.773333,,,,,,accuracy (pass@1),2026-04,https://www.compilebench.com/,no_model_match
+compilebench,compilebench,CompileBench,kimi-k2.5,claude-code,0.893333,,,,,,accuracy (pass@1),2026-04,https://www.compilebench.com/,no_model_match
+compilebench,compilebench,CompileBench,MiniMax-M2.5,terminus-2,0.826667,,,,,,accuracy (pass@1),2026-04,https://www.compilebench.com/,no_model_match
+compilebench,compilebench,CompileBench,MiniMax-M2.5,claude-code,0.68,,,,,,accuracy (pass@1),2026-04,https://www.compilebench.com/,no_model_match
+compilebench,compilebench,CompileBench,glm-5,terminus-2,,,,,,,accuracy (pass@1),2026-04,https://www.compilebench.com/,no_model_match
+compilebench,compilebench,CompileBench,glm-5,claude-code,,,,,,,accuracy (pass@1),2026-04,https://www.compilebench.com/,no_model_match
+compilebench,compilebench,CompileBench,mimo-v2-pro,terminus-2,,,,,,,accuracy (pass@1),2026-04,https://www.compilebench.com/,no_model_match
+compilebench,compilebench,CompileBench,mimo-v2-pro,claude-code,0.066667,,,,,,accuracy (pass@1),2026-04,https://www.compilebench.com/,no_model_match
+compilebench,compilebench,CompileBench,qwen3-max,terminus-2,0.653333,0.6667,-0.013366999999999907,qwen3-max,,accuracy (pass@1),accuracy (pass@1),2026-04,https://www.compilebench.com/,matched_model_only_doc_no_agent
+compilebench,compilebench,CompileBench,qwen3-max,qwen-coder,,0.6667,,qwen3-max,,accuracy (pass@1),accuracy (pass@1),2026-04,https://www.compilebench.com/,matched_model_only_doc_no_agent
 crustbench,crust_bench,CRUST-Bench,gpt-5.4,terminus-2,0.918,,,,,,Test Pass Rate (pass@1),2025-04,https://arxiv.org/abs/2504.15254,no_model_match
 crustbench,crust_bench,CRUST-Bench,gpt-5.4,codex,0.982,,,,,,Test Pass Rate (pass@1),2025-04,https://arxiv.org/abs/2504.15254,no_model_match
 crustbench,crust_bench,CRUST-Bench,gpt-5-mini,terminus-2,0.636,,,,,,Test Pass Rate (pass@1),2025-04,https://arxiv.org/abs/2504.15254,no_model_match
@@ -335,34 +335,34 @@ deepsynth,deepsynth,DeepSynth,mimo-v2-pro,terminus-2,0.228915,,,,,,F1,2026-01-26
 deepsynth,deepsynth,DeepSynth,mimo-v2-pro,claude-code,0.022,,,,,,F1,2026-01-26,https://openreview.net/pdf?id=0Dhpt9aY3n,no_model_match
 deepsynth,deepsynth,DeepSynth,qwen3-max,terminus-2,,,,,,,F1,2026-01-26,https://openreview.net/pdf?id=0Dhpt9aY3n,no_model_match
 deepsynth,deepsynth,DeepSynth,qwen3-max,qwen-coder,0.116389,,,,,,F1,2026-01-26,https://openreview.net/pdf?id=0Dhpt9aY3n,no_model_match
-devopsgym,devopsgym,DevOps-Gym,gpt-5.4,terminus-2,,,,,,,Resolved Rate (%) per category,2026-01,https://arxiv.org/abs/2601.20882,no_model_match
-devopsgym,devopsgym,DevOps-Gym,gpt-5.4,codex,,,,,,,Resolved Rate (%) per category,2026-01,https://arxiv.org/abs/2601.20882,no_model_match
-devopsgym,devopsgym,DevOps-Gym,gpt-5-mini,terminus-2,,,,,,,Resolved Rate (%) per category,2026-01,https://arxiv.org/abs/2601.20882,no_model_match
-devopsgym,devopsgym,DevOps-Gym,gpt-5-mini,codex,,,,,,,Resolved Rate (%) per category,2026-01,https://arxiv.org/abs/2601.20882,no_model_match
-devopsgym,devopsgym,DevOps-Gym,gpt-5-nano,terminus-2,,,,,,,Resolved Rate (%) per category,2026-01,https://arxiv.org/abs/2601.20882,no_model_match
-devopsgym,devopsgym,DevOps-Gym,gpt-5-nano,codex,,,,,,,Resolved Rate (%) per category,2026-01,https://arxiv.org/abs/2601.20882,no_model_match
-devopsgym,devopsgym,DevOps-Gym,claude-haiku-4-5-20251001,terminus-2,,,,,,,Resolved Rate (%) per category,2026-01,https://arxiv.org/abs/2601.20882,no_model_match
-devopsgym,devopsgym,DevOps-Gym,claude-haiku-4-5-20251001,claude-code,,,,,,,Resolved Rate (%) per category,2026-01,https://arxiv.org/abs/2601.20882,no_model_match
-devopsgym,devopsgym,DevOps-Gym,claude-sonnet-4-6,terminus-2,,,,,,,Resolved Rate (%) per category,2026-01,https://arxiv.org/abs/2601.20882,no_model_match
-devopsgym,devopsgym,DevOps-Gym,claude-sonnet-4-6,claude-code,,,,,,,Resolved Rate (%) per category,2026-01,https://arxiv.org/abs/2601.20882,no_model_match
-devopsgym,devopsgym,DevOps-Gym,claude-opus-4-6,terminus-2,,,,,,,Resolved Rate (%) per category,2026-01,https://arxiv.org/abs/2601.20882,no_model_match
-devopsgym,devopsgym,DevOps-Gym,claude-opus-4-6,claude-code,,,,,,,Resolved Rate (%) per category,2026-01,https://arxiv.org/abs/2601.20882,no_model_match
-devopsgym,devopsgym,DevOps-Gym,gemini-3.1-pro-preview,terminus-2,,,,,,,Resolved Rate (%) per category,2026-01,https://arxiv.org/abs/2601.20882,no_model_match
-devopsgym,devopsgym,DevOps-Gym,gemini-3.1-pro-preview,gemini-cli,,,,,,,Resolved Rate (%) per category,2026-01,https://arxiv.org/abs/2601.20882,no_model_match
-devopsgym,devopsgym,DevOps-Gym,gemini-3-flash-preview,terminus-2,,,,,,,Resolved Rate (%) per category,2026-01,https://arxiv.org/abs/2601.20882,no_model_match
-devopsgym,devopsgym,DevOps-Gym,gemini-3-flash-preview,gemini-cli,,,,,,,Resolved Rate (%) per category,2026-01,https://arxiv.org/abs/2601.20882,no_model_match
-devopsgym,devopsgym,DevOps-Gym,deepseek-reasoner,terminus-2,,,,,,,Resolved Rate (%) per category,2026-01,https://arxiv.org/abs/2601.20882,no_model_match
-devopsgym,devopsgym,DevOps-Gym,deepseek-chat,claude-code,,0.1852,,DeepSeek-v3.1,OpenHands,Build & Config (%),Resolved Rate (%) per category,2026-01,https://arxiv.org/abs/2601.20882,matched_model_agent_mismatch
-devopsgym,devopsgym,DevOps-Gym,kimi-k2.5,terminus-2,,,,,,,Resolved Rate (%) per category,2026-01,https://arxiv.org/abs/2601.20882,no_model_match
-devopsgym,devopsgym,DevOps-Gym,kimi-k2.5,claude-code,,,,,,,Resolved Rate (%) per category,2026-01,https://arxiv.org/abs/2601.20882,no_model_match
-devopsgym,devopsgym,DevOps-Gym,MiniMax-M2.5,terminus-2,,,,,,,Resolved Rate (%) per category,2026-01,https://arxiv.org/abs/2601.20882,no_model_match
-devopsgym,devopsgym,DevOps-Gym,MiniMax-M2.5,claude-code,,,,,,,Resolved Rate (%) per category,2026-01,https://arxiv.org/abs/2601.20882,no_model_match
-devopsgym,devopsgym,DevOps-Gym,glm-5,terminus-2,,,,,,,Resolved Rate (%) per category,2026-01,https://arxiv.org/abs/2601.20882,no_model_match
-devopsgym,devopsgym,DevOps-Gym,glm-5,claude-code,,,,,,,Resolved Rate (%) per category,2026-01,https://arxiv.org/abs/2601.20882,no_model_match
-devopsgym,devopsgym,DevOps-Gym,mimo-v2-pro,terminus-2,,,,,,,Resolved Rate (%) per category,2026-01,https://arxiv.org/abs/2601.20882,no_model_match
-devopsgym,devopsgym,DevOps-Gym,mimo-v2-pro,claude-code,0.063492,,,,,,Resolved Rate (%) per category,2026-01,https://arxiv.org/abs/2601.20882,no_model_match
-devopsgym,devopsgym,DevOps-Gym,qwen3-max,terminus-2,,,,,,,Resolved Rate (%) per category,2026-01,https://arxiv.org/abs/2601.20882,no_model_match
-devopsgym,devopsgym,DevOps-Gym,qwen3-max,qwen-coder,,,,,,,Resolved Rate (%) per category,2026-01,https://arxiv.org/abs/2601.20882,no_model_match
+devopsgym,devopsgym,DevOps-Gym,gpt-5.4,terminus-2,,,,,,,Resolved Rate (%) per category,2026-04,https://www.devops-gym.com/,no_model_match
+devopsgym,devopsgym,DevOps-Gym,gpt-5.4,codex,,,,,,,Resolved Rate (%) per category,2026-04,https://www.devops-gym.com/,no_model_match
+devopsgym,devopsgym,DevOps-Gym,gpt-5-mini,terminus-2,,,,,,,Resolved Rate (%) per category,2026-04,https://www.devops-gym.com/,no_model_match
+devopsgym,devopsgym,DevOps-Gym,gpt-5-mini,codex,,,,,,,Resolved Rate (%) per category,2026-04,https://www.devops-gym.com/,no_model_match
+devopsgym,devopsgym,DevOps-Gym,gpt-5-nano,terminus-2,,,,,,,Resolved Rate (%) per category,2026-04,https://www.devops-gym.com/,no_model_match
+devopsgym,devopsgym,DevOps-Gym,gpt-5-nano,codex,,,,,,,Resolved Rate (%) per category,2026-04,https://www.devops-gym.com/,no_model_match
+devopsgym,devopsgym,DevOps-Gym,claude-haiku-4-5-20251001,terminus-2,,,,,,,Resolved Rate (%) per category,2026-04,https://www.devops-gym.com/,no_model_match
+devopsgym,devopsgym,DevOps-Gym,claude-haiku-4-5-20251001,claude-code,,,,,,,Resolved Rate (%) per category,2026-04,https://www.devops-gym.com/,no_model_match
+devopsgym,devopsgym,DevOps-Gym,claude-sonnet-4-6,terminus-2,,,,,,,Resolved Rate (%) per category,2026-04,https://www.devops-gym.com/,no_model_match
+devopsgym,devopsgym,DevOps-Gym,claude-sonnet-4-6,claude-code,,,,,,,Resolved Rate (%) per category,2026-04,https://www.devops-gym.com/,no_model_match
+devopsgym,devopsgym,DevOps-Gym,claude-opus-4-6,terminus-2,,,,,,,Resolved Rate (%) per category,2026-04,https://www.devops-gym.com/,no_model_match
+devopsgym,devopsgym,DevOps-Gym,claude-opus-4-6,claude-code,,,,,,,Resolved Rate (%) per category,2026-04,https://www.devops-gym.com/,no_model_match
+devopsgym,devopsgym,DevOps-Gym,gemini-3.1-pro-preview,terminus-2,,,,,,,Resolved Rate (%) per category,2026-04,https://www.devops-gym.com/,no_model_match
+devopsgym,devopsgym,DevOps-Gym,gemini-3.1-pro-preview,gemini-cli,,,,,,,Resolved Rate (%) per category,2026-04,https://www.devops-gym.com/,no_model_match
+devopsgym,devopsgym,DevOps-Gym,gemini-3-flash-preview,terminus-2,,,,,,,Resolved Rate (%) per category,2026-04,https://www.devops-gym.com/,no_model_match
+devopsgym,devopsgym,DevOps-Gym,gemini-3-flash-preview,gemini-cli,,,,,,,Resolved Rate (%) per category,2026-04,https://www.devops-gym.com/,no_model_match
+devopsgym,devopsgym,DevOps-Gym,deepseek-reasoner,terminus-2,,,,,,,Resolved Rate (%) per category,2026-04,https://www.devops-gym.com/,no_model_match
+devopsgym,devopsgym,DevOps-Gym,deepseek-chat,claude-code,,0.1111,,DeepSeek-V3.1,OpenHands,Build & Config (%),Resolved Rate (%) per category,2026-04,https://www.devops-gym.com/,matched_model_agent_mismatch
+devopsgym,devopsgym,DevOps-Gym,kimi-k2.5,terminus-2,,,,,,,Resolved Rate (%) per category,2026-04,https://www.devops-gym.com/,no_model_match
+devopsgym,devopsgym,DevOps-Gym,kimi-k2.5,claude-code,,,,,,,Resolved Rate (%) per category,2026-04,https://www.devops-gym.com/,no_model_match
+devopsgym,devopsgym,DevOps-Gym,MiniMax-M2.5,terminus-2,,,,,,,Resolved Rate (%) per category,2026-04,https://www.devops-gym.com/,no_model_match
+devopsgym,devopsgym,DevOps-Gym,MiniMax-M2.5,claude-code,,,,,,,Resolved Rate (%) per category,2026-04,https://www.devops-gym.com/,no_model_match
+devopsgym,devopsgym,DevOps-Gym,glm-5,terminus-2,,,,,,,Resolved Rate (%) per category,2026-04,https://www.devops-gym.com/,no_model_match
+devopsgym,devopsgym,DevOps-Gym,glm-5,claude-code,,,,,,,Resolved Rate (%) per category,2026-04,https://www.devops-gym.com/,no_model_match
+devopsgym,devopsgym,DevOps-Gym,mimo-v2-pro,terminus-2,,,,,,,Resolved Rate (%) per category,2026-04,https://www.devops-gym.com/,no_model_match
+devopsgym,devopsgym,DevOps-Gym,mimo-v2-pro,claude-code,0.063492,,,,,,Resolved Rate (%) per category,2026-04,https://www.devops-gym.com/,no_model_match
+devopsgym,devopsgym,DevOps-Gym,qwen3-max,terminus-2,,,,,,,Resolved Rate (%) per category,2026-04,https://www.devops-gym.com/,no_model_match
+devopsgym,devopsgym,DevOps-Gym,qwen3-max,qwen-coder,,,,,,,Resolved Rate (%) per category,2026-04,https://www.devops-gym.com/,no_model_match
 featurebench-modal,featurebench,FeatureBench,gpt-5.4,terminus-2,,,,,,,% Resolved,2026-02-11,https://arxiv.org/abs/2602.10975,no_model_match
 featurebench-modal,featurebench,FeatureBench,gpt-5.4,codex,,,,,,,% Resolved,2026-02-11,https://arxiv.org/abs/2602.10975,no_model_match
 featurebench-modal,featurebench,FeatureBench,gpt-5-mini,terminus-2,,,,,,,% Resolved,2026-02-11,https://arxiv.org/abs/2602.10975,no_model_match
@@ -419,54 +419,54 @@ financeagent,financeagent,Finance Agent Benchmark,mimo-v2-pro,terminus-2,,,,,,,C
 financeagent,financeagent,Finance Agent Benchmark,mimo-v2-pro,claude-code,,,,,,,Class-balanced accuracy,2026-04-16,https://www.vals.ai/benchmarks/finance_agent,no_model_match
 financeagent,financeagent,Finance Agent Benchmark,qwen3-max,terminus-2,,0.4429,,Qwen 3 Max,,accuracy,Class-balanced accuracy,2026-04-16,https://www.vals.ai/benchmarks/finance_agent,matched_model_only_doc_no_agent
 financeagent,financeagent,Finance Agent Benchmark,qwen3-max,qwen-coder,,0.4429,,Qwen 3 Max,,accuracy,Class-balanced accuracy,2026-04-16,https://www.vals.ai/benchmarks/finance_agent,matched_model_only_doc_no_agent
-gaia,gaia,GAIA,gpt-5.4,terminus-2,0.415758,,,,,,accuracy,2026-04-20,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
-gaia,gaia,GAIA,gpt-5.4,codex,0.758788,,,,,,accuracy,2026-04-20,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
-gaia,gaia,GAIA,gpt-5-mini,terminus-2,0.255758,,,,,,accuracy,2026-04-20,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
-gaia,gaia,GAIA,gpt-5-mini,codex,0.695758,,,,,,accuracy,2026-04-20,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
-gaia,gaia,GAIA,gpt-5-nano,terminus-2,0.163636,,,,,,accuracy,2026-04-20,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
-gaia,gaia,GAIA,gpt-5-nano,codex,0.435152,,,,,,accuracy,2026-04-20,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
-gaia,gaia,GAIA,claude-haiku-4-5-20251001,terminus-2,0.307879,,,,,,accuracy,2026-04-20,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
-gaia,gaia,GAIA,claude-haiku-4-5-20251001,claude-code,0.564848,,,,,,accuracy,2026-04-20,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
-gaia,gaia,GAIA,claude-sonnet-4-6,terminus-2,0.541212,,,,,,accuracy,2026-04-20,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
-gaia,gaia,GAIA,claude-sonnet-4-6,claude-code,0.671515,,,,,,accuracy,2026-04-20,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
-gaia,gaia,GAIA,claude-opus-4-6,terminus-2,0.61697,,,,,,accuracy,2026-04-20,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
-gaia,gaia,GAIA,claude-opus-4-6,claude-code,0.670303,,,,,,accuracy,2026-04-20,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
-gaia,gaia,GAIA,gemini-3.1-pro-preview,terminus-2,0.689697,,,,,,accuracy,2026-04-20,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
-gaia,gaia,GAIA,gemini-3.1-pro-preview,gemini-cli,0.673939,,,,,,accuracy,2026-04-20,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
-gaia,gaia,GAIA,gemini-3-flash-preview,terminus-2,0.566061,,,,,,accuracy,2026-04-20,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
-gaia,gaia,GAIA,gemini-3-flash-preview,gemini-cli,0.402424,,,,,,accuracy,2026-04-20,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
-gaia,gaia,GAIA,deepseek-reasoner,terminus-2,0.372121,,,,,,accuracy,2026-04-20,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
-gaia,gaia,GAIA,deepseek-chat,claude-code,0.493333,,,,,,accuracy,2026-04-20,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
-gaia,gaia,GAIA,kimi-k2.5,terminus-2,0.425455,,,,,,accuracy,2026-04-20,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
-gaia,gaia,GAIA,kimi-k2.5,claude-code,0.522424,,,,,,accuracy,2026-04-20,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
-gaia,gaia,GAIA,MiniMax-M2.5,terminus-2,0.323636,,,,,,accuracy,2026-04-20,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
-gaia,gaia,GAIA,MiniMax-M2.5,claude-code,0.338182,,,,,,accuracy,2026-04-20,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
-gaia,gaia,GAIA,glm-5,terminus-2,0.461515,,,,,,accuracy,2026-04-20,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
-gaia,gaia,GAIA,glm-5,claude-code,0.397576,,,,,,accuracy,2026-04-20,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
-gaia,gaia,GAIA,mimo-v2-pro,terminus-2,0.453333,,,,,,accuracy,2026-04-20,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
-gaia,gaia,GAIA,mimo-v2-pro,claude-code,0.490909,,,,,,accuracy,2026-04-20,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
-gaia,gaia,GAIA,qwen3-max,terminus-2,,,,,,,accuracy,2026-04-20,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
-gaia,gaia,GAIA,qwen3-max,qwen-coder,,,,,,,accuracy,2026-04-20,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
-gaia2,gaia2,GAIA2,gpt-5.4,terminus-2,0.172083,0.556,-0.38391700000000006,GPT-5.4 (high),OpenClaw 2026.4.1,pass@1 (overall),pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,matched_model_agent_mismatch
-gaia2,gaia2,GAIA2,gpt-5.4,codex,0.220352,0.556,-0.33564800000000006,GPT-5.4 (high),OpenClaw 2026.4.1,pass@1 (overall),pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,matched_model_agent_mismatch
+gaia,gaia,GAIA,gpt-5.4,terminus-2,0.415758,,,,,,accuracy,2026-03-11,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
+gaia,gaia,GAIA,gpt-5.4,codex,0.758788,,,,,,accuracy,2026-03-11,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
+gaia,gaia,GAIA,gpt-5-mini,terminus-2,0.255758,,,,,,accuracy,2026-03-11,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
+gaia,gaia,GAIA,gpt-5-mini,codex,0.695758,,,,,,accuracy,2026-03-11,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
+gaia,gaia,GAIA,gpt-5-nano,terminus-2,0.163636,,,,,,accuracy,2026-03-11,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
+gaia,gaia,GAIA,gpt-5-nano,codex,0.435152,,,,,,accuracy,2026-03-11,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
+gaia,gaia,GAIA,claude-haiku-4-5-20251001,terminus-2,0.307879,,,,,,accuracy,2026-03-11,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
+gaia,gaia,GAIA,claude-haiku-4-5-20251001,claude-code,0.564848,,,,,,accuracy,2026-03-11,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
+gaia,gaia,GAIA,claude-sonnet-4-6,terminus-2,0.541212,,,,,,accuracy,2026-03-11,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
+gaia,gaia,GAIA,claude-sonnet-4-6,claude-code,0.671515,,,,,,accuracy,2026-03-11,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
+gaia,gaia,GAIA,claude-opus-4-6,terminus-2,0.61697,,,,,,accuracy,2026-03-11,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
+gaia,gaia,GAIA,claude-opus-4-6,claude-code,0.670303,,,,,,accuracy,2026-03-11,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
+gaia,gaia,GAIA,gemini-3.1-pro-preview,terminus-2,0.689697,,,,,,accuracy,2026-03-11,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
+gaia,gaia,GAIA,gemini-3.1-pro-preview,gemini-cli,0.673939,,,,,,accuracy,2026-03-11,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
+gaia,gaia,GAIA,gemini-3-flash-preview,terminus-2,0.566061,,,,,,accuracy,2026-03-11,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
+gaia,gaia,GAIA,gemini-3-flash-preview,gemini-cli,0.402424,,,,,,accuracy,2026-03-11,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
+gaia,gaia,GAIA,deepseek-reasoner,terminus-2,0.372121,,,,,,accuracy,2026-03-11,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
+gaia,gaia,GAIA,deepseek-chat,claude-code,0.493333,,,,,,accuracy,2026-03-11,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
+gaia,gaia,GAIA,kimi-k2.5,terminus-2,0.425455,,,,,,accuracy,2026-03-11,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
+gaia,gaia,GAIA,kimi-k2.5,claude-code,0.522424,,,,,,accuracy,2026-03-11,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
+gaia,gaia,GAIA,MiniMax-M2.5,terminus-2,0.323636,,,,,,accuracy,2026-03-11,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
+gaia,gaia,GAIA,MiniMax-M2.5,claude-code,0.338182,,,,,,accuracy,2026-03-11,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
+gaia,gaia,GAIA,glm-5,terminus-2,0.461515,,,,,,accuracy,2026-03-11,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
+gaia,gaia,GAIA,glm-5,claude-code,0.397576,,,,,,accuracy,2026-03-11,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
+gaia,gaia,GAIA,mimo-v2-pro,terminus-2,0.453333,,,,,,accuracy,2026-03-11,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
+gaia,gaia,GAIA,mimo-v2-pro,claude-code,0.490909,,,,,,accuracy,2026-03-11,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
+gaia,gaia,GAIA,qwen3-max,terminus-2,,,,,,,accuracy,2026-03-11,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
+gaia,gaia,GAIA,qwen3-max,qwen-coder,,,,,,,accuracy,2026-03-11,https://huggingface.co/spaces/gaia-benchmark/leaderboard,no_model_match
+gaia2,gaia2,GAIA2,gpt-5.4,terminus-2,0.172083,0.556,-0.38391700000000006,GPT-5.4,OpenClaw 2026.4.1,"pass@1 (overall, 5-split)",pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,matched_model_agent_mismatch
+gaia2,gaia2,GAIA2,gpt-5.4,codex,0.220352,0.556,-0.33564800000000006,GPT-5.4,OpenClaw 2026.4.1,"pass@1 (overall, 5-split)",pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,matched_model_agent_mismatch
 gaia2,gaia2,GAIA2,gpt-5-mini,terminus-2,,,,,,,pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,no_model_match
 gaia2,gaia2,GAIA2,gpt-5-mini,codex,0.168367,,,,,,pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,no_model_match
 gaia2,gaia2,GAIA2,gpt-5-nano,terminus-2,,,,,,,pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,no_model_match
 gaia2,gaia2,GAIA2,gpt-5-nano,codex,0.036124,,,,,,pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,no_model_match
 gaia2,gaia2,GAIA2,claude-haiku-4-5-20251001,terminus-2,0.051408,,,,,,pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,no_model_match
 gaia2,gaia2,GAIA2,claude-haiku-4-5-20251001,claude-code,0.194827,,,,,,pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,no_model_match
-gaia2,gaia2,GAIA2,claude-sonnet-4-6,terminus-2,0.329768,0.519,-0.189232,Claude Sonnet 4.6 (high),OpenClaw 2026.4.1,pass@1 (overall),pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,matched_model_agent_mismatch
-gaia2,gaia2,GAIA2,claude-sonnet-4-6,claude-code,0.387608,0.519,-0.131392,Claude Sonnet 4.6 (high),OpenClaw 2026.4.1,pass@1 (overall),pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,matched_model_agent_mismatch
-gaia2,gaia2,GAIA2,claude-opus-4-6,terminus-2,0.354882,0.57,-0.21511799999999998,Claude Opus 4.6 (high),OpenClaw 2026.4.1,pass@1 (overall),pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,matched_model_agent_mismatch
-gaia2,gaia2,GAIA2,claude-opus-4-6,claude-code,0.355906,0.57,-0.21409399999999995,Claude Opus 4.6 (high),OpenClaw 2026.4.1,pass@1 (overall),pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,matched_model_agent_mismatch
-gaia2,gaia2,GAIA2,gemini-3.1-pro-preview,terminus-2,0.218348,0.52,-0.30165200000000003,Gemini 3.1 Pro (high),OpenClaw 2026.4.1,pass@1 (overall),pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,matched_model_agent_mismatch
-gaia2,gaia2,GAIA2,gemini-3.1-pro-preview,gemini-cli,0.317823,0.52,-0.202177,Gemini 3.1 Pro (high),OpenClaw 2026.4.1,pass@1 (overall),pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,matched_model_agent_mismatch
+gaia2,gaia2,GAIA2,claude-sonnet-4-6,terminus-2,0.329768,0.519,-0.189232,Claude Sonnet 4.6,OpenClaw 2026.4.1,"pass@1 (overall, 5-split)",pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,matched_model_agent_mismatch
+gaia2,gaia2,GAIA2,claude-sonnet-4-6,claude-code,0.387608,0.519,-0.131392,Claude Sonnet 4.6,OpenClaw 2026.4.1,"pass@1 (overall, 5-split)",pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,matched_model_agent_mismatch
+gaia2,gaia2,GAIA2,claude-opus-4-6,terminus-2,0.354882,0.57,-0.21511799999999998,Claude Opus 4.6,OpenClaw 2026.4.1,"pass@1 (overall, 5-split)",pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,matched_model_agent_mismatch
+gaia2,gaia2,GAIA2,claude-opus-4-6,claude-code,0.355906,0.57,-0.21409399999999995,Claude Opus 4.6,OpenClaw 2026.4.1,"pass@1 (overall, 5-split)",pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,matched_model_agent_mismatch
+gaia2,gaia2,GAIA2,gemini-3.1-pro-preview,terminus-2,0.218348,0.52,-0.30165200000000003,Gemini 3.1 Pro,OpenClaw 2026.4.1,"pass@1 (overall, 5-split)",pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,matched_model_agent_mismatch
+gaia2,gaia2,GAIA2,gemini-3.1-pro-preview,gemini-cli,0.317823,0.52,-0.202177,Gemini 3.1 Pro,OpenClaw 2026.4.1,"pass@1 (overall, 5-split)",pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,matched_model_agent_mismatch
 gaia2,gaia2,GAIA2,gemini-3-flash-preview,terminus-2,,,,,,,pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,no_model_match
 gaia2,gaia2,GAIA2,gemini-3-flash-preview,gemini-cli,0.22221,,,,,,pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,no_model_match
 gaia2,gaia2,GAIA2,deepseek-reasoner,terminus-2,0.066424,,,,,,pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,no_model_match
 gaia2,gaia2,GAIA2,deepseek-chat,claude-code,0.251672,,,,,,pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,no_model_match
-gaia2,gaia2,GAIA2,kimi-k2.5,terminus-2,,0.34,,Kimi-K2.5 (enabled),OpenClaw 2026.4.1,pass@1 (overall),pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,matched_model_agent_mismatch
-gaia2,gaia2,GAIA2,kimi-k2.5,claude-code,,0.34,,Kimi-K2.5 (enabled),OpenClaw 2026.4.1,pass@1 (overall),pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,matched_model_agent_mismatch
+gaia2,gaia2,GAIA2,kimi-k2.5,terminus-2,,0.34,,Kimi-K2.5,OpenClaw 2026.4.1,"pass@1 (overall, 5-split)",pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,matched_model_agent_mismatch
+gaia2,gaia2,GAIA2,kimi-k2.5,claude-code,,0.34,,Kimi-K2.5,OpenClaw 2026.4.1,"pass@1 (overall, 5-split)",pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,matched_model_agent_mismatch
 gaia2,gaia2,GAIA2,MiniMax-M2.5,terminus-2,0.110916,,,,,,pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,no_model_match
 gaia2,gaia2,GAIA2,MiniMax-M2.5,claude-code,0.218398,,,,,,pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,no_model_match
 gaia2,gaia2,GAIA2,glm-5,terminus-2,,,,,,,pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,no_model_match
@@ -475,34 +475,34 @@ gaia2,gaia2,GAIA2,mimo-v2-pro,terminus-2,,,,,,,pass@1,2026-04-14,https://hugging
 gaia2,gaia2,GAIA2,mimo-v2-pro,claude-code,,,,,,,pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,no_model_match
 gaia2,gaia2,GAIA2,qwen3-max,terminus-2,0.0,,,,,,pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,no_model_match
 gaia2,gaia2,GAIA2,qwen3-max,qwen-coder,0.118559,,,,,,pass@1,2026-04-14,https://huggingface.co/spaces/meta-agents-research-environments/leaderboard,no_model_match
-gpqa-diamond,gpqa_diamond,GPQA Diamond,gpt-5.4,terminus-2,,,,,,,accuracy,2026-04,https://intuitionlabs.ai/articles/gpqa-diamond-ai-benchmark,no_model_match
-gpqa-diamond,gpqa_diamond,GPQA Diamond,gpt-5.4,codex,0.918182,,,,,,accuracy,2026-04,https://intuitionlabs.ai/articles/gpqa-diamond-ai-benchmark,no_model_match
-gpqa-diamond,gpqa_diamond,GPQA Diamond,gpt-5-mini,terminus-2,,,,,,,accuracy,2026-04,https://intuitionlabs.ai/articles/gpqa-diamond-ai-benchmark,no_model_match
-gpqa-diamond,gpqa_diamond,GPQA Diamond,gpt-5-mini,codex,0.793939,,,,,,accuracy,2026-04,https://intuitionlabs.ai/articles/gpqa-diamond-ai-benchmark,no_model_match
-gpqa-diamond,gpqa_diamond,GPQA Diamond,gpt-5-nano,terminus-2,,,,,,,accuracy,2026-04,https://intuitionlabs.ai/articles/gpqa-diamond-ai-benchmark,no_model_match
-gpqa-diamond,gpqa_diamond,GPQA Diamond,gpt-5-nano,codex,0.644949,,,,,,accuracy,2026-04,https://intuitionlabs.ai/articles/gpqa-diamond-ai-benchmark,no_model_match
-gpqa-diamond,gpqa_diamond,GPQA Diamond,claude-haiku-4-5-20251001,terminus-2,0.531734,,,,,,accuracy,2026-04,https://intuitionlabs.ai/articles/gpqa-diamond-ai-benchmark,no_model_match
-gpqa-diamond,gpqa_diamond,GPQA Diamond,claude-haiku-4-5-20251001,claude-code,0.721212,,,,,,accuracy,2026-04,https://intuitionlabs.ai/articles/gpqa-diamond-ai-benchmark,no_model_match
-gpqa-diamond,gpqa_diamond,GPQA Diamond,claude-sonnet-4-6,terminus-2,0.812121,,,,,,accuracy,2026-04,https://intuitionlabs.ai/articles/gpqa-diamond-ai-benchmark,no_model_match
-gpqa-diamond,gpqa_diamond,GPQA Diamond,claude-sonnet-4-6,claude-code,0.845455,,,,,,accuracy,2026-04,https://intuitionlabs.ai/articles/gpqa-diamond-ai-benchmark,no_model_match
-gpqa-diamond,gpqa_diamond,GPQA Diamond,claude-opus-4-6,terminus-2,,0.913,,Claude Opus 4.6,,accuracy,accuracy,2026-04,https://intuitionlabs.ai/articles/gpqa-diamond-ai-benchmark,matched_model_only_doc_no_agent
-gpqa-diamond,gpqa_diamond,GPQA Diamond,claude-opus-4-6,claude-code,0.820202,0.913,-0.09279800000000005,Claude Opus 4.6,,accuracy,accuracy,2026-04,https://intuitionlabs.ai/articles/gpqa-diamond-ai-benchmark,matched_model_only_doc_no_agent
-gpqa-diamond,gpqa_diamond,GPQA Diamond,gemini-3.1-pro-preview,terminus-2,0.956566,0.941,0.01556600000000008,Gemini-3.1-Pro-Preview,,accuracy,accuracy,2026-04,https://intuitionlabs.ai/articles/gpqa-diamond-ai-benchmark,matched_model_only_doc_no_agent
-gpqa-diamond,gpqa_diamond,GPQA Diamond,gemini-3.1-pro-preview,gemini-cli,0.964646,0.941,0.023646000000000056,Gemini-3.1-Pro-Preview,,accuracy,accuracy,2026-04,https://intuitionlabs.ai/articles/gpqa-diamond-ai-benchmark,matched_model_only_doc_no_agent
-gpqa-diamond,gpqa_diamond,GPQA Diamond,gemini-3-flash-preview,terminus-2,0.90303,,,,,,accuracy,2026-04,https://intuitionlabs.ai/articles/gpqa-diamond-ai-benchmark,no_model_match
-gpqa-diamond,gpqa_diamond,GPQA Diamond,gemini-3-flash-preview,gemini-cli,,,,,,,accuracy,2026-04,https://intuitionlabs.ai/articles/gpqa-diamond-ai-benchmark,no_model_match
-gpqa-diamond,gpqa_diamond,GPQA Diamond,deepseek-reasoner,terminus-2,,,,,,,accuracy,2026-04,https://intuitionlabs.ai/articles/gpqa-diamond-ai-benchmark,no_model_match
-gpqa-diamond,gpqa_diamond,GPQA Diamond,deepseek-chat,claude-code,0.823232,,,,,,accuracy,2026-04,https://intuitionlabs.ai/articles/gpqa-diamond-ai-benchmark,no_model_match
-gpqa-diamond,gpqa_diamond,GPQA Diamond,kimi-k2.5,terminus-2,,,,,,,accuracy,2026-04,https://intuitionlabs.ai/articles/gpqa-diamond-ai-benchmark,no_model_match
-gpqa-diamond,gpqa_diamond,GPQA Diamond,kimi-k2.5,claude-code,0.793182,,,,,,accuracy,2026-04,https://intuitionlabs.ai/articles/gpqa-diamond-ai-benchmark,no_model_match
-gpqa-diamond,gpqa_diamond,GPQA Diamond,MiniMax-M2.5,terminus-2,,,,,,,accuracy,2026-04,https://intuitionlabs.ai/articles/gpqa-diamond-ai-benchmark,no_model_match
-gpqa-diamond,gpqa_diamond,GPQA Diamond,MiniMax-M2.5,claude-code,0.718434,,,,,,accuracy,2026-04,https://intuitionlabs.ai/articles/gpqa-diamond-ai-benchmark,no_model_match
-gpqa-diamond,gpqa_diamond,GPQA Diamond,glm-5,terminus-2,,,,,,,accuracy,2026-04,https://intuitionlabs.ai/articles/gpqa-diamond-ai-benchmark,no_model_match
-gpqa-diamond,gpqa_diamond,GPQA Diamond,glm-5,claude-code,0.465657,,,,,,accuracy,2026-04,https://intuitionlabs.ai/articles/gpqa-diamond-ai-benchmark,no_model_match
-gpqa-diamond,gpqa_diamond,GPQA Diamond,mimo-v2-pro,terminus-2,0.843434,,,,,,accuracy,2026-04,https://intuitionlabs.ai/articles/gpqa-diamond-ai-benchmark,no_model_match
-gpqa-diamond,gpqa_diamond,GPQA Diamond,mimo-v2-pro,claude-code,0.735101,,,,,,accuracy,2026-04,https://intuitionlabs.ai/articles/gpqa-diamond-ai-benchmark,no_model_match
-gpqa-diamond,gpqa_diamond,GPQA Diamond,qwen3-max,terminus-2,0.747475,,,,,,accuracy,2026-04,https://intuitionlabs.ai/articles/gpqa-diamond-ai-benchmark,no_model_match
-gpqa-diamond,gpqa_diamond,GPQA Diamond,qwen3-max,qwen-coder,0.753535,,,,,,accuracy,2026-04,https://intuitionlabs.ai/articles/gpqa-diamond-ai-benchmark,no_model_match
+gpqa-diamond,gpqa_diamond,GPQA Diamond,gpt-5.4,terminus-2,,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/gpqa,no_model_match
+gpqa-diamond,gpqa_diamond,GPQA Diamond,gpt-5.4,codex,0.918182,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/gpqa,no_model_match
+gpqa-diamond,gpqa_diamond,GPQA Diamond,gpt-5-mini,terminus-2,,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/gpqa,no_model_match
+gpqa-diamond,gpqa_diamond,GPQA Diamond,gpt-5-mini,codex,0.793939,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/gpqa,no_model_match
+gpqa-diamond,gpqa_diamond,GPQA Diamond,gpt-5-nano,terminus-2,,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/gpqa,no_model_match
+gpqa-diamond,gpqa_diamond,GPQA Diamond,gpt-5-nano,codex,0.644949,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/gpqa,no_model_match
+gpqa-diamond,gpqa_diamond,GPQA Diamond,claude-haiku-4-5-20251001,terminus-2,0.531734,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/gpqa,no_model_match
+gpqa-diamond,gpqa_diamond,GPQA Diamond,claude-haiku-4-5-20251001,claude-code,0.721212,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/gpqa,no_model_match
+gpqa-diamond,gpqa_diamond,GPQA Diamond,claude-sonnet-4-6,terminus-2,0.812121,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/gpqa,no_model_match
+gpqa-diamond,gpqa_diamond,GPQA Diamond,claude-sonnet-4-6,claude-code,0.845455,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/gpqa,no_model_match
+gpqa-diamond,gpqa_diamond,GPQA Diamond,claude-opus-4-6,terminus-2,,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/gpqa,no_model_match
+gpqa-diamond,gpqa_diamond,GPQA Diamond,claude-opus-4-6,claude-code,0.820202,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/gpqa,no_model_match
+gpqa-diamond,gpqa_diamond,GPQA Diamond,gemini-3.1-pro-preview,terminus-2,0.956566,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/gpqa,no_model_match
+gpqa-diamond,gpqa_diamond,GPQA Diamond,gemini-3.1-pro-preview,gemini-cli,0.964646,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/gpqa,no_model_match
+gpqa-diamond,gpqa_diamond,GPQA Diamond,gemini-3-flash-preview,terminus-2,0.90303,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/gpqa,no_model_match
+gpqa-diamond,gpqa_diamond,GPQA Diamond,gemini-3-flash-preview,gemini-cli,,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/gpqa,no_model_match
+gpqa-diamond,gpqa_diamond,GPQA Diamond,deepseek-reasoner,terminus-2,,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/gpqa,no_model_match
+gpqa-diamond,gpqa_diamond,GPQA Diamond,deepseek-chat,claude-code,0.823232,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/gpqa,no_model_match
+gpqa-diamond,gpqa_diamond,GPQA Diamond,kimi-k2.5,terminus-2,,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/gpqa,no_model_match
+gpqa-diamond,gpqa_diamond,GPQA Diamond,kimi-k2.5,claude-code,0.793182,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/gpqa,no_model_match
+gpqa-diamond,gpqa_diamond,GPQA Diamond,MiniMax-M2.5,terminus-2,,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/gpqa,no_model_match
+gpqa-diamond,gpqa_diamond,GPQA Diamond,MiniMax-M2.5,claude-code,0.718434,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/gpqa,no_model_match
+gpqa-diamond,gpqa_diamond,GPQA Diamond,glm-5,terminus-2,,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/gpqa,no_model_match
+gpqa-diamond,gpqa_diamond,GPQA Diamond,glm-5,claude-code,0.465657,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/gpqa,no_model_match
+gpqa-diamond,gpqa_diamond,GPQA Diamond,mimo-v2-pro,terminus-2,0.843434,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/gpqa,no_model_match
+gpqa-diamond,gpqa_diamond,GPQA Diamond,mimo-v2-pro,claude-code,0.735101,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/gpqa,no_model_match
+gpqa-diamond,gpqa_diamond,GPQA Diamond,qwen3-max,terminus-2,0.747475,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/gpqa,no_model_match
+gpqa-diamond,gpqa_diamond,GPQA Diamond,qwen3-max,qwen-coder,0.753535,,,,,,accuracy,2026-04,https://www.vals.ai/benchmarks/gpqa,no_model_match
 gso,gso,GSO,gpt-5.4,terminus-2,0.151471,0.3137,-0.16222899999999998,GPT-5.4 (xhigh),OpenHands,Opt@1,Opt@1,2026-03-10,https://gso-bench.github.io/assets/leaderboard.json,matched_model_agent_mismatch
 gso,gso,GSO,gpt-5.4,codex,0.372549,0.3137,0.05884900000000004,GPT-5.4 (xhigh),OpenHands,Opt@1,Opt@1,2026-03-10,https://gso-bench.github.io/assets/leaderboard.json,matched_model_agent_mismatch
 gso,gso,GSO,gpt-5-mini,terminus-2,0.017647,,,,,,Opt@1,2026-03-10,https://gso-bench.github.io/assets/leaderboard.json,no_model_match
@@ -1035,34 +1035,34 @@ reasoning-gym,reasoning_gym,Reasoning Gym,mimo-v2-pro,terminus-2,,,,,,,accuracy,
 reasoning-gym,reasoning_gym,Reasoning Gym,mimo-v2-pro,claude-code,,,,,,,accuracy,2025-07-04,https://github.com/open-thought/reasoning-gym-eval/blob/main/visualizations/overall_performance.png,no_model_match
 reasoning-gym,reasoning_gym,Reasoning Gym,qwen3-max,terminus-2,,,,,,,accuracy,2025-07-04,https://github.com/open-thought/reasoning-gym-eval/blob/main/visualizations/overall_performance.png,no_model_match
 reasoning-gym,reasoning_gym,Reasoning Gym,qwen3-max,qwen-coder,0.706422,,,,,,accuracy,2025-07-04,https://github.com/open-thought/reasoning-gym-eval/blob/main/visualizations/overall_performance.png,no_model_match
-replicationbench,replicationbench,ReplicationBench,gpt-5.4,terminus-2,0.244444,,,,,,,,,no_doc_data
-replicationbench,replicationbench,ReplicationBench,gpt-5.4,codex,0.617778,,,,,,,,,no_doc_data
-replicationbench,replicationbench,ReplicationBench,gpt-5-mini,terminus-2,0.082222,,,,,,,,,no_doc_data
-replicationbench,replicationbench,ReplicationBench,gpt-5-mini,codex,0.235556,,,,,,,,,no_doc_data
-replicationbench,replicationbench,ReplicationBench,gpt-5-nano,terminus-2,0.046667,,,,,,,,,no_doc_data
-replicationbench,replicationbench,ReplicationBench,gpt-5-nano,codex,0.044444,,,,,,,,,no_doc_data
-replicationbench,replicationbench,ReplicationBench,claude-haiku-4-5-20251001,terminus-2,0.115556,,,,,,,,,no_doc_data
-replicationbench,replicationbench,ReplicationBench,claude-haiku-4-5-20251001,claude-code,0.155556,,,,,,,,,no_doc_data
-replicationbench,replicationbench,ReplicationBench,claude-sonnet-4-6,terminus-2,0.2,,,,,,,,,no_doc_data
-replicationbench,replicationbench,ReplicationBench,claude-sonnet-4-6,claude-code,0.226667,,,,,,,,,no_doc_data
-replicationbench,replicationbench,ReplicationBench,claude-opus-4-6,terminus-2,0.246667,,,,,,,,,no_doc_data
-replicationbench,replicationbench,ReplicationBench,claude-opus-4-6,claude-code,0.277778,,,,,,,,,no_doc_data
-replicationbench,replicationbench,ReplicationBench,gemini-3.1-pro-preview,terminus-2,0.533333,,,,,,,,,no_doc_data
-replicationbench,replicationbench,ReplicationBench,gemini-3.1-pro-preview,gemini-cli,0.615556,,,,,,,,,no_doc_data
-replicationbench,replicationbench,ReplicationBench,gemini-3-flash-preview,terminus-2,0.215556,,,,,,,,,no_doc_data
-replicationbench,replicationbench,ReplicationBench,gemini-3-flash-preview,gemini-cli,0.36,,,,,,,,,no_doc_data
-replicationbench,replicationbench,ReplicationBench,deepseek-reasoner,terminus-2,0.192222,,,,,,,,,no_doc_data
-replicationbench,replicationbench,ReplicationBench,deepseek-chat,claude-code,0.284444,,,,,,,,,no_doc_data
-replicationbench,replicationbench,ReplicationBench,kimi-k2.5,terminus-2,0.2,,,,,,,,,no_doc_data
-replicationbench,replicationbench,ReplicationBench,kimi-k2.5,claude-code,0.206667,,,,,,,,,no_doc_data
-replicationbench,replicationbench,ReplicationBench,MiniMax-M2.5,terminus-2,0.143889,,,,,,,,,no_doc_data
-replicationbench,replicationbench,ReplicationBench,MiniMax-M2.5,claude-code,0.146667,,,,,,,,,no_doc_data
-replicationbench,replicationbench,ReplicationBench,glm-5,terminus-2,0.191111,,,,,,,,,no_doc_data
-replicationbench,replicationbench,ReplicationBench,glm-5,claude-code,0.095556,,,,,,,,,no_doc_data
-replicationbench,replicationbench,ReplicationBench,mimo-v2-pro,terminus-2,0.191111,,,,,,,,,no_doc_data
-replicationbench,replicationbench,ReplicationBench,mimo-v2-pro,claude-code,0.204444,,,,,,,,,no_doc_data
-replicationbench,replicationbench,ReplicationBench,qwen3-max,terminus-2,0.146667,,,,,,,,,no_doc_data
-replicationbench,replicationbench,ReplicationBench,qwen3-max,qwen-coder,0.148889,,,,,,,,,no_doc_data
+replicationbench,replicationbench,ReplicationBench,gpt-5.4,terminus-2,0.244444,,,,,,unweighted score,2025-10,https://arxiv.org/abs/2510.24591,no_doc_data
+replicationbench,replicationbench,ReplicationBench,gpt-5.4,codex,0.617778,,,,,,unweighted score,2025-10,https://arxiv.org/abs/2510.24591,no_doc_data
+replicationbench,replicationbench,ReplicationBench,gpt-5-mini,terminus-2,0.082222,,,,,,unweighted score,2025-10,https://arxiv.org/abs/2510.24591,no_doc_data
+replicationbench,replicationbench,ReplicationBench,gpt-5-mini,codex,0.235556,,,,,,unweighted score,2025-10,https://arxiv.org/abs/2510.24591,no_doc_data
+replicationbench,replicationbench,ReplicationBench,gpt-5-nano,terminus-2,0.046667,,,,,,unweighted score,2025-10,https://arxiv.org/abs/2510.24591,no_doc_data
+replicationbench,replicationbench,ReplicationBench,gpt-5-nano,codex,0.044444,,,,,,unweighted score,2025-10,https://arxiv.org/abs/2510.24591,no_doc_data
+replicationbench,replicationbench,ReplicationBench,claude-haiku-4-5-20251001,terminus-2,0.115556,,,,,,unweighted score,2025-10,https://arxiv.org/abs/2510.24591,no_doc_data
+replicationbench,replicationbench,ReplicationBench,claude-haiku-4-5-20251001,claude-code,0.155556,,,,,,unweighted score,2025-10,https://arxiv.org/abs/2510.24591,no_doc_data
+replicationbench,replicationbench,ReplicationBench,claude-sonnet-4-6,terminus-2,0.2,,,,,,unweighted score,2025-10,https://arxiv.org/abs/2510.24591,no_doc_data
+replicationbench,replicationbench,ReplicationBench,claude-sonnet-4-6,claude-code,0.226667,,,,,,unweighted score,2025-10,https://arxiv.org/abs/2510.24591,no_doc_data
+replicationbench,replicationbench,ReplicationBench,claude-opus-4-6,terminus-2,0.246667,,,,,,unweighted score,2025-10,https://arxiv.org/abs/2510.24591,no_doc_data
+replicationbench,replicationbench,ReplicationBench,claude-opus-4-6,claude-code,0.277778,,,,,,unweighted score,2025-10,https://arxiv.org/abs/2510.24591,no_doc_data
+replicationbench,replicationbench,ReplicationBench,gemini-3.1-pro-preview,terminus-2,0.533333,,,,,,unweighted score,2025-10,https://arxiv.org/abs/2510.24591,no_doc_data
+replicationbench,replicationbench,ReplicationBench,gemini-3.1-pro-preview,gemini-cli,0.615556,,,,,,unweighted score,2025-10,https://arxiv.org/abs/2510.24591,no_doc_data
+replicationbench,replicationbench,ReplicationBench,gemini-3-flash-preview,terminus-2,0.215556,,,,,,unweighted score,2025-10,https://arxiv.org/abs/2510.24591,no_doc_data
+replicationbench,replicationbench,ReplicationBench,gemini-3-flash-preview,gemini-cli,0.36,,,,,,unweighted score,2025-10,https://arxiv.org/abs/2510.24591,no_doc_data
+replicationbench,replicationbench,ReplicationBench,deepseek-reasoner,terminus-2,0.192222,,,,,,unweighted score,2025-10,https://arxiv.org/abs/2510.24591,no_doc_data
+replicationbench,replicationbench,ReplicationBench,deepseek-chat,claude-code,0.284444,,,,,,unweighted score,2025-10,https://arxiv.org/abs/2510.24591,no_doc_data
+replicationbench,replicationbench,ReplicationBench,kimi-k2.5,terminus-2,0.2,,,,,,unweighted score,2025-10,https://arxiv.org/abs/2510.24591,no_doc_data
+replicationbench,replicationbench,ReplicationBench,kimi-k2.5,claude-code,0.206667,,,,,,unweighted score,2025-10,https://arxiv.org/abs/2510.24591,no_doc_data
+replicationbench,replicationbench,ReplicationBench,MiniMax-M2.5,terminus-2,0.143889,,,,,,unweighted score,2025-10,https://arxiv.org/abs/2510.24591,no_doc_data
+replicationbench,replicationbench,ReplicationBench,MiniMax-M2.5,claude-code,0.146667,,,,,,unweighted score,2025-10,https://arxiv.org/abs/2510.24591,no_doc_data
+replicationbench,replicationbench,ReplicationBench,glm-5,terminus-2,0.191111,,,,,,unweighted score,2025-10,https://arxiv.org/abs/2510.24591,no_doc_data
+replicationbench,replicationbench,ReplicationBench,glm-5,claude-code,0.095556,,,,,,unweighted score,2025-10,https://arxiv.org/abs/2510.24591,no_doc_data
+replicationbench,replicationbench,ReplicationBench,mimo-v2-pro,terminus-2,0.191111,,,,,,unweighted score,2025-10,https://arxiv.org/abs/2510.24591,no_doc_data
+replicationbench,replicationbench,ReplicationBench,mimo-v2-pro,claude-code,0.204444,,,,,,unweighted score,2025-10,https://arxiv.org/abs/2510.24591,no_doc_data
+replicationbench,replicationbench,ReplicationBench,qwen3-max,terminus-2,0.146667,,,,,,unweighted score,2025-10,https://arxiv.org/abs/2510.24591,no_doc_data
+replicationbench,replicationbench,ReplicationBench,qwen3-max,qwen-coder,0.148889,,,,,,unweighted score,2025-10,https://arxiv.org/abs/2510.24591,no_doc_data
 research-code-bench,researchcodebench,ResearchCodeBench,gpt-5.4,terminus-2,0.004717,,,,,,"scaled pass rate, which weights each snippet by its number of executable lines of code (LoC)",2025-06,https://researchcodebench.github.io/leaderboard/index.html,no_model_match
 research-code-bench,researchcodebench,ResearchCodeBench,gpt-5.4,codex,0.861321,,,,,,"scaled pass rate, which weights each snippet by its number of executable lines of code (LoC)",2025-06,https://researchcodebench.github.io/leaderboard/index.html,no_model_match
 research-code-bench,researchcodebench,ResearchCodeBench,gpt-5-mini,terminus-2,0.0,,,,,,"scaled pass rate, which weights each snippet by its number of executable lines of code (LoC)",2025-06,https://researchcodebench.github.io/leaderboard/index.html,no_model_match
@@ -1371,34 +1371,34 @@ swebench-multilingual,swe_bench_multilingual,SWE-Bench-Multilingual,mimo-v2-pro,
 swebench-multilingual,swe_bench_multilingual,SWE-Bench-Multilingual,mimo-v2-pro,claude-code,,,,,,,Percentage Resolved,2026-02-20,https://www.swebench.com/multilingual-leaderboard.html,no_model_match
 swebench-multilingual,swe_bench_multilingual,SWE-Bench-Multilingual,qwen3-max,terminus-2,,,,,,,Percentage Resolved,2026-02-20,https://www.swebench.com/multilingual-leaderboard.html,no_model_match
 swebench-multilingual,swe_bench_multilingual,SWE-Bench-Multilingual,qwen3-max,qwen-coder,,,,,,,Percentage Resolved,2026-02-20,https://www.swebench.com/multilingual-leaderboard.html,no_model_match
-swebench-verified,swe_bench_verified,SWE-bench-verified,gpt-5.4,terminus-2,0.674,,,,,,,,,no_doc_data
-swebench-verified,swe_bench_verified,SWE-bench-verified,gpt-5.4,codex,0.704,,,,,,,,,no_doc_data
-swebench-verified,swe_bench_verified,SWE-bench-verified,gpt-5-mini,terminus-2,0.31,,,,,,,,,no_doc_data
-swebench-verified,swe_bench_verified,SWE-bench-verified,gpt-5-mini,codex,0.458,,,,,,,,,no_doc_data
-swebench-verified,swe_bench_verified,SWE-bench-verified,gpt-5-nano,terminus-2,0.158,,,,,,,,,no_doc_data
-swebench-verified,swe_bench_verified,SWE-bench-verified,gpt-5-nano,codex,0.112,,,,,,,,,no_doc_data
-swebench-verified,swe_bench_verified,SWE-bench-verified,claude-haiku-4-5-20251001,terminus-2,0.62,,,,,,,,,no_doc_data
-swebench-verified,swe_bench_verified,SWE-bench-verified,claude-haiku-4-5-20251001,claude-code,0.586,,,,,,,,,no_doc_data
-swebench-verified,swe_bench_verified,SWE-bench-verified,claude-sonnet-4-6,terminus-2,0.726,,,,,,,,,no_doc_data
-swebench-verified,swe_bench_verified,SWE-bench-verified,claude-sonnet-4-6,claude-code,0.698,,,,,,,,,no_doc_data
-swebench-verified,swe_bench_verified,SWE-bench-verified,claude-opus-4-6,terminus-2,0.754,,,,,,,,,no_doc_data
-swebench-verified,swe_bench_verified,SWE-bench-verified,claude-opus-4-6,claude-code,0.732,,,,,,,,,no_doc_data
-swebench-verified,swe_bench_verified,SWE-bench-verified,gemini-3.1-pro-preview,terminus-2,0.772,,,,,,,,,no_doc_data
-swebench-verified,swe_bench_verified,SWE-bench-verified,gemini-3.1-pro-preview,gemini-cli,0.762,,,,,,,,,no_doc_data
-swebench-verified,swe_bench_verified,SWE-bench-verified,gemini-3-flash-preview,terminus-2,0.694,,,,,,,,,no_doc_data
-swebench-verified,swe_bench_verified,SWE-bench-verified,gemini-3-flash-preview,gemini-cli,0.728,,,,,,,,,no_doc_data
-swebench-verified,swe_bench_verified,SWE-bench-verified,deepseek-reasoner,terminus-2,0.638,,,,,,,,,no_doc_data
-swebench-verified,swe_bench_verified,SWE-bench-verified,deepseek-chat,claude-code,0.652,,,,,,,,,no_doc_data
-swebench-verified,swe_bench_verified,SWE-bench-verified,kimi-k2.5,terminus-2,0.7035,,,,,,,,,no_doc_data
-swebench-verified,swe_bench_verified,SWE-bench-verified,kimi-k2.5,claude-code,0.706,,,,,,,,,no_doc_data
-swebench-verified,swe_bench_verified,SWE-bench-verified,MiniMax-M2.5,terminus-2,0.706,,,,,,,,,no_doc_data
-swebench-verified,swe_bench_verified,SWE-bench-verified,MiniMax-M2.5,claude-code,0.728,,,,,,,,,no_doc_data
-swebench-verified,swe_bench_verified,SWE-bench-verified,glm-5,terminus-2,0.6915,,,,,,,,,no_doc_data
-swebench-verified,swe_bench_verified,SWE-bench-verified,glm-5,claude-code,0.448,,,,,,,,,no_doc_data
-swebench-verified,swe_bench_verified,SWE-bench-verified,mimo-v2-pro,terminus-2,0.68,,,,,,,,,no_doc_data
-swebench-verified,swe_bench_verified,SWE-bench-verified,mimo-v2-pro,claude-code,0.702,,,,,,,,,no_doc_data
-swebench-verified,swe_bench_verified,SWE-bench-verified,qwen3-max,terminus-2,0.452,,,,,,,,,no_doc_data
-swebench-verified,swe_bench_verified,SWE-bench-verified,qwen3-max,qwen-coder,0.548,,,,,,,,,no_doc_data
+swebench-verified,swe_bench_verified,SWE-bench-verified,gpt-5.4,terminus-2,0.674,,,,,,% Resolved,2026-04-19,https://www.anthropic.com/claude-mythos-preview-system-card,no_doc_data
+swebench-verified,swe_bench_verified,SWE-bench-verified,gpt-5.4,codex,0.704,,,,,,% Resolved,2026-04-19,https://www.anthropic.com/claude-mythos-preview-system-card,no_doc_data
+swebench-verified,swe_bench_verified,SWE-bench-verified,gpt-5-mini,terminus-2,0.31,,,,,,% Resolved,2026-04-19,https://www.anthropic.com/claude-mythos-preview-system-card,no_doc_data
+swebench-verified,swe_bench_verified,SWE-bench-verified,gpt-5-mini,codex,0.458,,,,,,% Resolved,2026-04-19,https://www.anthropic.com/claude-mythos-preview-system-card,no_doc_data
+swebench-verified,swe_bench_verified,SWE-bench-verified,gpt-5-nano,terminus-2,0.158,,,,,,% Resolved,2026-04-19,https://www.anthropic.com/claude-mythos-preview-system-card,no_doc_data
+swebench-verified,swe_bench_verified,SWE-bench-verified,gpt-5-nano,codex,0.112,,,,,,% Resolved,2026-04-19,https://www.anthropic.com/claude-mythos-preview-system-card,no_doc_data
+swebench-verified,swe_bench_verified,SWE-bench-verified,claude-haiku-4-5-20251001,terminus-2,0.62,,,,,,% Resolved,2026-04-19,https://www.anthropic.com/claude-mythos-preview-system-card,no_doc_data
+swebench-verified,swe_bench_verified,SWE-bench-verified,claude-haiku-4-5-20251001,claude-code,0.586,,,,,,% Resolved,2026-04-19,https://www.anthropic.com/claude-mythos-preview-system-card,no_doc_data
+swebench-verified,swe_bench_verified,SWE-bench-verified,claude-sonnet-4-6,terminus-2,0.726,,,,,,% Resolved,2026-04-19,https://www.anthropic.com/claude-mythos-preview-system-card,no_doc_data
+swebench-verified,swe_bench_verified,SWE-bench-verified,claude-sonnet-4-6,claude-code,0.698,,,,,,% Resolved,2026-04-19,https://www.anthropic.com/claude-mythos-preview-system-card,no_doc_data
+swebench-verified,swe_bench_verified,SWE-bench-verified,claude-opus-4-6,terminus-2,0.754,,,,,,% Resolved,2026-04-19,https://www.anthropic.com/claude-mythos-preview-system-card,no_doc_data
+swebench-verified,swe_bench_verified,SWE-bench-verified,claude-opus-4-6,claude-code,0.732,,,,,,% Resolved,2026-04-19,https://www.anthropic.com/claude-mythos-preview-system-card,no_doc_data
+swebench-verified,swe_bench_verified,SWE-bench-verified,gemini-3.1-pro-preview,terminus-2,0.772,,,,,,% Resolved,2026-04-19,https://www.anthropic.com/claude-mythos-preview-system-card,no_doc_data
+swebench-verified,swe_bench_verified,SWE-bench-verified,gemini-3.1-pro-preview,gemini-cli,0.762,,,,,,% Resolved,2026-04-19,https://www.anthropic.com/claude-mythos-preview-system-card,no_doc_data
+swebench-verified,swe_bench_verified,SWE-bench-verified,gemini-3-flash-preview,terminus-2,0.694,,,,,,% Resolved,2026-04-19,https://www.anthropic.com/claude-mythos-preview-system-card,no_doc_data
+swebench-verified,swe_bench_verified,SWE-bench-verified,gemini-3-flash-preview,gemini-cli,0.728,,,,,,% Resolved,2026-04-19,https://www.anthropic.com/claude-mythos-preview-system-card,no_doc_data
+swebench-verified,swe_bench_verified,SWE-bench-verified,deepseek-reasoner,terminus-2,0.638,,,,,,% Resolved,2026-04-19,https://www.anthropic.com/claude-mythos-preview-system-card,no_doc_data
+swebench-verified,swe_bench_verified,SWE-bench-verified,deepseek-chat,claude-code,0.652,,,,,,% Resolved,2026-04-19,https://www.anthropic.com/claude-mythos-preview-system-card,no_doc_data
+swebench-verified,swe_bench_verified,SWE-bench-verified,kimi-k2.5,terminus-2,0.7035,,,,,,% Resolved,2026-04-19,https://www.anthropic.com/claude-mythos-preview-system-card,no_doc_data
+swebench-verified,swe_bench_verified,SWE-bench-verified,kimi-k2.5,claude-code,0.706,,,,,,% Resolved,2026-04-19,https://www.anthropic.com/claude-mythos-preview-system-card,no_doc_data
+swebench-verified,swe_bench_verified,SWE-bench-verified,MiniMax-M2.5,terminus-2,0.706,,,,,,% Resolved,2026-04-19,https://www.anthropic.com/claude-mythos-preview-system-card,no_doc_data
+swebench-verified,swe_bench_verified,SWE-bench-verified,MiniMax-M2.5,claude-code,0.728,,,,,,% Resolved,2026-04-19,https://www.anthropic.com/claude-mythos-preview-system-card,no_doc_data
+swebench-verified,swe_bench_verified,SWE-bench-verified,glm-5,terminus-2,0.6915,,,,,,% Resolved,2026-04-19,https://www.anthropic.com/claude-mythos-preview-system-card,no_doc_data
+swebench-verified,swe_bench_verified,SWE-bench-verified,glm-5,claude-code,0.448,,,,,,% Resolved,2026-04-19,https://www.anthropic.com/claude-mythos-preview-system-card,no_doc_data
+swebench-verified,swe_bench_verified,SWE-bench-verified,mimo-v2-pro,terminus-2,0.68,,,,,,% Resolved,2026-04-19,https://www.anthropic.com/claude-mythos-preview-system-card,no_doc_data
+swebench-verified,swe_bench_verified,SWE-bench-verified,mimo-v2-pro,claude-code,0.702,,,,,,% Resolved,2026-04-19,https://www.anthropic.com/claude-mythos-preview-system-card,no_doc_data
+swebench-verified,swe_bench_verified,SWE-bench-verified,qwen3-max,terminus-2,0.452,,,,,,% Resolved,2026-04-19,https://www.anthropic.com/claude-mythos-preview-system-card,no_doc_data
+swebench-verified,swe_bench_verified,SWE-bench-verified,qwen3-max,qwen-coder,0.548,,,,,,% Resolved,2026-04-19,https://www.anthropic.com/claude-mythos-preview-system-card,no_doc_data
 swebenchpro,swe_bench_pro,SWE-Bench Pro,gpt-5.4,terminus-2,,0.591,,gpt-5.4,mini-swe-agent,Pass@1 resolve rate,Pass@1 resolve rate,2026-04,https://labs.scale.com/leaderboard/swe_bench_pro_public,matched_model_agent_mismatch
 swebenchpro,swe_bench_pro,SWE-Bench Pro,gpt-5.4,codex,,0.591,,gpt-5.4,mini-swe-agent,Pass@1 resolve rate,Pass@1 resolve rate,2026-04,https://labs.scale.com/leaderboard/swe_bench_pro_public,matched_model_agent_mismatch
 swebenchpro,swe_bench_pro,SWE-Bench Pro,gpt-5-mini,terminus-2,,,,,,,Pass@1 resolve rate,2026-04,https://labs.scale.com/leaderboard/swe_bench_pro_public,no_model_match
@@ -1483,34 +1483,34 @@ swesmith,swe_smith,SWE-smith,mimo-v2-pro,terminus-2,0.256,,,,,,Pass@1 resolve ra
 swesmith,swe_smith,SWE-smith,mimo-v2-pro,claude-code,0.284,,,,,,Pass@1 resolve rate,2025-04,https://neurips.cc/virtual/2025/loc/san-diego/poster/121828,no_model_match
 swesmith,swe_smith,SWE-smith,qwen3-max,terminus-2,,,,,,,Pass@1 resolve rate,2025-04,https://neurips.cc/virtual/2025/loc/san-diego/poster/121828,no_model_match
 swesmith,swe_smith,SWE-smith,qwen3-max,qwen-coder,,,,,,,Pass@1 resolve rate,2025-04,https://neurips.cc/virtual/2025/loc/san-diego/poster/121828,no_model_match
-swtbench,swt_bench,SWT-Bench,gpt-5.4,terminus-2,,,,,,,Success Rate (S),2024-06,https://arxiv.org/abs/2406.12952,no_model_match
-swtbench,swt_bench,SWT-Bench,gpt-5.4,codex,0.728,,,,,,Success Rate (S),2024-06,https://arxiv.org/abs/2406.12952,no_model_match
-swtbench,swt_bench,SWT-Bench,gpt-5-mini,terminus-2,,,,,,,Success Rate (S),2024-06,https://arxiv.org/abs/2406.12952,no_model_match
-swtbench,swt_bench,SWT-Bench,gpt-5-mini,codex,0.308,,,,,,Success Rate (S),2024-06,https://arxiv.org/abs/2406.12952,no_model_match
-swtbench,swt_bench,SWT-Bench,gpt-5-nano,terminus-2,,,,,,,Success Rate (S),2024-06,https://arxiv.org/abs/2406.12952,no_model_match
-swtbench,swt_bench,SWT-Bench,gpt-5-nano,codex,0.144,,,,,,Success Rate (S),2024-06,https://arxiv.org/abs/2406.12952,no_model_match
-swtbench,swt_bench,SWT-Bench,claude-haiku-4-5-20251001,terminus-2,,,,,,,Success Rate (S),2024-06,https://arxiv.org/abs/2406.12952,no_model_match
-swtbench,swt_bench,SWT-Bench,claude-haiku-4-5-20251001,claude-code,,,,,,,Success Rate (S),2024-06,https://arxiv.org/abs/2406.12952,no_model_match
-swtbench,swt_bench,SWT-Bench,claude-sonnet-4-6,terminus-2,,,,,,,Success Rate (S),2024-06,https://arxiv.org/abs/2406.12952,no_model_match
-swtbench,swt_bench,SWT-Bench,claude-sonnet-4-6,claude-code,,,,,,,Success Rate (S),2024-06,https://arxiv.org/abs/2406.12952,no_model_match
-swtbench,swt_bench,SWT-Bench,claude-opus-4-6,terminus-2,,,,,,,Success Rate (S),2024-06,https://arxiv.org/abs/2406.12952,no_model_match
-swtbench,swt_bench,SWT-Bench,claude-opus-4-6,claude-code,,,,,,,Success Rate (S),2024-06,https://arxiv.org/abs/2406.12952,no_model_match
-swtbench,swt_bench,SWT-Bench,gemini-3.1-pro-preview,terminus-2,,,,,,,Success Rate (S),2024-06,https://arxiv.org/abs/2406.12952,no_model_match
-swtbench,swt_bench,SWT-Bench,gemini-3.1-pro-preview,gemini-cli,,,,,,,Success Rate (S),2024-06,https://arxiv.org/abs/2406.12952,no_model_match
-swtbench,swt_bench,SWT-Bench,gemini-3-flash-preview,terminus-2,,,,,,,Success Rate (S),2024-06,https://arxiv.org/abs/2406.12952,no_model_match
-swtbench,swt_bench,SWT-Bench,gemini-3-flash-preview,gemini-cli,,,,,,,Success Rate (S),2024-06,https://arxiv.org/abs/2406.12952,no_model_match
-swtbench,swt_bench,SWT-Bench,deepseek-reasoner,terminus-2,0.284,,,,,,Success Rate (S),2024-06,https://arxiv.org/abs/2406.12952,no_model_match
-swtbench,swt_bench,SWT-Bench,deepseek-chat,claude-code,0.248,,,,,,Success Rate (S),2024-06,https://arxiv.org/abs/2406.12952,no_model_match
-swtbench,swt_bench,SWT-Bench,kimi-k2.5,terminus-2,0.52,,,,,,Success Rate (S),2024-06,https://arxiv.org/abs/2406.12952,no_model_match
-swtbench,swt_bench,SWT-Bench,kimi-k2.5,claude-code,0.376,,,,,,Success Rate (S),2024-06,https://arxiv.org/abs/2406.12952,no_model_match
-swtbench,swt_bench,SWT-Bench,MiniMax-M2.5,terminus-2,0.52,,,,,,Success Rate (S),2024-06,https://arxiv.org/abs/2406.12952,no_model_match
-swtbench,swt_bench,SWT-Bench,MiniMax-M2.5,claude-code,0.532,,,,,,Success Rate (S),2024-06,https://arxiv.org/abs/2406.12952,no_model_match
-swtbench,swt_bench,SWT-Bench,glm-5,terminus-2,0.501,,,,,,Success Rate (S),2024-06,https://arxiv.org/abs/2406.12952,no_model_match
-swtbench,swt_bench,SWT-Bench,glm-5,claude-code,0.468,,,,,,Success Rate (S),2024-06,https://arxiv.org/abs/2406.12952,no_model_match
-swtbench,swt_bench,SWT-Bench,mimo-v2-pro,terminus-2,,,,,,,Success Rate (S),2024-06,https://arxiv.org/abs/2406.12952,no_model_match
-swtbench,swt_bench,SWT-Bench,mimo-v2-pro,claude-code,0.46,,,,,,Success Rate (S),2024-06,https://arxiv.org/abs/2406.12952,no_model_match
-swtbench,swt_bench,SWT-Bench,qwen3-max,terminus-2,,,,,,,Success Rate (S),2024-06,https://arxiv.org/abs/2406.12952,no_model_match
-swtbench,swt_bench,SWT-Bench,qwen3-max,qwen-coder,,,,,,,Success Rate (S),2024-06,https://arxiv.org/abs/2406.12952,no_model_match
+swtbench,swt_bench,SWT-Bench,gpt-5.4,terminus-2,,,,,,,Success Rate (S),2026-04,https://swtbench.com,no_model_match
+swtbench,swt_bench,SWT-Bench,gpt-5.4,codex,0.728,,,,,,Success Rate (S),2026-04,https://swtbench.com,no_model_match
+swtbench,swt_bench,SWT-Bench,gpt-5-mini,terminus-2,,0.624,,GPT-5-mini,OpenHands (All Hands AI),Success Rate (S) — Unit Test,Success Rate (S),2026-04,https://swtbench.com,matched_model_agent_mismatch
+swtbench,swt_bench,SWT-Bench,gpt-5-mini,codex,0.308,0.624,-0.316,GPT-5-mini,OpenHands (All Hands AI),Success Rate (S) — Unit Test,Success Rate (S),2026-04,https://swtbench.com,matched_model_agent_mismatch
+swtbench,swt_bench,SWT-Bench,gpt-5-nano,terminus-2,,,,,,,Success Rate (S),2026-04,https://swtbench.com,no_model_match
+swtbench,swt_bench,SWT-Bench,gpt-5-nano,codex,0.144,,,,,,Success Rate (S),2026-04,https://swtbench.com,no_model_match
+swtbench,swt_bench,SWT-Bench,claude-haiku-4-5-20251001,terminus-2,,,,,,,Success Rate (S),2026-04,https://swtbench.com,no_model_match
+swtbench,swt_bench,SWT-Bench,claude-haiku-4-5-20251001,claude-code,,,,,,,Success Rate (S),2026-04,https://swtbench.com,no_model_match
+swtbench,swt_bench,SWT-Bench,claude-sonnet-4-6,terminus-2,,,,,,,Success Rate (S),2026-04,https://swtbench.com,no_model_match
+swtbench,swt_bench,SWT-Bench,claude-sonnet-4-6,claude-code,,,,,,,Success Rate (S),2026-04,https://swtbench.com,no_model_match
+swtbench,swt_bench,SWT-Bench,claude-opus-4-6,terminus-2,,,,,,,Success Rate (S),2026-04,https://swtbench.com,no_model_match
+swtbench,swt_bench,SWT-Bench,claude-opus-4-6,claude-code,,,,,,,Success Rate (S),2026-04,https://swtbench.com,no_model_match
+swtbench,swt_bench,SWT-Bench,gemini-3.1-pro-preview,terminus-2,,,,,,,Success Rate (S),2026-04,https://swtbench.com,no_model_match
+swtbench,swt_bench,SWT-Bench,gemini-3.1-pro-preview,gemini-cli,,,,,,,Success Rate (S),2026-04,https://swtbench.com,no_model_match
+swtbench,swt_bench,SWT-Bench,gemini-3-flash-preview,terminus-2,,,,,,,Success Rate (S),2026-04,https://swtbench.com,no_model_match
+swtbench,swt_bench,SWT-Bench,gemini-3-flash-preview,gemini-cli,,,,,,,Success Rate (S),2026-04,https://swtbench.com,no_model_match
+swtbench,swt_bench,SWT-Bench,deepseek-reasoner,terminus-2,0.284,,,,,,Success Rate (S),2026-04,https://swtbench.com,no_model_match
+swtbench,swt_bench,SWT-Bench,deepseek-chat,claude-code,0.248,,,,,,Success Rate (S),2026-04,https://swtbench.com,no_model_match
+swtbench,swt_bench,SWT-Bench,kimi-k2.5,terminus-2,0.52,,,,,,Success Rate (S),2026-04,https://swtbench.com,no_model_match
+swtbench,swt_bench,SWT-Bench,kimi-k2.5,claude-code,0.376,,,,,,Success Rate (S),2026-04,https://swtbench.com,no_model_match
+swtbench,swt_bench,SWT-Bench,MiniMax-M2.5,terminus-2,0.52,,,,,,Success Rate (S),2026-04,https://swtbench.com,no_model_match
+swtbench,swt_bench,SWT-Bench,MiniMax-M2.5,claude-code,0.532,,,,,,Success Rate (S),2026-04,https://swtbench.com,no_model_match
+swtbench,swt_bench,SWT-Bench,glm-5,terminus-2,0.501,,,,,,Success Rate (S),2026-04,https://swtbench.com,no_model_match
+swtbench,swt_bench,SWT-Bench,glm-5,claude-code,0.468,,,,,,Success Rate (S),2026-04,https://swtbench.com,no_model_match
+swtbench,swt_bench,SWT-Bench,mimo-v2-pro,terminus-2,,,,,,,Success Rate (S),2026-04,https://swtbench.com,no_model_match
+swtbench,swt_bench,SWT-Bench,mimo-v2-pro,claude-code,0.46,,,,,,Success Rate (S),2026-04,https://swtbench.com,no_model_match
+swtbench,swt_bench,SWT-Bench,qwen3-max,terminus-2,,,,,,,Success Rate (S),2026-04,https://swtbench.com,no_model_match
+swtbench,swt_bench,SWT-Bench,qwen3-max,qwen-coder,,,,,,,Success Rate (S),2026-04,https://swtbench.com,no_model_match
 terminal-bench,terminalbench_2_0,Terminal-Bench 2.0,gpt-5.4,terminus-2,0.429775,0.8179775280898877,-0.38820252808988764,GPT-5.4,ForgeCode,accuracy,accuracy,2026-04-02,https://www.tbench.ai/leaderboard/terminal-bench/2.0,matched_model_agent_mismatch
 terminal-bench,terminalbench_2_0,Terminal-Bench 2.0,gpt-5.4,codex,0.68764,0.8179775280898877,-0.13033752808988763,GPT-5.4,ForgeCode,accuracy,accuracy,2026-04-02,https://www.tbench.ai/leaderboard/terminal-bench/2.0,matched_model_agent_mismatch
 terminal-bench,terminalbench_2_0,Terminal-Bench 2.0,gpt-5-mini,terminus-2,0.252809,0.24044943820224718,0.012359561797752827,GPT-5-Mini,Terminus 2,accuracy,accuracy,2026-04-02,https://www.tbench.ai/leaderboard/terminal-bench/2.0,matched_model_and_agent
@@ -1539,31 +1539,31 @@ terminal-bench,terminalbench_2_0,Terminal-Bench 2.0,mimo-v2-pro,terminus-2,0.449
 terminal-bench,terminalbench_2_0,Terminal-Bench 2.0,mimo-v2-pro,claude-code,0.402247,,,,,,accuracy,2026-04-02,https://www.tbench.ai/leaderboard/terminal-bench/2.0,no_model_match
 terminal-bench,terminalbench_2_0,Terminal-Bench 2.0,qwen3-max,terminus-2,,,,,,,accuracy,2026-04-02,https://www.tbench.ai/leaderboard/terminal-bench/2.0,no_model_match
 terminal-bench,terminalbench_2_0,Terminal-Bench 2.0,qwen3-max,qwen-coder,0.283146,,,,,,accuracy,2026-04-02,https://www.tbench.ai/leaderboard/terminal-bench/2.0,no_model_match
-usaco,usaco,USACO,gpt-5.4,terminus-2,0.818,,,,,,,,,no_doc_data
-usaco,usaco,USACO,gpt-5.4,codex,0.956,,,,,,,,,no_doc_data
-usaco,usaco,USACO,gpt-5-mini,terminus-2,0.846,,,,,,,,,no_doc_data
-usaco,usaco,USACO,gpt-5-mini,codex,0.8525,,,,,,,,,no_doc_data
-usaco,usaco,USACO,gpt-5-nano,terminus-2,0.68,,,,,,,,,no_doc_data
-usaco,usaco,USACO,gpt-5-nano,codex,0.053,,,,,,,,,no_doc_data
-usaco,usaco,USACO,claude-haiku-4-5-20251001,terminus-2,0.284,,,,,,,,,no_doc_data
-usaco,usaco,USACO,claude-haiku-4-5-20251001,claude-code,0.394,,,,,,,,,no_doc_data
-usaco,usaco,USACO,claude-sonnet-4-6,terminus-2,0.718,,,,,,,,,no_doc_data
-usaco,usaco,USACO,claude-sonnet-4-6,claude-code,0.724,,,,,,,,,no_doc_data
-usaco,usaco,USACO,claude-opus-4-6,terminus-2,0.794,,,,,,,,,no_doc_data
-usaco,usaco,USACO,claude-opus-4-6,claude-code,0.7695,,,,,,,,,no_doc_data
-usaco,usaco,USACO,gemini-3.1-pro-preview,terminus-2,0.928,,,,,,,,,no_doc_data
-usaco,usaco,USACO,gemini-3.1-pro-preview,gemini-cli,0.5345,,,,,,,,,no_doc_data
-usaco,usaco,USACO,gemini-3-flash-preview,terminus-2,0.914,,,,,,,,,no_doc_data
-usaco,usaco,USACO,gemini-3-flash-preview,gemini-cli,0.8715,,,,,,,,,no_doc_data
-usaco,usaco,USACO,deepseek-reasoner,terminus-2,0.728,,,,,,,,,no_doc_data
-usaco,usaco,USACO,deepseek-chat,claude-code,0.0,,,,,,,,,no_doc_data
-usaco,usaco,USACO,kimi-k2.5,terminus-2,,,,,,,,,,no_doc_data
-usaco,usaco,USACO,kimi-k2.5,claude-code,,,,,,,,,,no_doc_data
-usaco,usaco,USACO,MiniMax-M2.5,terminus-2,0.51,,,,,,,,,no_doc_data
-usaco,usaco,USACO,MiniMax-M2.5,claude-code,0.0695,,,,,,,,,no_doc_data
-usaco,usaco,USACO,glm-5,terminus-2,0.5675,,,,,,,,,no_doc_data
-usaco,usaco,USACO,glm-5,claude-code,0.606,,,,,,,,,no_doc_data
-usaco,usaco,USACO,mimo-v2-pro,terminus-2,0.784,,,,,,,,,no_doc_data
-usaco,usaco,USACO,mimo-v2-pro,claude-code,0.5815,,,,,,,,,no_doc_data
-usaco,usaco,USACO,qwen3-max,terminus-2,0.246,,,,,,,,,no_doc_data
-usaco,usaco,USACO,qwen3-max,qwen-coder,0.0,,,,,,,,,no_doc_data
+usaco,usaco,USACO,gpt-5.4,terminus-2,0.818,,,,,,pass@1,2025-08,https://hal.cs.princeton.edu/usaco,no_doc_data
+usaco,usaco,USACO,gpt-5.4,codex,0.956,,,,,,pass@1,2025-08,https://hal.cs.princeton.edu/usaco,no_doc_data
+usaco,usaco,USACO,gpt-5-mini,terminus-2,0.846,,,,,,pass@1,2025-08,https://hal.cs.princeton.edu/usaco,no_doc_data
+usaco,usaco,USACO,gpt-5-mini,codex,0.8525,,,,,,pass@1,2025-08,https://hal.cs.princeton.edu/usaco,no_doc_data
+usaco,usaco,USACO,gpt-5-nano,terminus-2,0.68,,,,,,pass@1,2025-08,https://hal.cs.princeton.edu/usaco,no_doc_data
+usaco,usaco,USACO,gpt-5-nano,codex,0.053,,,,,,pass@1,2025-08,https://hal.cs.princeton.edu/usaco,no_doc_data
+usaco,usaco,USACO,claude-haiku-4-5-20251001,terminus-2,0.284,,,,,,pass@1,2025-08,https://hal.cs.princeton.edu/usaco,no_doc_data
+usaco,usaco,USACO,claude-haiku-4-5-20251001,claude-code,0.394,,,,,,pass@1,2025-08,https://hal.cs.princeton.edu/usaco,no_doc_data
+usaco,usaco,USACO,claude-sonnet-4-6,terminus-2,0.718,,,,,,pass@1,2025-08,https://hal.cs.princeton.edu/usaco,no_doc_data
+usaco,usaco,USACO,claude-sonnet-4-6,claude-code,0.724,,,,,,pass@1,2025-08,https://hal.cs.princeton.edu/usaco,no_doc_data
+usaco,usaco,USACO,claude-opus-4-6,terminus-2,0.794,,,,,,pass@1,2025-08,https://hal.cs.princeton.edu/usaco,no_doc_data
+usaco,usaco,USACO,claude-opus-4-6,claude-code,0.7695,,,,,,pass@1,2025-08,https://hal.cs.princeton.edu/usaco,no_doc_data
+usaco,usaco,USACO,gemini-3.1-pro-preview,terminus-2,0.928,,,,,,pass@1,2025-08,https://hal.cs.princeton.edu/usaco,no_doc_data
+usaco,usaco,USACO,gemini-3.1-pro-preview,gemini-cli,0.5345,,,,,,pass@1,2025-08,https://hal.cs.princeton.edu/usaco,no_doc_data
+usaco,usaco,USACO,gemini-3-flash-preview,terminus-2,0.914,,,,,,pass@1,2025-08,https://hal.cs.princeton.edu/usaco,no_doc_data
+usaco,usaco,USACO,gemini-3-flash-preview,gemini-cli,0.8715,,,,,,pass@1,2025-08,https://hal.cs.princeton.edu/usaco,no_doc_data
+usaco,usaco,USACO,deepseek-reasoner,terminus-2,0.728,,,,,,pass@1,2025-08,https://hal.cs.princeton.edu/usaco,no_doc_data
+usaco,usaco,USACO,deepseek-chat,claude-code,0.0,,,,,,pass@1,2025-08,https://hal.cs.princeton.edu/usaco,no_doc_data
+usaco,usaco,USACO,kimi-k2.5,terminus-2,,,,,,,pass@1,2025-08,https://hal.cs.princeton.edu/usaco,no_doc_data
+usaco,usaco,USACO,kimi-k2.5,claude-code,,,,,,,pass@1,2025-08,https://hal.cs.princeton.edu/usaco,no_doc_data
+usaco,usaco,USACO,MiniMax-M2.5,terminus-2,0.51,,,,,,pass@1,2025-08,https://hal.cs.princeton.edu/usaco,no_doc_data
+usaco,usaco,USACO,MiniMax-M2.5,claude-code,0.0695,,,,,,pass@1,2025-08,https://hal.cs.princeton.edu/usaco,no_doc_data
+usaco,usaco,USACO,glm-5,terminus-2,0.5675,,,,,,pass@1,2025-08,https://hal.cs.princeton.edu/usaco,no_doc_data
+usaco,usaco,USACO,glm-5,claude-code,0.606,,,,,,pass@1,2025-08,https://hal.cs.princeton.edu/usaco,no_doc_data
+usaco,usaco,USACO,mimo-v2-pro,terminus-2,0.784,,,,,,pass@1,2025-08,https://hal.cs.princeton.edu/usaco,no_doc_data
+usaco,usaco,USACO,mimo-v2-pro,claude-code,0.5815,,,,,,pass@1,2025-08,https://hal.cs.princeton.edu/usaco,no_doc_data
+usaco,usaco,USACO,qwen3-max,terminus-2,0.246,,,,,,pass@1,2025-08,https://hal.cs.princeton.edu/usaco,no_doc_data
+usaco,usaco,USACO,qwen3-max,qwen-coder,0.0,,,,,,pass@1,2025-08,https://hal.cs.princeton.edu/usaco,no_doc_data

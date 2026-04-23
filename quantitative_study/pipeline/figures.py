@@ -20,8 +20,8 @@ import pandas as pd
 
 from .config import (
     COLOR_BLUE, COLOR_GRAY, COLOR_GREEN, COLOR_GRID, COLOR_AXIS,
-    COLOR_ORANGE, COLOR_PURPLE, COLOR_RED,
-    DPI, DOMAIN_COLORS, FIGSIZE_SINGLE, FIGSIZE_TALL, FIGSIZE_WIDE,
+    COLOR_PURPLE, COLOR_RED,
+    DPI, DOMAIN_COLORS, FIGSIZE_SINGLE, FIGSIZE_WIDE,
     FIGURE_DIR, MATCH_STATUS_COLORS, MATCH_STATUS_LABELS,
     PLOT_STYLE, SUPERDOMAIN_COLORS,
 )
@@ -187,90 +187,7 @@ def fig_delta_distribution(summary: pd.DataFrame) -> None:
 
 
 # ===================================================================
-# Fig 5: Anomaly summary
-# ===================================================================
-
-def fig_anomaly_bar(anomaly_summary: pd.DataFrame) -> None:
-    if anomaly_summary.empty:
-        return
-    _apply_style()
-    df = anomaly_summary.sort_values("n_anomalous")
-    labels = [_wrap(b, 24) for b in df["benchmark"]]
-    fig, ax = plt.subplots(figsize=(11.5, max(5.2, 0.42 * len(df))))
-    ax.barh(labels, df["n_anomalous"], color=COLOR_ORANGE, edgecolor="white")
-    ax.set_xlabel("Number of anomalous cells")
-    ax.set_title("Harbor Data Anomalies by Benchmark")
-    ax.set_ylabel("")
-    ax.grid(axis="x", color=COLOR_GRID, linewidth=0.8)
-
-    for i, (_, row) in enumerate(df.iterrows()):
-        ax.text(row["n_anomalous"] + 0.3, i, _wrap(row["issues"], 40),
-                va="center", fontsize=9, color="gray")
-
-    fig.tight_layout()
-    _save(fig, "anomaly_by_benchmark.png")
-
-
-# ===================================================================
-# Fig 6: Per-agent mean delta bar
-# ===================================================================
-
-def fig_agent_mean_delta(agent_effect: pd.DataFrame) -> None:
-    if agent_effect.empty:
-        return
-    _apply_style()
-    df = agent_effect.sort_values("mean_delta")
-    labels = [_wrap(a, 20) for a in df["harbor_agent"]]
-    fig, ax = plt.subplots(figsize=(11.5, max(5.2, 0.42 * len(df))))
-    colors = [COLOR_GREEN if d >= 0 else COLOR_RED for d in df["mean_delta"]]
-    ax.barh(labels, df["mean_delta"], color=colors, edgecolor="white")
-    ax.axvline(0, color=COLOR_AXIS, linewidth=1)
-    ax.set_xlabel("Mean Δ (Harbor − Original)")
-    ax.set_title("Systematic Bias by Harbor Agent")
-    ax.set_ylabel("")
-    ax.grid(axis="x", color=COLOR_GRID, linewidth=0.8)
-
-    for i, (_, row) in enumerate(df.iterrows()):
-        ax.text(
-            row["mean_delta"] + 0.002, i, f'n={int(row["n"])}',
-            va="center", fontsize=9, color="gray",
-        )
-
-    fig.tight_layout()
-    _save(fig, "agent_mean_delta.png")
-
-
-# ===================================================================
-# Fig 7: Rank correlation per benchmark
-# ===================================================================
-
-def fig_rank_correlation(rank_df: pd.DataFrame) -> None:
-    if rank_df.empty:
-        return
-    _apply_style()
-    df = rank_df.sort_values("spearman_rho")
-    labels = [_wrap(b, 24) for b in df["benchmark"]]
-    fig, ax = plt.subplots(figsize=(11.5, max(5.2, 0.42 * len(df))))
-    colors = [COLOR_GREEN if r > 0.7 else (COLOR_ORANGE if r > 0.3 else COLOR_RED) for r in df["spearman_rho"]]
-    ax.barh(labels, df["spearman_rho"], color=colors, edgecolor="white")
-    ax.axvline(1.0, color=COLOR_GRAY, linewidth=0.5, linestyle=":")
-    ax.axvline(0, color=COLOR_AXIS, linewidth=1)
-    ax.set_xlim(-1.05, 1.05)
-    ax.set_xlabel("Spearman ρ (Harbor vs Original rankings)")
-    ax.set_title("Ranking Agreement by Benchmark")
-    ax.set_ylabel("")
-    ax.grid(axis="x", color=COLOR_GRID, linewidth=0.8)
-
-    for i, (_, row) in enumerate(df.iterrows()):
-        ax.text(row["spearman_rho"] + 0.02, i, f'n={int(row["n"])}',
-                va="center", fontsize=9, color="gray")
-
-    fig.tight_layout()
-    _save(fig, "rank_correlation_by_benchmark.png")
-
-
-# ===================================================================
-# Fig 8: Hardest benchmarks (lowest best-model score, colored by domain)
+# Fig 5: Hardest benchmarks (lowest best-model score, colored by domain)
 # ===================================================================
 
 def fig_hardest_benchmarks(difficulty_df: pd.DataFrame) -> None:
@@ -305,7 +222,7 @@ def fig_hardest_benchmarks(difficulty_df: pd.DataFrame) -> None:
 
 
 # ===================================================================
-# Fig 9: Domain score comparison (grouped bar)
+# Fig 6: Domain score comparison (grouped bar)
 # ===================================================================
 
 def fig_domain_scores(domain_df: pd.DataFrame) -> None:
@@ -342,7 +259,7 @@ def fig_domain_scores(domain_df: pd.DataFrame) -> None:
 
 
 # ===================================================================
-# Fig 10: Coding vs Non-Coding comparison (superdomain)
+# Fig 7: Coding vs Non-Coding comparison (superdomain)
 # ===================================================================
 
 def fig_coding_vs_noncoding(superdomain_df: pd.DataFrame) -> None:
@@ -377,7 +294,7 @@ def fig_coding_vs_noncoding(superdomain_df: pd.DataFrame) -> None:
 
 
 # ===================================================================
-# Fig 11: Progress over time (best score trajectory)
+# Fig 8: Progress over time (best score trajectory)
 # ===================================================================
 
 def fig_progress_over_time(progress_df: pd.DataFrame) -> None:
@@ -418,7 +335,7 @@ def fig_progress_over_time(progress_df: pd.DataFrame) -> None:
 
 
 # ===================================================================
-# Fig 12: Domain progress bar chart
+# Fig 9: Domain progress bar chart
 # ===================================================================
 
 def fig_domain_progress(domain_prog_df: pd.DataFrame) -> None:
@@ -447,44 +364,7 @@ def fig_domain_progress(domain_prog_df: pd.DataFrame) -> None:
 
 
 # ===================================================================
-# Fig 13: Per-model heatmap across domains
-# ===================================================================
-
-def fig_model_domain_heatmap(model_domain_df: pd.DataFrame) -> None:
-    if model_domain_df.empty:
-        return
-    _apply_style()
-    pivot = model_domain_df.pivot_table(
-        index="model", columns="domain", values="mean_score", aggfunc="mean",
-    )
-    if pivot.empty or pivot.shape[0] < 2:
-        return
-    model_order = pivot.mean(axis=1).sort_values(ascending=True).index
-    pivot = pivot.loc[model_order]
-
-    fig, ax = plt.subplots(figsize=(14, max(3.8, 1.0 + 0.55 * pivot.shape[0])))
-    image = ax.imshow(pivot.values, cmap="YlGnBu", vmin=0, vmax=1, aspect="auto")
-    ax.set_xticks(np.arange(pivot.shape[1]))
-    ax.set_xticklabels([_wrap(c, 16) for c in pivot.columns], rotation=45, ha="right", fontsize=9)
-    ax.set_yticks(np.arange(pivot.shape[0]))
-    ax.set_yticklabels([_wrap(m, 20) for m in pivot.index])
-
-    for i in range(pivot.shape[0]):
-        for j in range(pivot.shape[1]):
-            v = pivot.values[i, j]
-            if not np.isnan(v):
-                ax.text(j, i, f"{v:.2f}", ha="center", va="center", fontsize=9,
-                        color="white" if v > 0.6 else "black")
-
-    cbar = fig.colorbar(image, ax=ax, fraction=0.035, pad=0.02)
-    cbar.set_label("Mean score across benchmarks in domain")
-    ax.set_title("Model Performance Across Domains")
-    fig.tight_layout()
-    _save(fig, "model_domain_heatmap.png")
-
-
-# ===================================================================
-# Fig 14: Overall model ranking (mean score across all benchmarks)
+# Fig 10: Overall model ranking (mean score across all benchmarks)
 # ===================================================================
 
 def fig_model_ranking(harbor_df: pd.DataFrame) -> None:
@@ -522,41 +402,7 @@ def fig_model_ranking(harbor_df: pd.DataFrame) -> None:
 
 
 # ===================================================================
-# Fig 15: Data coverage heatmap (model × benchmark observed/missing)
-# ===================================================================
-
-def fig_data_coverage(harbor_df: pd.DataFrame) -> None:
-    if harbor_df.empty:
-        return
-    _apply_style()
-    id_cols = ["model", "agent"]
-    bench_cols = [c for c in harbor_df.columns if c not in id_cols]
-
-    label_col = harbor_df["model"] + " + " + harbor_df["agent"]
-    coverage = harbor_df[bench_cols].notna().astype(float)
-    coverage.index = label_col
-
-    n_rows, n_cols = coverage.shape
-    fig, ax = plt.subplots(figsize=(max(14, 0.28 * n_cols), max(5, 0.38 * n_rows)))
-    cmap = plt.cm.colors.ListedColormap(["#f0f0f0", "#2ca02c"])
-    ax.imshow(coverage.values, cmap=cmap, aspect="auto", interpolation="nearest")
-
-    ax.set_xticks(np.arange(n_cols))
-    ax.set_xticklabels([_wrap(c, 12) for c in bench_cols], rotation=90, fontsize=7, ha="center")
-    ax.set_yticks(np.arange(n_rows))
-    ax.set_yticklabels([_wrap(l, 30) for l in coverage.index], fontsize=8)
-
-    obs = int(coverage.sum().sum())
-    total = n_rows * n_cols
-    pct = 100 * obs / total if total else 0
-    ax.set_title(f"Data Coverage  ({obs}/{total} cells observed, {pct:.0f}%)")
-
-    fig.tight_layout()
-    _save(fig, "data_coverage.png")
-
-
-# ===================================================================
-# Fig 16: Per-domain agent effect (terminus-2 vs others, Coding vs Non-Coding)
+# Fig 11: Per-domain agent effect (terminus-2 vs others, Coding vs Non-Coding)
 # ===================================================================
 
 def fig_agent_domain_effect(harbor_df: pd.DataFrame) -> None:
@@ -647,18 +493,12 @@ def generate_all_figures(
     summary: pd.DataFrame,
     direction: pd.DataFrame,
     lift: pd.DataFrame,
-    anomaly_summary: pd.DataFrame,
-    agent_effect: pd.DataFrame,
-    rank_corr: pd.DataFrame,
 ) -> None:
     print("\nGenerating comparison figures...")
     fig_harbor_vs_doc_scatter(summary)
     fig_delta_by_benchmark(direction)
     fig_agent_lift_heatmap(lift)
     fig_delta_distribution(summary)
-    fig_anomaly_bar(anomaly_summary)
-    fig_agent_mean_delta(agent_effect)
-    fig_rank_correlation(rank_corr)
 
 
 def generate_cross_figures(
@@ -667,7 +507,6 @@ def generate_cross_figures(
     superdomain_df: pd.DataFrame,
     progress_df: pd.DataFrame,
     domain_prog_df: pd.DataFrame,
-    model_domain_df: pd.DataFrame,
     harbor_df: pd.DataFrame | None = None,
 ) -> None:
     print("\nGenerating cross-analysis figures...")
@@ -676,9 +515,7 @@ def generate_cross_figures(
     fig_coding_vs_noncoding(superdomain_df)
     fig_progress_over_time(progress_df)
     fig_domain_progress(domain_prog_df)
-    fig_model_domain_heatmap(model_domain_df)
     if harbor_df is not None:
         fig_model_ranking(harbor_df)
-        fig_data_coverage(harbor_df)
         fig_agent_domain_effect(harbor_df)
     print(f"All figures saved to {FIGURE_DIR}/")
