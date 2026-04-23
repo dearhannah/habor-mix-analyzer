@@ -1,22 +1,263 @@
 {
   "name": "USACO",
-  "category": "",
-  "used_llm_or_agent": "",
+  "category": "Competitive/Function-level Programming",
+  "used_llm_or_agent": "both",
   "links": {
-    "website": null,
-    "leaderboard": null,
-    "paper": null,
-    "github": null,
-    "dataset": null
+    "website": "https://princeton-nlp.github.io/USACOBench/",
+    "leaderboard": "https://hal.cs.princeton.edu/usaco",
+    "paper": "https://arxiv.org/abs/2404.10952",
+    "github": "https://github.com/princeton-nlp/USACO",
+    "dataset": "https://drive.google.com/file/d/1z5ODOJMqyer1QxzYtEUZ2hbAx-7nU8Vi/view"
   },
   "meta": {
-    "release_date": "",
-    "num_tasks": null
+    "release_date": "2024-04-16",
+    "num_tasks": 307
   },
   "evaluation": {
-    "primary_metric": "",
+    "primary_metric": "pass@1",
     "harbor_aligned_metric": null
   },
-  "results_over_time": [],
-  "notes": null
+  "results_over_time": [
+    {
+      "date": "2024-04-16",
+      "source_type": "paper",
+      "source_url": "https://arxiv.org/abs/2404.10952",
+      "results": [
+        {
+          "model": "CodeLlama (7B)",
+          "effort": null,
+          "system_description": null,
+          "score": 0.0019
+        },
+        {
+          "model": "DeepSeek Coder (7B)",
+          "effort": null,
+          "system_description": null,
+          "score": 0.0104
+        },
+        {
+          "model": "Claude-3-Sonnet",
+          "effort": null,
+          "system_description": null,
+          "score": 0.0261
+        },
+        {
+          "model": "GPT-3.5",
+          "effort": null,
+          "system_description": null,
+          "score": 0.0059
+        },
+        {
+          "model": "GPT-4",
+          "effort": null,
+          "system_description": null,
+          "score": 0.087
+        },
+        {
+          "model": "GPT-3.5",
+          "effort": null,
+          "system_description": "Reflexion",
+          "score": 0.0097
+        },
+        {
+          "model": "GPT-4",
+          "effort": null,
+          "system_description": "Reflexion",
+          "score": 0.1238
+        },
+        {
+          "model": "GPT-3.5",
+          "effort": null,
+          "system_description": "Semantic Retrieval",
+          "score": 0.0204
+        },
+        {
+          "model": "GPT-4",
+          "effort": null,
+          "system_description": "Semantic Retrieval",
+          "score": 0.1026
+        },
+        {
+          "model": "GPT-3.5",
+          "effort": null,
+          "system_description": "Episodic Retrieval",
+          "score": 0.0549
+        },
+        {
+          "model": "GPT-4",
+          "effort": null,
+          "system_description": "Episodic Retrieval",
+          "score": 0.1433
+        },
+        {
+          "model": "GPT-3.5",
+          "effort": null,
+          "system_description": "Semantic + Episodic",
+          "score": 0.0676
+        },
+        {
+          "model": "GPT-4",
+          "effort": null,
+          "system_description": "Semantic + Episodic",
+          "score": 0.1254
+        },
+        {
+          "model": "GPT-3.5",
+          "effort": null,
+          "system_description": "Semantic + Reflexion",
+          "score": 0.0264
+        },
+        {
+          "model": "GPT-4",
+          "effort": null,
+          "system_description": "Semantic + Reflexion",
+          "score": 0.1182
+        },
+        {
+          "model": "GPT-3.5",
+          "effort": null,
+          "system_description": "Episodic + Reflexion",
+          "score": 0.0879
+        },
+        {
+          "model": "GPT-4",
+          "effort": null,
+          "system_description": "Episodic + Reflexion",
+          "score": 0.202
+        },
+        {
+          "model": "GPT-3.5",
+          "effort": null,
+          "system_description": "Semantic + Episodic + Reflexion",
+          "score": 0.0752
+        },
+        {
+          "model": "GPT-4",
+          "effort": null,
+          "system_description": "Semantic + Episodic + Reflexion",
+          "score": 0.1805
+        }
+      ],
+      "note": "GPT-3.5 and GPT-4 rows from Figure 3 (pass@1 across 8 scaffold combinations). CodeLlama / DeepSeek Coder / Claude-3-Sonnet rows are zero-shot baselines from the paper's other baseline tables. system_description names the scaffold; null = bare-LLM zero-shot."
+    },
+    {
+      "date": "2025-01",
+      "source_type": "leaderboard",
+      "source_url": "https://hal.cs.princeton.edu/usaco",
+      "results": [
+        {
+          "model": "DeepSeek R1",
+          "effort": null,
+          "system_description": "Episodic + Semantic",
+          "score": 0.3811
+        }
+      ],
+      "note": "HAL Princeton USACO leaderboard rows dated 2025-01 (captured 2026-04-21). Outer date is model release month per HAL convention; model names parsed 'X <Effort> (Month YYYY)' → model=X, effort=<Effort>. HAL 'USACO Episodic + Semantic' scaffold prefix stripped to 'Episodic + Semantic' for consistency with paper rows. Note: HAL maintainers paused updates on this leaderboard."
+    },
+    {
+      "date": "2025-02",
+      "source_type": "leaderboard",
+      "source_url": "https://hal.cs.princeton.edu/usaco",
+      "results": [
+        {
+          "model": "Claude-3.7 Sonnet",
+          "effort": null,
+          "system_description": "Episodic + Semantic",
+          "score": 0.2932
+        },
+        {
+          "model": "Gemini 2.0 Flash",
+          "effort": null,
+          "system_description": "Episodic + Semantic",
+          "score": 0.2704
+        },
+        {
+          "model": "Claude-3.7 Sonnet",
+          "effort": "High",
+          "system_description": "Episodic + Semantic",
+          "score": 0.2671
+        }
+      ],
+      "note": "HAL Princeton USACO leaderboard rows dated 2025-02 (captured 2026-04-21). Outer date is model release month per HAL convention; model names parsed 'X <Effort> (Month YYYY)' → model=X, effort=<Effort>. HAL 'USACO Episodic + Semantic' scaffold prefix stripped to 'Episodic + Semantic' for consistency with paper rows. Note: HAL maintainers paused updates on this leaderboard."
+    },
+    {
+      "date": "2025-03",
+      "source_type": "leaderboard",
+      "source_url": "https://hal.cs.princeton.edu/usaco",
+      "results": [
+        {
+          "model": "DeepSeek V3",
+          "effort": null,
+          "system_description": "Episodic + Semantic",
+          "score": 0.3909
+        }
+      ],
+      "note": "HAL Princeton USACO leaderboard rows dated 2025-03 (captured 2026-04-21). Outer date is model release month per HAL convention; model names parsed 'X <Effort> (Month YYYY)' → model=X, effort=<Effort>. HAL 'USACO Episodic + Semantic' scaffold prefix stripped to 'Episodic + Semantic' for consistency with paper rows. Note: HAL maintainers paused updates on this leaderboard."
+    },
+    {
+      "date": "2025-04",
+      "source_type": "leaderboard",
+      "source_url": "https://hal.cs.princeton.edu/usaco",
+      "results": [
+        {
+          "model": "o4-mini",
+          "effort": "High",
+          "system_description": "Episodic + Semantic",
+          "score": 0.5798
+        },
+        {
+          "model": "o3",
+          "effort": "Medium",
+          "system_description": "Episodic + Semantic",
+          "score": 0.4625
+        },
+        {
+          "model": "GPT-4.1",
+          "effort": null,
+          "system_description": "Episodic + Semantic",
+          "score": 0.4495
+        },
+        {
+          "model": "o4-mini",
+          "effort": "Low",
+          "system_description": "Episodic + Semantic",
+          "score": 0.3094
+        },
+        {
+          "model": "GPT-4.1",
+          "effort": null,
+          "system_description": "HAL Generalist Agent",
+          "score": 0.2541
+        }
+      ],
+      "note": "HAL Princeton USACO leaderboard rows dated 2025-04 (captured 2026-04-21). Outer date is model release month per HAL convention; model names parsed 'X <Effort> (Month YYYY)' → model=X, effort=<Effort>. HAL 'USACO Episodic + Semantic' scaffold prefix stripped to 'Episodic + Semantic' for consistency with paper rows. Note: HAL maintainers paused updates on this leaderboard."
+    },
+    {
+      "date": "2025-08",
+      "source_type": "leaderboard",
+      "source_url": "https://hal.cs.princeton.edu/usaco",
+      "results": [
+        {
+          "model": "GPT-5",
+          "effort": "Medium",
+          "system_description": "Episodic + Semantic",
+          "score": 0.6971
+        },
+        {
+          "model": "Claude Opus 4.1",
+          "effort": "High",
+          "system_description": "Episodic + Semantic",
+          "score": 0.5147
+        },
+        {
+          "model": "Claude Opus 4.1",
+          "effort": null,
+          "system_description": "Episodic + Semantic",
+          "score": 0.4821
+        }
+      ],
+      "note": "HAL Princeton USACO leaderboard rows dated 2025-08 (captured 2026-04-21). Outer date is model release month per HAL convention; model names parsed 'X <Effort> (Month YYYY)' → model=X, effort=<Effort>. HAL 'USACO Episodic + Semantic' scaffold prefix stripped to 'Episodic + Semantic' for consistency with paper rows. Note: HAL maintainers paused updates on this leaderboard."
+    }
+  ],
+  "notes": "307 problems from the USA Computing Olympiad. Accepted at COLM 2024 (OpenReview id=kGa4fMtP9l). Paper reports bare-LLM and Reflexion+retrieval baselines; benchmark does not mandate a specific harness."
 }

@@ -1,22 +1,259 @@
 {
   "name": "OfficeQA",
-  "category": "",
-  "used_llm_or_agent": "",
+  "category": "Agentic/Interactive",
+  "used_llm_or_agent": "agent",
   "links": {
-    "website": null,
-    "leaderboard": null,
-    "paper": null,
-    "github": null,
-    "dataset": null
+    "website": "https://www.databricks.com/blog/introducing-officeqa-benchmark-end-to-end-grounded-reasoning",
+    "leaderboard": "https://agentbeats.dev/agentbeater/officeqa",
+    "paper": "https://arxiv.org/abs/2603.08655",
+    "github": "https://github.com/databricks/officeqa",
+    "dataset": "https://github.com/databricks/officeqa"
   },
   "meta": {
-    "release_date": "",
-    "num_tasks": null
+    "release_date": "2026-03-09",
+    "num_tasks": 246
   },
   "evaluation": {
-    "primary_metric": "",
+    "primary_metric": "correctness",
     "harbor_aligned_metric": null
   },
-  "results_over_time": [],
-  "notes": null
+  "results_over_time": [
+    {
+      "date": "2026-03-09",
+      "source_type": "paper",
+      "source_url": "https://arxiv.org/abs/2603.08655",
+      "results": [
+        {
+          "model": "Claude Opus 4.6",
+          "effort": null,
+          "system_description": "Claude Agent SDK (Full corpus, PDF)",
+          "score": 0.481
+        },
+        {
+          "model": "Claude Opus 4.6",
+          "effort": null,
+          "system_description": "Claude Agent SDK (Full corpus, DBX Parsed)",
+          "score": 0.541
+        },
+        {
+          "model": "Claude Opus 4.6",
+          "effort": null,
+          "system_description": "Claude Agent SDK (Oracle corpus, PDF)",
+          "score": 0.609
+        },
+        {
+          "model": "Claude Opus 4.6",
+          "effort": null,
+          "system_description": "Claude Agent SDK (Oracle corpus, DBX Parsed)",
+          "score": 0.669
+        },
+        {
+          "model": "GPT-5.4",
+          "effort": null,
+          "system_description": "OpenAI Codex CLI (Full corpus, PDF)",
+          "score": 0.361
+        },
+        {
+          "model": "GPT-5.4",
+          "effort": null,
+          "system_description": "OpenAI Codex CLI (Full corpus, DBX Parsed)",
+          "score": 0.564
+        },
+        {
+          "model": "GPT-5.4",
+          "effort": null,
+          "system_description": "OpenAI Codex CLI (Oracle corpus, PDF)",
+          "score": 0.549
+        },
+        {
+          "model": "GPT-5.4",
+          "effort": null,
+          "system_description": "OpenAI Codex CLI (Oracle corpus, DBX Parsed)",
+          "score": 0.654
+        },
+        {
+          "model": "Gemini 3.1 Pro Preview",
+          "effort": null,
+          "system_description": "Gemini CLI (Full corpus, PDF)",
+          "score": 0.181
+        },
+        {
+          "model": "Gemini 3.1 Pro Preview",
+          "effort": null,
+          "system_description": "Gemini CLI (Full corpus, DBX Parsed)",
+          "score": 0.293
+        },
+        {
+          "model": "Gemini 3.1 Pro Preview",
+          "effort": null,
+          "system_description": "Gemini CLI (Oracle corpus, PDF)",
+          "score": 0.391
+        },
+        {
+          "model": "Gemini 3.1 Pro Preview",
+          "effort": null,
+          "system_description": "Gemini CLI (Oracle corpus, DBX Parsed)",
+          "score": 0.466
+        },
+        {
+          "model": "Claude Opus 4.6",
+          "effort": null,
+          "system_description": "LLM baseline (no agent), Oracle pages + Web Search, PDF",
+          "score": 0.361
+        },
+        {
+          "model": "Claude Opus 4.6",
+          "effort": null,
+          "system_description": "LLM baseline (no agent), Oracle pages + Web Search, DBX Parsed",
+          "score": 0.571
+        },
+        {
+          "model": "GPT-5.4",
+          "effort": null,
+          "system_description": "LLM baseline (no agent), Oracle pages + Web Search, PDF",
+          "score": 0.571
+        },
+        {
+          "model": "GPT-5.4",
+          "effort": null,
+          "system_description": "LLM baseline (no agent), Oracle pages + Web Search, DBX Parsed",
+          "score": 0.654
+        },
+        {
+          "model": "Gemini 3.1 Pro Preview",
+          "effort": null,
+          "system_description": "LLM baseline (no agent), Oracle pages + Web Search, PDF",
+          "score": 0.526
+        },
+        {
+          "model": "Gemini 3.1 Pro Preview",
+          "effort": null,
+          "system_description": "LLM baseline (no agent), Oracle pages + Web Search, DBX Parsed",
+          "score": 0.564
+        },
+        {
+          "model": "GPT-5.4",
+          "effort": null,
+          "system_description": "LLM baseline (no agent), Web Search Enabled",
+          "score": 0.113
+        },
+        {
+          "model": "Claude Opus 4.6",
+          "effort": null,
+          "system_description": "LLM baseline (no agent), Web Search Enabled",
+          "score": 0.03
+        },
+        {
+          "model": "Gemini 3.1 Pro Preview",
+          "effort": null,
+          "system_description": "LLM baseline (no agent), Web Search Enabled",
+          "score": 0.038
+        },
+        {
+          "model": "Claude Opus 4.6",
+          "effort": null,
+          "system_description": "LLM baseline (no agent), Prompt Only",
+          "score": 0.023
+        },
+        {
+          "model": "GPT-5.4",
+          "effort": null,
+          "system_description": "LLM baseline (no agent), Prompt Only",
+          "score": 0.008
+        },
+        {
+          "model": "Gemini 3.1 Pro Preview",
+          "effort": null,
+          "system_description": "LLM baseline (no agent), Prompt Only",
+          "score": 0.023
+        }
+      ],
+      "note": "Paper results, all at 0.0% allowable absolute relative error on OfficeQA Pro (n=133) — paper §2.2 states 'Unless otherwise noted, all results are reported on OfficeQA Pro.' Two groups of rows: (1) Agent baselines from Table 1 — each model paired with its vendor's agent framework (Claude Agent SDK / OpenAI Codex CLI / Gemini CLI); system_description suffix encodes corpus (Full = all bulletins, Oracle = only relevant pages) × format (PDF = raw, DBX Parsed = Databricks-parsed text). Note 'Full corpus' is the document corpus, NOT the OfficeQA-Full 246-question split. (2) LLM baselines from Figure 5 / Appendix E.1 Table 7 — single-call bare-LLM (no agent scaffold), prefixed 'LLM baseline (no agent)'. Prompt Only and Web Search Enabled numbers sourced from Appendix E.1 Table 7 (authoritative numerical table underlying Figure 5); Oracle Pages + Web Search numbers cross-confirmed between Figure 5, Table 7, and page 6 text ('GPT-5.4 improves from 57.1% to 65.4% (+8.3pp), Claude Opus 4.6 from 36.1% to 57.1% (+21.0pp), Gemini 3.1 Pro Preview from 52.6% to 56.4% (+3.8pp)')."
+    },
+    {
+      "date": "2026-04-11",
+      "source_type": "leaderboard",
+      "source_url": "https://agentbeats.dev/agentbeater/officeqa",
+      "results": [
+        {
+          "model": "Gemini 3 Flash",
+          "effort": null,
+          "system_description": "soumya-batra/agentswe-officeqa",
+          "score": 0.102
+        }
+      ],
+      "note": "agentbeats.dev leaderboard row dated 2026-04-11. Evaluated on OfficeQA-Full (n=246). Filter: accuracy > 10% with annotated model."
+    },
+    {
+      "date": "2026-04-13",
+      "source_type": "leaderboard",
+      "source_url": "https://agentbeats.dev/agentbeater/officeqa",
+      "results": [
+        {
+          "model": "GPT-5.4",
+          "effort": null,
+          "system_description": "ab-shetty/mids-officeqa-alpha",
+          "score": 0.207
+        },
+        {
+          "model": "GPT-5.4",
+          "effort": null,
+          "system_description": "ab-shetty/mids-officeqa-alpha",
+          "score": 0.167
+        },
+        {
+          "model": "GPT-5 mini",
+          "effort": null,
+          "system_description": "ab-shetty/mids-officeqa-beta",
+          "score": 0.114
+        }
+      ],
+      "note": "agentbeats.dev leaderboard rows dated 2026-04-13. Evaluated on OfficeQA-Full (n=246). Multiple ab-shetty/mids-officeqa-alpha rows come from distinct runs of the same submission commit."
+    },
+    {
+      "date": "2026-04-17",
+      "source_type": "leaderboard",
+      "source_url": "https://agentbeats.dev/agentbeater/officeqa",
+      "results": [
+        {
+          "model": "GPT-5.4",
+          "effort": null,
+          "system_description": "zaidishahbaz1/officeqa",
+          "score": 0.435
+        },
+        {
+          "model": "GPT-5.4",
+          "effort": null,
+          "system_description": "zaidishahbaz1/officeqa",
+          "score": 0.224
+        },
+        {
+          "model": "GPT-5.4",
+          "effort": null,
+          "system_description": "zaidishahbaz1/officeqa",
+          "score": 0.199
+        },
+        {
+          "model": "GPT-5.4",
+          "effort": null,
+          "system_description": "zaidishahbaz1/officeqa",
+          "score": 0.191
+        },
+        {
+          "model": "GPT-5.4",
+          "effort": null,
+          "system_description": "zaidishahbaz1/officeqa",
+          "score": 0.171
+        },
+        {
+          "model": "GPT-5.4",
+          "effort": null,
+          "system_description": "zaidishahbaz1/officeqa",
+          "score": 0.114
+        }
+      ],
+      "note": "agentbeats.dev leaderboard rows dated 2026-04-17. Evaluated on OfficeQA-Full (n=246 = Pro 133 + Easy 113). Not directly comparable to paper Table 1 (which reports on OfficeQA Pro) — the 113 Easy questions were pre-selected as those the strongest construction-time agents answered correctly, so any system's score on Full is structurally ≥ its score on Pro. 6 rows are distinct runs from the same zaidishahbaz1/officeqa submission commit (variance across trials). Non-model-annotated soumya-batra/agentswe-officeqa-nebius rows on the same date omitted per 'annotated model' filter."
+    }
+  ],
+  "notes": "Paper title is 'OfficeQA Pro'; stub name 'OfficeQA' preserved. Pro set is 133 questions; paper also defines OfficeQA Full (Pro + 113 easier questions = 246) for non-frontier systems. Corpus is U.S. Treasury Bulletins (100–200 page reports mixing prose, tables, figures, charts). Capabilities tested: data analysis (56.1%), coding/SQL (15.9%), retrieval (21.8%), chart understanding (5.0%)."
 }
