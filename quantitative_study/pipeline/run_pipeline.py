@@ -116,9 +116,9 @@ def main() -> None:
         for _, row in direction[direction["n"] >= 2].iterrows():
             print(f"    {row['benchmark']:22s}  n={int(row['n']):2d}  mean_delta={row['mean_delta']:+.4f}  [{row['direction']}]")
 
-    # ---- D. Cross-analysis (domain, difficulty, progress) ----
+    # ---- D. Cross-analysis (taxonomy, difficulty, progress) ----
     print("\n" + "=" * 70)
-    print("D. Cross-analysis: domains, difficulty, progress...")
+    print("D. Cross-analysis: taxonomy, difficulty, progress...")
 
     difficulty = benchmark_difficulty_table(harbor)
     dom_sum = domain_summary(harbor)
@@ -144,7 +144,7 @@ def main() -> None:
                   f"mean_best={row['mean_best_score']:.3f}  mean_all={row['mean_all_scores']:.3f}")
 
     if not superdom_sum.empty:
-        print("  Coding vs Non-Coding:")
+        print("  Superdomain summary:")
         for _, row in superdom_sum.iterrows():
             print(f"    {row['superdomain']:12s}  n={int(row['n_benchmarks']):2d}  "
                   f"mean_best={row['mean_best_score']:.3f}  mean_all={row['mean_all_scores']:.3f}")

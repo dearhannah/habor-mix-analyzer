@@ -259,7 +259,7 @@ def fig_domain_scores(domain_df: pd.DataFrame) -> None:
 
 
 # ===================================================================
-# Fig 7: Coding vs Non-Coding comparison (superdomain)
+# Fig 7: Superdomain comparison
 # ===================================================================
 
 def fig_coding_vs_noncoding(superdomain_df: pd.DataFrame) -> None:
@@ -279,7 +279,7 @@ def fig_coding_vs_noncoding(superdomain_df: pd.DataFrame) -> None:
     ax.set_xticks(x)
     ax.set_xticklabels(superdomain_df["superdomain"])
     ax.set_ylabel("Score")
-    ax.set_title("Coding vs Non-Coding: Score Comparison")
+    ax.set_title("Score Comparison by Superdomain")
     ax.grid(axis="y", color=COLOR_GRID, linewidth=0.8)
     ax.legend(frameon=False)
     ax.set_ylim(0, 1.05)
@@ -402,7 +402,7 @@ def fig_model_ranking(harbor_df: pd.DataFrame) -> None:
 
 
 # ===================================================================
-# Fig 11: Per-domain agent effect (terminus-2 vs others, Coding vs Non-Coding)
+# Fig 11: Per-domain agent effect (terminus-2 vs others, grouped by superdomain)
 # ===================================================================
 
 def fig_agent_domain_effect(harbor_df: pd.DataFrame) -> None:
@@ -478,7 +478,7 @@ def fig_agent_domain_effect(harbor_df: pd.DataFrame) -> None:
     ax.set_yticklabels([_wrap(a, 20) for a in agents])
     ax.axvline(0, color=COLOR_AXIS, linewidth=1)
     ax.set_xlabel("Mean score change vs terminus-2")
-    ax.set_title("Agent Effect by Domain (vs Terminus-2)")
+    ax.set_title("Agent Effect by Superdomain (vs Terminus-2)")
     ax.grid(axis="x", color=COLOR_GRID, linewidth=0.8)
     ax.legend(frameon=False, loc="lower right")
     fig.tight_layout()

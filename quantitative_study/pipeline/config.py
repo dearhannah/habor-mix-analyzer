@@ -5,8 +5,11 @@ score transforms, and figure style constants.
 
 from __future__ import annotations
 
+import csv
+import json
 import math
 from pathlib import Path
+import re
 
 # ---------------------------------------------------------------------------
 # Paths (relative to habor-mix-analyzer root)
@@ -18,6 +21,7 @@ HARBOR_CSV_CANDIDATES = [
     REPO_ROOT / "benchmark_level_matrix.csv",
 ]
 BENCHMARK_INFO_DIR = REPO_ROOT / "benchmark_info_jobs"
+BENCHMARK_CATEGORIES_PATH = REPO_ROOT / "benchmark_categories.json"
 OUTPUT_DIR = REPO_ROOT / "output" / "quantitative"
 FIGURE_DIR = OUTPUT_DIR / "figures"
 
@@ -29,6 +33,7 @@ MATRIX_COLUMN_TO_STEM: dict[str, str | None] = {
     "crustbench": "crust_bench",
     "dacode": "da_code",
     "featurebench-modal": "featurebench",
+    "financeagent_terminal": "financeagent",
     "labbench": "lab_bench",
     "mlgym": "mlgym_bench",
     "omnimath": "omni_math",
@@ -135,95 +140,157 @@ COLOR_GRID = "#dddddd"
 COLOR_AXIS = "#666666"
 
 # ---------------------------------------------------------------------------
-# Domain taxonomy for Harbor benchmarks (8 categories)
-# Maps matrix column name -> (domain, superdomain)
-# superdomain is "Coding" vs "Non-Coding" for the headline split.
+# Benchmark taxonomy loaded from benchmark_categories.json
+# domain = top-level category
+# superdomain = agenticity bucket within each subdomain
 # ---------------------------------------------------------------------------
-_CODING = "Coding"
-_NON_CODING = "Non-Coding"
+_UNCATEGORIZED_DOMAIN = "Other"
+_UNCATEGORIZED_SUPERDOMAIN = "Uncategorized"
 
-DOMAIN_MAP: dict[str, tuple[str, str]] = {
-    # --- 1. SWE / Repo-level (14) ---
-    "swebench-verified":     ("SWE / Repo-level", _CODING),
-    "swebench-multilingual": ("SWE / Repo-level", _CODING),
-    "swebenchpro":           ("SWE / Repo-level", _CODING),
-    "swesmith":              ("SWE / Repo-level", _CODING),
-    "swegym":                ("SWE / Repo-level", _CODING),
-    "swtbench":              ("SWE / Repo-level", _CODING),
-    "multi-swe-bench":       ("SWE / Repo-level", _CODING),
-    "swe-lancer":            ("SWE / Repo-level", _CODING),
-    "crustbench":            ("SWE / Repo-level", _CODING),
-    "gso":                   ("SWE / Repo-level", _CODING),
-    "featurebench-modal":    ("SWE / Repo-level", _CODING),
-    "devopsgym":             ("SWE / Repo-level", _CODING),
-    "humanevalfix":          ("SWE / Repo-level", _CODING),
-    "quixbugs":              ("SWE / Repo-level", _CODING),
-    # --- 2. Coding & Algorithms (7) ---
-    "aider-polyglot":  ("Coding & Algorithms", _CODING),
-    "bigcodebench":    ("Coding & Algorithms", _CODING),
-    "livecodebench":   ("Coding & Algorithms", _CODING),
-    "usaco":           ("Coding & Algorithms", _CODING),
-    "algotune":        ("Coding & Algorithms", _CODING),
-    "compilebench":    ("Coding & Algorithms", _CODING),
-    "qwen-coder":      ("Coding & Algorithms", _CODING),
-    # --- 3. Math (3) ---
-    "aime":     ("Math", _NON_CODING),
-    "ineqmath": ("Math", _NON_CODING),
-    "omnimath": ("Math", _NON_CODING),
-    # --- 4. Science & AI Research (12) ---
-    "bixbench":         ("Science & AI Research", _NON_CODING),
-    "codepde":          ("Science & AI Research", _NON_CODING),
-    "deepsynth":        ("Science & AI Research", _NON_CODING),
-    "gpqa-diamond":     ("Science & AI Research", _NON_CODING),
-    "hle":              ("Science & AI Research", _NON_CODING),
-    "labbench":         ("Science & AI Research", _NON_CODING),
-    "qcircuitbench":    ("Science & AI Research", _NON_CODING),
-    "sldbench":         ("Science & AI Research", _NON_CODING),
-    "scicode":          ("Science & AI Research", _NON_CODING),
-    "mlgym":            ("Science & AI Research", _NON_CODING),
-    "replicationbench": ("Science & AI Research", _NON_CODING),
-    "research-code-bench": ("Science & AI Research", _NON_CODING),
-    # --- 5. Agents & Tool Use (7) ---
-    "bfcl":            ("Agents & Tool Use", _NON_CODING),
-    "gaia":            ("Agents & Tool Use", _NON_CODING),
-    "gaia2":           ("Agents & Tool Use", _NON_CODING),
-    "financeagent":    ("Agents & Tool Use", _NON_CODING),
-    "medagentbench":   ("Agents & Tool Use", _NON_CODING),
-    "skillsbench":     ("Agents & Tool Use", _NON_CODING),
-    "terminal-bench":  ("Agents & Tool Use", _NON_CODING),
-    # --- 6. Data Science & Analysis (5) ---
-    "dacode":          ("Data Science & Analysis", _NON_CODING),
-    "ds-1000":         ("Data Science & Analysis", _NON_CODING),
-    "kumo":            ("Data Science & Analysis", _NON_CODING),
-    "spider2":         ("Data Science & Analysis", _NON_CODING),
-    "spreadsheetbench": ("Data Science & Analysis", _NON_CODING),
-    # --- 7. Reasoning & Knowledge (7) ---
-    "arc-agi-2":      ("Reasoning & Knowledge", _NON_CODING),
-    "reasoning-gym":  ("Reasoning & Knowledge", _NON_CODING),
-    "simpleqa":       ("Reasoning & Knowledge", _NON_CODING),
-    "mmmlu":          ("Reasoning & Knowledge", _NON_CODING),
-    "lawbench":       ("Reasoning & Knowledge", _NON_CODING),
-    "mmau":           ("Reasoning & Knowledge", _NON_CODING),
-    "pixiu":          ("Reasoning & Knowledge", _NON_CODING),
-    # --- 8. Safety & Security (2) ---
-    "seal0":          ("Safety & Security", _NON_CODING),
-    "strongreject":   ("Safety & Security", _NON_CODING),
+BENCHMARK_KIND_LABELS = {
+    "agentic": "Agentic",
+    "modified-agentic": "Modified Agentic",
+    "non-agentic": "Non-Agentic",
 }
 
+
+def _normalize_benchmark_key(value: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "", value.strip().lower())
+
+
+def resolve_stem(column: str) -> str | None:
+    if column in ("model", "agent"):
+        return None
+    if column in MATRIX_COLUMN_TO_STEM:
+        return MATRIX_COLUMN_TO_STEM[column]
+    return column.replace("-", "_")
+
+
+def _discover_matrix_columns() -> list[str]:
+    for candidate in HARBOR_CSV_CANDIDATES:
+        if not candidate.is_file():
+            continue
+        with candidate.open(newline="") as fh:
+            header = next(csv.reader(fh), [])
+        return [column for column in header if column not in {"model", "agent"}]
+    return []
+
+
+def _build_stem_to_matrix() -> dict[str, str]:
+    mapping: dict[str, str] = {}
+    for column in _discover_matrix_columns():
+        stem = resolve_stem(column)
+        if stem:
+            mapping.setdefault(stem, column)
+    for column, stem in MATRIX_COLUMN_TO_STEM.items():
+        if stem:
+            mapping.setdefault(stem, column)
+    return mapping
+
+
+STEM_TO_MATRIX = _build_stem_to_matrix()
+
+
+def _build_stem_name_lookup() -> dict[str, str]:
+    lookup: dict[str, str] = {}
+    for path in sorted(BENCHMARK_INFO_DIR.glob("*.json")):
+        stem = path.stem
+        lookup.setdefault(_normalize_benchmark_key(stem), stem)
+        try:
+            data = json.loads(path.read_text())
+        except json.JSONDecodeError:
+            continue
+        name = str(data.get("name") or "").strip()
+        if name:
+            lookup.setdefault(_normalize_benchmark_key(name), stem)
+    return lookup
+
+
+STEM_NAME_LOOKUP = _build_stem_name_lookup()
+
+
+def _build_matrix_name_lookup() -> dict[str, str]:
+    lookup: dict[str, str] = {}
+    for column in _discover_matrix_columns():
+        lookup.setdefault(_normalize_benchmark_key(column), column)
+        stem = resolve_stem(column)
+        if stem:
+            lookup.setdefault(_normalize_benchmark_key(stem), column)
+    for stem, column in STEM_TO_MATRIX.items():
+        lookup.setdefault(_normalize_benchmark_key(stem), column)
+        lookup.setdefault(_normalize_benchmark_key(column), column)
+    for key, stem in STEM_NAME_LOOKUP.items():
+        column = STEM_TO_MATRIX.get(stem)
+        if column:
+            lookup.setdefault(key, column)
+    return lookup
+
+
+MATRIX_NAME_LOOKUP = _build_matrix_name_lookup()
+
+
+def _load_benchmark_taxonomy() -> tuple[dict[str, tuple[str, str]], dict[str, dict[str, str]]]:
+    if not BENCHMARK_CATEGORIES_PATH.is_file():
+        return {}, {}
+
+    raw = json.loads(BENCHMARK_CATEGORIES_PATH.read_text())
+    domain_map: dict[str, tuple[str, str]] = {}
+    benchmark_taxonomy: dict[str, dict[str, str]] = {}
+
+    for domain_block in raw:
+        domain = str(domain_block.get("domain") or "").strip()
+        if not domain:
+            continue
+        for subdomain_block in domain_block.get("subdomains") or []:
+            subdomain = str(subdomain_block.get("subdomain") or "").strip()
+            benchmarks_by_kind = subdomain_block.get("benchmarks") or {}
+            for kind, benchmarks in benchmarks_by_kind.items():
+                superdomain = BENCHMARK_KIND_LABELS.get(kind, kind.replace("-", " ").title())
+                for benchmark_name in benchmarks or []:
+                    canonical = _normalize_benchmark_key(str(benchmark_name))
+                    stem = STEM_NAME_LOOKUP.get(canonical)
+                    matrix_column = MATRIX_NAME_LOOKUP.get(canonical)
+                    if matrix_column is None and stem is not None:
+                        matrix_column = STEM_TO_MATRIX.get(stem)
+                    if stem is None and matrix_column is not None:
+                        stem = resolve_stem(matrix_column)
+
+                    taxonomy = {
+                        "domain": domain,
+                        "subdomain": subdomain,
+                        "superdomain": superdomain,
+                    }
+
+                    if matrix_column:
+                        domain_map[matrix_column] = (domain, superdomain)
+                        benchmark_taxonomy[matrix_column] = taxonomy
+                    if stem:
+                        domain_map[stem] = (domain, superdomain)
+                        benchmark_taxonomy[stem] = taxonomy
+
+    return domain_map, benchmark_taxonomy
+
+
+DOMAIN_MAP, BENCHMARK_TAXONOMY = _load_benchmark_taxonomy()
+
 DOMAIN_COLORS = {
-    "SWE / Repo-level":        "#74c476",
-    "Coding & Algorithms":     "#a1d99b",
-    "Math":                    "#6baed6",
-    "Science & AI Research":   "#9e9ac8",
-    "Agents & Tool Use":       "#fdae6b",
-    "Data Science & Analysis": "#fdd0a2",
-    "Reasoning & Knowledge":   "#fc9272",
-    "Safety & Security":       "#969696",
+    "Software Engineering": "#74c476",
+    "Mathematics & Reasoning": "#6baed6",
+    "Knowledge & Long Context": "#9ecae1",
+    "Scientific Research": "#9e9ac8",
+    "Agents, Tools & Systems": "#fdae6b",
+    "Data & Analytics": "#fdd0a2",
+    "Professional Domains": "#fd8d3c",
+    "Safety & Security": "#969696",
+    "Multimodal": "#e377c2",
+    _UNCATEGORIZED_DOMAIN: COLOR_GRAY,
 }
 
 SUPERDOMAIN_COLORS = {
-    _CODING:     "#74c476",
-    _NON_CODING: "#9ecae1",
+    "Agentic": "#74c476",
+    "Modified Agentic": "#9ecae1",
+    "Non-Agentic": "#fdae6b",
+    _UNCATEGORIZED_SUPERDOMAIN: COLOR_GRAY,
 }
 
 

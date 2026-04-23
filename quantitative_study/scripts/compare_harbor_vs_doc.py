@@ -36,6 +36,7 @@ MATRIX_COLUMN_TO_STEM: dict[str, str | None] = {
     "crustbench": "crust_bench",
     "dacode": "da_code",
     "featurebench-modal": "featurebench",
+    "financeagent_terminal": "financeagent",
     "labbench": "lab_bench",
     "mlgym": "mlgym_bench",
     "omnimath": "omni_math",

@@ -1,7 +1,7 @@
 """
 Cross-analysis: combines Harbor matrix data with doc metadata to answer:
   1. What benchmarks are hardest? (lowest best-model scores)
-  2. How do scores break down across domains (coding vs non-coding)?
+  2. How do scores break down across taxonomy groups?
   3. How much progress did models make over time? (from doc temporal data)
   4. Harness vs model importance (from habor-analyze outputs)
 """
@@ -36,7 +36,7 @@ def _domain_for(name: str) -> tuple[str, str]:
         return DOMAIN_MAP[hyphen]
     if name in _STEM_TO_MATRIX and _STEM_TO_MATRIX[name] in DOMAIN_MAP:
         return DOMAIN_MAP[_STEM_TO_MATRIX[name]]
-    return ("Other", "Non-Coding")
+    return ("Other", "Uncategorized")
 
 
 def _is_well_scaled(series: pd.Series, lo: float = -0.01, hi: float = 1.01) -> bool:
