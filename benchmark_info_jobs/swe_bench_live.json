@@ -375,6 +375,7 @@
       "results": [
         {
           "model": "GPT5-Thinking (Medium)",
+          "effort": "Medium",
           "system_description": "SWE-agent",
           "scores": [
             {
@@ -405,6 +406,897 @@
         }
       ],
       "note": "Official leaderboard, SWE-bench-Live Lite."
+    },
+    {
+      "date": "2025-04-30",
+      "source_type": "leaderboard",
+      "source_url": "https://swe-bench-live.github.io/",
+      "results": [
+        {
+          "model": "GPT 4o",
+          "system_description": "SWE-agent",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.0910,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Leaderboard SWE-bench-Live Full split. In addition to 3 results in paper."
+    },
+    {
+      "date": "2025-12-30",
+      "source_type": "leaderboard",
+      "source_url": "https://swe-bench-live.github.io/",
+      "results": [
+        {
+          "model": "Claude-4.5-Sonnet",
+          "system_description": "SWE-agent",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.4,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT5-Thinking (Medium)",
+          "effort": "Thinking (Medium)",
+          "system_description": "SWE-agent",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.3040,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Leaderboard SWE-bench-Live. Verified."
+    },
+    {
+      "date": "2026-01-07",
+      "source_type": "leaderboard",
+      "source_url": "https://swe-bench-live.github.io/",
+      "results": [
+        {
+          "model": "Claude-4.5-Sonnet",
+          "system_description": "OpenHands",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.4375,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude-4.5-Sonnet",
+          "system_description": "SWE-agent",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.4375,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT5.2-Thinking (Medium)",
+          "effort": "Thinking (Medium)",
+          "system_description": "SWE-agent",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.4167,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT5.2-Thinking (Medium)",
+          "effort": "Thinking (Medium)",
+          "system_description": "Claude Code",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.375,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT5.2-Thinking (Medium)",
+          "effort": "Thinking (Medium)",
+          "system_description": "OpenHands",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.375,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude-4.5-Sonnet",
+          "system_description": "Claude Code",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.3542,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini3-Flash",
+          "system_description": "OpenHands",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.3542,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini3-Flash",
+          "system_description": "SWE-agent",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.3542,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-V3.1-Terminus",
+          "system_description": "SWE-agent",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.2708,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-V3.1-Terminus",
+          "system_description": "OpenHands",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.25,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-V3.1-Terminus",
+          "system_description": "Claude Code",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.1042,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Official current C/C++ slice from the homepage's leaderboard file (total=48)."
+    },
+    {
+      "date": "2026-01-07",
+      "source_type": "leaderboard",
+      "source_url": "https://swe-bench-live.github.io/",
+      "results": [
+        {
+          "model": "GPT5.2-Thinking (Medium)",
+          "effort": "Thinking (Medium)",
+          "system_description": "OpenHands",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.2143,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude-4.5-Sonnet",
+          "system_description": "SWE-agent",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.2143,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-V3.1-Terminus",
+          "system_description": "SWE-agent",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.2143,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT5.2-Thinking (Medium)",
+          "effort": "Thinking (Medium)",
+          "system_description": "SWE-agent",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.2143,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude-4.5-Sonnet",
+          "system_description": "OpenHands",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.1786,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-V3.1-Terminus",
+          "system_description": "OpenHands",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.1786,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini3-Flash",
+          "system_description": "OpenHands",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.1786,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude-4.5-Sonnet",
+          "system_description": "Claude Code",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.1429,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-V3.1-Terminus",
+          "system_description": "Claude Code",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.1429,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT5.2-Thinking (Medium)",
+          "effort": "Thinking (Medium)",
+          "system_description": "Claude Code",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.1429,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini3-Flash",
+          "system_description": "SWE-agent",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.1429,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Official current C# slice from the homepage's leaderboard file (total=28)."
+    },
+    {
+      "date": "2026-01-07",
+      "source_type": "leaderboard",
+      "source_url": "https://swe-bench-live.github.io/",
+      "results": [
+        {
+          "model": "Claude-4.5-Sonnet",
+          "system_description": "Claude Code",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.2716,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT5.2-Thinking (Medium)",
+          "effort": "Thinking (Medium)",
+          "system_description": "Claude Code",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.2037,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude-4.5-Sonnet",
+          "system_description": "SWE-agent",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.2037,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude-4.5-Sonnet",
+          "system_description": "OpenHands",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.1914,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT5.2-Thinking (Medium)",
+          "effort": "Thinking (Medium)",
+          "system_description": "SWE-agent",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.1605,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-V3.1-Terminus",
+          "system_description": "Claude Code",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.1543,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT5.2-Thinking (Medium)",
+          "effort": "Thinking (Medium)",
+          "system_description": "OpenHands",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.1296,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-V3.1-Terminus",
+          "system_description": "OpenHands",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.1111,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-V3.1-Terminus",
+          "system_description": "SWE-agent",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.1049,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini3-Flash",
+          "system_description": "SWE-agent",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.0988,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini3-Flash",
+          "system_description": "OpenHands",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.0864,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Official current TS/JS slice from the homepage's leaderboard file (total=162)."
+    },
+    {
+      "date": "2026-01-07",
+      "source_type": "leaderboard",
+      "source_url": "https://swe-bench-live.github.io/",
+      "results": [
+        {
+          "model": "Claude-4.5-Sonnet",
+          "system_description": "Claude Code",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.4412,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude-4.5-Sonnet",
+          "system_description": "OpenHands",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.3971,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude-4.5-Sonnet",
+          "system_description": "SWE-agent",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.3971,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini3-Flash",
+          "system_description": "SWE-agent",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.3235,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini3-Flash",
+          "system_description": "OpenHands",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.3088,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-V3.1-Terminus",
+          "system_description": "Claude Code",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.2941,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT5.2-Thinking (Medium)",
+          "system_description": "Claude Code",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.2794,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT5.2-Thinking (Medium)",
+          "system_description": "SWE-agent",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.25,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-V3.1-Terminus",
+          "system_description": "OpenHands",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.2206,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT5.2-Thinking (Medium)",
+          "effort": "Thinking (Medium)",
+          "system_description": "OpenHands",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.2059,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-V3.1-Terminus",
+          "system_description": "SWE-agent",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.2059,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Official current Go slice from the homepage's leaderboard file (total=68)."
+    },
+    {
+      "date": "2026-01-07",
+      "source_type": "leaderboard",
+      "source_url": "https://swe-bench-live.github.io/",
+      "results": [
+        {
+          "model": "Gemini3-Flash",
+          "system_description": "SWE-agent",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.3778,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini3-Flash",
+          "system_description": "OpenHands",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.3556,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT5.2-Thinking (Medium)",
+          "system_description": "Claude Code",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.3333,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude-4.5-Sonnet",
+          "system_description": "SWE-agent",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.2889,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-V3.1-Terminus",
+          "system_description": "SWE-agent",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.2889,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT5.2-Thinking (Medium)",
+          "effort": "Thinking (Medium)",
+          "system_description": "SWE-agent",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.2889,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude-4.5-Sonnet",
+          "system_description": "OpenHands",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.2667,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-V3.1-Terminus",
+          "system_description": "OpenHands",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.2667,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT5.2-Thinking (Medium)",
+          "effort": "Thinking (Medium)",
+          "system_description": "OpenHands",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.2667,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude-4.5-Sonnet",
+          "system_description": "Claude Code",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.2222,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-V3.1-Terminus",
+          "system_description": "Claude Code",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.1778,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Official current Rust slice from the homepage's leaderboard file (total=45)."
+    },
+    {
+      "date": "2026-01-07",
+      "source_type": "leaderboard",
+      "source_url": "https://swe-bench-live.github.io/",
+      "results": [
+        {
+          "model": "GPT5.2-Thinking (Medium)",
+          "effort": "Thinking (Medium)",
+          "system_description": "Claude Code",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.3710,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude-4.5-Sonnet",
+          "system_description": "Claude Code",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.2742,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-V3.1-Terminus",
+          "system_description": "SWE-agent",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.2742,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini3-Flash",
+          "system_description": "SWE-agent",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.2581,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-V3.1-Terminus",
+          "system_description": "OpenHands",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.2419,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini3-Flash",
+          "system_description": "OpenHands",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.2419,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-V3.1-Terminus",
+          "system_description": "Claude Code",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.2258,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT5.2-Thinking (Medium)",
+          "effort": "Thinking (Medium)",
+          "system_description": "OpenHands",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.2258,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT5.2-Thinking (Medium)",
+          "effort": "Thinking (Medium)",
+          "system_description": "SWE-agent",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.2258,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude-4.5-Sonnet",
+          "system_description": "OpenHands",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.1935,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude-4.5-Sonnet",
+          "system_description": "SWE-agent",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.1613,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Official current Java slice from the homepage's leaderboard file (total=62)."
+    },
+    {
+      "date": "2026-01-07",
+      "source_type": "leaderboard",
+      "source_url": "https://swe-bench-live.github.io/",
+      "results": [
+        {
+          "model": "Claude-4.5-Sonnet",
+          "system_description": "Win-agent",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.3,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-V3.1-Terminus",
+          "system_description": "Win-agent",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.2,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5.2-Thinking-Medium",
+          "system_description": "Win-agent",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.2,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini-3-Flash",
+          "system_description": "Win-agent",
+          "scores": [
+            {
+              "metric": "% Resolved",
+              "value": 0.16,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Official current Windows slice from the homepage's leaderboard file (total=50)."
     }
   ],
   "notes": "SWE-bench-Live is a live-updating repository-level software-engineering benchmark. num_tasks is set to the current official Full split count of 1,890 tasks; the initial 2025-05 release had 1,319 tasks across 93 repositories."
