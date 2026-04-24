@@ -26,7 +26,8 @@
         {
           "model": "GPT-4.1",
           "effort": null,
-          "system_description": "BM25",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "BM25",
           "scores": [
             {
               "metric": "accuracy",
@@ -53,7 +54,8 @@
         {
           "model": "GPT-4.1",
           "effort": null,
-          "system_description": "Qwen3-Embed-8B",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "Qwen3-Embed-8B",
           "scores": [
             {
               "metric": "accuracy",
@@ -80,7 +82,8 @@
         {
           "model": "o3",
           "effort": null,
-          "system_description": "BM25",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "BM25",
           "scores": [
             {
               "metric": "accuracy",
@@ -107,7 +110,8 @@
         {
           "model": "o3",
           "effort": null,
-          "system_description": "Qwen3-Embed-8B",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "Qwen3-Embed-8B",
           "scores": [
             {
               "metric": "accuracy",
@@ -134,7 +138,8 @@
         {
           "model": "Sonnet 4",
           "effort": null,
-          "system_description": "BM25",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "BM25",
           "scores": [
             {
               "metric": "accuracy",
@@ -161,7 +166,8 @@
         {
           "model": "Sonnet 4",
           "effort": null,
-          "system_description": "Qwen3-Embed-8B",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "Qwen3-Embed-8B",
           "scores": [
             {
               "metric": "accuracy",
@@ -188,7 +194,8 @@
         {
           "model": "Opus 4",
           "effort": null,
-          "system_description": "BM25",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "BM25",
           "scores": [
             {
               "metric": "accuracy",
@@ -215,7 +222,8 @@
         {
           "model": "Opus 4",
           "effort": null,
-          "system_description": "Qwen3-Embed-8B",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "Qwen3-Embed-8B",
           "scores": [
             {
               "metric": "accuracy",
@@ -242,7 +250,8 @@
         {
           "model": "Gemini 2.5 Flash",
           "effort": null,
-          "system_description": "BM25",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "BM25",
           "scores": [
             {
               "metric": "accuracy",
@@ -269,7 +278,8 @@
         {
           "model": "Gemini 2.5 Flash",
           "effort": null,
-          "system_description": "Qwen3-Embed-8B",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "Qwen3-Embed-8B",
           "scores": [
             {
               "metric": "accuracy",
@@ -296,7 +306,8 @@
         {
           "model": "Gemini 2.5 Pro",
           "effort": null,
-          "system_description": "BM25",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "BM25",
           "scores": [
             {
               "metric": "accuracy",
@@ -323,7 +334,8 @@
         {
           "model": "Gemini 2.5 Pro",
           "effort": null,
-          "system_description": "Qwen3-Embed-8B",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "Qwen3-Embed-8B",
           "scores": [
             {
               "metric": "accuracy",
@@ -350,7 +362,8 @@
         {
           "model": "Qwen3-32B",
           "effort": null,
-          "system_description": "BM25",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "BM25",
           "scores": [
             {
               "metric": "accuracy",
@@ -377,7 +390,8 @@
         {
           "model": "Qwen3-32B",
           "effort": null,
-          "system_description": "Qwen3-Embed-0.6B",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "Qwen3-Embed-0.6B",
           "scores": [
             {
               "metric": "accuracy",
@@ -404,7 +418,8 @@
         {
           "model": "Qwen3-32B",
           "effort": null,
-          "system_description": "Qwen3-Embed-4B",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "Qwen3-Embed-4B",
           "scores": [
             {
               "metric": "accuracy",
@@ -431,7 +446,8 @@
         {
           "model": "Qwen3-32B",
           "effort": null,
-          "system_description": "Qwen3-Embed-8B",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "Qwen3-Embed-8B",
           "scores": [
             {
               "metric": "accuracy",
@@ -458,7 +474,8 @@
         {
           "model": "Qwen3-32B",
           "effort": null,
-          "system_description": "ReasonIR",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "ReasonIR",
           "scores": [
             {
               "metric": "accuracy",
@@ -485,7 +502,8 @@
         {
           "model": "SearchR1-32B",
           "effort": null,
-          "system_description": "BM25",
+          "system_description": "SearchR1 search-augmented generation",
+          "note": "BM25",
           "scores": [
             {
               "metric": "accuracy",
@@ -507,7 +525,8 @@
         {
           "model": "SearchR1-32B",
           "effort": null,
-          "system_description": "Qwen3-Embed-0.6B",
+          "system_description": "SearchR1 search-augmented generation",
+          "note": "Qwen3-Embed-0.6B",
           "scores": [
             {
               "metric": "accuracy",
@@ -529,7 +548,8 @@
         {
           "model": "SearchR1-32B",
           "effort": null,
-          "system_description": "Qwen3-Embed-4B",
+          "system_description": "SearchR1 search-augmented generation",
+          "note": "Qwen3-Embed-4B",
           "scores": [
             {
               "metric": "accuracy",
@@ -551,7 +571,8 @@
         {
           "model": "SearchR1-32B",
           "effort": null,
-          "system_description": "Qwen3-Embed-8B",
+          "system_description": "SearchR1 search-augmented generation",
+          "note": "Qwen3-Embed-8B",
           "scores": [
             {
               "metric": "accuracy",
@@ -573,7 +594,8 @@
         {
           "model": "SearchR1-32B",
           "effort": null,
-          "system_description": "ReasonIR",
+          "system_description": "SearchR1 search-augmented generation",
+          "note": "ReasonIR",
           "scores": [
             {
               "metric": "accuracy",
@@ -595,7 +617,8 @@
         {
           "model": "oss-20b-low",
           "effort": "low",
-          "system_description": "BM25",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "BM25",
           "scores": [
             {
               "metric": "accuracy",
@@ -622,7 +645,8 @@
         {
           "model": "oss-20b-low",
           "effort": "low",
-          "system_description": "Qwen3-Embed-8B",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "Qwen3-Embed-8B",
           "scores": [
             {
               "metric": "accuracy",
@@ -649,7 +673,8 @@
         {
           "model": "oss-20b-medium",
           "effort": "medium",
-          "system_description": "BM25",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "BM25",
           "scores": [
             {
               "metric": "accuracy",
@@ -676,7 +701,8 @@
         {
           "model": "oss-20b-medium",
           "effort": "medium",
-          "system_description": "Qwen3-Embed-8B",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "Qwen3-Embed-8B",
           "scores": [
             {
               "metric": "accuracy",
@@ -703,7 +729,8 @@
         {
           "model": "oss-20b-high",
           "effort": "high",
-          "system_description": "BM25",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "BM25",
           "scores": [
             {
               "metric": "accuracy",
@@ -730,7 +757,8 @@
         {
           "model": "oss-20b-high",
           "effort": "high",
-          "system_description": "Qwen3-Embed-8B",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "Qwen3-Embed-8B",
           "scores": [
             {
               "metric": "accuracy",
@@ -757,7 +785,8 @@
         {
           "model": "oss-120b-low",
           "effort": "low",
-          "system_description": "BM25",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "BM25",
           "scores": [
             {
               "metric": "accuracy",
@@ -784,7 +813,8 @@
         {
           "model": "oss-120b-low",
           "effort": "low",
-          "system_description": "Qwen3-Embed-8B",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "Qwen3-Embed-8B",
           "scores": [
             {
               "metric": "accuracy",
@@ -811,7 +841,8 @@
         {
           "model": "oss-120b-medium",
           "effort": "medium",
-          "system_description": "BM25",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "BM25",
           "scores": [
             {
               "metric": "accuracy",
@@ -838,7 +869,8 @@
         {
           "model": "oss-120b-medium",
           "effort": "medium",
-          "system_description": "Qwen3-Embed-8B",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "Qwen3-Embed-8B",
           "scores": [
             {
               "metric": "accuracy",
@@ -865,7 +897,8 @@
         {
           "model": "oss-120b-high",
           "effort": "high",
-          "system_description": "BM25",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "BM25",
           "scores": [
             {
               "metric": "accuracy",
@@ -892,7 +925,8 @@
         {
           "model": "oss-120b-high",
           "effort": "high",
-          "system_description": "Qwen3-Embed-8B",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "Qwen3-Embed-8B",
           "scores": [
             {
               "metric": "accuracy",
@@ -919,7 +953,8 @@
         {
           "model": "GPT-5",
           "effort": null,
-          "system_description": "BM25",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "BM25",
           "scores": [
             {
               "metric": "accuracy",
@@ -946,7 +981,8 @@
         {
           "model": "GPT-5",
           "effort": null,
-          "system_description": "Qwen3-Embed-8B",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "Qwen3-Embed-8B",
           "scores": [
             {
               "metric": "accuracy",
@@ -973,7 +1009,8 @@
         {
           "model": "kimi-k2-0711-preview",
           "effort": null,
-          "system_description": "BM25",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "BM25",
           "scores": [
             {
               "metric": "accuracy",
@@ -1000,7 +1037,8 @@
         {
           "model": "kimi-k2-0711-preview",
           "effort": null,
-          "system_description": "Qwen3-Embed-8B",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "Qwen3-Embed-8B",
           "scores": [
             {
               "metric": "accuracy",
@@ -1027,7 +1065,8 @@
         {
           "model": "DeepSeek-R1-0528",
           "effort": null,
-          "system_description": "BM25",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "BM25",
           "scores": [
             {
               "metric": "accuracy",
@@ -1054,7 +1093,8 @@
         {
           "model": "DeepSeek-R1-0528",
           "effort": null,
-          "system_description": "Qwen3-Embed-8B",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "Qwen3-Embed-8B",
           "scores": [
             {
               "metric": "accuracy",
@@ -1081,7 +1121,8 @@
         {
           "model": "oss-120b-high",
           "effort": "high",
-          "system_description": "BM25",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "BM25",
           "scores": [
             {
               "metric": "accuracy",
@@ -1106,7 +1147,7 @@
           ]
         }
       ],
-      "note": "HuggingFace leaderboard data (41 submissions). system_description is 'retriever (scaffold_name)' when a custom scaffold is used, otherwise just the retriever name."
+      "note": "HuggingFace leaderboard data (41 submissions). system_description records the scaffold/toolset; result-level note records the retriever. Rows without a custom scaffold use the BrowseComp-Plus standard search scaffold."
     },
     {
       "date": "2025-09",
@@ -1116,7 +1157,8 @@
         {
           "model": "WebSailor-32B",
           "effort": null,
-          "system_description": "BM25",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "BM25",
           "scores": [
             {
               "metric": "accuracy",
@@ -1138,7 +1180,8 @@
         {
           "model": "WebSailor-32B",
           "effort": null,
-          "system_description": "Qwen3-Embed-8B",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "Qwen3-Embed-8B",
           "scores": [
             {
               "metric": "accuracy",
@@ -1160,7 +1203,8 @@
         {
           "model": "Tongyi-DeepResearch-30B-A3B",
           "effort": null,
-          "system_description": "BM25",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "BM25",
           "scores": [
             {
               "metric": "accuracy",
@@ -1182,7 +1226,8 @@
         {
           "model": "Tongyi-DeepResearch-30B-A3B",
           "effort": null,
-          "system_description": "Qwen3-Embed-8B",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "Qwen3-Embed-8B",
           "scores": [
             {
               "metric": "accuracy",
@@ -1204,7 +1249,8 @@
         {
           "model": "FrugalRAG-Qwen7B",
           "effort": null,
-          "system_description": "Qwen3-Embed-8B",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "Qwen3-Embed-8B",
           "scores": [
             {
               "metric": "accuracy",
@@ -1229,7 +1275,7 @@
           ]
         }
       ],
-      "note": "HuggingFace leaderboard data (5 submissions). system_description is 'retriever (scaffold_name)' when a custom scaffold is used, otherwise just the retriever name."
+      "note": "HuggingFace leaderboard data (5 submissions). system_description records the scaffold/toolset; result-level note records the retriever. Rows without a custom scaffold use the BrowseComp-Plus standard search scaffold."
     },
     {
       "date": "2025-10",
@@ -1239,7 +1285,8 @@
         {
           "model": "GLM-4.6",
           "effort": null,
-          "system_description": "BM25",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "BM25",
           "scores": [
             {
               "metric": "accuracy",
@@ -1266,7 +1313,8 @@
         {
           "model": "GLM-4.6",
           "effort": null,
-          "system_description": "Qwen3-Embed-8B",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "Qwen3-Embed-8B",
           "scores": [
             {
               "metric": "accuracy",
@@ -1293,7 +1341,8 @@
         {
           "model": "Gemini 2.5 Flash",
           "effort": null,
-          "system_description": "Mixedbread Search",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "Mixedbread Search",
           "scores": [
             {
               "metric": "accuracy",
@@ -1320,7 +1369,8 @@
         {
           "model": "GPT-5",
           "effort": null,
-          "system_description": "Mixedbread Search",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "Mixedbread Search",
           "scores": [
             {
               "metric": "accuracy",
@@ -1345,7 +1395,7 @@
           ]
         }
       ],
-      "note": "HuggingFace leaderboard data (4 submissions). system_description is 'retriever (scaffold_name)' when a custom scaffold is used, otherwise just the retriever name."
+      "note": "HuggingFace leaderboard data (4 submissions). system_description records the scaffold/toolset; result-level note records the retriever. Rows without a custom scaffold use the BrowseComp-Plus standard search scaffold."
     },
     {
       "date": "2025-11",
@@ -1355,7 +1405,8 @@
         {
           "model": "GPT-5-mini",
           "effort": null,
-          "system_description": "openJiuwen-deepsearch (openJiuwen custom setup)",
+          "system_description": "openJiuwen custom setup",
+          "note": "openJiuwen-deepsearch",
           "scores": [
             {
               "metric": "accuracy",
@@ -1380,7 +1431,7 @@
           ]
         }
       ],
-      "note": "HuggingFace leaderboard data (1 submissions). system_description is 'retriever (scaffold_name)' when a custom scaffold is used, otherwise just the retriever name."
+      "note": "HuggingFace leaderboard data (1 submissions). system_description records the scaffold/toolset; result-level note records the retriever. Rows without a custom scaffold use the BrowseComp-Plus standard search scaffold."
     },
     {
       "date": "2025-12",
@@ -1390,7 +1441,8 @@
         {
           "model": "GPT-5",
           "effort": null,
-          "system_description": "Mixedbread Search (Agentica custom scaffold)",
+          "system_description": "Agentica custom scaffold",
+          "note": "Mixedbread Search",
           "scores": [
             {
               "metric": "accuracy",
@@ -1417,7 +1469,8 @@
         {
           "model": "oss-120b-high",
           "effort": "high",
-          "system_description": "BM25 (gpt-oss native toolset)",
+          "system_description": "gpt-oss native toolset",
+          "note": "BM25",
           "scores": [
             {
               "metric": "accuracy",
@@ -1444,7 +1497,8 @@
         {
           "model": "oss-120b-high",
           "effort": "high",
-          "system_description": "Qwen3-Embed-8B (gpt-oss native toolset)",
+          "system_description": "gpt-oss native toolset",
+          "note": "Qwen3-Embed-8B",
           "scores": [
             {
               "metric": "accuracy",
@@ -1471,7 +1525,8 @@
         {
           "model": "GLM-4.7",
           "effort": null,
-          "system_description": "BM25",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "BM25",
           "scores": [
             {
               "metric": "accuracy",
@@ -1498,7 +1553,8 @@
         {
           "model": "GLM-4.7",
           "effort": null,
-          "system_description": "Qwen3-Embed-8B",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "Qwen3-Embed-8B",
           "scores": [
             {
               "metric": "accuracy",
@@ -1525,7 +1581,8 @@
         {
           "model": "Tongyi-DeepResearch-30B-A3B",
           "effort": null,
-          "system_description": "BM25 (Tongyi-DeepResearch native toolset)",
+          "system_description": "Tongyi-DeepResearch native toolset",
+          "note": "BM25",
           "scores": [
             {
               "metric": "accuracy",
@@ -1547,7 +1604,8 @@
         {
           "model": "Tongyi-DeepResearch-30B-A3B",
           "effort": null,
-          "system_description": "Qwen3-Embed-8B (Tongyi-DeepResearch native toolset)",
+          "system_description": "Tongyi-DeepResearch native toolset",
+          "note": "Qwen3-Embed-8B",
           "scores": [
             {
               "metric": "accuracy",
@@ -1567,7 +1625,7 @@
           ]
         }
       ],
-      "note": "HuggingFace leaderboard data (7 submissions). system_description is 'retriever (scaffold_name)' when a custom scaffold is used, otherwise just the retriever name."
+      "note": "HuggingFace leaderboard data (7 submissions). system_description records the scaffold/toolset; result-level note records the retriever. Rows without a custom scaffold use the BrowseComp-Plus standard search scaffold."
     },
     {
       "date": "2026-02",
@@ -1577,7 +1635,8 @@
         {
           "model": "OpenResearcher",
           "effort": null,
-          "system_description": "Qwen3-Embed-8B (OpenResearcher toolset)",
+          "system_description": "OpenResearcher toolset",
+          "note": "Qwen3-Embed-8B",
           "scores": [
             {
               "metric": "accuracy",
@@ -1604,7 +1663,8 @@
         {
           "model": "SearchAgent-Zero",
           "effort": null,
-          "system_description": "Qwen3-Embed-8B",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "Qwen3-Embed-8B",
           "scores": [
             {
               "metric": "accuracy",
@@ -1629,7 +1689,7 @@
           ]
         }
       ],
-      "note": "HuggingFace leaderboard data (2 submissions). system_description is 'retriever (scaffold_name)' when a custom scaffold is used, otherwise just the retriever name."
+      "note": "HuggingFace leaderboard data (2 submissions). system_description records the scaffold/toolset; result-level note records the retriever. Rows without a custom scaffold use the BrowseComp-Plus standard search scaffold."
     },
     {
       "date": "2026-03",
@@ -1639,7 +1699,8 @@
         {
           "model": "GPT-5",
           "effort": null,
-          "system_description": "Reason-ModernColBERT (Search with get_doc)",
+          "system_description": "Search with get_doc",
+          "note": "Reason-ModernColBERT",
           "scores": [
             {
               "metric": "accuracy",
@@ -1666,7 +1727,8 @@
         {
           "model": "GPT-5",
           "effort": null,
-          "system_description": "Reason-ModernColBERT",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "Reason-ModernColBERT",
           "scores": [
             {
               "metric": "accuracy",
@@ -1693,7 +1755,8 @@
         {
           "model": "oss-120b-high",
           "effort": "high",
-          "system_description": "GTE-ModernColBERT-v1 (Search with get_doc)",
+          "system_description": "Search with get_doc",
+          "note": "GTE-ModernColBERT-v1",
           "scores": [
             {
               "metric": "accuracy",
@@ -1720,7 +1783,8 @@
         {
           "model": "oss-120b-high",
           "effort": "high",
-          "system_description": "GTE-ModernColBERT-v1",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "GTE-ModernColBERT-v1",
           "scores": [
             {
               "metric": "accuracy",
@@ -1747,7 +1811,8 @@
         {
           "model": "oss-120b-high",
           "effort": "high",
-          "system_description": "Reason-ModernColBERT (Search with get_doc)",
+          "system_description": "Search with get_doc",
+          "note": "Reason-ModernColBERT",
           "scores": [
             {
               "metric": "accuracy",
@@ -1774,7 +1839,8 @@
         {
           "model": "oss-120b-high",
           "effort": "high",
-          "system_description": "Reason-ModernColBERT",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "Reason-ModernColBERT",
           "scores": [
             {
               "metric": "accuracy",
@@ -1801,7 +1867,8 @@
         {
           "model": "Tongyi-DeepResearch-30B-A3B",
           "effort": null,
-          "system_description": "AgentIR-4B",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "AgentIR-4B",
           "scores": [
             {
               "metric": "accuracy",
@@ -1823,7 +1890,8 @@
         {
           "model": "Tongyi-DeepResearch-30B-A3B",
           "effort": null,
-          "system_description": "AgentIR-4B (Tongyi-DeepResearch native toolset)",
+          "system_description": "Tongyi-DeepResearch native toolset",
+          "note": "AgentIR-4B",
           "scores": [
             {
               "metric": "accuracy",
@@ -1845,7 +1913,8 @@
         {
           "model": "oss-120b-high",
           "effort": "high",
-          "system_description": "AgentIR-4B",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "AgentIR-4B",
           "scores": [
             {
               "metric": "accuracy",
@@ -1872,7 +1941,8 @@
         {
           "model": "GLM-4.7",
           "effort": null,
-          "system_description": "AgentIR-4B",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "AgentIR-4B",
           "scores": [
             {
               "metric": "accuracy",
@@ -1899,7 +1969,8 @@
         {
           "model": "GPT-5",
           "effort": null,
-          "system_description": "Mixedbread Search (v3)",
+          "system_description": "BrowseComp-Plus standard search scaffold",
+          "note": "Mixedbread Search (v3)",
           "scores": [
             {
               "metric": "accuracy",
@@ -1926,7 +1997,8 @@
         {
           "model": "GPT-5",
           "effort": null,
-          "system_description": "Mixedbread Search (v3) (Search with get_doc)",
+          "system_description": "Search with get_doc",
+          "note": "Mixedbread Search (v3)",
           "scores": [
             {
               "metric": "accuracy",
@@ -1953,7 +2025,8 @@
         {
           "model": "OpenResearcher",
           "effort": null,
-          "system_description": "Qwen3-Embed-0.6B (OpenResearcher toolset)",
+          "system_description": "OpenResearcher toolset",
+          "note": "Qwen3-Embed-0.6B",
           "scores": [
             {
               "metric": "accuracy",
@@ -1980,7 +2053,8 @@
         {
           "model": "OpenResearcher",
           "effort": null,
-          "system_description": "LRAT-Qwen3-Embed-0.6B (OpenResearcher toolset)",
+          "system_description": "OpenResearcher toolset",
+          "note": "LRAT-Qwen3-Embed-0.6B",
           "scores": [
             {
               "metric": "accuracy",
@@ -2005,8 +2079,8 @@
           ]
         }
       ],
-      "note": "HuggingFace leaderboard data (14 submissions). system_description is 'retriever (scaffold_name)' when a custom scaffold is used, otherwise just the retriever name."
+      "note": "HuggingFace leaderboard data (14 submissions). system_description records the scaffold/toolset; result-level note records the retriever. Rows without a custom scaffold use the BrowseComp-Plus standard search scaffold."
     }
   ],
-  "notes": "BrowseComp-Plus is a benchmark for Deep-Research agents, derived from OpenAI's BrowseComp (1,266 questions). After human verification, 830 queries passed quality checks.\n\nKey characteristics:\n- Fixed, curated corpus of ~100K web documents (not live web search)\n- Each query includes human-verified evidence documents and mined hard negatives\n- Enables controlled experimentation: retriever and LLM agent can be evaluated independently\n- 14 university student annotators, 400+ hours of manual annotation effort\n- Corpus: Tevatron/browsecomp-plus-corpus on HuggingFace\n\nsystem_description in results refers to the retriever paired with the LLM search agent (e.g., BM25, Qwen3-Embed-8B, or ReasonIR), not an agent scaffold. SearchR1-32B uses its own search-augmented generation approach rather than the shared tool-use prompt.\n\nFrom University of Waterloo, CSIRO, Carnegie Mellon University, and The University of Queensland.\n\nLeaderboard column definitions (from https://huggingface.co/spaces/Tevatron/BrowseComp-Plus):\n- #: A \"Proprietary\" flag is added if the LLM is closed. Else, we label its size.\n- LLM: The name of the LLM, as well as the date the evaluation was performed.\n- Retriever: The name of the retrieval system.\n- Submitted By: The organization that submitted the evaluation results.\n- Scaffold: \"Standard\" refers to the default scaffold used by BrowseComp-Plus, where the model is only given a search tool that returns the top 5 results. For entries that used different scaffolds, we labeled it as \"Custom\", and you can hover over the \"Custom\" label to see its details.\n- Accuracy: Comparing the generated answer to the ground-truth answer. We follow BrowseComp to evaluate with LLM-as-a-judge. However, due to concerns about the long-term availability of GPT-4.1, instead of using GPT-4.1, we evaluate with Qwen3-32B, an open-weight model. The two judges differ by < 1%, and the LLM-judged results in BrowseComp-Plus baselines have been human verified to be reliable.\n- Recall: For each query, in addition to the ground-truth answer, BrowseComp-Plus labeled a list of \"Evidence Documents\" that are needed to answer the query. We take all documents ever searched by the agent in this trajectory, and compute recall against the evidence documents.\n- Search Calls: The number of search calls made by the agent.\n- Calibration Error: The calibration error of the agent, which measures if the agent's confidence in its answer is consistent with its accuracy, lower is better. It is computed following BrowseComp."
+  "notes": "BrowseComp-Plus is a benchmark for Deep-Research agents, derived from OpenAI's BrowseComp (1,266 questions). After human verification, 830 queries passed quality checks.\n\nKey characteristics:\n- Fixed, curated corpus of ~100K web documents (not live web search)\n- Each query includes human-verified evidence documents and mined hard negatives\n- Enables controlled experimentation: retriever and LLM agent can be evaluated independently\n- 14 university student annotators, 400+ hours of manual annotation effort\n- Corpus: Tevatron/browsecomp-plus-corpus on HuggingFace\n\nsystem_description in results records the scaffold/toolset wrapped around the LLM. The result-level note records the retriever paired with that scaffold (e.g., BM25, Qwen3-Embed-8B, or ReasonIR). Rows without a custom scaffold use the BrowseComp-Plus standard search scaffold; SearchR1-32B uses its own search-augmented generation approach rather than the shared tool-use prompt.\n\nFrom University of Waterloo, CSIRO, Carnegie Mellon University, and The University of Queensland.\n\nLeaderboard column definitions (from https://huggingface.co/spaces/Tevatron/BrowseComp-Plus):\n- #: A \"Proprietary\" flag is added if the LLM is closed. Else, we label its size.\n- LLM: The name of the LLM, as well as the date the evaluation was performed.\n- Retriever: The name of the retrieval system.\n- Submitted By: The organization that submitted the evaluation results.\n- Scaffold: \"Standard\" refers to the default scaffold used by BrowseComp-Plus, where the model is only given a search tool that returns the top 5 results. For entries that used different scaffolds, we labeled it as \"Custom\", and you can hover over the \"Custom\" label to see its details.\n- Accuracy: Comparing the generated answer to the ground-truth answer. We follow BrowseComp to evaluate with LLM-as-a-judge. However, due to concerns about the long-term availability of GPT-4.1, instead of using GPT-4.1, we evaluate with Qwen3-32B, an open-weight model. The two judges differ by < 1%, and the LLM-judged results in BrowseComp-Plus baselines have been human verified to be reliable.\n- Recall: For each query, in addition to the ground-truth answer, BrowseComp-Plus labeled a list of \"Evidence Documents\" that are needed to answer the query. We take all documents ever searched by the agent in this trajectory, and compute recall against the evidence documents.\n- Search Calls: The number of search calls made by the agent.\n- Calibration Error: The calibration error of the agent, which measures if the agent's confidence in its answer is consistent with its accuracy, lower is better. It is computed following BrowseComp."
 }

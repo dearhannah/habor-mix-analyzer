@@ -26,73 +26,85 @@
         {
           "model": "Llama-3.1-Instruct-70B",
           "effort": null,
-          "system_description": "Direct Prompting (without knowledge)",
+          "system_description": null,
+          "note": "Direct Prompting (without knowledge)",
           "score": 0.059
         },
         {
           "model": "Llama-3.1-Instruct-405B",
           "effort": null,
-          "system_description": "Direct Prompting (without knowledge)",
+          "system_description": null,
+          "note": "Direct Prompting (without knowledge)",
           "score": 0.039
         },
         {
           "model": "Mistral-Large-2 (2407)",
           "effort": null,
-          "system_description": "Direct Prompting (without knowledge)",
+          "system_description": null,
+          "note": "Direct Prompting (without knowledge)",
           "score": 0.137
         },
         {
           "model": "GPT-4o (2024-05-13)",
           "effort": null,
-          "system_description": "Direct Prompting (without knowledge)",
+          "system_description": null,
+          "note": "Direct Prompting (without knowledge)",
           "score": 0.118
         },
         {
           "model": "Claude-3.5-Sonnet (2024-06-20)",
           "effort": null,
-          "system_description": "Direct Prompting (without knowledge)",
+          "system_description": null,
+          "note": "Direct Prompting (without knowledge)",
           "score": 0.177
         },
         {
           "model": "OpenAI o1-preview",
           "effort": null,
-          "system_description": "Direct Prompting (without knowledge)",
+          "system_description": null,
+          "note": "Direct Prompting (without knowledge)",
           "score": 0.343
         },
         {
           "model": "Llama-3.1-Instruct-70B",
           "effort": null,
-          "system_description": "Direct Prompting (with knowledge)",
+          "system_description": null,
+          "note": "Direct Prompting (with knowledge)",
           "score": 0.049
         },
         {
           "model": "Llama-3.1-Instruct-405B",
           "effort": null,
-          "system_description": "Direct Prompting (with knowledge)",
+          "system_description": null,
+          "note": "Direct Prompting (with knowledge)",
           "score": 0.029
         },
         {
           "model": "Mistral-Large-2 (2407)",
           "effort": null,
-          "system_description": "Direct Prompting (with knowledge)",
+          "system_description": null,
+          "note": "Direct Prompting (with knowledge)",
           "score": 0.167
         },
         {
           "model": "GPT-4o (2024-05-13)",
           "effort": null,
-          "system_description": "Direct Prompting (with knowledge)",
+          "system_description": null,
+          "note": "Direct Prompting (with knowledge)",
           "score": 0.108
         },
         {
           "model": "Claude-3.5-Sonnet (2024-06-20)",
           "effort": null,
-          "system_description": "Direct Prompting (with knowledge)",
+          "system_description": null,
+          "note": "Direct Prompting (with knowledge)",
           "score": 0.216
         },
         {
           "model": "OpenAI o1-preview",
           "effort": null,
-          "system_description": "Direct Prompting (with knowledge)",
+          "system_description": null,
+          "note": "Direct Prompting (with knowledge)",
           "score": 0.314
         },
         {

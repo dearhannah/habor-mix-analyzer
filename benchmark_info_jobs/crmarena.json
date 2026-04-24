@@ -201,7 +201,8 @@
         },
         {
           "model": "gpt-4o",
-          "system_description": "Function Calling",
+          "system_description": null,
+          "note": "Function Calling",
           "scores": [
             {
               "metric": "overall_mean",
@@ -212,7 +213,8 @@
         },
         {
           "model": "gpt-4o-mini",
-          "system_description": "Function Calling",
+          "system_description": null,
+          "note": "Function Calling",
           "scores": [
             {
               "metric": "overall_mean",
@@ -223,7 +225,8 @@
         },
         {
           "model": "claude-3.5-sonnet",
-          "system_description": "Function Calling",
+          "system_description": null,
+          "note": "Function Calling",
           "scores": [
             {
               "metric": "overall_mean",
@@ -234,7 +237,8 @@
         },
         {
           "model": "claude-3-sonnet",
-          "system_description": "Function Calling",
+          "system_description": null,
+          "note": "Function Calling",
           "scores": [
             {
               "metric": "overall_mean",
@@ -245,7 +249,8 @@
         },
         {
           "model": "llama3.1-405b",
-          "system_description": "Function Calling (prompt)",
+          "system_description": null,
+          "note": "Function Calling (prompt)",
           "scores": [
             {
               "metric": "overall_mean",
@@ -256,7 +261,8 @@
         },
         {
           "model": "llama3.1-70b",
-          "system_description": "Function Calling (prompt)",
+          "system_description": null,
+          "note": "Function Calling (prompt)",
           "scores": [
             {
               "metric": "overall_mean",
@@ -267,7 +273,8 @@
         },
         {
           "model": "llama3.1-8b",
-          "system_description": "Function Calling (prompt)",
+          "system_description": null,
+          "note": "Function Calling (prompt)",
           "scores": [
             {
               "metric": "overall_mean",
@@ -278,7 +285,8 @@
         },
         {
           "model": "o1",
-          "system_description": "Function Calling (prompt)",
+          "system_description": null,
+          "note": "Function Calling (prompt)",
           "scores": [
             {
               "metric": "overall_mean",
@@ -289,7 +297,8 @@
         },
         {
           "model": "deepseek-r1",
-          "system_description": "Function Calling (prompt)",
+          "system_description": null,
+          "note": "Function Calling (prompt)",
           "scores": [
             {
               "metric": "overall_mean",

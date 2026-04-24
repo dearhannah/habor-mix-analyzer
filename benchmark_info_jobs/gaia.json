@@ -1,7 +1,7 @@
 {
   "name": "GAIA",
   "category": "Agentic/Interactive",
-  "used_llm_or_agent": "agent",
+  "used_llm_or_agent": "both",
   "links": {
     "website": "https://huggingface.co/gaia-benchmark",
     "leaderboard": "https://huggingface.co/spaces/gaia-benchmark/leaderboard",
