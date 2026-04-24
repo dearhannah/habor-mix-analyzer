@@ -26,7 +26,8 @@
         {
           "model": "o3-mini-high",
           "effort": "high",
-          "system_description": "API model, default config",
+          "system_description": null,
+          "note": "Original system_description: API model, default config",
           "scores": [
             {
               "metric": "accuracy (AIME 2024)",
@@ -53,7 +54,8 @@
         {
           "model": "o3-mini-medium",
           "effort": "medium",
-          "system_description": "API model, default config",
+          "system_description": null,
+          "note": "Original system_description: API model, default config",
           "scores": [
             {
               "metric": "accuracy (AIME 2024)",
@@ -80,7 +82,8 @@
         {
           "model": "DeepSeek-R1",
           "effort": null,
-          "system_description": "API model, default config",
+          "system_description": null,
+          "note": "Original system_description: API model, default config",
           "scores": [
             {
               "metric": "accuracy (AIME 2024)",
@@ -107,7 +110,8 @@
         {
           "model": "QwQ-32B",
           "effort": null,
-          "system_description": "API model, default config",
+          "system_description": null,
+          "note": "Original system_description: API model, default config",
           "scores": [
             {
               "metric": "accuracy (AIME 2024)",
@@ -134,7 +138,8 @@
         {
           "model": "DeepSeek-R1-Distill-Llama-70B",
           "effort": null,
-          "system_description": "800k samples, local deployment",
+          "system_description": null,
+          "note": "Original system_description: 800k samples, local deployment",
           "scores": [
             {
               "metric": "accuracy (AIME 2024)",
@@ -161,7 +166,8 @@
         {
           "model": "o1-mini",
           "effort": null,
-          "system_description": "API model, default config",
+          "system_description": null,
+          "note": "Original system_description: API model, default config",
           "scores": [
             {
               "metric": "accuracy (AIME 2024)",
@@ -188,7 +194,8 @@
         {
           "model": "DeepSeek-R1-Distill-Qwen-32B",
           "effort": null,
-          "system_description": "800k samples, local deployment",
+          "system_description": null,
+          "note": "Original system_description: 800k samples, local deployment",
           "scores": [
             {
               "metric": "accuracy (AIME 2024)",
@@ -215,7 +222,8 @@
         {
           "model": "DeepSeek-R1-Distill-Qwen-14B",
           "effort": null,
-          "system_description": "800k samples, local deployment",
+          "system_description": null,
+          "note": "Original system_description: 800k samples, local deployment",
           "scores": [
             {
               "metric": "accuracy (AIME 2024)",
@@ -242,7 +250,8 @@
         {
           "model": "limo",
           "effort": null,
-          "system_description": "817 samples, local deployment",
+          "system_description": null,
+          "note": "Original system_description: 817 samples, local deployment",
           "scores": [
             {
               "metric": "accuracy (AIME 2024)",
@@ -269,7 +278,8 @@
         {
           "model": "gemini-2.0-flash-thinking",
           "effort": null,
-          "system_description": "API model, default config",
+          "system_description": null,
+          "note": "Original system_description: API model, default config",
           "scores": [
             {
               "metric": "accuracy (AIME 2024)",
@@ -296,7 +306,8 @@
         {
           "model": "o3-mini-low",
           "effort": "low",
-          "system_description": "API model, default config",
+          "system_description": null,
+          "note": "Original system_description: API model, default config",
           "scores": [
             {
               "metric": "accuracy (AIME 2024)",
@@ -323,7 +334,8 @@
         {
           "model": "o1-preview",
           "effort": null,
-          "system_description": "API model, default config",
+          "system_description": null,
+          "note": "Original system_description: API model, default config",
           "scores": [
             {
               "metric": "accuracy (AIME 2024)",
@@ -350,7 +362,8 @@
         {
           "model": "DeepSeek-R1-Distill-Qwen-7B",
           "effort": null,
-          "system_description": "800k samples, local deployment",
+          "system_description": null,
+          "note": "Original system_description: 800k samples, local deployment",
           "scores": [
             {
               "metric": "accuracy (AIME 2024)",
@@ -377,7 +390,8 @@
         {
           "model": "QwQ-32B-Preview",
           "effort": null,
-          "system_description": "API model, default config",
+          "system_description": null,
+          "note": "Original system_description: API model, default config",
           "scores": [
             {
               "metric": "accuracy (AIME 2024)",
@@ -404,7 +418,8 @@
         {
           "model": "s1",
           "effort": null,
-          "system_description": "1k samples, local deployment",
+          "system_description": null,
+          "note": "Original system_description: 1k samples, local deployment",
           "scores": [
             {
               "metric": "accuracy (AIME 2024)",
@@ -431,7 +446,8 @@
         {
           "model": "DeepSeek-R1-Distill-Llama-8B",
           "effort": null,
-          "system_description": "800k samples, local deployment",
+          "system_description": null,
+          "note": "Original system_description: 800k samples, local deployment",
           "scores": [
             {
               "metric": "accuracy (AIME 2024)",
@@ -458,7 +474,8 @@
         {
           "model": "DeepSeek-R1-Distill-Qwen-1.5B",
           "effort": null,
-          "system_description": "800k samples, local deployment",
+          "system_description": null,
+          "note": "Original system_description: 800k samples, local deployment",
           "scores": [
             {
               "metric": "accuracy (AIME 2024)",

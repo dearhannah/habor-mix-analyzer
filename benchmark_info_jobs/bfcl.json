@@ -66,7 +66,8 @@
         },
         {
           "model": "Gemini-3-Pro-Preview",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -117,7 +118,8 @@
         },
         {
           "model": "Gemini-2.5-Flash",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -168,7 +170,8 @@
         },
         {
           "model": "Claude-Sonnet-4-5-20250929",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -209,7 +212,8 @@
         },
         {
           "model": "Qwen3-14B",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -260,7 +264,8 @@
         },
         {
           "model": "Claude-Opus-4-5-20251101",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -311,7 +316,8 @@
         },
         {
           "model": "Qwen3-32B",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -362,7 +368,8 @@
         },
         {
           "model": "ToolACE-2-8B",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -413,7 +420,8 @@
         },
         {
           "model": "GLM-4.6",
-          "system_description": "FC thinking",
+          "system_description": null,
+          "note": "FC thinking",
           "scores": [
             {
               "metric": "cost",
@@ -454,7 +462,8 @@
         },
         {
           "model": "Claude-Opus-4-5-20251101",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -536,7 +545,8 @@
         },
         {
           "model": "Gemini-2.5-Flash",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -577,7 +587,8 @@
         },
         {
           "model": "GPT-4.1-2025-04-14",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -628,7 +639,8 @@
         },
         {
           "model": "Command A Reasoning",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -669,7 +681,8 @@
         },
         {
           "model": "Qwen3-8B",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -720,7 +733,8 @@
         },
         {
           "model": "Command A",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -761,7 +775,8 @@
         },
         {
           "model": "Amazon-Nova-2-Lite-v1:0",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -802,7 +817,8 @@
         },
         {
           "model": "Claude-Haiku-4-5-20251001",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -843,7 +859,8 @@
         },
         {
           "model": "Qwen3-4B-Instruct-2507",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -884,7 +901,8 @@
         },
         {
           "model": "Qwen3-235B-A22B-Instruct-2507",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -935,7 +953,8 @@
         },
         {
           "model": "Qwen3-32B",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -976,7 +995,8 @@
         },
         {
           "model": "Qwen3-8B",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -1017,7 +1037,8 @@
         },
         {
           "model": "Moonshotai-Kimi-K2-Instruct",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -1058,7 +1079,8 @@
         },
         {
           "model": "Qwen3-14B",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -1099,7 +1121,8 @@
         },
         {
           "model": "palmyra-x-004",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -1140,7 +1163,8 @@
         },
         {
           "model": "Grok-4-1-fast-reasoning",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -1181,7 +1205,8 @@
         },
         {
           "model": "Gemini-3-Pro-Preview",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -1222,7 +1247,8 @@
         },
         {
           "model": "xLAM-2-32b-fc-r",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -1263,7 +1289,8 @@
         },
         {
           "model": "Nanbeige4-3B-Thinking-2511",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -1304,7 +1331,8 @@
         },
         {
           "model": "Qwen3-30B-A3B-Instruct-2507",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -1345,7 +1373,8 @@
         },
         {
           "model": "Hammer2.1-7b",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -1386,7 +1415,8 @@
         },
         {
           "model": "Qwen3-30B-A3B-Instruct-2507",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -1437,7 +1467,8 @@
         },
         {
           "model": "Gemini-2.5-Flash-Lite",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -1478,7 +1509,8 @@
         },
         {
           "model": "Grok-4-1-fast-non-reasoning",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -1519,7 +1551,8 @@
         },
         {
           "model": "Hammer2.1-3b",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -1560,7 +1593,8 @@
         },
         {
           "model": "xLAM-2-70b-fc-r",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -1601,7 +1635,8 @@
         },
         {
           "model": "Mistral-small-2506",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -1642,7 +1677,8 @@
         },
         {
           "model": "Grok-4-0709",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -1693,7 +1729,8 @@
         },
         {
           "model": "o3-2025-04-16",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -1744,7 +1781,8 @@
         },
         {
           "model": "GPT-4.1-2025-04-14",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -1785,7 +1823,8 @@
         },
         {
           "model": "o4-mini-2025-04-16",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -1836,7 +1875,8 @@
         },
         {
           "model": "Qwen3-4B-Instruct-2507",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -1887,7 +1927,8 @@
         },
         {
           "model": "mistral-large-2411",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -1979,7 +2020,8 @@
         },
         {
           "model": "Grok-4-0709",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -2020,7 +2062,8 @@
         },
         {
           "model": "Amazon-Nova-Pro-v1:0",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -2061,7 +2104,8 @@
         },
         {
           "model": "Mistral-Small-2506",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -2112,7 +2156,8 @@
         },
         {
           "model": "Gemma-3-27b-it",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -2214,7 +2259,8 @@
         },
         {
           "model": "Qwen3-1.7B",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -2296,7 +2342,8 @@
         },
         {
           "model": "GPT-4.1-mini-2025-04-14",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -2347,7 +2394,8 @@
         },
         {
           "model": "GPT-4.1-mini-2025-04-14",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -2388,7 +2436,8 @@
         },
         {
           "model": "GPT-5.2-2025-12-11",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -2439,7 +2488,8 @@
         },
         {
           "model": "Hammer2.1-1.5b",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -2480,7 +2530,8 @@
         },
         {
           "model": "GPT-5.2-2025-12-11",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -2521,7 +2572,8 @@
         },
         {
           "model": "Command R7B",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -2562,7 +2614,8 @@
         },
         {
           "model": "DeepSeek-V3.2-Exp",
-          "system_description": "Prompt + Thinking",
+          "system_description": null,
+          "note": "Prompt + Thinking",
           "scores": [
             {
               "metric": "cost",
@@ -2613,7 +2666,8 @@
         },
         {
           "model": "Gemini-2.5-Flash-Lite",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -2664,7 +2718,8 @@
         },
         {
           "model": "Mistral-Medium-2505",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -2756,7 +2811,8 @@
         },
         {
           "model": "Gemma-3-12b-it",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -2848,7 +2904,8 @@
         },
         {
           "model": "Llama-3.3-70B-Instruct",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -2889,7 +2946,8 @@
         },
         {
           "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -2930,7 +2988,8 @@
         },
         {
           "model": "Open-Mistral-Nemo-2407",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -2971,7 +3030,8 @@
         },
         {
           "model": "MiniCPM3-4B-FC",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -3012,7 +3072,8 @@
         },
         {
           "model": "Granite-3.2-8B-Instruct",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -3053,7 +3114,8 @@
         },
         {
           "model": "GPT-5-mini-2025-08-07",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -3094,7 +3156,8 @@
         },
         {
           "model": "Granite-3.1-8B-Instruct",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -3135,7 +3198,8 @@
         },
         {
           "model": "xLAM-2-8b-fc-r",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -3176,7 +3240,8 @@
         },
         {
           "model": "Phi-4",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -3227,7 +3292,8 @@
         },
         {
           "model": "Granite-20b-FunctionCalling",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -3268,7 +3334,8 @@
         },
         {
           "model": "GPT-5-nano-2025-08-07",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -3309,7 +3376,8 @@
         },
         {
           "model": "Llama-4-Scout-17B-16E-Instruct",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -3350,7 +3418,8 @@
         },
         {
           "model": "Amazon-Nova-Micro-v1:0",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -3391,7 +3460,8 @@
         },
         {
           "model": "xLAM-2-3b-fc-r",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -3432,7 +3502,8 @@
         },
         {
           "model": "Qwen3-0.6B",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -3473,7 +3544,8 @@
         },
         {
           "model": "GPT-4.1-nano-2025-04-14",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -3524,7 +3596,8 @@
         },
         {
           "model": "Claude-Haiku-4-5-20251001",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -3575,7 +3648,8 @@
         },
         {
           "model": "GPT-4.1-nano-2025-04-14",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -3616,7 +3690,8 @@
         },
         {
           "model": "Llama-3.1-8B-Instruct",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -3667,7 +3742,8 @@
         },
         {
           "model": "Hammer2.1-0.5b",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -3708,7 +3784,8 @@
         },
         {
           "model": "GPT-5-nano-2025-08-07",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -3759,7 +3836,8 @@
         },
         {
           "model": "Qwen3-0.6B",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -3810,7 +3888,8 @@
         },
         {
           "model": "RZN-T",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -3861,7 +3940,8 @@
         },
         {
           "model": "Claude-Sonnet-4-5-20250929",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -3912,7 +3992,8 @@
         },
         {
           "model": "Falcon3-10B-Instruct",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -3953,7 +4034,8 @@
         },
         {
           "model": "o3-2025-04-16",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -3994,7 +4076,8 @@
         },
         {
           "model": "Llama-3.2-3B-Instruct",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -4035,7 +4118,8 @@
         },
         {
           "model": "mistral-large-2411",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -4086,7 +4170,8 @@
         },
         {
           "model": "Qwen3-235B-A22B-Instruct-2507",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -4127,7 +4212,8 @@
         },
         {
           "model": "o4-mini-2025-04-16",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -4168,7 +4254,8 @@
         },
         {
           "model": "xLAM-2-1b-fc-r",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -4209,7 +4296,8 @@
         },
         {
           "model": "Bielik-11B-v2.3-Instruct",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -4260,7 +4348,8 @@
         },
         {
           "model": "GPT-5-mini-2025-08-07",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -4311,7 +4400,8 @@
         },
         {
           "model": "Falcon3-7B-Instruct",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -4352,7 +4442,8 @@
         },
         {
           "model": "Nanbeige3.5-Pro-Thinking",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -4393,7 +4484,8 @@
         },
         {
           "model": "MiniCPM3-4B",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -4444,7 +4536,8 @@
         },
         {
           "model": "DeepSeek-V3.2-Exp",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -4485,7 +4578,8 @@
         },
         {
           "model": "Gemma-3-4b-it",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -4536,7 +4630,8 @@
         },
         {
           "model": "Open-Mistral-Nemo-2407",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",
@@ -4587,7 +4682,8 @@
         },
         {
           "model": "Granite-4.0-350m",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -4628,7 +4724,8 @@
         },
         {
           "model": "Falcon3-3B-Instruct",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -4669,7 +4766,8 @@
         },
         {
           "model": "Llama-3.2-1B-Instruct",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -4710,7 +4808,8 @@
         },
         {
           "model": "Falcon3-1B-Instruct",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -4751,7 +4850,8 @@
         },
         {
           "model": "Ministral-8B-Instruct-2410",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -4802,7 +4902,8 @@
         },
         {
           "model": "Llama-3.1-Nemotron-Ultra-253B-v1",
-          "system_description": "FC",
+          "system_description": null,
+          "note": "FC",
           "scores": [
             {
               "metric": "cost",
@@ -4843,7 +4944,8 @@
         },
         {
           "model": "Gemma-3-1b-it",
-          "system_description": "Prompt",
+          "system_description": null,
+          "note": "Prompt",
           "scores": [
             {
               "metric": "cost",

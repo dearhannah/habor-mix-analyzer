@@ -56,13 +56,13 @@
         {
           "model": "ARChitects",
           "effort": null,
-          "system_description": "program synthesis (ARC Prize 2024 winner)",
+          "system_description": null,
           "score": 0.025
         },
         {
           "model": "Icecuber",
           "effort": null,
-          "system_description": "program synthesis (ARC Prize 2020 winner)",
+          "system_description": null,
           "score": 0.016
         }
       ],
@@ -76,7 +76,8 @@
         {
           "model": "Deepseek V3.2",
           "effort": null,
-          "system_description": "Base LLM",
+          "system_description": null,
+          "note": "Original system_description: Base LLM",
           "score": 0.04
         }
       ],
@@ -89,9 +90,9 @@
       "results": [
         {
           "model": "Gemini 3 Pro",
-          "effort": "Refine.",
-          "system_description": "Refinement",
-          "score": 0.54
+          "effort": null,
+          "system_description": null,
+          "score": 0.311
         }
       ],
       "note": "ARC Prize leaderboard row dated 2025-12-04 (Poetiq submission). ARC-AGI-2 column only."
@@ -104,43 +105,50 @@
         {
           "model": "GPT-5.2",
           "effort": null,
-          "system_description": "Base LLM",
+          "system_description": null,
+          "note": "Original system_description: Base LLM",
           "score": 0.008
         },
         {
           "model": "GPT-5.2",
           "effort": "Low",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.097
         },
         {
           "model": "GPT-5.2",
           "effort": "Medium",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.267
         },
         {
           "model": "GPT-5.2",
           "effort": "High",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.433
         },
         {
           "model": "GPT-5.2",
           "effort": "X-High",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.529
         },
         {
           "model": "GPT-5.2 Pro",
           "effort": "Medium",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.385
         },
         {
           "model": "GPT-5.2 Pro",
           "effort": "High",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.542
         }
       ],
@@ -154,25 +162,29 @@
         {
           "model": "Gemini 3 Flash Preview",
           "effort": "Minimal",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.033
         },
         {
           "model": "Gemini 3 Flash Preview",
           "effort": "Low",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.013
         },
         {
           "model": "Gemini 3 Flash Preview",
           "effort": "Medium",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.128
         },
         {
           "model": "Gemini 3 Flash Preview",
           "effort": "High",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.336
         }
       ],
@@ -186,25 +198,12 @@
         {
           "model": "Kimi K2.5",
           "effort": null,
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.118
         }
       ],
       "note": "ARC Prize leaderboard row dated 2026-01-27."
-    },
-    {
-      "date": "2026-02-03",
-      "source_type": "leaderboard",
-      "source_url": "https://arcprize.org/leaderboard",
-      "results": [
-        {
-          "model": "GPT-5.2",
-          "effort": "Refine.",
-          "system_description": "Refinement",
-          "score": 0.729
-        }
-      ],
-      "note": "ARC Prize leaderboard row dated 2026-02-03 (Johan Land submission; solver at kaggle.com/code/johanland/johan-land-solver-v7-public)."
     },
     {
       "date": "2026-02-05",
@@ -214,25 +213,29 @@
         {
           "model": "Claude Opus 4.6",
           "effort": "120K, Low",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.646
         },
         {
           "model": "Claude Opus 4.6",
           "effort": "120K, Medium",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.663
         },
         {
           "model": "Claude Opus 4.6",
           "effort": "120K, High",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.692
         },
         {
           "model": "Claude Opus 4.6",
           "effort": "120K, Max",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.688
         }
       ],
@@ -246,19 +249,22 @@
         {
           "model": "Gemini 3 Deep Think (preview)",
           "effort": null,
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.451
         },
         {
           "model": "Gemini 3 Deep Think (2/26)",
           "effort": null,
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.846
         },
         {
           "model": "Minimax M2.5",
           "effort": null,
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.049
         }
       ],
@@ -272,13 +278,15 @@
         {
           "model": "Claude Sonnet 4.6",
           "effort": "Max",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.583
         },
         {
           "model": "Claude Sonnet 4.6",
           "effort": "High",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.604
         }
       ],
@@ -292,7 +300,8 @@
         {
           "model": "Gemini 3.1 Pro (Preview)",
           "effort": null,
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.771
         }
       ],
@@ -306,7 +315,8 @@
         {
           "model": "GLM-5",
           "effort": null,
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.049
         }
       ],
@@ -320,31 +330,36 @@
         {
           "model": "GPT-5.4",
           "effort": "Low",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.292
         },
         {
           "model": "GPT-5.4",
           "effort": "Medium",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.554
         },
         {
           "model": "GPT-5.4",
           "effort": "High",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.675
         },
         {
           "model": "GPT-5.4",
           "effort": "xHigh",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.74
         },
         {
           "model": "GPT-5.4 Pro",
           "effort": "xHigh",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.833
         }
       ],
@@ -358,7 +373,8 @@
         {
           "model": "Grok 4.20",
           "effort": "Reasoning",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.651
         }
       ],
@@ -372,49 +388,57 @@
         {
           "model": "GPT-5.4 Mini",
           "effort": "xHigh",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.189
         },
         {
           "model": "GPT-5.4 Mini",
           "effort": "High",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.132
         },
         {
           "model": "GPT-5.4 Mini",
           "effort": "Medium",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.044
         },
         {
           "model": "GPT-5.4 Mini",
           "effort": "Low",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.011
         },
         {
           "model": "GPT-5.4 Nano",
           "effort": "xHigh",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.057
         },
         {
           "model": "GPT-5.4 Nano",
           "effort": "High",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.036
         },
         {
           "model": "GPT-5.4 Nano",
           "effort": "Medium",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.019
         },
         {
           "model": "GPT-5.4 Nano",
           "effort": "Low",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.015
         }
       ],
@@ -428,25 +452,29 @@
         {
           "model": "Claude 4.7",
           "effort": "Low",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.621
         },
         {
           "model": "Claude 4.7",
           "effort": "Medium",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.675
         },
         {
           "model": "Claude 4.7",
           "effort": "High",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.683
         },
         {
           "model": "Claude 4.7",
           "effort": "Max",
-          "system_description": "CoT",
+          "system_description": null,
+          "note": "Original system_description: CoT",
           "score": 0.758
         }
       ],

@@ -1,7 +1,7 @@
 {
   "name": "Aider Polyglot",
   "category": "Competitive/Function-level Programming",
-  "used_llm_or_agent": "llm",
+  "used_llm_or_agent": "agent",
   "links": {
     "website": "https://aider.chat/docs/leaderboards/",
     "leaderboard": "https://aider.chat/docs/leaderboards/",

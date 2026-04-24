@@ -1,7 +1,7 @@
 {
   "name": "OfficeQA",
   "category": "Agentic/Interactive",
-  "used_llm_or_agent": "agent",
+  "used_llm_or_agent": "both",
   "links": {
     "website": "https://www.databricks.com/blog/introducing-officeqa-benchmark-end-to-end-grounded-reasoning",
     "leaderboard": "https://agentbeats.dev/agentbeater/officeqa",
@@ -98,74 +98,86 @@
         {
           "model": "Claude Opus 4.6",
           "effort": null,
-          "system_description": "LLM baseline (no agent), Oracle pages + Web Search, PDF",
-          "score": 0.361
+          "system_description": null,
+          "score": 0.361,
+          "note": "LLM baseline (no agent), Oracle pages + Web Search, PDF"
         },
         {
           "model": "Claude Opus 4.6",
           "effort": null,
-          "system_description": "LLM baseline (no agent), Oracle pages + Web Search, DBX Parsed",
-          "score": 0.571
+          "system_description": null,
+          "score": 0.571,
+          "note": "LLM baseline (no agent), Oracle pages + Web Search, DBX Parsed"
         },
         {
           "model": "GPT-5.4",
           "effort": null,
-          "system_description": "LLM baseline (no agent), Oracle pages + Web Search, PDF",
-          "score": 0.571
+          "system_description": null,
+          "score": 0.571,
+          "note": "LLM baseline (no agent), Oracle pages + Web Search, PDF"
         },
         {
           "model": "GPT-5.4",
           "effort": null,
-          "system_description": "LLM baseline (no agent), Oracle pages + Web Search, DBX Parsed",
-          "score": 0.654
+          "system_description": null,
+          "score": 0.654,
+          "note": "LLM baseline (no agent), Oracle pages + Web Search, DBX Parsed"
         },
         {
           "model": "Gemini 3.1 Pro Preview",
           "effort": null,
-          "system_description": "LLM baseline (no agent), Oracle pages + Web Search, PDF",
-          "score": 0.526
+          "system_description": null,
+          "score": 0.526,
+          "note": "LLM baseline (no agent), Oracle pages + Web Search, PDF"
         },
         {
           "model": "Gemini 3.1 Pro Preview",
           "effort": null,
-          "system_description": "LLM baseline (no agent), Oracle pages + Web Search, DBX Parsed",
-          "score": 0.564
+          "system_description": null,
+          "score": 0.564,
+          "note": "LLM baseline (no agent), Oracle pages + Web Search, DBX Parsed"
         },
         {
           "model": "GPT-5.4",
           "effort": null,
-          "system_description": "LLM baseline (no agent), Web Search Enabled",
-          "score": 0.113
+          "system_description": null,
+          "score": 0.113,
+          "note": "LLM baseline (no agent), Web Search Enabled"
         },
         {
           "model": "Claude Opus 4.6",
           "effort": null,
-          "system_description": "LLM baseline (no agent), Web Search Enabled",
-          "score": 0.03
+          "system_description": null,
+          "score": 0.03,
+          "note": "LLM baseline (no agent), Web Search Enabled"
         },
         {
           "model": "Gemini 3.1 Pro Preview",
           "effort": null,
-          "system_description": "LLM baseline (no agent), Web Search Enabled",
-          "score": 0.038
+          "system_description": null,
+          "score": 0.038,
+          "note": "LLM baseline (no agent), Web Search Enabled"
         },
         {
           "model": "Claude Opus 4.6",
           "effort": null,
-          "system_description": "LLM baseline (no agent), Prompt Only",
-          "score": 0.023
+          "system_description": null,
+          "score": 0.023,
+          "note": "LLM baseline (no agent), Prompt Only"
         },
         {
           "model": "GPT-5.4",
           "effort": null,
-          "system_description": "LLM baseline (no agent), Prompt Only",
-          "score": 0.008
+          "system_description": null,
+          "score": 0.008,
+          "note": "LLM baseline (no agent), Prompt Only"
         },
         {
           "model": "Gemini 3.1 Pro Preview",
           "effort": null,
-          "system_description": "LLM baseline (no agent), Prompt Only",
-          "score": 0.023
+          "system_description": null,
+          "score": 0.023,
+          "note": "LLM baseline (no agent), Prompt Only"
         }
       ],
       "note": "Paper results, all at 0.0% allowable absolute relative error on OfficeQA Pro (n=133) — paper §2.2 states 'Unless otherwise noted, all results are reported on OfficeQA Pro.' Two groups of rows: (1) Agent baselines from Table 1 — each model paired with its vendor's agent framework (Claude Agent SDK / OpenAI Codex CLI / Gemini CLI); system_description suffix encodes corpus (Full = all bulletins, Oracle = only relevant pages) × format (PDF = raw, DBX Parsed = Databricks-parsed text). Note 'Full corpus' is the document corpus, NOT the OfficeQA-Full 246-question split. (2) LLM baselines from Figure 5 / Appendix E.1 Table 7 — single-call bare-LLM (no agent scaffold), prefixed 'LLM baseline (no agent)'. Prompt Only and Web Search Enabled numbers sourced from Appendix E.1 Table 7 (authoritative numerical table underlying Figure 5); Oracle Pages + Web Search numbers cross-confirmed between Figure 5, Table 7, and page 6 text ('GPT-5.4 improves from 57.1% to 65.4% (+8.3pp), Claude Opus 4.6 from 36.1% to 57.1% (+21.0pp), Gemini 3.1 Pro Preview from 52.6% to 56.4% (+3.8pp)')."

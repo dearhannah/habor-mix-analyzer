@@ -1,7 +1,7 @@
 {
   "name": "HumanEvalFix",
   "category": "Competitive/Function-level Programming",
-  "used_llm_or_agent": "both",
+  "used_llm_or_agent": "llm",
   "links": {
     "website": null,
     "leaderboard": null,
@@ -26,7 +26,7 @@
         {
           "model": "GPT-4",
           "effort": null,
-          "system_description": "non-permissive",
+          "system_description": null,
           "scores": [
             {
               "metric": "pass@1 (Python)",
@@ -63,12 +63,13 @@
               "value": 0.478,
               "unit": null
             }
-          ]
+          ],
+          "note": "non-permissive"
         },
         {
           "model": "WizardCoder (16B)",
           "effort": null,
-          "system_description": "non-permissive, trained on OpenAI outputs",
+          "system_description": null,
           "scores": [
             {
               "metric": "pass@1 (Python)",
@@ -105,12 +106,13 @@
               "value": 0.257,
               "unit": null
             }
-          ]
+          ],
+          "note": "non-permissive, trained on OpenAI outputs"
         },
         {
           "model": "OctoCoder (16B)",
           "effort": null,
-          "system_description": "permissive, CommitPackFT+OASST",
+          "system_description": null,
           "scores": [
             {
               "metric": "pass@1 (Python)",
@@ -147,12 +149,13 @@
               "value": 0.27,
               "unit": null
             }
-          ]
+          ],
+          "note": "permissive, CommitPackFT+OASST"
         },
         {
           "model": "OctoGeeX (6B)",
           "effort": null,
-          "system_description": "permissive, CommitPackFT+OASST",
+          "system_description": null,
           "scores": [
             {
               "metric": "pass@1 (Python)",
@@ -189,12 +192,13 @@
               "value": 0.244,
               "unit": null
             }
-          ]
+          ],
+          "note": "permissive, CommitPackFT+OASST"
         },
         {
           "model": "InstructCodeT5+ (16B)",
           "effort": null,
-          "system_description": "non-permissive, trained on OpenAI outputs",
+          "system_description": null,
           "scores": [
             {
               "metric": "pass@1 (Python)",
@@ -231,12 +235,13 @@
               "value": 0.018,
               "unit": null
             }
-          ]
+          ],
+          "note": "non-permissive, trained on OpenAI outputs"
         },
         {
           "model": "BLOOMZ (176B)",
           "effort": null,
-          "system_description": "permissive",
+          "system_description": null,
           "scores": [
             {
               "metric": "pass@1 (Python)",
@@ -273,12 +278,13 @@
               "value": 0.125,
               "unit": null
             }
-          ]
+          ],
+          "note": "permissive"
         },
         {
           "model": "StarCoder (16B)",
           "effort": null,
-          "system_description": "permissive, base model (no instruction tuning)",
+          "system_description": null,
           "scores": [
             {
               "metric": "pass@1 (Python)",
@@ -315,12 +321,13 @@
               "value": 0.134,
               "unit": null
             }
-          ]
+          ],
+          "note": "permissive, base model (no instruction tuning)"
         },
         {
           "model": "CodeGeeX2 (6B)",
           "effort": null,
-          "system_description": "permissive (commercial license via form)",
+          "system_description": null,
           "scores": [
             {
               "metric": "pass@1 (Python)",
@@ -357,12 +364,13 @@
               "value": 0.121,
               "unit": null
             }
-          ]
+          ],
+          "note": "permissive (commercial license via form)"
         },
         {
           "model": "StarChat-β (16B)",
           "effort": null,
-          "system_description": "permissive",
+          "system_description": null,
           "scores": [
             {
               "metric": "pass@1 (Python)",
@@ -399,7 +407,8 @@
               "value": 0.112,
               "unit": null
             }
-          ]
+          ],
+          "note": "permissive"
         }
       ],
       "note": "Paper release baselines from Table 2 (HumanEvalFix, tests variant). Zero-shot pass@1 (%). All 9 models with per-language breakdown across Python, JavaScript, Java, Go, C++, Rust. GPT-4 evaluated with 1 sample; all others with T=0.2, top_p=0.95, 20 samples. Models marked non-permissive are trained on OpenAI outputs. Rust is consistently the hardest language. Go performance varies widely. Published at NeurIPS 2023."
