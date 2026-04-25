@@ -360,7 +360,7 @@
     {
       "date": "2026-04",
       "source_type": "leaderboard",
-      "source_url": "https://swtbench.com",
+      "source_url": "https://swtbench.com/?results=verified",
       "results": [
         {
           "model": "Devstral 2",
@@ -672,7 +672,7 @@
           ]
         }
       ],
-      "note": "swtbench.com leaderboard snapshot as of 2026-04-22. SWT-Bench Lite (276 instances). Two modes: Script (reproduction scripts) and Unit Test. Entries with ‡ are newer submissions. DevstralTestGen leads Script mode at 89.1%; TEX-T leads Unit Test mode at 87.0%. Paper baselines (2024-05-22) omitted from this entry as they appear in the paper results above."
+      "note": "swtbench.com leaderboard snapshot as of 2026-04-22. The site reports Lite and Verified results with two modes: Script (standalone reproduction scripts) and Unit Test. Rows preserve the mode labels from the site. Modern Verified Unit Test results include TEX-T with Claude 4 Sonnet at 87.0%, LogicStar AI L*Agent v1 at 84.0%, OpenHands with GPT-5 at 79.8%, and OpenHands with GPT-5-mini at 62.4%. Paper baselines (2024-05-22) omitted from this entry as they appear in the paper results above."
     }
   ],
   "notes": "SWT-Bench is a test generation benchmark derived from SWE-Bench. The task: given a GitHub issue description and buggy codebase, generate tests that fail on the original code but pass after the developer's patch.\n\nThree dataset splits:\n- SWT-Bench Full: 1,983 instances (2,294 after filtering)\n- SWT-Bench Lite: 276 instances (subset used for paper experiments)\n- SWT-Bench Verified: 433 instances\n\nKey metrics:\n- **Success Rate (S)**: % instances where generated tests contain ≥1 fail-to-pass test and no tests incorrectly fail after patch\n- **Change Coverage (ΔC)**: portion of executable lines modified by golden patch that generated tests exercise\n- **Well-formedness (W)**: portion of instances with applicable patches\n- **F→P rate**: tests that fail before patch and pass after (issue reproduction)\n- **F→× rate**: tests that fail before patch (potentially reproducing)\n- **P→P rate**: valid but irrelevant tests\n\nKey findings from the paper:\n- Code repair agents (SWE-Agent) outperform test-generation-specific methods (LIBRO)\n- Novel fault-tolerant diff format boosts well-formedness from 48.6% to 89.5%\n- Generated tests double SWE-Agent precision from 23.9% to 47.8% when used as fix filter\n- Test generation and code repair show negligible correlation at instance level (p>70%)\n- The four best methods combined solve 87 instances vs 51 for best single method\n\nThe Harbor adapter covers the Verified split (433 tasks) with parity across 3 agents. Published at NeurIPS 2024.\n\nLeaderboard exists at swtbench.com — submissions accepted via email."
