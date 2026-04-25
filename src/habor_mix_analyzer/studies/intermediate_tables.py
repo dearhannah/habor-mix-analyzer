@@ -185,7 +185,13 @@ def fit_r2_full(df: pd.DataFrame, y: pd.Series, terms: list[str]) -> dict[str, f
     x = design_matrix(df, terms)
     if x.empty:
         return {"r2": 0.0, "adj_r2": 0.0, "n_predictors": 0}
-    n, p = x.shape
+    n = x.shape[0]
+    
+    # Calculate true degrees of freedom using the rank of the centered design matrix.
+    # This prevents artificial inflation of `p` when interaction terms are collinear with main effects.
+    x_centered = x - x.mean(axis=0)
+    p = int(np.linalg.matrix_rank(x_centered.to_numpy()))
+    
     model = LinearRegression()
     model.fit(x, y)
     r2 = float(model.score(x, y))

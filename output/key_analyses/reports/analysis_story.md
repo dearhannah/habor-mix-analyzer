@@ -149,13 +149,13 @@ Reliability conclusion: SVD is not automatically the right fill here. In this ru
 **Result overview and analysis:**
 | component | adj_partial_r2_over_other_main_effects | adj_r2 | permutation_p_value | type |
 | --- | --- | --- | --- | --- |
+| model:benchmark | 0.091 | 0.180 |  | interaction_increment |
 | all_main_effects | 0.090 | 0.090 |  | combined |
+| agent:benchmark | 0.079 | 0.169 |  | interaction_increment |
 | model | 0.060 | 0.068 | 0.000 | main_effect |
 | benchmark | 0.024 | 0.020 |  | main_effect |
-| agent:benchmark | -0.001 | 0.089 |  | interaction_increment |
+| model:agent | 0.009 | 0.099 |  | interaction_increment |
 | agent | -0.002 | 0.010 | 0.787 | main_effect |
-| model:agent | -0.003 | 0.086 |  | interaction_increment |
-| model:benchmark | -0.044 | 0.046 |  | interaction_increment |
 
 Benchmarks with the largest model-vs-agent role imbalance:
 | benchmark | model_adj_partial_r2_over_agent | agent_adj_partial_r2_over_model | dominant_dimension |
@@ -587,8 +587,6 @@ All key analysis figures:
 - `output/key_analyses/figures/benchmark_level/benchmark_similarity_clustered_heatmap.png`
 - `output/key_analyses/figures/benchmark_level/benchmark_uniqueness_vs_coverage.png`
 - `output/key_analyses/figures/benchmark_level/benchmark_variance_attribution.png`
-- `output/key_analyses/figures/benchmark_level/company_model_vs_agent_analysis.png`
-- `output/key_analyses/figures/benchmark_level/model_vs_agent_effect_comparison.png`
 - `output/key_analyses/figures/benchmark_level/terminus_delta_by_model_heatmap.png`
 - `output/key_analyses/figures/harbormix/harbormix_selection_diagnostics.png`
 - `output/key_analyses/figures/leaderboards/benchmark_agent_model_top_scores.png`
