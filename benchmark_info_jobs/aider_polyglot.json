@@ -24,7 +24,8 @@
       "source_url": "https://aider.chat/2024/12/21/polyglot.html",
       "results": [
         {
-          "model": "o1-2024-12-17 (high)",
+          "model": "o1-2024-12-17",
+          "effort": "high",
           "system_description": "aider",
           "scores": [
             {
@@ -41,6 +42,7 @@
         },
         {
           "model": "claude-3-5-sonnet-20241022",
+          "effort": null,
           "system_description": "aider",
           "scores": [
             {
@@ -57,6 +59,7 @@
         },
         {
           "model": "gemini-exp-1206",
+          "effort": null,
           "system_description": "aider",
           "scores": [
             {
@@ -73,6 +76,7 @@
         },
         {
           "model": "o1-mini-2024-09-12",
+          "effort": null,
           "system_description": "aider",
           "scores": [
             {
@@ -89,6 +93,7 @@
         },
         {
           "model": "claude-3-5-haiku-20241022",
+          "effort": null,
           "system_description": "aider",
           "scores": [
             {
@@ -105,6 +110,7 @@
         },
         {
           "model": "gemini-2.0-flash-exp",
+          "effort": null,
           "system_description": "aider",
           "scores": [
             {
@@ -121,6 +127,7 @@
         },
         {
           "model": "DeepSeek Chat V2.5",
+          "effort": null,
           "system_description": "aider",
           "scores": [
             {
@@ -137,6 +144,7 @@
         },
         {
           "model": "gpt-4o-2024-11-20",
+          "effort": null,
           "system_description": "aider",
           "scores": [
             {
@@ -153,6 +161,7 @@
         },
         {
           "model": "Qwen2.5-Coder-32B-Instruct",
+          "effort": null,
           "system_description": "aider",
           "scores": [
             {
@@ -169,6 +178,7 @@
         },
         {
           "model": "gpt-4o-mini-2024-07-18",
+          "effort": null,
           "system_description": "aider",
           "scores": [
             {
@@ -192,7 +202,8 @@
       "source_url": "https://aider.chat/docs/leaderboards/",
       "results": [
         {
-          "model": "gpt-5 (high)",
+          "model": "gpt-5",
+          "effort": "high",
           "system_description": "aider",
           "run_date": "2025-08-23",
           "scores": [
@@ -214,7 +225,8 @@
           ]
         },
         {
-          "model": "gpt-5 (medium)",
+          "model": "gpt-5",
+          "effort": "medium",
           "system_description": "aider",
           "run_date": "2025-08-25",
           "scores": [
@@ -236,7 +248,8 @@
           ]
         },
         {
-          "model": "o3-pro (high)",
+          "model": "o3-pro",
+          "effort": "high",
           "system_description": "aider",
           "run_date": "2025-06-28",
           "scores": [
@@ -258,7 +271,8 @@
           ]
         },
         {
-          "model": "gemini-2.5-pro-preview-06-05 (32k think)",
+          "model": "gemini-2.5-pro-preview-06-05",
+          "effort": "32k thinking",
           "system_description": "aider",
           "run_date": "2025-06-06",
           "scores": [
@@ -280,7 +294,8 @@
           ]
         },
         {
-          "model": "gpt-5 (low)",
+          "model": "gpt-5",
+          "effort": "low",
           "system_description": "aider",
           "run_date": "2025-08-25",
           "scores": [
@@ -302,7 +317,8 @@
           ]
         },
         {
-          "model": "o3 (high)",
+          "model": "o3",
+          "effort": "high",
           "system_description": "aider",
           "run_date": "2025-06-25",
           "scores": [
@@ -324,7 +340,8 @@
           ]
         },
         {
-          "model": "grok-4 (high)",
+          "model": "grok-4",
+          "effort": "high",
           "system_description": "aider",
           "run_date": "2025-07-11",
           "scores": [
@@ -346,7 +363,8 @@
           ]
         },
         {
-          "model": "gemini-2.5-pro-preview-06-05 (default think)",
+          "model": "gemini-2.5-pro-preview-06-05",
+          "effort": "default",
           "system_description": "aider",
           "run_date": "2025-06-06",
           "scores": [
@@ -368,7 +386,8 @@
           ]
         },
         {
-          "model": "o3 (high) + gpt-4.1",
+          "model": "o3 + gpt-4.1",
+          "effort": "high",
           "system_description": "aider",
           "run_date": "2025-06-27",
           "scores": [
@@ -391,6 +410,7 @@
         },
         {
           "model": "o3",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-06-25",
           "scores": [
@@ -413,6 +433,7 @@
         },
         {
           "model": "Gemini 2.5 Pro Preview 05-06",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-05-07",
           "scores": [
@@ -435,6 +456,7 @@
         },
         {
           "model": "DeepSeek-V3.2-Exp (Reasoner)",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-10-03",
           "scores": [
@@ -457,6 +479,7 @@
         },
         {
           "model": "Gemini 2.5 Pro Preview 03-25",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-04-12",
           "scores": [
@@ -479,6 +502,7 @@
         },
         {
           "model": "claude-opus-4-20250514 (32k thinking)",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-05-25",
           "scores": [
@@ -500,7 +524,8 @@
           ]
         },
         {
-          "model": "o4-mini (high)",
+          "model": "o4-mini",
+          "effort": "high",
           "system_description": "aider",
           "run_date": "2025-04-16",
           "scores": [
@@ -523,6 +548,7 @@
         },
         {
           "model": "DeepSeek R1 (0528)",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-06-06",
           "scores": [
@@ -544,7 +570,8 @@
           ]
         },
         {
-          "model": "claude-opus-4-20250514 (no think)",
+          "model": "claude-opus-4-20250514",
+          "effort": "non-thinking",
           "system_description": "aider",
           "run_date": "2025-05-25",
           "scores": [
@@ -567,6 +594,7 @@
         },
         {
           "model": "DeepSeek-V3.2-Exp (Chat)",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-10-03",
           "scores": [
@@ -589,6 +617,7 @@
         },
         {
           "model": "claude-3-7-sonnet-20250219 (32k thinking tokens)",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-02-24",
           "scores": [
@@ -611,6 +640,7 @@
         },
         {
           "model": "DeepSeek R1 + claude-3-5-sonnet-20241022",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-01-23",
           "scores": [
@@ -632,7 +662,8 @@
           ]
         },
         {
-          "model": "o1-2024-12-17 (high)",
+          "model": "o1-2024-12-17",
+          "effort": "high",
           "system_description": "aider",
           "run_date": "2024-12-21",
           "scores": [
@@ -655,6 +686,7 @@
         },
         {
           "model": "claude-sonnet-4-20250514 (32k thinking)",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-05-24",
           "scores": [
@@ -676,7 +708,8 @@
           ]
         },
         {
-          "model": "claude-3-7-sonnet-20250219 (no thinking)",
+          "model": "claude-3-7-sonnet-20250219",
+          "effort": "non-thinking",
           "system_description": "aider",
           "run_date": "2025-02-24",
           "scores": [
@@ -698,7 +731,8 @@
           ]
         },
         {
-          "model": "o3-mini (high)",
+          "model": "o3-mini",
+          "effort": "high",
           "system_description": "aider",
           "run_date": "2025-01-31",
           "scores": [
@@ -721,6 +755,7 @@
         },
         {
           "model": "Qwen3 235B A22B diff, no think, Alibaba API",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-05-09",
           "scores": [
@@ -743,6 +778,7 @@
         },
         {
           "model": "Kimi K2",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-07-17",
           "scores": [
@@ -765,6 +801,7 @@
         },
         {
           "model": "DeepSeek R1",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-01-20",
           "scores": [
@@ -786,7 +823,8 @@
           ]
         },
         {
-          "model": "claude-sonnet-4-20250514 (no thinking)",
+          "model": "claude-sonnet-4-20250514",
+          "effort": "non-thinking",
           "system_description": "aider",
           "run_date": "2025-05-24",
           "scores": [
@@ -808,7 +846,8 @@
           ]
         },
         {
-          "model": "gemini-2.5-flash-preview-05-20 (24k think)",
+          "model": "gemini-2.5-flash-preview-05-20",
+          "effort": "24k thinking",
           "system_description": "aider",
           "run_date": "2025-05-25",
           "scores": [
@@ -831,6 +870,7 @@
         },
         {
           "model": "DeepSeek V3 (0324)",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-03-24",
           "scores": [
@@ -853,6 +893,7 @@
         },
         {
           "model": "Quasar Alpha",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-04-04",
           "scores": [
@@ -874,7 +915,8 @@
           ]
         },
         {
-          "model": "o3-mini (medium)",
+          "model": "o3-mini",
+          "effort": "medium",
           "system_description": "aider",
           "run_date": "2025-01-31",
           "scores": [
@@ -897,6 +939,7 @@
         },
         {
           "model": "Grok 3 Beta",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-04-10",
           "scores": [
@@ -919,6 +962,7 @@
         },
         {
           "model": "Optimus Alpha",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-04-10",
           "scores": [
@@ -941,6 +985,7 @@
         },
         {
           "model": "gpt-4.1",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-04-14",
           "scores": [
@@ -963,6 +1008,7 @@
         },
         {
           "model": "claude-3-5-sonnet-20241022",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-01-17",
           "scores": [
@@ -984,7 +1030,8 @@
           ]
         },
         {
-          "model": "Grok 3 Mini Beta (high)",
+          "model": "Grok 3 Mini Beta",
+          "effort": "high",
           "system_description": "aider",
           "run_date": "2025-04-10",
           "scores": [
@@ -1007,6 +1054,7 @@
         },
         {
           "model": "DeepSeek Chat V3 (prev)",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2024-12-25",
           "scores": [
@@ -1028,7 +1076,8 @@
           ]
         },
         {
-          "model": "gemini-2.5-flash-preview-04-17 (default)",
+          "model": "gemini-2.5-flash-preview-04-17",
+          "effort": "default",
           "system_description": "aider",
           "run_date": "2025-04-20",
           "scores": [
@@ -1051,6 +1100,7 @@
         },
         {
           "model": "chatgpt-4o-latest (2025-03-29)",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-03-29",
           "scores": [
@@ -1073,6 +1123,7 @@
         },
         {
           "model": "gpt-4.5-preview",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-02-27",
           "scores": [
@@ -1094,7 +1145,8 @@
           ]
         },
         {
-          "model": "gemini-2.5-flash-preview-05-20 (no think)",
+          "model": "gemini-2.5-flash-preview-05-20",
+          "effort": "non-thinking",
           "system_description": "aider",
           "run_date": "2025-05-26",
           "scores": [
@@ -1116,7 +1168,8 @@
           ]
         },
         {
-          "model": "gpt-oss-120b (high)",
+          "model": "gpt-oss-120b",
+          "effort": "high",
           "system_description": "aider",
           "run_date": "2025-08-06",
           "scores": [
@@ -1139,6 +1192,7 @@
         },
         {
           "model": "Qwen3 32B",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-05-08",
           "scores": [
@@ -1161,6 +1215,7 @@
         },
         {
           "model": "gemini-exp-1206",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2024-12-22",
           "scores": [
@@ -1183,6 +1238,7 @@
         },
         {
           "model": "Gemini 2.0 Pro exp-02-05",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-02-25",
           "scores": [
@@ -1204,7 +1260,8 @@
           ]
         },
         {
-          "model": "Grok 3 Mini Beta (low)",
+          "model": "Grok 3 Mini Beta",
+          "effort": "low",
           "system_description": "aider",
           "run_date": "2025-04-10",
           "scores": [
@@ -1227,6 +1284,7 @@
         },
         {
           "model": "o1-mini-2024-09-12",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2024-12-22",
           "scores": [
@@ -1249,6 +1307,7 @@
         },
         {
           "model": "gpt-4.1-mini",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-04-14",
           "scores": [
@@ -1271,6 +1330,7 @@
         },
         {
           "model": "claude-3-5-haiku-20241022",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2024-12-21",
           "scores": [
@@ -1293,6 +1353,7 @@
         },
         {
           "model": "chatgpt-4o-latest (2025-02-15)",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-02-15",
           "scores": [
@@ -1315,6 +1376,7 @@
         },
         {
           "model": "QwQ-32B + Qwen 2.5 Coder Instruct",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-03-07",
           "scores": [
@@ -1337,6 +1399,7 @@
         },
         {
           "model": "gpt-4o-2024-08-06",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2024-12-30",
           "scores": [
@@ -1359,6 +1422,7 @@
         },
         {
           "model": "gemini-2.0-flash-exp",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2024-12-22",
           "scores": [
@@ -1381,6 +1445,7 @@
         },
         {
           "model": "qwen-max-2025-01-25",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-01-28",
           "scores": [
@@ -1398,6 +1463,7 @@
         },
         {
           "model": "QwQ-32B",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-03-06",
           "scores": [
@@ -1420,6 +1486,7 @@
         },
         {
           "model": "gemini-2.0-flash-thinking-exp-01-21",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-01-21",
           "scores": [
@@ -1442,6 +1509,7 @@
         },
         {
           "model": "gpt-4o-2024-11-20",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2024-12-30",
           "scores": [
@@ -1464,6 +1532,7 @@
         },
         {
           "model": "DeepSeek Chat V2.5",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2024-12-21",
           "scores": [
@@ -1486,6 +1555,7 @@
         },
         {
           "model": "Qwen2.5-Coder-32B-Instruct",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2024-12-26",
           "scores": [
@@ -1508,6 +1578,7 @@
         },
         {
           "model": "Llama 4 Maverick",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-04-06",
           "scores": [
@@ -1530,6 +1601,7 @@
         },
         {
           "model": "yi-lightning",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2024-12-23",
           "scores": [
@@ -1552,6 +1624,7 @@
         },
         {
           "model": "command-a-03-2025-quality",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-03-14",
           "scores": [
@@ -1574,6 +1647,7 @@
         },
         {
           "model": "Codestral 25.01",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-01-13",
           "scores": [
@@ -1596,6 +1670,7 @@
         },
         {
           "model": "openhands-lm-32b-v0.1",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-04-19",
           "scores": [
@@ -1618,6 +1693,7 @@
         },
         {
           "model": "gpt-4.1-nano",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-04-14",
           "scores": [
@@ -1640,6 +1716,7 @@
         },
         {
           "model": "Qwen2.5-Coder-32B-Instruct",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2024-12-22",
           "scores": [
@@ -1662,6 +1739,7 @@
         },
         {
           "model": "gemma-3-27b-it",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2025-03-15",
           "scores": [
@@ -1684,6 +1762,7 @@
         },
         {
           "model": "gpt-4o-mini-2024-07-18",
+          "effort": null,
           "system_description": "aider",
           "run_date": "2024-12-21",
           "scores": [

@@ -25,6 +25,7 @@
       "results": [
         {
           "model": "Tetra-Beta-2",
+          "effort": null,
           "system_description": "Tetra-Beta-2",
           "scores": [
             {
@@ -36,6 +37,7 @@
         },
         {
           "model": "Nobie Agent",
+          "effort": null,
           "system_description": "Nobie Agent",
           "scores": [
             {
@@ -47,6 +49,7 @@
         },
         {
           "model": "Qingqiu Agent",
+          "effort": null,
           "system_description": "Qingqiu Agent",
           "scores": [
             {
@@ -58,6 +61,7 @@
         },
         {
           "model": "Shortcut.ai",
+          "effort": null,
           "system_description": "Shortcut.ai",
           "scores": [
             {
@@ -69,6 +73,7 @@
         },
         {
           "model": "Kyra",
+          "effort": null,
           "system_description": "Kyra",
           "scores": [
             {
@@ -80,6 +85,7 @@
         },
         {
           "model": "Decide Agent",
+          "effort": null,
           "system_description": "Decide Agent",
           "scores": [
             {
@@ -93,5 +99,5 @@
       "note": null
     }
   ],
-  "notes": "Only SpreadsheetBench V1 Verified (400) is retained; num_tasks therefore reflects the verified_400 split rather than the 912-task V1 Full benchmark. The metric is pass rate: the percentage of tasks whose spreadsheet output matches the ground-truth answer file at the benchmark answer_position."
+  "notes": "Only SpreadsheetBench V1 Verified (400) is retained; SpreadsheetBench 2 leaderboard entries are intentionally excluded from this file under the current scope. num_tasks therefore reflects the verified_400 split rather than the 912-task V1 Full benchmark. The metric is pass rate: the percentage of tasks whose spreadsheet output matches the ground-truth answer file at the benchmark answer_position."
 }
