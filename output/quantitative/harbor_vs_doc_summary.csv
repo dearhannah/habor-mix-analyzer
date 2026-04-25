@@ -5,17 +5,17 @@ simpleqa,deepseek-chat,claude-code,0.91175,0.295,0.6167499999999999,0.6167499999
 sldbench,gemini-3-flash-preview,gemini-cli,0.751858,0.14535045855,0.6065075414500001,0.6065075414500001,gemini-3-flash-preview,openhands,matched_model_agent_mismatch,Mean R^2 (all_tasks),2025-07-28
 simpleqa,deepseek-reasoner,terminus-2,0.825,0.319,0.506,0.506,DeepSeek-R1,,matched_model_only_doc_no_agent,accuracy,2026-03-09
 simpleqa,claude-sonnet-4-6,claude-code,0.814,0.321,0.49299999999999994,0.49299999999999994,Claude Sonnet 4.6,,matched_model_only_doc_no_agent,accuracy,2026-03-09
+swt_bench,gpt-5-mini,terminus-2,0.132,0.624,-0.492,0.492,GPT-5-mini,OpenHands (All Hands AI),matched_model_agent_mismatch,Success Rate (S) — Unit Test,2026-04
 simpleqa,claude-sonnet-4-6,terminus-2,0.812,0.321,0.49100000000000005,0.49100000000000005,Claude Sonnet 4.6,,matched_model_only_doc_no_agent,accuracy,2026-03-09
-ineqmath,deepseek-reasoner,terminus-2,0.988,0.525,0.46299999999999997,0.46299999999999997,DeepSeek-R1,,matched_model_only_doc_no_agent,accuracy_overall,2025-12-15
-terminalbench_2_0,glm-5,claude-code,0.07191,0.5241573033707865,-0.45224730337078645,0.45224730337078645,GLM 5,Terminus 2,matched_model_agent_mismatch,accuracy,2026-04-02
 simpleqa,claude-opus-4-6,terminus-2,0.91,0.483,0.42700000000000005,0.42700000000000005,Claude Opus 4.6,,matched_model_only_doc_no_agent,accuracy,2026-03-09
 simpleqa,gpt-5.4,terminus-2,0.735,0.327,0.408,0.408,GPT-5.4,,matched_model_only_doc_no_agent,accuracy,2026-03-09
 terminalbench_2_0,gpt-5.4,terminus-2,0.429775,0.8179775280898877,-0.38820252808988764,0.38820252808988764,GPT-5.4,ForgeCode,matched_model_agent_mismatch,accuracy,2026-04-02
 gaia2,gpt-5.4,terminus-2,0.172083,0.556,-0.38391700000000006,0.38391700000000006,GPT-5.4,OpenClaw 2026.4.1,matched_model_agent_mismatch,"pass@1 (overall, 5-split)",2026-04-14
 simpleqa,claude-opus-4-6,claude-code,0.862,0.483,0.379,0.379,Claude Opus 4.6,,matched_model_only_doc_no_agent,accuracy,2026-03-09
 qcircuitbench,deepseek-reasoner,terminus-2,0.383539,0.0126,0.370939,0.370939,DeepSeek-R1,,matched_model_only_doc_no_agent,Semantic Score (1-Shot),2025-12-16
-seal0,kimi-k2.5,claude-code,0.235135,0.574,-0.33886499999999997,0.33886499999999997,Kimi K2.5,,matched_model_only_doc_no_agent,accuracy (LLM Stats score),2026-04-20
+seal0,kimi-k2.5,claude-code,0.236937,0.574,-0.33706299999999995,0.33706299999999995,Kimi K2.5,,matched_model_only_doc_no_agent,accuracy (LLM Stats score),2026-04-20
 gaia2,gpt-5.4,codex,0.220352,0.556,-0.33564800000000006,0.33564800000000006,GPT-5.4,OpenClaw 2026.4.1,matched_model_agent_mismatch,"pass@1 (overall, 5-split)",2026-04-14
+deepsynth,deepseek-chat,claude-code,0.343445,0.0211,0.322345,0.322345,DeepSeek-Chat,,matched_model_only_doc_no_agent,F1,2026-01-26
 swt_bench,gpt-5-mini,codex,0.308,0.624,-0.316,0.316,GPT-5-mini,OpenHands (All Hands AI),matched_model_agent_mismatch,Success Rate (S) — Unit Test,2026-04
 codepde,deepseek-reasoner,terminus-2,0.32,0.00483,0.31517,0.31517,DeepSeek-R1,"CodePDE (Reasoning + Debugging + Refinement, best-of-12)",matched_model_agent_mismatch,nRMSE (geom. mean),2025-05
 gaia2,gemini-3.1-pro-preview,terminus-2,0.218348,0.52,-0.30165200000000003,0.30165200000000003,Gemini 3.1 Pro,OpenClaw 2026.4.1,matched_model_agent_mismatch,"pass@1 (overall, 5-split)",2026-04-14
@@ -23,27 +23,28 @@ bigcodebench,deepseek-chat,claude-code,0.37931,0.622,-0.24269000000000002,0.2426
 gaia2,claude-opus-4-6,terminus-2,0.354882,0.57,-0.21511799999999998,0.21511799999999998,Claude Opus 4.6,OpenClaw 2026.4.1,matched_model_agent_mismatch,"pass@1 (overall, 5-split)",2026-04-14
 gaia2,claude-opus-4-6,claude-code,0.355906,0.57,-0.21409399999999995,0.21409399999999995,Claude Opus 4.6,OpenClaw 2026.4.1,matched_model_agent_mismatch,"pass@1 (overall, 5-split)",2026-04-14
 simpleqa,gemini-3.1-pro-preview,gemini-cli,0.961,0.748,0.21299999999999997,0.21299999999999997,Gemini 3.1 Pro Preview,,matched_model_only_doc_no_agent,accuracy,2026-03-09
+widesearch,claude-haiku-4-5-20251001,terminus-2,0.328739,0.538,-0.20926100000000003,0.20926100000000003,claude-haiku-4-5-20251001,"agent=claude-code@2.1.98, Harbor adapter parity experiment, 3 runs x 200 tasks",matched_model_agent_mismatch,Mean Item F1 (original),2026-04
 gaia2,gemini-3.1-pro-preview,gemini-cli,0.317823,0.52,-0.202177,0.202177,Gemini 3.1 Pro,OpenClaw 2026.4.1,matched_model_agent_mismatch,"pass@1 (overall, 5-split)",2026-04-14
 simpleqa,gemini-3.1-pro-preview,terminus-2,0.95,0.748,0.20199999999999996,0.20199999999999996,Gemini 3.1 Pro Preview,,matched_model_only_doc_no_agent,accuracy,2026-03-09
 gaia2,claude-sonnet-4-6,terminus-2,0.329768,0.519,-0.189232,0.189232,Claude Sonnet 4.6,OpenClaw 2026.4.1,matched_model_agent_mismatch,"pass@1 (overall, 5-split)",2026-04-14
-hle,gpt-5.4,terminus-2,0.17384,0.3624,-0.18856,0.18856,gpt-5.4-2026-03-05 (xhigh thinking),,matched_model_only_doc_no_agent,accuracy,2026-04-20
-terminalbench_2_0,gemini-3.1-pro-preview,gemini-cli,0.622472,0.802247191011236,-0.17977519101123596,0.17977519101123596,Gemini 3.1 Pro,TongAgents,matched_model_agent_mismatch,accuracy,2026-04-02
+researchcodebench,deepseek-reasoner,terminus-2,0.031604,0.21,-0.178396,0.178396,DeepSeek-R1,"deepseek-reasoner (DeepSeek), cutoff 2024-10, $0.14/$2.19",matched_model_agent_mismatch,scaled pass@1,2025-06
 aider_polyglot,deepseek-reasoner,terminus-2,0.536889,0.714,-0.17711100000000002,0.17711100000000002,DeepSeek R1 (0528),aider,matched_model_agent_mismatch,pass rate,2025-11-20
-algotune,gemini-3.1-pro-preview,terminus-2,0.249868,0.4128345597955406,-0.16296655979554062,0.16296655979554062,Gemini 3.1 Pro Preview (high),AlgoTuner,matched_model_agent_mismatch,AlgoTune Score,2026-04-20
-gso,gpt-5.4,terminus-2,0.151471,0.3137,-0.16222899999999998,0.16222899999999998,GPT-5.4 (xhigh),OpenHands,matched_model_agent_mismatch,Opt@1,2026-03-10
-hle,gpt-5.4,codex,0.5134,0.3624,0.15099999999999997,0.15099999999999997,gpt-5.4-2026-03-05 (xhigh thinking),,matched_model_only_doc_no_agent,accuracy,2026-04-20
+terminalbench_2_0,gemini-3.1-pro-preview,gemini-cli,0.626966,0.802247191011236,-0.17528119101123596,0.17528119101123596,Gemini 3.1 Pro,TongAgents,matched_model_agent_mismatch,accuracy,2026-04-02
+algotune,gemini-3.1-pro-preview,terminus-2,0.250081,0.4128345597955406,-0.16275355979554063,0.16275355979554063,Gemini 3.1 Pro Preview (high),AlgoTuner,matched_model_agent_mismatch,AlgoTune Score,2026-04-20
+gso,gpt-5.4,terminus-2,0.153431,0.3137,-0.16026899999999997,0.16026899999999997,GPT-5.4 (xhigh),OpenHands,matched_model_agent_mismatch,Opt@1,2026-03-10
 deepsynth,deepseek-reasoner,terminus-2,0.198071,0.0503,0.14777099999999999,0.14777099999999999,DeepSeek-Reasoner,,matched_model_only_doc_no_agent,F1,2026-01-26
-algotune,gpt-5.4,terminus-2,0.239646,0.38087611987235215,-0.14123011987235215,0.14123011987235215,GPT-5.4 (high),AlgoTuner,matched_model_agent_mismatch,AlgoTune Score,2026-04-20
+hle,gpt-5.4,codex,0.508434,0.3624,0.14603400000000005,0.14603400000000005,gpt-5.4-2026-03-05 (xhigh thinking),,matched_model_only_doc_no_agent,accuracy,2026-04-20
+algotune,gpt-5.4,terminus-2,0.23964,0.38087611987235215,-0.14123611987235216,0.14123611987235216,GPT-5.4 (high),AlgoTuner,matched_model_agent_mismatch,AlgoTune Score,2026-04-20
+crmarena,deepseek-reasoner,terminus-2,0.211888,0.351,-0.13911199999999999,0.13911199999999999,deepseek-r1,ReAct,matched_model_agent_mismatch,overall_mean,2024-11-04
 gaia2,claude-sonnet-4-6,claude-code,0.387608,0.519,-0.131392,0.131392,Claude Sonnet 4.6,OpenClaw 2026.4.1,matched_model_agent_mismatch,"pass@1 (overall, 5-split)",2026-04-14
 terminalbench_2_0,gpt-5.4,codex,0.68764,0.8179775280898877,-0.13033752808988763,0.13033752808988763,GPT-5.4,ForgeCode,matched_model_agent_mismatch,accuracy,2026-04-02
 algotune,gpt-5.4,codex,0.254969,0.38087611987235215,-0.12590711987235215,0.12590711987235215,GPT-5.4 (high),AlgoTuner,matched_model_agent_mismatch,AlgoTune Score,2026-04-20
-hle,gpt-5-mini,codex,0.3102,0.1944,0.11579999999999999,0.11579999999999999,gpt-5-mini-2025-08-07,,matched_model_only_doc_no_agent,accuracy,2026-04-20
-algotune,gemini-3.1-pro-preview,gemini-cli,0.300678,0.4128345597955406,-0.11215655979554062,0.11215655979554062,Gemini 3.1 Pro Preview (high),AlgoTuner,matched_model_agent_mismatch,AlgoTune Score,2026-04-20
+sldbench,claude-haiku-4-5-20251001,terminus-2,0.638622,0.7597229750000001,-0.12110097500000006,0.12110097500000006,claude-haiku-4-5-20251001,SLDAgent,matched_model_agent_mismatch,Mean R^2 (all_tasks),2025-07-28
 terminalbench_2_0,gemini-3.1-pro-preview,terminus-2,0.692135,0.802247191011236,-0.11011219101123604,0.11011219101123604,Gemini 3.1 Pro,TongAgents,matched_model_agent_mismatch,accuracy,2026-04-02
-deepsynth,deepseek-chat,claude-code,0.128417,0.0211,0.107317,0.107317,DeepSeek-Chat,,matched_model_only_doc_no_agent,F1,2026-01-26
 bfcl,claude-haiku-4-5-20251001,claude-code,0.726829,0.830638,-0.10380900000000004,0.10380900000000004,Claude-Haiku-4-5-20251001,FC,matched_model_agent_mismatch,accuracy (overall),2026-04-12
+hle,gpt-5-mini,codex,0.296386,0.1944,0.101986,0.101986,gpt-5-mini-2025-08-07,,matched_model_only_doc_no_agent,accuracy,2026-04-20
+algotune,gemini-3.1-pro-preview,gemini-cli,0.31694,0.4128345597955406,-0.09589455979554062,0.09589455979554062,Gemini 3.1 Pro Preview (high),AlgoTuner,matched_model_agent_mismatch,AlgoTune Score,2026-04-20
 bfcl,gpt-5-nano,codex,0.621138,0.713683,-0.09254499999999999,0.09254499999999999,GPT-5-nano-2025-08-07,FC,matched_model_agent_mismatch,accuracy (overall),2026-04-12
-hle,gemini-3.1-pro-preview,terminus-2,0.547961,0.4644,0.08356100000000005,0.08356100000000005,gemini-3.1-pro-preview (thinking high),,matched_model_only_doc_no_agent,accuracy,2026-04-20
 bfcl,gpt-5-nano,terminus-2,0.63252,0.713683,-0.08116299999999999,0.08116299999999999,GPT-5-nano-2025-08-07,FC,matched_model_agent_mismatch,accuracy (overall),2026-04-12
 bfcl,gpt-5-mini,terminus-2,0.798374,0.72183,0.07654400000000006,0.07654400000000006,GPT-5-mini-2025-08-07,FC,matched_model_agent_mismatch,accuracy (overall),2026-04-12
 algotune,deepseek-reasoner,terminus-2,0.271592,0.3466734987374917,-0.0750814987374917,0.0750814987374917,DeepSeek R1 (high),AlgoTuner,matched_model_agent_mismatch,AlgoTune Score,2026-04-20
@@ -51,16 +52,17 @@ bfcl,claude-haiku-4-5-20251001,terminus-2,0.75935,0.830638,-0.07128800000000002,
 terminalbench_2_0,gpt-5-nano,codex,0.051685,0.1146067415730337,-0.06292174157303371,0.06292174157303371,GPT-5-Nano,Codex CLI,matched_model_agent_mismatch,accuracy,2026-04-02
 kumo,deepseek-chat,claude-code,0.95566,0.8928,0.06285999999999992,0.06285999999999992,deepseek-v3,,matched_model_only_doc_no_agent,easy_success_rate,2025-04-06
 terminalbench_2_0,claude-haiku-4-5-20251001,claude-code,0.337079,0.2752808988764045,0.06179810112359552,0.06179810112359552,Claude Haiku 4.5,Claude Code,matched_model_and_agent,accuracy,2026-04-02
+hle,gpt-5-mini,terminus-2,0.133333,0.1944,-0.06106699999999998,0.06106699999999998,gpt-5-mini-2025-08-07,,matched_model_only_doc_no_agent,accuracy,2026-04-20
 gso,gpt-5.4,codex,0.372549,0.3137,0.05884900000000004,0.05884900000000004,GPT-5.4 (xhigh),OpenHands,matched_model_agent_mismatch,Opt@1,2026-03-10
-terminalbench_2_0,kimi-k2.5,claude-code,0.375281,0.43202247191011234,-0.05674147191011236,0.05674147191011236,Kimi K2.5,Terminus 2,matched_model_agent_mismatch,accuracy,2026-04-02
+algotune,claude-opus-4-6,terminus-2,0.330583,0.2781151069795546,0.05246789302044541,0.05246789302044541,Claude Opus 4.6 (high),AlgoTuner,matched_model_agent_mismatch,AlgoTune Score,2026-04-20
 sldbench,claude-haiku-4-5-20251001,claude-code,0.760526,0.70970173125,0.05082426875000001,0.05082426875000001,claude-haiku-4-5,claude-code,matched_model_and_agent,Mean R^2 (all_tasks),2025-07-28
-hle,gpt-5-mini,terminus-2,0.1453,0.1944,-0.04909999999999998,0.04909999999999998,gpt-5-mini-2025-08-07,,matched_model_only_doc_no_agent,accuracy,2026-04-20
-hle,kimi-k2.5,claude-code,0.196967,0.2437,-0.046733,0.046733,kimi-k2.5,,matched_model_only_doc_no_agent,accuracy,2026-04-20
-hle,gemini-3.1-pro-preview,gemini-cli,0.506659,0.4644,0.04225899999999999,0.04225899999999999,gemini-3.1-pro-preview (thinking high),,matched_model_only_doc_no_agent,accuracy,2026-04-20
+terminalbench_2_0,gemini-3-flash-preview,gemini-cli,0.523596,0.47415730337078654,0.04943869662921341,0.04943869662921341,Gemini 3 Flash,Gemini CLI,matched_model_and_agent,accuracy,2026-04-02
+swe_bench_pro,gpt-5.4,codex,0.542,0.591,-0.04899999999999993,0.04899999999999993,gpt-5.4,mini-swe-agent,matched_model_agent_mismatch,Pass@1 resolve rate,2026-04
 bfcl,gpt-5-mini,codex,0.762602,0.72183,0.04077200000000003,0.04077200000000003,GPT-5-mini-2025-08-07,FC,matched_model_agent_mismatch,accuracy (overall),2026-04-12
-terminalbench_2_0,gemini-3-flash-preview,gemini-cli,0.51236,0.47415730337078654,0.038202696629213495,0.038202696629213495,Gemini 3 Flash,Gemini CLI,matched_model_and_agent,accuracy,2026-04-02
+terminalbench_2_0,claude-opus-4-6,claude-code,0.608989,0.5797752808988764,0.02921371910112358,0.02921371910112358,Claude Opus 4.6,Claude Code,matched_model_and_agent,accuracy,2026-04-02
 terminalbench_2_0,gpt-5-nano,terminus-2,0.107865,0.07865168539325842,0.029213314606741578,0.029213314606741578,GPT-5-Nano,Terminus 2,matched_model_and_agent,accuracy,2026-04-02
-terminalbench_2_0,claude-opus-4-6,claude-code,0.606742,0.5797752808988764,0.026966719101123582,0.026966719101123582,Claude Opus 4.6,Claude Code,matched_model_and_agent,accuracy,2026-04-02
+hle,kimi-k2.5,claude-code,0.21747,0.2437,-0.026230000000000003,0.026230000000000003,kimi-k2.5,,matched_model_only_doc_no_agent,accuracy,2026-04-20
+algotune,claude-opus-4-6,claude-code,0.304273,0.2781151069795546,0.02615789302044541,0.02615789302044541,Claude Opus 4.6 (high),AlgoTuner,matched_model_agent_mismatch,AlgoTune Score,2026-04-20
 medagentbench,deepseek-chat,claude-code,0.65,0.6267,0.023299999999999987,0.023299999999999987,DeepSeek-V3,MedAgentBench agent orchestrator,matched_model_agent_mismatch,overall_sr,2025-02-12
 terminalbench_2_0,claude-haiku-4-5-20251001,terminus-2,0.305618,0.28314606741573034,0.02247193258426966,0.02247193258426966,Claude Haiku 4.5,Terminus 2,matched_model_and_agent,accuracy,2026-04-02
 terminalbench_2_0,gpt-5-mini,codex,0.366292,0.34831460674157305,0.017977393258426955,0.017977393258426955,GPT-5-Mini,spoox-m,matched_model_agent_mismatch,accuracy,2026-04-02

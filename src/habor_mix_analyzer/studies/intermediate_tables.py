@@ -165,6 +165,12 @@ def design_matrix(df: pd.DataFrame, terms: list[str]) -> pd.DataFrame:
     return pd.concat(blocks, axis=1)
 
 
+def _adjusted_r2(r2: float, n: int, p: int) -> float:
+    if n <= p + 1 or p == 0:
+        return r2
+    return 1.0 - (1.0 - r2) * (n - 1) / (n - p - 1)
+
+
 def fit_r2(df: pd.DataFrame, y: pd.Series, terms: list[str]) -> float:
     x = design_matrix(df, terms)
     if x.empty:
@@ -174,27 +180,80 @@ def fit_r2(df: pd.DataFrame, y: pd.Series, terms: list[str]) -> float:
     return float(model.score(x, y))
 
 
+def fit_r2_full(df: pd.DataFrame, y: pd.Series, terms: list[str]) -> dict[str, float]:
+    """Return raw R², adjusted R², and number of predictors."""
+    x = design_matrix(df, terms)
+    if x.empty:
+        return {"r2": 0.0, "adj_r2": 0.0, "n_predictors": 0}
+    n, p = x.shape
+    model = LinearRegression()
+    model.fit(x, y)
+    r2 = float(model.score(x, y))
+    return {"r2": r2, "adj_r2": _adjusted_r2(r2, n, p), "n_predictors": p}
+
+
+def _permutation_partial_r2(
+    df: pd.DataFrame, y: pd.Series, target: str, baseline_terms: list[str],
+    n_permutations: int = 1000,
+) -> float:
+    """Fraction of permutations where shuffling *target* produces a partial R²
+    as large as the observed one (one-sided p-value)."""
+    rng = np.random.RandomState(RANDOM_SEED)
+    full_r2 = fit_r2(df, y, baseline_terms + [target])
+    baseline_r2 = fit_r2(df, y, baseline_terms)
+    observed_partial = full_r2 - baseline_r2
+    count = 0
+    for _ in range(n_permutations):
+        perm_df = df.copy()
+        perm_df[target] = rng.permutation(perm_df[target].values)
+        perm_full = fit_r2(perm_df, y, baseline_terms + [target])
+        if perm_full - baseline_r2 >= observed_partial:
+            count += 1
+    return count / n_permutations
+
+
 def variance_decomposition(benchmark_long_df: pd.DataFrame) -> pd.DataFrame:
     df = benchmark_long_df.rename(columns={"normalized_score": "score"}).copy()
     y = df["score"].astype(float)
+    n = len(y)
     main_terms = ["model", "agent", "benchmark"]
-    full_main = fit_r2(df, y, main_terms)
+    full_main_info = fit_r2_full(df, y, main_terms)
+    full_main = full_main_info["r2"]
     records = []
     for term in main_terms:
+        solo = fit_r2_full(df, y, [term])
+        others = [t for t in main_terms if t != term]
+        without = fit_r2_full(df, y, others)
+        partial = full_main - without["r2"]
+        adj_partial = full_main_info["adj_r2"] - _adjusted_r2(
+            without["r2"], n, without["n_predictors"]
+        )
+        perm_p = _permutation_partial_r2(df, y, term, others) if term in ("model", "agent") else np.nan
         records.append(
             {
                 "component": term,
-                "r2": fit_r2(df, y, [term]),
-                "partial_r2_over_other_main_effects": full_main - fit_r2(df, y, [t for t in main_terms if t != term]),
+                "r2": solo["r2"],
+                "adj_r2": solo["adj_r2"],
+                "n_predictors": solo["n_predictors"],
+                "partial_r2_over_other_main_effects": partial,
+                "adj_partial_r2_over_other_main_effects": adj_partial,
+                "permutation_p_value": perm_p,
                 "type": "main_effect",
             }
         )
     for term in ["model:agent", "model:benchmark", "agent:benchmark"]:
+        info = fit_r2_full(df, y, main_terms + [term])
+        increment = info["r2"] - full_main
+        adj_increment = info["adj_r2"] - full_main_info["adj_r2"]
         records.append(
             {
                 "component": term,
-                "r2": fit_r2(df, y, main_terms + [term]),
-                "partial_r2_over_other_main_effects": fit_r2(df, y, main_terms + [term]) - full_main,
+                "r2": info["r2"],
+                "adj_r2": info["adj_r2"],
+                "n_predictors": info["n_predictors"],
+                "partial_r2_over_other_main_effects": increment,
+                "adj_partial_r2_over_other_main_effects": adj_increment,
+                "permutation_p_value": np.nan,
                 "type": "interaction_increment",
             }
         )
@@ -202,11 +261,15 @@ def variance_decomposition(benchmark_long_df: pd.DataFrame) -> pd.DataFrame:
         {
             "component": "all_main_effects",
             "r2": full_main,
+            "adj_r2": full_main_info["adj_r2"],
+            "n_predictors": full_main_info["n_predictors"],
             "partial_r2_over_other_main_effects": full_main,
+            "adj_partial_r2_over_other_main_effects": full_main_info["adj_r2"],
+            "permutation_p_value": np.nan,
             "type": "combined",
         }
     )
-    return pd.DataFrame(records).sort_values("partial_r2_over_other_main_effects", ascending=False)
+    return pd.DataFrame(records).sort_values("adj_partial_r2_over_other_main_effects", ascending=False)
 
 
 def benchmark_correlations(benchmark_result: ImputationResult) -> tuple[pd.DataFrame, pd.DataFrame]:

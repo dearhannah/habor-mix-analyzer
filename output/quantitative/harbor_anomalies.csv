@@ -3,8 +3,8 @@ algotune,gpt-5-nano,terminus-2,0.0,exact_zero
 algotune,gpt-5-nano,codex,0.0,exact_zero
 arc-agi-2,gpt-5-nano,terminus-2,0.0,exact_zero
 arc-agi-2,gpt-5-nano,codex,0.0,exact_zero
-arc-agi-2,kimi-k2.5,claude-code,0.0,exact_zero
-deepsynth,glm-5,claude-code,0.0,exact_zero
+gaia2,gpt-5-mini,terminus-2,0.0,exact_zero
+gaia2,gpt-5-nano,terminus-2,0.0,exact_zero
 gaia2,qwen3-max,terminus-2,0.0,exact_zero
 gso,gpt-5-nano,terminus-2,0.0,exact_zero
 mlgym,gpt-5.4,terminus-2,672.113412,above_1|extreme_magnitude
@@ -26,6 +26,7 @@ mlgym,gemini-3-flash-preview,gemini-cli,1132.829747,above_1|extreme_magnitude
 mlgym,deepseek-reasoner,terminus-2,-1316.280353,negative|extreme_magnitude
 mlgym,deepseek-chat,claude-code,837.744398,above_1|extreme_magnitude
 mlgym,kimi-k2.5,claude-code,-5521.208502,negative|extreme_magnitude
+mlgym,MiniMax-M2.5,terminus-2,733.765679,above_1|extreme_magnitude
 mlgym,MiniMax-M2.5,claude-code,789.776361,above_1|extreme_magnitude
 mlgym,glm-5,claude-code,-3520.137206,negative|extreme_magnitude
 mlgym,mimo-v2-pro,terminus-2,706.886644,above_1|extreme_magnitude
@@ -36,9 +37,7 @@ mmmlu,claude-haiku-4-5-20251001,terminus-2,0.0,exact_zero
 mmmlu,claude-sonnet-4-6,terminus-2,0.0,exact_zero
 mmmlu,claude-opus-4-6,terminus-2,0.0,exact_zero
 mmmlu,qwen3-max,terminus-2,0.0,exact_zero
-omnimath,mimo-v2-pro,claude-code,0.0,exact_zero
 research-code-bench,gpt-5-mini,terminus-2,0.0,exact_zero
-research-code-bench,gpt-5-nano,terminus-2,0.0,exact_zero
 research-code-bench,qwen3-max,terminus-2,0.0,exact_zero
 swegym,gpt-5.4,terminus-2,0.0,exact_zero
 swegym,gpt-5-mini,terminus-2,0.0,exact_zero
@@ -54,14 +53,11 @@ swegym,gemini-3.1-pro-preview,terminus-2,0.0,exact_zero
 swegym,gemini-3.1-pro-preview,gemini-cli,0.0,exact_zero
 swegym,gemini-3-flash-preview,terminus-2,0.0,exact_zero
 swegym,gemini-3-flash-preview,gemini-cli,0.0,exact_zero
-swegym,deepseek-chat,claude-code,0.0,exact_zero
 swegym,kimi-k2.5,terminus-2,0.0,exact_zero
 swegym,MiniMax-M2.5,terminus-2,0.0,exact_zero
 swegym,MiniMax-M2.5,claude-code,0.0,exact_zero
 swegym,glm-5,terminus-2,0.0,exact_zero
-swegym,glm-5,claude-code,0.0,exact_zero
 swegym,mimo-v2-pro,terminus-2,0.0,exact_zero
-swesmith,gpt-5.4,codex,0.0,exact_zero
-swesmith,gpt-5-nano,codex,0.0,exact_zero
 usaco,deepseek-chat,claude-code,0.0,exact_zero
 usaco,qwen3-max,qwen-coder,0.0,exact_zero
+widesearch,gpt-5-mini,codex,0.0,exact_zero
