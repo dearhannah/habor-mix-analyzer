@@ -1,7 +1,7 @@
 {
   "name": "AlgoTune",
   "category": "Code Performance",
-  "used_llm_or_agent": "llm",
+  "used_llm_or_agent": "agent",
   "links": {
     "website": "https://algotune.io/",
     "leaderboard": "https://algotune.io/",

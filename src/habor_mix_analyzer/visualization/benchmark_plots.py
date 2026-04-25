@@ -64,38 +64,42 @@ def save_benchmark_uniqueness_plot(uniqueness: pd.DataFrame, filter_table: pd.Da
 
 def save_benchmark_role_plot(role: pd.DataFrame) -> None:
     plot_df = role.copy()
+    x_col = "model_adj_partial_r2_over_agent" if "model_adj_partial_r2_over_agent" in plot_df.columns else "model_partial_r2_over_agent"
+    y_col = "agent_adj_partial_r2_over_model" if "agent_adj_partial_r2_over_model" in plot_df.columns else "agent_partial_r2_over_model"
     fig, ax = plt.subplots(figsize=(10, 8))
     colors = np.where(plot_df["dominant_dimension"] == "model", "#9ecae1", "#fdae6b")
     ax.scatter(
-        plot_df["model_partial_r2_over_agent"],
-        plot_df["agent_partial_r2_over_model"],
+        plot_df[x_col],
+        plot_df[y_col],
         s=95,
         color=colors,
         edgecolor="white",
         alpha=0.9,
     )
-    lim = max(plot_df[["model_partial_r2_over_agent", "agent_partial_r2_over_model"]].max().max(), 0.05)
+    lim = max(plot_df[[x_col, y_col]].max().max(), 0.05)
     ax.plot([0, lim], [0, lim], color="#666666", linewidth=1)
     label_df = pd.concat(
         [
-            plot_df.sort_values("model_partial_r2_over_agent", ascending=False).head(4),
-            plot_df.sort_values("agent_partial_r2_over_model", ascending=False).head(1),
+            plot_df.sort_values(x_col, ascending=False).head(4),
+            plot_df.sort_values(y_col, ascending=False).head(1),
         ],
         ignore_index=True,
     ).drop_duplicates("benchmark")
-    for i, row in enumerate(label_df.itertuples()):
-        x_offset = -78 if row.model_partial_r2_over_agent > 0.75 else 6
+    for i, row in label_df.iterrows():
+        x_val = row[x_col]
+        y_val = row[y_col]
+        x_offset = -78 if x_val > 0.75 else 6
         y_offset = [8, -12, 18, -20][i % 4]
         ax.annotate(
-            wrap_text(row.benchmark, 14),
-            (row.model_partial_r2_over_agent, row.agent_partial_r2_over_model),
+            wrap_text(row["benchmark"], 14),
+            (x_val, y_val),
             xytext=(x_offset, y_offset),
             textcoords="offset points",
             fontsize=9,
         )
-    ax.set_title("Per-Benchmark Model vs Agent Explanatory Power")
-    ax.set_xlabel("Partial R2 added by model after controlling for agent")
-    ax.set_ylabel("Partial R2 added by agent after controlling for model")
+    ax.set_title("Per-Benchmark Model vs Agent Explanatory Power (Adjusted R²)")
+    ax.set_xlabel("Adjusted partial R² added by model after controlling for agent")
+    ax.set_ylabel("Adjusted partial R² added by agent after controlling for model")
     ax.grid(color="#dddddd", linewidth=0.8)
     fig.tight_layout()
     save_key_figure(fig, "benchmark_level/benchmark_model_vs_agent_role.png")
@@ -103,13 +107,12 @@ def save_benchmark_role_plot(role: pd.DataFrame) -> None:
 
 
 def save_key_variance_plot(variance_df: pd.DataFrame) -> None:
-    plot_df = variance_df[variance_df["component"] != "all_main_effects"].sort_values(
-        "partial_r2_over_other_main_effects"
-    )
+    val_col = "adj_partial_r2_over_other_main_effects" if "adj_partial_r2_over_other_main_effects" in variance_df.columns else "partial_r2_over_other_main_effects"
+    plot_df = variance_df[variance_df["component"] != "all_main_effects"].sort_values(val_col)
     fig, ax = plt.subplots(figsize=(10, 5.8))
-    ax.barh(plot_df["component"], plot_df["partial_r2_over_other_main_effects"], color="#bcbddc", edgecolor="white")
-    ax.set_title("Benchmark-Level Score Variance Attribution")
-    ax.set_xlabel("Partial R2: extra variance explained after other main effects")
+    ax.barh(plot_df["component"], plot_df[val_col], color="#bcbddc", edgecolor="white")
+    ax.set_title("Benchmark-Level Score Variance Attribution (Adjusted)")
+    ax.set_xlabel("Adjusted partial R²: extra variance explained after other main effects")
     ax.set_ylabel("")
     ax.grid(axis="x", color="#dddddd", linewidth=0.8)
     fig.tight_layout()

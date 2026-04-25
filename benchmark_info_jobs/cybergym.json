@@ -1,22 +1,321 @@
 {
   "name": "CyberGym",
-  "category": "",
-  "used_llm_or_agent": "",
+  "category": "Agentic/Interactive",
+  "used_llm_or_agent": "agent",
   "links": {
-    "website": null,
-    "leaderboard": null,
-    "paper": null,
-    "github": null,
-    "dataset": null
+    "website": "https://cybergym.io",
+    "leaderboard": "https://www.cybergym.io/",
+    "paper": "https://arxiv.org/abs/2506.02548",
+    "github": "https://github.com/sunblaze-ucb/cybergym",
+    "dataset": "https://huggingface.co/datasets/sunblaze-ucb/cybergym"
   },
   "meta": {
-    "release_date": "",
-    "num_tasks": null
+    "release_date": "2025-06",
+    "num_tasks": 1507
   },
   "evaluation": {
-    "primary_metric": "",
+    "primary_metric": "success rate",
     "harbor_aligned_metric": null
   },
-  "results_over_time": [],
-  "notes": null
+  "results_over_time": [
+    {
+      "date": "2025-06",
+      "source_type": "paper",
+      "source_url": "https://arxiv.org/abs/2506.02548",
+      "results": [
+        {
+          "model": "Claude-Sonnet-4",
+          "effort": "trials=1",
+          "system_description": "OpenHands",
+          "score": 0.179
+        },
+        {
+          "model": "Claude-3.7-Sonnet",
+          "effort": "trials=1",
+          "system_description": "OpenHands",
+          "score": 0.119
+        },
+        {
+          "model": "GPT-4.1",
+          "effort": "trials=1",
+          "system_description": "OpenHands",
+          "score": 0.094
+        },
+        {
+          "model": "GPT-5",
+          "effort": "trials=1, minimal reasoning",
+          "system_description": "OpenHands",
+          "score": 0.078
+        },
+        {
+          "model": "Gemini-2.5-Flash",
+          "effort": "trials=1",
+          "system_description": "OpenHands",
+          "score": 0.048
+        },
+        {
+          "model": "DeepSeek-V3",
+          "effort": "trials=1",
+          "system_description": "OpenHands",
+          "score": 0.036
+        },
+        {
+          "model": "o4-mini",
+          "effort": "trials=1",
+          "system_description": "OpenHands",
+          "score": 0.025
+        },
+        {
+          "model": "R2E-Gym-32B",
+          "effort": "trials=1",
+          "system_description": "OpenHands",
+          "score": 0.020
+        },
+        {
+          "model": "OpenHands-LM-32B",
+          "effort": "trials=1",
+          "system_description": "OpenHands",
+          "score": 0.017
+        },
+        {
+          "model": "SWE-Gym-32B",
+          "effort": "trials=1",
+          "system_description": "OpenHands",
+          "score": 0.001
+        }
+      ],
+      "note": "Paper success rate = % of instances where the agent generates a successful PoC. All rows use OpenHands as the agent scaffold (max 100 iterations per task). GPT-5 rows split by reasoning mode. SWE-Gym / R2E-Gym / OpenHands-LM are 32B specialized coding agents approximated at ≤2.0% per paper. Union across all models reaches 27.2%; CyberGym led to 34 zero-day discoveries (4 CVE assignments). Paper results are single-trial (effort=trials=1), confirmed by matching CyberGym Team's leaderboard baseline rows dated 2025-05-15/23 which all have trials=1."
+    },
+    {
+      "date": "2025-05-15",
+      "source_type": "leaderboard",
+      "source_url": "https://www.cybergym.io/",
+      "results": [
+        {
+          "model": "GPT-4.1",
+          "effort": "trials=1",
+          "system_description": "Cybench",
+          "score": 0.090
+        },
+        {
+          "model": "GPT-4.1",
+          "effort": "trials=1",
+          "system_description": "Codex CLI",
+          "score": 0.074
+        },
+        {
+          "model": "GPT-4.1",
+          "effort": "trials=1",
+          "system_description": "ENiGMA",
+          "score": 0.072
+        },
+        {
+          "model": "Qwen3-235B-A22B",
+          "effort": "trials=1",
+          "system_description": "OpenHands",
+          "score": 0.019
+        }
+      ],
+      "note": "CyberGym leaderboard rows dated 2025-05-15 (CyberGym Team baseline runs). Other same-date rows overlap the paper Table (OpenHands + various models) and are omitted to avoid duplication."
+    },
+    {
+      "date": "2025-09-29",
+      "source_type": "leaderboard",
+      "source_url": "https://www.cybergym.io/",
+      "results": [
+        {
+          "model": "Claude Sonnet 4.5",
+          "effort": "trials=30",
+          "system_description": "Anthropic Agent",
+          "score": 0.667
+        },
+        {
+          "model": "Claude Opus 4.1",
+          "effort": "trials=30",
+          "system_description": "Anthropic Agent",
+          "score": 0.613
+        },
+        {
+          "model": "Claude Sonnet 4",
+          "effort": "trials=30",
+          "system_description": "Anthropic Agent",
+          "score": 0.595
+        },
+        {
+          "model": "Claude Sonnet 3.7",
+          "effort": "trials=30",
+          "system_description": "Anthropic Agent",
+          "score": 0.472
+        },
+        {
+          "model": "Claude Sonnet 4.5",
+          "effort": "trials=1",
+          "system_description": "Anthropic Agent",
+          "score": 0.289
+        },
+        {
+          "model": "Claude Opus 4.1",
+          "effort": "trials=1",
+          "system_description": "Anthropic Agent",
+          "score": 0.250
+        },
+        {
+          "model": "Claude Sonnet 4",
+          "effort": "trials=1",
+          "system_description": "Anthropic Agent",
+          "score": 0.226
+        },
+        {
+          "model": "Claude Sonnet 3.7",
+          "effort": "trials=1",
+          "system_description": "Anthropic Agent",
+          "score": 0.145
+        }
+      ],
+      "note": "CyberGym leaderboard rows dated 2025-09-29 (Anthropic Claude Sonnet 4.5 system card batch). Each model reported at both trials=1 and trials=30."
+    },
+    {
+      "date": "2025-12-05",
+      "source_type": "leaderboard",
+      "source_url": "https://www.cybergym.io/",
+      "results": [
+        {
+          "model": "GPT-5 (high)",
+          "effort": "trials=1",
+          "system_description": "OpenHands",
+          "score": 0.394
+        }
+      ],
+      "note": "CyberGym leaderboard row dated 2025-12-05 (CyberGym Team)."
+    },
+    {
+      "date": "2026-02-02",
+      "source_type": "leaderboard",
+      "source_url": "https://www.cybergym.io/",
+      "results": [
+        {
+          "model": "Kimi K2.5",
+          "effort": "trials=1",
+          "system_description": "Kimi Agent",
+          "score": 0.413
+        }
+      ],
+      "note": "CyberGym leaderboard row dated 2026-02-02 (Kimi)."
+    },
+    {
+      "date": "2026-02-05",
+      "source_type": "leaderboard",
+      "source_url": "https://www.cybergym.io/",
+      "results": [
+        {
+          "model": "Claude Opus 4.6",
+          "effort": "trials=1",
+          "system_description": "Anthropic Agent",
+          "score": 0.666
+        },
+        {
+          "model": "Claude Opus 4.5",
+          "effort": "trials=1",
+          "system_description": "Anthropic Agent",
+          "score": 0.506
+        }
+      ],
+      "note": "CyberGym leaderboard rows dated 2026-02-05 (Anthropic Opus 4.6 / 4.5 system cards)."
+    },
+    {
+      "date": "2026-02-09",
+      "source_type": "leaderboard",
+      "source_url": "https://www.cybergym.io/",
+      "results": [
+        {
+          "model": "GPT-5",
+          "effort": "trials=1",
+          "system_description": "SageAgent",
+          "score": 0.602
+        }
+      ],
+      "note": "CyberGym leaderboard row dated 2026-02-09 (OpenSage Team)."
+    },
+    {
+      "date": "2026-02-12",
+      "source_type": "leaderboard",
+      "source_url": "https://www.cybergym.io/",
+      "results": [
+        {
+          "model": "GLM-5",
+          "effort": "trials=1",
+          "system_description": "Claude Code",
+          "score": 0.432
+        },
+        {
+          "model": "GLM-4.7",
+          "effort": "trials=1",
+          "system_description": "Claude Code",
+          "score": 0.235
+        }
+      ],
+      "note": "CyberGym leaderboard rows dated 2026-02-12 (Zhipu AI)."
+    },
+    {
+      "date": "2026-02-17",
+      "source_type": "leaderboard",
+      "source_url": "https://www.cybergym.io/",
+      "results": [
+        {
+          "model": "Claude Sonnet 4.6",
+          "effort": "trials=1",
+          "system_description": "Anthropic Agent",
+          "score": 0.652
+        }
+      ],
+      "note": "CyberGym leaderboard row dated 2026-02-17 (Anthropic Sonnet 4.6 system card)."
+    },
+    {
+      "date": "2026-04-07",
+      "source_type": "leaderboard",
+      "source_url": "https://www.cybergym.io/",
+      "results": [
+        {
+          "model": "Claude Mythos Preview",
+          "effort": "trials=1",
+          "system_description": "Anthropic Agent",
+          "score": 0.831
+        },
+        {
+          "model": "GLM-5.1",
+          "effort": "trials=1",
+          "system_description": "Claude Code",
+          "score": 0.687
+        },
+        {
+          "model": "GPT-5.4",
+          "effort": "trials=1",
+          "system_description": "Codex CLI",
+          "score": 0.663
+        },
+        {
+          "model": "Gemini 3.1 Pro",
+          "effort": "trials=1",
+          "system_description": "Gemini CLI",
+          "score": 0.388
+        }
+      ],
+      "note": "CyberGym leaderboard rows dated 2026-04-07 (multiple vendor submissions). Rank 1: Mythos Preview (Anthropic). Rank 2: GLM-5.1 (Zhipu AI). Rank 5: GPT-5.4 (source linked to Zhipu AI's GLM-5.1 blog in table, likely a source-column misattribution). Rank 16: Gemini 3.1 Pro (source linked similarly)."
+    },
+    {
+      "date": "2026-04-14",
+      "source_type": "leaderboard",
+      "source_url": "https://www.cybergym.io/",
+      "results": [
+        {
+          "model": "Muse Spark",
+          "effort": "trials=1",
+          "system_description": "Meta Agent",
+          "score": 0.435
+        }
+      ],
+      "note": "CyberGym leaderboard row dated 2026-04-14 (Meta AI Muse Spark safety/preparedness report)."
+    }
+  ],
+  "notes": "1,507 real-world vulnerabilities across 188 software projects. Task: given the vulnerability text description and corresponding codebase, agent must generate a PoC test that reproduces the vulnerability. Paper defines 4 difficulty levels (0–3) based on input information provided, plus a 300-instance subset for budget-friendly evals. `category`=Agentic/Interactive because the original Cybersecurity category was dropped from the team taxonomy on 2026-04-16."
 }

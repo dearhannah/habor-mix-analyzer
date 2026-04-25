@@ -1,0 +1,52 @@
+benchmark,domain,superdomain,best_score,best_model,best_agent,median_score,worst_score,n_entries,spread
+swegym,Software Engineering,Agentic,0.0,gpt-5.4,terminus-2,0.0,0.0,19,0.0
+algotune,Software Engineering,Modified Agentic,0.333387,claude-sonnet-4-6,claude-code,0.227712,0.0,25,0.333387
+gaia2,"Agents, Tools & Systems",Agentic,0.387608,claude-sonnet-4-6,claude-code,0.1859345,0.0,22,0.387608
+gso,Software Engineering,Agentic,0.427451,gemini-3.1-pro-preview,gemini-cli,0.153431,0.0,15,0.427451
+bigcodebench,Software Engineering,Modified Agentic,0.441379,claude-opus-4-6,terminus-2,0.372414,0.031839,24,0.40954
+bixbench,Scientific Research,Agentic,0.451961,gemini-3.1-pro-preview,gemini-cli,0.322,0.08,28,0.371961
+featurebench-modal,Software Engineering,Agentic,0.461622,claude-opus-4-6,terminus-2,0.11445949999999999,0.003243,22,0.458379
+seal0,"Agents, Tools & Systems",Agentic,0.506306,gpt-5.4,codex,0.291892,0.07027,25,0.43603600000000003
+hle,Knowledge & Long Context,Non-Agentic,0.508434,gpt-5.4,codex,0.133333,0.0751,9,0.43333400000000005
+swebenchpro,Software Engineering,Agentic,0.542,gpt-5.4,codex,0.396,0.056,3,0.48600000000000004
+dacode,Data & Analytics,Agentic,0.554287,claude-opus-4-6,terminus-2,0.4880325,0.04232,22,0.511967
+scicode,Scientific Research,Modified Agentic,0.588362,gpt-5.4,codex,0.405795,0.008065,22,0.5802970000000001
+deepsynth,"Agents, Tools & Systems",Agentic,0.591495,gemini-3.1-pro-preview,gemini-cli,0.29307,0.031944,23,0.559551
+codepde,Scientific Research,Modified Agentic,0.6,claude-opus-4-6,terminus-2,0.32,0.04,28,0.5599999999999999
+swesmith,Software Engineering,Agentic,0.6,claude-opus-4-6,terminus-2,0.2045,0.042,15,0.5579999999999999
+swe-lancer,Software Engineering,Agentic,0.63,gemini-3.1-pro-preview,terminus-2,0.385,0.244,21,0.386
+replicationbench,Scientific Research,Agentic,0.637778,gemini-3.1-pro-preview,gemini-cli,0.2055555,0.044444,28,0.5933339999999999
+lawbench,Professional Domains,Non-Agentic,0.649836,deepseek-chat,claude-code,0.616801,0.430534,7,0.219302
+medagentbench,Professional Domains,Agentic,0.65,deepseek-chat,claude-code,0.515,0.072,28,0.5780000000000001
+crmarena,Professional Domains,Agentic,0.676422,gpt-5.4,codex,0.34624200000000005,0.099625,22,0.576797
+qcircuitbench,Scientific Research,Non-Agentic,0.688095,gemini-3.1-pro-preview,terminus-2,0.394053,0.0009,27,0.687195
+terminal-bench,"Agents, Tools & Systems",Agentic,0.692135,gemini-3.1-pro-preview,terminus-2,0.411236,0.051685,23,0.64045
+mmau,Multimodal,Non-Agentic,0.694,gpt-5.4,codex,0.584,0.086,16,0.608
+labbench,Scientific Research,Non-Agentic,0.725967,gpt-5.4,codex,0.166851,0.00221,25,0.723757
+swtbench,Software Engineering,Agentic,0.728,gpt-5.4,codex,0.5105,0.08,22,0.648
+arc-agi-2,Mathematics & Reasoning,Non-Agentic,0.738,gemini-3.1-pro-preview,gemini-cli,0.026,0.0,25,0.738
+pixiu,Professional Domains,Modified Agentic,0.749772,gemini-3.1-pro-preview,terminus-2,0.5382295,0.267993,18,0.481779
+widesearch,"Agents, Tools & Systems",Agentic,0.75219,deepseek-chat,claude-code,0.548781,0.0,17,0.75219
+gaia,"Agents, Tools & Systems",Agentic,0.758788,gpt-5.4,codex,0.453333,0.163636,21,0.595152
+swebench-verified,Software Engineering,Agentic,0.772,gemini-3.1-pro-preview,terminus-2,0.696,0.112,28,0.66
+sldbench,Scientific Research,Agentic,0.801446,claude-sonnet-4-6,claude-code,0.731631,0.047947,25,0.753499
+spreadsheetbench,Professional Domains,Agentic,0.8315,claude-sonnet-4-6,claude-code,0.71225,0.093,24,0.7385
+mmmlu,Knowledge & Long Context,Non-Agentic,0.842667,gpt-5.4,codex,0.609333,0.0,25,0.842667
+bfcl,"Agents, Tools & Systems",Non-Agentic,0.846341,glm-5,claude-code,0.7577240000000001,0.621138,24,0.22520300000000004
+research-code-bench,Scientific Research,Modified Agentic,0.861321,gpt-5.4,codex,0.031604,0.0,23,0.861321
+aider-polyglot,Software Engineering,Modified Agentic,0.88,gemini-3.1-pro-preview,gemini-cli,0.543111,0.094222,25,0.785778
+omnimath,Mathematics & Reasoning,Non-Agentic,0.882,gemini-3.1-pro-preview,gemini-cli,0.763,0.474,25,0.40800000000000003
+reasoning-gym,Mathematics & Reasoning,Non-Agentic,0.891954,gemini-3.1-pro-preview,terminus-2,0.7958525000000001,0.56933,16,0.322624
+livecodebench,Software Engineering,Modified Agentic,0.924,gpt-5.4,codex,0.8,0.29,28,0.6340000000000001
+usaco,Software Engineering,Modified Agentic,0.956,gpt-5.4,codex,0.718,0.0,25,0.956
+simpleqa,Knowledge & Long Context,Non-Agentic,0.961,gemini-3.1-pro-preview,gemini-cli,0.8166249999999999,0.168,28,0.7929999999999999
+gpqa-diamond,Knowledge & Long Context,Non-Agentic,0.964646,gemini-3.1-pro-preview,gemini-cli,0.778451,0.531734,20,0.43291199999999996
+kumo,Mathematics & Reasoning,Non-Agentic,0.966038,gpt-5.4,codex,0.934788,0.659434,6,0.306604
+strongreject,Safety & Security,Non-Agentic,0.972167,claude-haiku-4-5-20251001,terminus-2,0.9154165,0.700167,22,0.272
+quixbugs,Software Engineering,Non-Agentic,0.975,gpt-5.4,codex,0.92,0.284583,15,0.6904170000000001
+crustbench,Software Engineering,Modified Agentic,0.982,gpt-5.4,codex,0.754,0.11,21,0.872
+aime,Mathematics & Reasoning,Non-Agentic,0.993333,claude-opus-4-6,claude-code,0.89,0.488611,24,0.504722
+ineqmath,Mathematics & Reasoning,Non-Agentic,0.998,gpt-5.4,codex,0.9584999999999999,0.19,18,0.808
+compilebench,Software Engineering,Agentic,1.0,gpt-5.4,codex,0.873333,0.146667,22,0.853333
+humanevalfix,Software Engineering,Non-Agentic,1.0,claude-sonnet-4-6,terminus-2,0.992683,0.486585,25,0.513415
+mlgym,Scientific Research,Modified Agentic,2649.826908,gpt-5.4,codex,455.8848735,-1274672377834.0713,26,1274672380483.8982

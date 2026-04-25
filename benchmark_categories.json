@@ -1,0 +1,308 @@
+[
+  {
+    "domain": "Software Engineering",
+    "subdomains": [
+      {
+        "subdomain": "Repo-level Issue Resolution",
+        "benchmarks": {
+          "agentic": [
+            "Multi-SWE-bench",
+            "SWEGym",
+            "SWE-Bench-Multilingual",
+            "SWE-Bench Pro",
+            "SWE-bench Verified",
+            "SWE-smith",
+            "SWT Bench"
+          ]
+        }
+      },
+      {
+        "subdomain": "Feature & End-to-end Development",
+        "benchmarks": {
+          "agentic": [
+            "CooperBench",
+            "FeatBench",
+            "FeatureBench",
+            "SWE-Lancer"
+          ],
+          "modified-agentic": [
+            "WebGen-Bench"
+          ]
+        }
+      },
+      {
+        "subdomain": "Competitive & Function-level Coding",
+        "benchmarks": {
+          "modified-agentic": [
+            "Aider Polyglot",
+            "BigCodeBench",
+            "FrontierCS",
+            "LiveCodeBench",
+            "USACO"
+          ],
+          "non-agentic": [
+            "HumanEvalFix",
+            "QuixBugs"
+          ]
+        }
+      },
+      {
+        "subdomain": "Performance Optimization",
+        "benchmarks": {
+          "agentic": [
+            "GSO",
+            "SWE-fficiency"
+          ],
+          "modified-agentic": [
+            "AlgoTune"
+          ]
+        }
+      },
+      {
+        "subdomain": "Language Translation",
+        "benchmarks": {
+          "modified-agentic": [
+            "CRUST-Bench"
+          ]
+        }
+      },
+      {
+        "subdomain": "DevOps & Build Systems",
+        "benchmarks": {
+          "agentic": [
+            "CompileBench",
+            "DevOpsGym"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "domain": "Mathematics & Reasoning",
+    "subdomains": [
+      {
+        "subdomain": "Competition Mathematics",
+        "benchmarks": {
+          "non-agentic": [
+            "AIME",
+            "IneqMath",
+            "Omni-Math"
+          ]
+        }
+      },
+      {
+        "subdomain": "Abstract & Procedural Reasoning",
+        "benchmarks": {
+          "non-agentic": [
+            "ARC-AGI-2",
+            "KUMO",
+            "Reasoning Gym"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "domain": "Knowledge & Long Context",
+    "subdomains": [
+      {
+        "subdomain": "Expert & Multi-subject QA",
+        "benchmarks": {
+          "non-agentic": [
+            "GPQA Diamond",
+            "Humanity's Last Exam",
+            "MMMLU",
+            "SimpleQA"
+          ]
+        }
+      },
+      {
+        "subdomain": "Long-Context Reasoning",
+        "benchmarks": {
+          "non-agentic": [
+            "AA-LCR",
+            "CL-Bench"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "domain": "Scientific Research",
+    "subdomains": [
+      {
+        "subdomain": "End-to-end Research Workflows",
+        "benchmarks": {
+          "agentic": [
+            "PaperBench",
+            "ReplicationBench",
+            "ScienceAgentBench",
+            "SLDBench"
+          ],
+          "modified-agentic": [
+            "MLGym-Bench"
+          ]
+        }
+      },
+      {
+        "subdomain": "Scientific Computing",
+        "benchmarks": {
+          "modified-agentic": [
+            "CodePDE",
+            "ResearchCodeBench",
+            "SciCode"
+          ],
+          "non-agentic": [
+            "QCircuitBench"
+          ]
+        }
+      },
+      {
+        "subdomain": "Biomedical Research",
+        "benchmarks": {
+          "agentic": [
+            "BIX-Bench"
+          ],
+          "non-agentic": [
+            "LAB-Bench"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "domain": "Agents, Tools & Systems",
+    "subdomains": [
+      {
+        "subdomain": "Tool Use & Assistants",
+        "benchmarks": {
+          "agentic": [
+            "ACE-Bench",
+            "GAIA",
+            "GAIA2",
+            "SkillsBench"
+          ],
+          "non-agentic": [
+            "BFCL"
+          ]
+        }
+      },
+      {
+        "subdomain": "Deep Research & Web Agents",
+        "benchmarks": {
+          "agentic": [
+            "BrowseComp",
+            "BrowseComp-Plus",
+            "DeepSynth",
+            "Seal-0",
+            "WideSearch"
+          ]
+        }
+      },
+      {
+        "subdomain": "System & Terminal Ops",
+        "benchmarks": {
+          "agentic": [
+            "Terminal-Bench 2.0"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "domain": "Data & Analytics",
+    "subdomains": [
+      {
+        "subdomain": "Text-to-SQL & Data Science",
+        "benchmarks": {
+          "agentic": [
+            "DA-Code"
+          ],
+          "modified-agentic": [
+            "Spider 2"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "domain": "Professional Domains",
+    "subdomains": [
+      {
+        "subdomain": "Finance & Trading",
+        "benchmarks": {
+          "agentic": [
+            "FinanceAgent"
+          ],
+          "modified-agentic": [
+            "PIXIU"
+          ]
+        }
+      },
+      {
+        "subdomain": "Business / Professional Work",
+        "benchmarks": {
+          "agentic": [
+            "CRMArena",
+            "OfficeQA",
+            "SpreadsheetBench"
+          ],
+          "modified-agentic": [
+            "GDPVal"
+          ]
+        }
+      },
+      {
+        "subdomain": "Healthcare & Clinical",
+        "benchmarks": {
+          "agentic": [
+            "MedAgentBench"
+          ]
+        }
+      },
+      {
+        "subdomain": "Legal",
+        "benchmarks": {
+          "non-agentic": [
+            "LawBench"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "domain": "Safety & Security",
+    "subdomains": [
+      {
+        "subdomain": "Cybersecurity",
+        "benchmarks": {
+          "agentic": [
+            "CyBench",
+            "CyberGym"
+          ]
+        }
+      },
+      {
+        "subdomain": "Jailbreak Robustness",
+        "benchmarks": {
+          "non-agentic": [
+            "StrongReject"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "domain": "Multimodal",
+    "subdomains": [
+      {
+        "subdomain": "Audio Understanding",
+        "benchmarks": {
+          "non-agentic": [
+            "MMAU"
+          ]
+        }
+      }
+    ]
+  }
+]

@@ -1,2 +1,2 @@
 method,task_imputation_method,rank,holdout_cells,rmse,mae
-task_imputation_then_benchmark_aggregate,column_median,0,0,,
+task_imputation_then_benchmark_aggregate,row_mean_shrunk,0,0,,

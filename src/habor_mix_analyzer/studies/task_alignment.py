@@ -11,9 +11,12 @@ def task_aggregate_alignment(
     included_benchmarks: list[str],
 ) -> pd.DataFrame:
     task_cols = score_columns(task_result.normalized)
+    benchmark_cols_set = set(score_columns(benchmark_result.normalized))
     meta = task_metadata(task_cols)
     rows = []
     for benchmark, group in meta.groupby("benchmark"):
+        if benchmark not in benchmark_cols_set:
+            continue
         columns = group["task_column"].tolist()
         task_aggregate = task_result.normalized[columns].mean(axis=1).to_numpy(dtype=float)
         benchmark_values = benchmark_result.normalized[benchmark].to_numpy(dtype=float)

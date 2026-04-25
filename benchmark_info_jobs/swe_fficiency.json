@@ -1,22 +1,225 @@
 {
   "name": "SWE-fficiency",
-  "category": "",
-  "used_llm_or_agent": "",
+  "category": "Code Performance",
+  "used_llm_or_agent": "agent",
   "links": {
-    "website": null,
-    "leaderboard": null,
-    "paper": null,
-    "github": null,
-    "dataset": null
+    "website": "https://swefficiency.com",
+    "leaderboard": "https://swefficiency.com/",
+    "paper": "https://arxiv.org/abs/2511.06090",
+    "github": "https://github.com/swefficiency/swefficiency",
+    "dataset": "https://huggingface.co/datasets/swefficiency-anon/swefficiency"
   },
   "meta": {
-    "release_date": "",
-    "num_tasks": null
+    "release_date": "2025-11-08",
+    "num_tasks": 498
   },
   "evaluation": {
-    "primary_metric": "",
+    "primary_metric": "speedup ratio (SR)",
     "harbor_aligned_metric": null
   },
-  "results_over_time": [],
-  "notes": "Adapter list spells this SWE-fficiency; confirm official benchmark name."
+  "results_over_time": [
+    {
+      "date": "2025-11-08",
+      "source_type": "paper",
+      "source_url": "https://arxiv.org/abs/2511.06090",
+      "results": [
+        {
+          "model": "GPT-5",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.15
+        },
+        {
+          "model": "Claude 4.1 Opus",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.098
+        },
+        {
+          "model": "Qwen3 Coder Plus",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.064
+        },
+        {
+          "model": "Claude 3.7 Sonnet",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.047
+        },
+        {
+          "model": "Claude 4.5 Sonnet",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.041
+        },
+        {
+          "model": "GLM-4.6",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.026
+        },
+        {
+          "model": "GPT-5 Mini",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.019
+        },
+        {
+          "model": "Kimi K2-0905",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.008
+        },
+        {
+          "model": "Gemini 2.5 Flash",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.008
+        },
+        {
+          "model": "DeepSeek V3.1",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.007
+        },
+        {
+          "model": "Gemini 2.5 Pro",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.007
+        },
+        {
+          "model": "Claude 3.7 Sonnet",
+          "effort": null,
+          "system_description": "SWE-agent",
+          "score": 0.041
+        },
+        {
+          "model": "GPT-5 Mini",
+          "effort": null,
+          "system_description": "SWE-agent",
+          "score": 0.026
+        },
+        {
+          "model": "Gemini 2.5 Flash",
+          "effort": null,
+          "system_description": "SWE-agent",
+          "score": 0.006
+        }
+      ],
+      "note": "Paper Table 6. Score is speedup ratio (SR) = LM speedup / expert speedup — a dimensionless ratio (not a percentage); 1.0 = matches expert, <1.0 = slower than expert. Aggregated via harmonic mean. Expert gold baseline = 1.0 (not listed). Pass-to-pass correctness required: all unit tests must still pass after the edit."
+    },
+    {
+      "date": "2026-02",
+      "source_type": "leaderboard",
+      "source_url": "https://swefficiency.com/",
+      "results": [
+        {
+          "model": "Claude 4.5 Opus",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.225
+        },
+        {
+          "model": "GPT-5",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.157
+        },
+        {
+          "model": "Claude 4.6 Opus",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.155
+        },
+        {
+          "model": "GPT-5.2",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.148
+        },
+        {
+          "model": "Claude 4.5 Sonnet",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.116
+        },
+        {
+          "model": "Gemini 3 Flash",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.106
+        },
+        {
+          "model": "Gemini 3 Pro",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.102
+        },
+        {
+          "model": "Claude 4.1 Opus",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.098
+        },
+        {
+          "model": "Qwen3 Coder Plus 20250923",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.068
+        },
+        {
+          "model": "Composer-1",
+          "effort": null,
+          "system_description": "Cursor CLI",
+          "score": 0.063
+        },
+        {
+          "model": "Kimi K2-0905",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.054
+        },
+        {
+          "model": "DeepSeek V3.1",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.043
+        },
+        {
+          "model": "GLM-4.6",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.042
+        },
+        {
+          "model": "Gemini 2.5 Flash",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.041
+        },
+        {
+          "model": "GPT-5 Mini",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.039
+        },
+        {
+          "model": "Gemini 2.5 Pro",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.031
+        },
+        {
+          "model": "Claude 3.7 Sonnet",
+          "effort": null,
+          "system_description": "OpenHands",
+          "score": 0.024
+        }
+      ],
+      "note": "swefficiency.com leaderboard, last updated February 2026 (date = 2026-02 per leaderboard footer; no per-row submission timestamps exposed). All 17 non-human rows from the leaderboard table included. Human Expert row (1.000×) is the reference baseline, not added. Leaderboard naming convention is '<Model> (<Scaffold>)' — paren contains scaffold, not effort; effort=null throughout. Score is a speedup ratio, not a percentage (see paper entry note)."
+    }
+  ],
+  "notes": "498 performance-optimization tasks across 9 data-science / ML / HPC repos (numpy, pandas, scipy, and others). Task: given a slow workload and the complete codebase, produce a patch that matches or exceeds expert speedup while keeping all tests green. Stratified by pre-edit workload runtime, gold-patch length, and target speedup magnitude. Preprint submitted to ICLR 2026 (OpenReview forum id=J1lgJyP4Tm); code repo not yet public. Dataset on HuggingFace under `swefficiency-anon/` (anonymous for review)."
 }
