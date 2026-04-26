@@ -1,0 +1,101 @@
+benchmark,date_ym,benchmark_name,best_score,n_models
+aa_lcr,2025-08,AA-LCR,0.693,12
+aa_lcr,2025-10,AA-LCR,0.756,20
+aa_lcr,2025-12,AA-LCR,0.75,19
+aa_lcr,2026-03,AA-LCR,0.757,19
+aa_lcr,2026-04,AA-LCR,0.703,12
+abcbench,2026-01,ABC-Bench,0.632,11
+acebench,2025-07,ACEBench,0.967,23
+acebench,2025-11,ACEBench,0.934,21
+aider_polyglot,2024-12,Aider Polyglot,0.617,10
+aider_polyglot,2025-11,Aider Polyglot,0.88,69
+aime,2025-03,AIME,0.85,17
+aime,2026-04,AIME,0.9812,96
+algotune,2025-07,AlgoTune,0.3516279254962272,4
+algotune,2026-04,AlgoTune,0.4178735386225294,18
+bigcodebench,2024-06,BigCodeBench,0.611,51
+bigcodebench,2025-04,BigCodeBench,0.624,19
+bigcodebench,2026-04,BigCodeBench,0.624,202
+browsecomp_plus,2025-08,BrowseComp-Plus,0.7169,41
+browsecomp_plus,2025-09,BrowseComp-Plus,0.4446,5
+browsecomp_plus,2025-10,BrowseComp-Plus,0.741,4
+browsecomp_plus,2025-11,BrowseComp-Plus,0.8,1
+browsecomp_plus,2025-12,BrowseComp-Plus,0.7841,7
+browsecomp_plus,2026-02,BrowseComp-Plus,0.6092,2
+browsecomp_plus,2026-03,BrowseComp-Plus,0.9048,14
+cooperbench,2025-01,CooperBench,0.48,5
+cooperbench,2026-04,CooperBench,0.486,8
+da_code,2024-10,DA-Code,0.994,7
+devopsgym,2026-01,DevOps-Gym,0.5185,8
+devopsgym,2026-04,DevOps-Gym,0.8182,9
+featurebench,2026-01,FeatureBench,0.125,8
+featurebench,2026-02,FeatureBench,0.2,7
+financeagent,2025-05,Finance Agent Benchmark,0.9886,22
+financeagent,2026-04,Finance Agent Benchmark,0.6437,45
+finben,2024-09,FinBen,1.0,15
+finben,2026-04,FinBen,0.69,21
+gaia,2023-11,GAIA,0.939,5
+gaia,2024-09,GAIA,0.5054,6
+gaia,2024-12,GAIA,0.7849,6
+gaia,2025-02,GAIA,0.7866,3
+gaia,2025-03,GAIA,0.8602,4
+gaia,2025-06,GAIA,0.9355,6
+gaia,2025-10,GAIA,0.957,5
+gaia,2026-03,GAIA,0.9892,10
+gaia2,2025-09,GAIA2,0.796,11
+gaia2,2026-02,GAIA2,0.621,3
+gaia2,2026-04,GAIA2,0.948,6
+gpqa_diamond,2023-11,GPQA Diamond,0.581,13
+gpqa_diamond,2026-04,GPQA Diamond,0.9545,152
+gso,2025-05,GSO,0.157,6
+gso,2025-06,GSO,0.0882,1
+gso,2025-08,GSO,0.0686,2
+gso,2025-09,GSO,0.049,1
+gso,2025-10,GSO,0.1471,2
+gso,2025-11,GSO,0.2647,2
+gso,2025-12,GSO,0.2745,2
+gso,2026-02,GSO,0.3333,1
+gso,2026-03,GSO,0.3137,2
+hle,2025-01,Humanity's Last Exam,0.094,7
+hle,2026-04,Humanity's Last Exam,0.4644,49
+ineqmath,2024-02,IneqMath,0.995,1
+ineqmath,2024-06,IneqMath,1.0,1
+ineqmath,2024-07,IneqMath,0.995,2
+ineqmath,2024-08,IneqMath,0.97,1
+ineqmath,2024-09,IneqMath,0.9924999999999999,2
+ineqmath,2024-11,IneqMath,0.9525,1
+ineqmath,2024-12,IneqMath,0.9975,2
+ineqmath,2025-01,IneqMath,0.975,3
+ineqmath,2025-02,IneqMath,0.9724999999999999,4
+ineqmath,2025-03,IneqMath,1.0,3
+ineqmath,2025-04,IneqMath,1.0,3
+ineqmath,2025-05,IneqMath,0.9824999999999999,2
+ineqmath,2025-06,IneqMath,0.9924999999999999,2
+ineqmath,2025-07,IneqMath,0.9824999999999999,1
+ineqmath,2025-08,IneqMath,0.9924999999999999,3
+ineqmath,2025-12,IneqMath,1.0,24
+mmau,2024-10,MMAU,0.5855,14
+mmau,2026-04,MMAU,0.8404,29
+multi_swe_bench,2025-03,Multi-SWE-bench,0.3908,36
+multi_swe_bench,2025-04,Multi-SWE-bench,0.7165,27
+omni_math,2026-04,Omni-MATH,0.8223,15
+paperbench,2025-04,PaperBench,0.85,11
+seal0,2025-06,Seal-0,0.171,15
+seal0,2026-04,Seal-0,0.574,6
+simpleqa,2024-10,SimpleQA,0.47,8
+simpleqa,2025-07,SimpleQA,0.625,23
+simpleqa,2025-08,SimpleQA,0.55,7
+simpleqa,2026-03,SimpleQA,0.748,27
+skillsbench,2026-03,SkillsBench,0.487,8
+spider_2,2024-11,Spider 2.0,0.2377,18
+spider_2,2026-04,Spider 2.0,0.967,12
+swe_bench_live,2025-05,SWE-Bench-Live,0.1925,12
+swe_bench_live,2025-07,SWE-Bench-Live,0.2467,1
+swe_bench_live,2025-10,SWE-Bench-Live,0.2433,1
+swe_bench_live,2025-11,SWE-Bench-Live,0.36,1
+swe_bench_multilingual,2026-02,SWE-Bench-Multilingual,0.727,11
+swt_bench,2024-06,SWT-Bench,0.203,13
+swt_bench,2026-04,SWT-Bench,0.891,17
+webgenbench,2025-05,WebGen-Bench,0.561,16
+widesearch,2025-08,WideSearch,0.622,17
+widesearch,2026-04,WideSearch,0.539,1

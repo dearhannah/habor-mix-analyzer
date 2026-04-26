@@ -1,0 +1,8 @@
+{
+  "matrix": "task",
+  "method": "row_mean_shrunk",
+  "best_rank": 0,
+  "missing_fraction": 0.07459361186368173,
+  "columns": 7013,
+  "agent_model_rows": 16
+}

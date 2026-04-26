@@ -1,0 +1,127 @@
+model,domain,mean_score,n_benchmarks
+glm-5,"Agents, Tools & Systems",0.6307112500000001,2
+gemini-3.1-pro-preview,"Agents, Tools & Systems",0.5763420769230769,7
+claude-opus-4-6,"Agents, Tools & Systems",0.5343822500000001,7
+gpt-5.4,"Agents, Tools & Systems",0.498469,7
+claude-sonnet-4-6,"Agents, Tools & Systems",0.48902190909090915,7
+kimi-k2.5,"Agents, Tools & Systems",0.47936,5
+mimo-v2-pro,"Agents, Tools & Systems",0.4664703333333333,5
+deepseek-chat,"Agents, Tools & Systems",0.4632836666666667,6
+gemini-3-flash-preview,"Agents, Tools & Systems",0.45613675,7
+deepseek-reasoner,"Agents, Tools & Systems",0.39050399999999996,7
+gpt-5-mini,"Agents, Tools & Systems",0.33899407142857146,7
+MiniMax-M2.5,"Agents, Tools & Systems",0.32198942857142854,7
+claude-haiku-4-5-20251001,"Agents, Tools & Systems",0.3160454615384615,7
+gpt-5-nano,"Agents, Tools & Systems",0.19756635714285714,7
+qwen3-max,"Agents, Tools & Systems",0.13999550000000002,4
+claude-opus-4-6,Data & Analytics,0.5349035,1
+gemini-3-flash-preview,Data & Analytics,0.5299305,1
+gemini-3.1-pro-preview,Data & Analytics,0.524678,1
+claude-sonnet-4-6,Data & Analytics,0.518513,1
+gpt-5.4,Data & Analytics,0.4893275,1
+mimo-v2-pro,Data & Analytics,0.4880325,1
+qwen3-max,Data & Analytics,0.40933549999999996,1
+glm-5,Data & Analytics,0.387959,1
+gpt-5-mini,Data & Analytics,0.38219499999999995,1
+deepseek-chat,Data & Analytics,0.318935,1
+gpt-5-nano,Data & Analytics,0.16171950000000002,1
+deepseek-reasoner,Data & Analytics,0.04232,1
+gemini-3.1-pro-preview,Knowledge & Long Context,0.8060353333333333,3
+deepseek-reasoner,Knowledge & Long Context,0.772852,3
+gemini-3-flash-preview,Knowledge & Long Context,0.739128,3
+claude-opus-4-6,Knowledge & Long Context,0.7109691666666667,3
+gpt-5.4,Knowledge & Long Context,0.7004257142857143,4
+mimo-v2-pro,Knowledge & Long Context,0.69242,3
+kimi-k2.5,Knowledge & Long Context,0.6757399999999999,2
+claude-sonnet-4-6,Knowledge & Long Context,0.6382908,3
+deepseek-chat,Knowledge & Long Context,0.6053153333333333,3
+qwen3-max,Knowledge & Long Context,0.5976145,3
+gpt-5-mini,Knowledge & Long Context,0.541285,4
+claude-haiku-4-5-20251001,Knowledge & Long Context,0.5031214285714286,4
+glm-5,Knowledge & Long Context,0.46307400000000004,2
+MiniMax-M2.5,Knowledge & Long Context,0.4412075,4
+gpt-5-nano,Knowledge & Long Context,0.43622228571428573,4
+gemini-3.1-pro-preview,Mathematics & Reasoning,0.8523726666666667,5
+claude-opus-4-6,Mathematics & Reasoning,0.797639,5
+claude-sonnet-4-6,Mathematics & Reasoning,0.7493954444444444,5
+deepseek-chat,Mathematics & Reasoning,0.7373986,5
+gpt-5.4,Mathematics & Reasoning,0.7208164444444445,6
+gpt-5-mini,Mathematics & Reasoning,0.6947678888888889,6
+kimi-k2.5,Mathematics & Reasoning,0.6598269999999999,4
+qwen3-max,Mathematics & Reasoning,0.63655975,5
+claude-haiku-4-5-20251001,Mathematics & Reasoning,0.6250678,5
+gemini-3-flash-preview,Mathematics & Reasoning,0.62136375,5
+gpt-5-nano,Mathematics & Reasoning,0.5691932222222222,6
+MiniMax-M2.5,Mathematics & Reasoning,0.5600130909090909,6
+deepseek-reasoner,Mathematics & Reasoning,0.55543525,4
+mimo-v2-pro,Mathematics & Reasoning,0.5114446666666667,5
+claude-opus-4-6,Multimodal,0.69,1
+gpt-5.4,Multimodal,0.675,1
+kimi-k2.5,Multimodal,0.66,1
+claude-sonnet-4-6,Multimodal,0.648,1
+gemini-3.1-pro-preview,Multimodal,0.634333,1
+mimo-v2-pro,Multimodal,0.62,1
+gpt-5-mini,Multimodal,0.5710835,1
+claude-haiku-4-5-20251001,Multimodal,0.562,1
+MiniMax-M2.5,Multimodal,0.54,1
+qwen3-max,Multimodal,0.511,1
+gemini-3-flash-preview,Multimodal,0.499,1
+gpt-5-nano,Multimodal,0.086,1
+kimi-k2.5,Professional Domains,0.6241875,2
+gemini-3.1-pro-preview,Professional Domains,0.619552375,4
+claude-opus-4-6,Professional Domains,0.6140815,4
+mimo-v2-pro,Professional Domains,0.60532525,3
+deepseek-chat,Professional Domains,0.5898052,5
+claude-sonnet-4-6,Professional Domains,0.582284375,4
+gpt-5.4,Professional Domains,0.5607932857142857,4
+gemini-3-flash-preview,Professional Domains,0.560318,5
+glm-5,Professional Domains,0.5349999999999999,1
+claude-haiku-4-5-20251001,Professional Domains,0.528331125,4
+deepseek-reasoner,Professional Domains,0.5251728,5
+qwen3-max,Professional Domains,0.5002391428571429,4
+MiniMax-M2.5,Professional Domains,0.49785566666666664,5
+gpt-5-mini,Professional Domains,0.431885,5
+gpt-5-nano,Professional Domains,0.1811347142857143,4
+claude-haiku-4-5-20251001,Safety & Security,0.9668335,1
+gpt-5.4,Safety & Security,0.950583,1
+gpt-5-nano,Safety & Security,0.9490415,1
+gpt-5-mini,Safety & Security,0.944882,1
+MiniMax-M2.5,Safety & Security,0.9388335,1
+claude-sonnet-4-6,Safety & Security,0.913167,1
+claude-opus-4-6,Safety & Security,0.913,1
+qwen3-max,Safety & Security,0.9089165,1
+gemini-3.1-pro-preview,Safety & Security,0.89175,1
+mimo-v2-pro,Safety & Security,0.8899165,1
+deepseek-chat,Safety & Security,0.838292,1
+gemini-3-flash-preview,Safety & Security,0.808236,1
+deepseek-reasoner,Safety & Security,0.700167,1
+gemini-3.1-pro-preview,Scientific Research,0.5112295,8
+gpt-5.4,Scientific Research,0.502040875,8
+gemini-3-flash-preview,Scientific Research,0.436489875,8
+claude-opus-4-6,Scientific Research,0.4191251875,8
+kimi-k2.5,Scientific Research,0.3882757272727273,6
+deepseek-chat,Scientific Research,0.387672625,8
+claude-sonnet-4-6,Scientific Research,0.37950873333333335,8
+mimo-v2-pro,Scientific Research,0.3436758,8
+gpt-5-mini,Scientific Research,0.3428989375,8
+glm-5,Scientific Research,0.33712244444444445,6
+claude-haiku-4-5-20251001,Scientific Research,0.3230405,8
+deepseek-reasoner,Scientific Research,0.298263375,8
+MiniMax-M2.5,Scientific Research,0.2921106,8
+qwen3-max,Scientific Research,0.24712292307692307,7
+gpt-5-nano,Scientific Research,0.115331125,8
+claude-opus-4-6,Software Engineering,0.6452360740740741,15
+gemini-3.1-pro-preview,Software Engineering,0.6088500357142858,15
+glm-5,Software Engineering,0.6073111999999999,9
+claude-sonnet-4-6,Software Engineering,0.5923909642857142,15
+gpt-5.4,Software Engineering,0.591801935483871,17
+kimi-k2.5,Software Engineering,0.5879919375,10
+gemini-3-flash-preview,Software Engineering,0.5715696551724139,16
+mimo-v2-pro,Software Engineering,0.5691542380952381,13
+deepseek-reasoner,Software Engineering,0.5124999333333333,15
+gpt-5-mini,Software Engineering,0.45527553125,17
+deepseek-chat,Software Engineering,0.4471835,12
+qwen3-max,Software Engineering,0.4455686,9
+claude-haiku-4-5-20251001,Software Engineering,0.43330495999999996,14
+MiniMax-M2.5,Software Engineering,0.41974500000000003,15
+gpt-5-nano,Software Engineering,0.19184125,17

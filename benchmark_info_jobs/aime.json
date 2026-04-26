@@ -1,0 +1,1667 @@
+{
+  "name": "AIME",
+  "category": "Math",
+  "used_llm_or_agent": "llm",
+  "links": {
+    "website": "https://www.vals.ai/benchmarks/aime",
+    "leaderboard": "https://www.vals.ai/benchmarks/aime",
+    "paper": null,
+    "github": "https://github.com/GAIR-NLP/AIME-Preview",
+    "dataset": null
+  },
+  "meta": {
+    "release_date": "2024-02",
+    "num_tasks": 60
+  },
+  "evaluation": {
+    "primary_metric": "accuracy",
+    "harbor_aligned_metric": null
+  },
+  "results_over_time": [
+    {
+      "date": "2025-03",
+      "source_type": "other",
+      "source_url": "https://github.com/GAIR-NLP/AIME-Preview",
+      "results": [
+        {
+          "model": "o3-mini-high",
+          "effort": "high",
+          "system_description": null,
+          "note": "Original system_description: API model, default config",
+          "scores": [
+            {
+              "metric": "accuracy (AIME 2024)",
+              "value": 0.838,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME I 2025 AVG)",
+              "value": 0.767,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME II 2025 AVG)",
+              "value": 0.85,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME 2025)",
+              "value": 0.8085,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "o3-mini-medium",
+          "effort": "medium",
+          "system_description": null,
+          "note": "Original system_description: API model, default config",
+          "scores": [
+            {
+              "metric": "accuracy (AIME 2024)",
+              "value": 0.758,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME I 2025 AVG)",
+              "value": 0.667,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME II 2025 AVG)",
+              "value": 0.7417,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME 2025)",
+              "value": 0.7044,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-R1",
+          "effort": null,
+          "system_description": null,
+          "note": "Original system_description: API model, default config",
+          "scores": [
+            {
+              "metric": "accuracy (AIME 2024)",
+              "value": 0.798,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME I 2025 AVG)",
+              "value": 0.65,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME II 2025 AVG)",
+              "value": 0.75,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME 2025)",
+              "value": 0.7,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "QwQ-32B",
+          "effort": null,
+          "system_description": null,
+          "note": "Original system_description: API model, default config",
+          "scores": [
+            {
+              "metric": "accuracy (AIME 2024)",
+              "value": 0.795,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME I 2025 AVG)",
+              "value": 0.6,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME II 2025 AVG)",
+              "value": 0.638,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME 2025)",
+              "value": 0.6194,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-R1-Distill-Llama-70B",
+          "effort": null,
+          "system_description": null,
+          "note": "Original system_description: 800k samples, local deployment",
+          "scores": [
+            {
+              "metric": "accuracy (AIME 2024)",
+              "value": 0.571,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME I 2025 AVG)",
+              "value": 0.514,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME II 2025 AVG)",
+              "value": 0.6114,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME 2025)",
+              "value": 0.5627,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "o1-mini",
+          "effort": null,
+          "system_description": null,
+          "note": "Original system_description: API model, default config",
+          "scores": [
+            {
+              "metric": "accuracy (AIME 2024)",
+              "value": 0.636,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME I 2025 AVG)",
+              "value": 0.508,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME II 2025 AVG)",
+              "value": 0.567,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME 2025)",
+              "value": 0.5375,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-R1-Distill-Qwen-32B",
+          "effort": null,
+          "system_description": null,
+          "note": "Original system_description: 800k samples, local deployment",
+          "scores": [
+            {
+              "metric": "accuracy (AIME 2024)",
+              "value": 0.583,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME I 2025 AVG)",
+              "value": 0.461,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME II 2025 AVG)",
+              "value": 0.531,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME 2025)",
+              "value": 0.496,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-R1-Distill-Qwen-14B",
+          "effort": null,
+          "system_description": null,
+          "note": "Original system_description: 800k samples, local deployment",
+          "scores": [
+            {
+              "metric": "accuracy (AIME 2024)",
+              "value": 0.617,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME I 2025 AVG)",
+              "value": 0.467,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME II 2025 AVG)",
+              "value": 0.492,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME 2025)",
+              "value": 0.4795,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "limo",
+          "effort": null,
+          "system_description": null,
+          "note": "Original system_description: 817 samples, local deployment",
+          "scores": [
+            {
+              "metric": "accuracy (AIME 2024)",
+              "value": 0.563,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME I 2025 AVG)",
+              "value": 0.445,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME II 2025 AVG)",
+              "value": 0.447,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME 2025)",
+              "value": 0.446,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "gemini-2.0-flash-thinking",
+          "effort": null,
+          "system_description": null,
+          "note": "Original system_description: API model, default config",
+          "scores": [
+            {
+              "metric": "accuracy (AIME 2024)",
+              "value": 0.615,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME I 2025 AVG)",
+              "value": 0.433,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME II 2025 AVG)",
+              "value": 0.458,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME 2025)",
+              "value": 0.4455,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "o3-mini-low",
+          "effort": "low",
+          "system_description": null,
+          "note": "Original system_description: API model, default config",
+          "scores": [
+            {
+              "metric": "accuracy (AIME 2024)",
+              "value": 0.563,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME I 2025 AVG)",
+              "value": 0.442,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME II 2025 AVG)",
+              "value": 0.4,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME 2025)",
+              "value": 0.421,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "o1-preview",
+          "effort": null,
+          "system_description": null,
+          "note": "Original system_description: API model, default config",
+          "scores": [
+            {
+              "metric": "accuracy (AIME 2024)",
+              "value": 0.446,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME I 2025 AVG)",
+              "value": 0.375,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME II 2025 AVG)",
+              "value": 0.383,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME 2025)",
+              "value": 0.379,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-R1-Distill-Qwen-7B",
+          "effort": null,
+          "system_description": null,
+          "note": "Original system_description: 800k samples, local deployment",
+          "scores": [
+            {
+              "metric": "accuracy (AIME 2024)",
+              "value": 0.496,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME I 2025 AVG)",
+              "value": 0.369,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME II 2025 AVG)",
+              "value": 0.367,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME 2025)",
+              "value": 0.368,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "QwQ-32B-Preview",
+          "effort": null,
+          "system_description": null,
+          "note": "Original system_description: API model, default config",
+          "scores": [
+            {
+              "metric": "accuracy (AIME 2024)",
+              "value": 0.467,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME I 2025 AVG)",
+              "value": 0.372,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME II 2025 AVG)",
+              "value": 0.281,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME 2025)",
+              "value": 0.3265,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "s1",
+          "effort": null,
+          "system_description": null,
+          "note": "Original system_description: 1k samples, local deployment",
+          "scores": [
+            {
+              "metric": "accuracy (AIME 2024)",
+              "value": 0.329,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME I 2025 AVG)",
+              "value": 0.289,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME II 2025 AVG)",
+              "value": 0.283,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME 2025)",
+              "value": 0.286,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-R1-Distill-Llama-8B",
+          "effort": null,
+          "system_description": null,
+          "note": "Original system_description: 800k samples, local deployment",
+          "scores": [
+            {
+              "metric": "accuracy (AIME 2024)",
+              "value": 0.371,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME I 2025 AVG)",
+              "value": 0.247,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME II 2025 AVG)",
+              "value": 0.23,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME 2025)",
+              "value": 0.2385,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-R1-Distill-Qwen-1.5B",
+          "effort": null,
+          "system_description": null,
+          "note": "Original system_description: 800k samples, local deployment",
+          "scores": [
+            {
+              "metric": "accuracy (AIME 2024)",
+              "value": 0.25,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME I 2025 AVG)",
+              "value": 0.28,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME II 2025 AVG)",
+              "value": 0.144,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (AIME 2025)",
+              "value": 0.212,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "AIME-Preview results from March 2025 (updated 0311). 8 samples per question, averaged across temperatures (0.0, 0.3, 0.6) for locally deployed models. API models use default configs. Scores shown as percentages in source; converted to decimals here. Source: Result-AIME-2025-0311.jpeg from GAIR-NLP/AIME-Preview repo."
+    },
+    {
+      "date": "2026-04",
+      "source_type": "leaderboard",
+      "source_url": "https://www.vals.ai/benchmarks/aime",
+      "results": [
+        {
+          "model": "google/gemini-3.1-pro-preview",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.9812,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/gpt-5.2-2025-12-11",
+          "effort": "xhigh",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.9688,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "meta/muse_spark",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.9688,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "google/gemini-3-pro-preview",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.9668,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/gpt-5.4-2026-03-05",
+          "effort": "xhigh",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.9667,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "grok/grok-4.20-0309-reasoning",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.9646,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "anthropic/claude-opus-4-7",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.9625,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "google/gemini-3-flash-preview",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.9563,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "anthropic/claude-opus-4-6-thinking",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.9563,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/gpt-5.4-mini-2026-03-17",
+          "effort": "xhigh",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.9563,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "kimi/kimi-k2.5-thinking",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.9563,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "anthropic/claude-opus-4-5-20251101-thinking",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.9542,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "alibaba/qwen3.6-plus",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.9458,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/gpt-5-2025-08-07",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.9337,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/gpt-5.1-2025-11-13",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.9333,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "zai/glm-4.7",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.9333,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "zai/glm-4.6",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.9271,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "fireworks/gpt-oss-120b",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.926,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "alibaba/qwen3.5-flash",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.925,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "anthropic/claude-sonnet-4-6",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.9229,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "grok/grok-4-1-fast-reasoning",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.9187,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "zai/glm-5.1-thinking",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.9187,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "zai/glm-5-thinking",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.9167,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/gpt-5-mini-2025-08-07",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.9146,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "grok/grok-4-fast-reasoning",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.9125,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "minimax/MiniMax-M2.7",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.9104,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "grok/grok-4-0709",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.9056,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/gpt-5.4-nano-2026-03-17",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.8875,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "minimax/MiniMax-M2.5-Lightning",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.8875,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "anthropic/claude-sonnet-4-5-20250929-thinking",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.8819,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "zai/glm-4.5",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.8667,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/o3-mini-2025-01-31",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.8646,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "alibaba/qwen3.5-plus-thinking",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.8604,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "fireworks/gpt-oss-20b",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.8604,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "google/gemini-2.5-pro-exp-03-25",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.8583,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "kimi/kimi-k2-thinking",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.8542,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/o3-2025-04-16",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.8528,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "grok/grok-3-mini-fast-high-reasoning",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.85,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "fireworks/deepseek-v3p2-thinking",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.8458,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "fireworks/qwen3-235b-a22b",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.8396,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/o4-mini-2025-04-16",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.8367,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "mistralai/magistral-medium-2509",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.8354,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "google/gemini-3.1-flash-lite-preview",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.8333,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "anthropic/claude-haiku-4-5-20251001-thinking",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.8271,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/gpt-5-nano-2025-08-07",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.8118,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "alibaba/qwen3-max",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.8104,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "mistralai/magistral-small-2509",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.8068,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "anthropic/claude-opus-4-1-20250805-thinking",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.7818,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "minimax/MiniMax-M2.1",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.7792,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "anthropic/claude-opus-4-5-20251101",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.7688,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "anthropic/claude-sonnet-4-20250514-thinking",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.7625,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "fireworks/deepseek-r1",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.7396,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/o1-2024-12-17",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.7146,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "grok/grok-3-mini-fast-low-reasoning",
+          "effort": "low",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.7063,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "fireworks/deepseek-v3p2",
+          "effort": "none",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.6479,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "together/moonshotai/Kimi-K2-Instruct",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.6271,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "alibaba/qwen3-max-preview",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.6069,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "grok/grok-3",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.5875,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "together/langston/nim/nvidia/llama-3.3-nemotron-super-49b-v1-42e84561-thinking",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.5354,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "fireworks/deepseek-v3-0324",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.522,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "google/gemini-2.5-flash-preview-09-2025-thinking",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.5146,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "google/gemini-2.5-flash-preview-09-2025",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.4979,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/gpt-4.1-mini-2025-04-14",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.4938,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "anthropic/claude-3-7-sonnet-20250219-thinking",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.4458,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "anthropic/claude-opus-4-1-20250805",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.4424,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "mistralai/mistral-large-2512",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.4292,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "mistralai/mistral-medium-2505",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.4229,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "google/gemini-2.5-flash-lite-preview-09-2025-thinking",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.4208,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "anthropic/claude-opus-4-20250514",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.4125,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/gpt-4.1-2025-04-14",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.3958,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "anthropic/claude-sonnet-4-20250514",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.3854,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "grok/grok-4-fast-non-reasoning",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.3333,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "google/gemini-2.0-flash-001",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.2979,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "fireworks/deepseek-v3",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.275,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "grok/grok-4-1-fast-non-reasoning",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.2708,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/gpt-4.1-nano-2025-04-14",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.2646,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "google/gemini-2.5-flash-lite-preview-09-2025",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.2625,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "fireworks/llama4-maverick-instruct-basic",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.2521,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "anthropic/claude-3-7-sonnet-20250219",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.2229,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "together/meta-llama/Llama-4-Scout-17B-16E-Instruct",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.1896,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "google/gemini-1.5-pro-002",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.1875,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "google/gemini-1.5-flash-002",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.1729,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "together/meta-llama/Llama-3.3-70B-Instruct-Turbo",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.1604,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "grok/grok-2-1212",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.1521,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/gpt-4o-2024-08-06",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.1396,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "cohere/command-a-03-2025",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.1333,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/gpt-4o-2024-11-20",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.1187,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/gpt-4o-mini-2024-07-18",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.1146,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "anthropic/claude-3-5-sonnet-20241022",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.1,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "together/langston/nim/nvidia/llama-3.3-nemotron-super-49b-v1-42e84561",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.0938,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "mistralai/mistral-large-2411",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.0917,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "mistralai/mistral-small-2402",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.0563,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "mistralai/mistral-small-2503",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.0354,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "anthropic/claude-3-5-haiku-20241022",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.0333,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "ai21labs/jamba-mini-1.6",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.0042,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "ai21labs/jamba-large-1.6",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (pass@1, 60 questions)",
+              "value": 0.0042,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Vals AI AIME leaderboard (updated 2026-04-16). 96 models across 15+ providers. 60 questions (30 from 2024, 30 from 2025). Methodology: pass@1 averaged across 8 runs per model. Prompt: Please reason step by step, and put your final answer within \boxed{}. Image questions excluded. Key insights: 9/10 top models are reasoning models; single questions commonly require 30k+ reasoning tokens; hardest questions take 15+ min generation time. Data contamination concern: models perform better on 2024 vs 2025 questions."
+    }
+  ],
+  "notes": "AIME (American Invitational Mathematics Examination) is a prestigious math competition used as an LLM benchmark. Unlike purpose-built benchmarks, AIME consists of real competition problems not designed for AI evaluation.\n\nKey characteristics:\n- 30 questions per year (15 per session, AIME I and AIME II)\n- Integer answers in range 0-999\n- Exact match scoring only (no partial credit)\n- Covers algebra, geometry, number theory, combinatorics, probability\n- Problems require multi-step mathematical reasoning\n- Human median top competitor: 26-40% (4-6 of 15 problems)\n\nThe Harbor adapter uses 60 tasks: AIME 2024 (30 questions) + AIME 2025-I (15) + AIME 2025-II (15), sourced from GAIR-NLP/AIME-Preview.\n\n**No adapter_metadata.json or parity_experiment.json exist** in the Harbor repo for this adapter (404 errors). The adapter appears to be simpler — just exact-match integer comparison in a Docker environment.\n\n**Benchmark saturation**: As of April 2026, AIME is heavily saturated. Top model (Gemini 3.1 Pro Preview) at 98.13%, with 12 models above 95%. Vals AI tracks 96 models across 15+ providers.\n\n**No single authoritative paper**: AIME is a math competition, not an ML benchmark paper. The GAIR-NLP/AIME-Preview repo provides an evaluation framework with citation but is not a traditional benchmark paper. Vals AI is the primary third-party leaderboard.\n\n**Tool-augmented results**: With code execution (Python), GPT-5 Pro achieves 100%. Tool use significantly boosts performance on computational problems.\n\n**Data contamination risk**: AIME problems are publicly available after competition, so models trained on post-competition data may have seen the problems. AIME 2025 problems released Feb 2025 mitigate this for models with earlier training cutoffs."
+}
