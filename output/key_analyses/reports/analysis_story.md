@@ -31,21 +31,21 @@ Data provenance for the main studies:
 
 Preprocessing diagnostics:
 
-Task imputation method: each score column is robustly centered and scaled after `log1p` for nonnegative unbounded columns. The pipeline compares column-median, row-mean shrinkage, two-way shrinkage, and low-rank iterative SVD candidates on held-out observed cells, then uses the lowest-MAE method. For this run the selected task imputer is `column_median` with rank 0. Observed task cells are restored exactly; filled task scores are inverse-transformed and clipped to the observed range of that task. Benchmark scores are then calculated as per-benchmark means across those task scores. Task-level imputation remains less stable than dense benchmark tables because the task matrix is much wider and sparser, so task conclusions are restricted to reliable bounded non-degenerate tasks.
+Task imputation method: each score column is robustly centered and scaled after `log1p` for nonnegative unbounded columns. The pipeline compares column-median, row-mean shrinkage, two-way shrinkage, and low-rank iterative SVD candidates on held-out observed cells, then uses the lowest-MAE method. For this run the selected task imputer is `row_mean_shrunk` with rank 0. Observed task cells are restored exactly; filled task scores are inverse-transformed and clipped to the observed range of that task. Benchmark scores are then calculated as per-benchmark means across those task scores. Task-level imputation remains less stable than dense benchmark tables because the task matrix is much wider and sparser, so task conclusions are restricted to reliable bounded non-degenerate tasks.
 
 | matrix | preprocessing_method | selected_imputation_method | missing_fraction_before_processing | selected_imputation_rank | task_imputation_method_used_for_benchmark_aggregation | task_imputation_rank_used_for_benchmark_aggregation | holdout_cells | holdout_rmse_scaled_score_space | holdout_mae_scaled_score_space |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| benchmark | task_imputation_then_benchmark_aggregate |  | 0.243 |  | column_median | 0.000 | 0 |  |  |
-| task | column_median | column_median | 0.618 | 0.000 |  |  | 4325 | 13.196 | 0.739 |
+| benchmark | task_imputation_then_benchmark_aggregate |  | 0.053 |  | row_mean_shrunk | 0.000 | 0 |  |  |
+| task | row_mean_shrunk | row_mean_shrunk | 0.075 | 0.000 |  |  | 5192 | 12.445 | 0.724 |
 
 Held-out task imputation comparison:
 
 | method | rank | holdout_cells | rmse | mae |
 | --- | --- | --- | --- | --- |
-| column_median | 0 | 4325 | 13.196 | 0.739 |
-| row_mean_shrunk | 0 | 4325 | 13.156 | 0.756 |
-| iterative_svd | 2 | 4325 | 10.269 | 0.806 |
-| two_way_shrunk | 0 | 4325 | 14.487 | 1.068 |
+| row_mean_shrunk | 0 | 5192 | 12.445 | 0.724 |
+| column_median | 0 | 5192 | 12.460 | 0.749 |
+| iterative_svd | 2 | 5192 | 12.852 | 0.823 |
+| two_way_shrunk | 0 | 5192 | 12.249 | 1.004 |
 
 Interpretation: the task matrix is sparse and very wide, so this is a validation-backed fill, not ground truth. The aggregate benchmark table is more stable than individual filled cells because it averages over many task columns, but sparse benchmarks should still be read with their task-cell missingness fields.
 
@@ -89,24 +89,24 @@ Reliability conclusion: SVD is not automatically the right fill here. In this ru
 - `output/key_analyses/tables/benchmark_level/benchmark_filtering.csv`
 
 **Result overview and analysis:**
-- Included 40 of 45 benchmarks.
-- Excluded sparse benchmarks: quixbugs, skillsbench, hle, financeagent, ds-1000.
-- Benchmark scores are task aggregates, not direct benchmark-imputation outputs; pre-aggregation benchmark missing fraction was 0.243.
+- Included 50 of 58 benchmarks.
+- Excluded sparse benchmarks: dacode, skillsbench, swegym, widesearch, devopsgym, swebench-multilingual, mlgym, multi-swe-bench.
+- Benchmark scores are task aggregates, not direct benchmark-imputation outputs; pre-aggregation benchmark missing fraction was 0.053.
 
 | benchmark | include_in_key_analysis | observed_count | missing_fraction | task_cell_missing_fraction |
 | --- | --- | --- | --- | --- |
-| aider-polyglot | True | 26 | 0.000 | 0.044 |
-| algotune | True | 26 | 0.000 | 0.131 |
-| bfcl | True | 26 | 0.000 | 0.000 |
-| bigcodebench | True | 26 | 0.000 | 0.559 |
-| crustbench | True | 26 | 0.000 | 0.117 |
-| featurebench-modal | True | 26 | 0.000 | 0.052 |
-| gaia | True | 26 | 0.000 | 0.206 |
-| lawbench | True | 26 | 0.000 | 0.409 |
-| omnimath | True | 26 | 0.000 | 0.770 |
-| seal0 | True | 26 | 0.000 | 0.002 |
-| spider2 | True | 26 | 0.000 | 0.396 |
-| swtbench | True | 26 | 0.000 | 0.494 |
+| aider-polyglot | True | 16 | 0.000 | 0.000 |
+| aime | True | 16 | 0.000 | 0.000 |
+| algotune | True | 16 | 0.000 | 0.000 |
+| arc-agi-2 | True | 16 | 0.000 | 0.000 |
+| bfcl | True | 16 | 0.000 | 0.002 |
+| bigcodebench | True | 16 | 0.000 | 0.000 |
+| bixbench | True | 16 | 0.000 | 0.018 |
+| codepde | True | 16 | 0.000 | 0.000 |
+| compilebench | True | 16 | 0.000 | 0.042 |
+| crmarena | True | 16 | 0.000 | 0.000 |
+| crustbench | True | 16 | 0.000 | 0.123 |
+| deepsynth | True | 16 | 0.000 | 0.000 |
 
 **Insight and findings:** Sparse columns should stay in appendix/provisional analysis until more experiments land. The main key analysis story should use the coverage-filtered benchmark set.
 
@@ -147,29 +147,29 @@ Reliability conclusion: SVD is not automatically the right fill here. In this ru
 ![Agent effects adjusted for model and benchmark](../figures/benchmark_level/benchmark_agent_adjusted_effects.png)
 
 **Result overview and analysis:**
-| component | partial_r2_over_other_main_effects | r2 | type |
-| --- | --- | --- | --- |
-| all_main_effects | 0.712 | 0.712 | combined |
-| benchmark | 0.602 | 0.602 | main_effect |
-| model:benchmark | 0.189 | 0.901 | interaction_increment |
-| model | 0.094 | 0.101 | main_effect |
-| agent:benchmark | 0.073 | 0.786 | interaction_increment |
-| agent | 0.009 | 0.016 | main_effect |
-| model:agent | 0.008 | 0.721 | interaction_increment |
+| component | adj_partial_r2_over_other_main_effects | adj_r2 | permutation_p_value | type |
+| --- | --- | --- | --- | --- |
+| model:benchmark | 0.091 | 0.180 |  | interaction_increment |
+| all_main_effects | 0.090 | 0.090 |  | combined |
+| agent:benchmark | 0.079 | 0.169 |  | interaction_increment |
+| model | 0.060 | 0.068 | 0.000 | main_effect |
+| benchmark | 0.024 | 0.020 |  | main_effect |
+| model:agent | 0.009 | 0.099 |  | interaction_increment |
+| agent | -0.002 | 0.010 | 0.787 | main_effect |
 
 Benchmarks with the largest model-vs-agent role imbalance:
-| benchmark | model_partial_r2_over_agent | agent_partial_r2_over_model | dominant_dimension |
+| benchmark | model_adj_partial_r2_over_agent | agent_adj_partial_r2_over_model | dominant_dimension |
 | --- | --- | --- | --- |
-| kumo | 0.857 | 0.038 | model |
-| qcircuitbench | 0.834 | 0.019 | model |
-| sldbench | 0.827 | 0.013 | model |
-| aider-polyglot | 0.841 | 0.031 | model |
-| livecodebench | 0.792 | 0.004 | model |
-| strongreject | 0.908 | 0.142 | model |
-| swe-lancer | 0.768 | 0.011 | model |
-| algotune | 0.778 | 0.022 | model |
-| bfcl | 0.732 | 0.022 | model |
-| gpqa-diamond | 0.801 | 0.092 | model |
+| research-code-bench | -0.016 | 1.672 | agent |
+| mmmlu | 0.084 | 1.732 | agent |
+| kumo | 1.094 | 0.099 | model |
+| swtbench | 1.063 | 0.077 | model |
+| crustbench | 0.930 | -0.053 | model |
+| terminal-bench | 0.984 | 0.005 | model |
+| quixbugs | 0.961 | -0.013 | model |
+| pixiu | 1.038 | 0.069 | model |
+| algotune | 0.887 | -0.058 | model |
+| swebench-verified | 0.938 | -0.005 | model |
 
 **Insight and findings:** Model identity explains much more overall variation than agent identity, but the role varies by benchmark. Agent effects are more useful as benchmark-specific harnessing effects than as a universal main effect.
 
@@ -208,30 +208,33 @@ Benchmarks with the largest model-vs-agent role imbalance:
 ![Mini-leaderboards leaderboards/clustered/mini_leaderboards_cluster_1_page_1.png](../figures/leaderboards/clustered/mini_leaderboards_cluster_1_page_1.png)
 ![Mini-leaderboards leaderboards/clustered/mini_leaderboards_cluster_2_page_1.png](../figures/leaderboards/clustered/mini_leaderboards_cluster_2_page_1.png)
 ![Mini-leaderboards leaderboards/clustered/mini_leaderboards_cluster_3_page_1.png](../figures/leaderboards/clustered/mini_leaderboards_cluster_3_page_1.png)
+![Mini-leaderboards leaderboards/clustered/mini_leaderboards_cluster_3_page_2.png](../figures/leaderboards/clustered/mini_leaderboards_cluster_3_page_2.png)
+![Mini-leaderboards leaderboards/clustered/mini_leaderboards_cluster_3_page_3.png](../figures/leaderboards/clustered/mini_leaderboards_cluster_3_page_3.png)
+![Mini-leaderboards leaderboards/clustered/mini_leaderboards_cluster_3_page_4.png](../figures/leaderboards/clustered/mini_leaderboards_cluster_3_page_4.png)
+![Mini-leaderboards leaderboards/clustered/mini_leaderboards_cluster_3_page_5.png](../figures/leaderboards/clustered/mini_leaderboards_cluster_3_page_5.png)
+![Mini-leaderboards leaderboards/clustered/mini_leaderboards_cluster_3_page_6.png](../figures/leaderboards/clustered/mini_leaderboards_cluster_3_page_6.png)
+![Mini-leaderboards leaderboards/clustered/mini_leaderboards_cluster_3_page_7.png](../figures/leaderboards/clustered/mini_leaderboards_cluster_3_page_7.png)
+![Mini-leaderboards leaderboards/clustered/mini_leaderboards_cluster_3_page_8.png](../figures/leaderboards/clustered/mini_leaderboards_cluster_3_page_8.png)
+![Mini-leaderboards leaderboards/clustered/mini_leaderboards_cluster_3_page_9.png](../figures/leaderboards/clustered/mini_leaderboards_cluster_3_page_9.png)
+![Mini-leaderboards leaderboards/clustered/mini_leaderboards_cluster_3_page_10.png](../figures/leaderboards/clustered/mini_leaderboards_cluster_3_page_10.png)
+![Mini-leaderboards leaderboards/clustered/mini_leaderboards_cluster_3_page_11.png](../figures/leaderboards/clustered/mini_leaderboards_cluster_3_page_11.png)
 ![Mini-leaderboards leaderboards/clustered/mini_leaderboards_cluster_4_page_1.png](../figures/leaderboards/clustered/mini_leaderboards_cluster_4_page_1.png)
-![Mini-leaderboards leaderboards/clustered/mini_leaderboards_cluster_4_page_2.png](../figures/leaderboards/clustered/mini_leaderboards_cluster_4_page_2.png)
-![Mini-leaderboards leaderboards/clustered/mini_leaderboards_cluster_4_page_3.png](../figures/leaderboards/clustered/mini_leaderboards_cluster_4_page_3.png)
-![Mini-leaderboards leaderboards/clustered/mini_leaderboards_cluster_4_page_4.png](../figures/leaderboards/clustered/mini_leaderboards_cluster_4_page_4.png)
-![Mini-leaderboards leaderboards/clustered/mini_leaderboards_cluster_4_page_5.png](../figures/leaderboards/clustered/mini_leaderboards_cluster_4_page_5.png)
-![Mini-leaderboards leaderboards/clustered/mini_leaderboards_cluster_4_page_6.png](../figures/leaderboards/clustered/mini_leaderboards_cluster_4_page_6.png)
-![Mini-leaderboards leaderboards/clustered/mini_leaderboards_cluster_4_page_7.png](../figures/leaderboards/clustered/mini_leaderboards_cluster_4_page_7.png)
 ![Mini-leaderboards leaderboards/clustered/mini_leaderboards_cluster_5_page_1.png](../figures/leaderboards/clustered/mini_leaderboards_cluster_5_page_1.png)
-![Mini-leaderboards leaderboards/clustered/mini_leaderboards_cluster_5_page_2.png](../figures/leaderboards/clustered/mini_leaderboards_cluster_5_page_2.png)
 ![Mini-leaderboards leaderboards/clustered/mini_leaderboards_cluster_6_page_1.png](../figures/leaderboards/clustered/mini_leaderboards_cluster_6_page_1.png)
 
 **Result overview and analysis:**
 | rank | agent_model | mean_score_percentile_across_benchmarks | original_benchmark_table_coverage |
 | --- | --- | --- | --- |
-| 1 | codex + gpt-5.4 | 0.836 | 0.500 |
-| 2 | terminus-2 + gemini-3.1-pro-preview | 0.834 | 0.450 |
-| 3 | gemini-cli + gemini-3.1-pro-preview | 0.832 | 0.450 |
-| 4 | terminus-2 + gemini-3-flash-preview | 0.659 | 0.500 |
-| 5 | terminus-2 + claude-opus-4-6 | 0.627 | 0.075 |
-| 6 | claude-code + claude-opus-4-6 | 0.626 | 0.050 |
-| 7 | gemini-cli + gemini-3-flash-preview | 0.618 | 0.425 |
-| 8 | terminus-2 + kimi-k2.5 | 0.609 | 0.400 |
-| 9 | claude-code + claude-sonnet-4-6 | 0.605 | 0.050 |
-| 10 | terminus-2 + claude-sonnet-4-6 | 0.587 | 0.075 |
+| 1 | codex + gpt-5.4 | 0.858 | 0.920 |
+| 2 | gemini-cli + gemini-3.1-pro-preview | 0.819 | 0.880 |
+| 3 | claude-code + claude-opus-4-6 | 0.741 | 0.840 |
+| 4 | terminus-2 + gemini-3.1-pro-preview | 0.731 | 0.940 |
+| 5 | terminus-2 + claude-opus-4-6 | 0.724 | 0.880 |
+| 6 | claude-code + claude-sonnet-4-6 | 0.643 | 0.740 |
+| 7 | terminus-2 + claude-sonnet-4-6 | 0.586 | 0.920 |
+| 8 | gemini-cli + gemini-3-flash-preview | 0.573 | 0.820 |
+| 9 | terminus-2 + gemini-3-flash-preview | 0.559 | 0.960 |
+| 10 | codex + gpt-5-mini | 0.510 | 0.940 |
 
 **Insight and findings:** Benchmark scores should be read benchmark by benchmark. The percentile aggregate is a compact descriptive ranking only; it is not a causal agent claim because model and agent are entangled in the row identity.
 
@@ -270,34 +273,34 @@ Benchmarks with the largest model-vs-agent role imbalance:
 Hardest-to-predict benchmarks:
 | benchmark | cv_r2_from_other_included_benchmarks | cv_rmse |
 | --- | --- | --- |
-| bigcodebench | -0.435 | 0.593 |
-| codepde | -0.305 | 0.131 |
-| strongreject | -0.300 | 1.310 |
-| bfcl | -0.265 | 0.855 |
-| mmau | -0.207 | 0.285 |
-| swtbench | -0.184 | 0.345 |
-| swebench-verified | -0.174 | 1.618 |
-| swebench-multilingual | -0.082 | 0.766 |
-| compilebench | -0.043 | 0.909 |
-| humanevalfix | -0.043 | 1.062 |
+| aime | -9.718 | 2.183 |
+| gpqa-diamond | -2.261 | 1.253 |
+| simpleqa | -2.091 | 2.095 |
+| gso | -1.928 | 0.842 |
+| financeagent_terminal | -1.918 | 1.103 |
+| gaia2 | -1.806 | 1.145 |
+| mmau | -1.386 | 2.321 |
+| featbench | -1.291 | 0.733 |
+| strongreject | -0.961 | 1.680 |
+| omnimath | -0.741 | 0.928 |
 
 Most similar benchmark pairs:
 | left | right | spearman |
 | --- | --- | --- |
-| arc-agi-2 | replicationbench | 0.875 |
-| labbench | livecodebench | 0.869 |
-| featurebench-modal | spider2 | 0.856 |
-| seal0 | arc-agi-2 | 0.847 |
-| featurebench-modal | lawbench | 0.801 |
-| crustbench | arc-agi-2 | 0.790 |
-| omnimath | aime | 0.789 |
-| kumo | swebench-multilingual | 0.783 |
-| gpqa-diamond | kumo | 0.774 |
-| seal0 | replicationbench | 0.774 |
+| deepsynth | kumo | 0.971 |
+| deepsynth | terminal-bench | 0.968 |
+| aider-polyglot | swe-lancer | 0.962 |
+| arc-agi-2 | kumo | 0.961 |
+| gaia2 | spreadsheetbench | 0.960 |
+| aider-polyglot | arc-agi-2 | 0.955 |
+| swe-lancer | terminal-bench | 0.953 |
+| kumo | terminal-bench | 0.953 |
+| arc-agi-2 | bixbench | 0.952 |
+| arc-agi-2 | swe-lancer | 0.952 |
 
 **Insight and findings:** Predictable benchmarks are candidates for compression; hard-to-predict benchmarks should be preserved when the goal is behavioral breadth. Similarity clusters are also the basis for the grouped mini-leaderboards.
 
-Paper-facing read: the least reconstructable benchmark set starts with bigcodebench, codepde, strongreject, bfcl, mmau. These are the strongest candidates to preserve when reducing the suite because other benchmark scores do not explain them well. In contrast, the most predictable benchmarks start with bixbench, sldbench, replicationbench, lawbench, arc-agi-2; these are not useless, but they are where compression or cluster-level reporting is easiest to justify.
+Paper-facing read: the least reconstructable benchmark set starts with aime, gpqa-diamond, simpleqa, gso, financeagent_terminal. These are the strongest candidates to preserve when reducing the suite because other benchmark scores do not explain them well. In contrast, the most predictable benchmarks start with terminal-bench, compilebench, spreadsheetbench, lawbench, spider2; these are not useless, but they are where compression or cluster-level reporting is easiest to justify.
 
 ## Study 5: Task Similarity, Predictability, and Representatives
 
@@ -337,52 +340,52 @@ Paper-facing read: the least reconstructable benchmark set starts with bigcodebe
 Hardest-to-predict reliable tasks:
 | benchmark | task_id | task_unpredictability_score | difficulty_tier | task_score |
 | --- | --- | --- | --- | --- |
-| humanevalfix | humanevalfix-python-6 | 0.920 | saturated | 0.962 |
-| devopsgym | devopsgym-codegen__prometheus__prometheus-7667 | 0.915 | easy | 0.846 |
-| gso | gso-pydantic--pydantic-addf1f9 | 0.829 | frontier | 0.019 |
-| swebench-verified | swebench-verified-matplotlib__matplotlib-26208 | 0.756 | frontier | 0.023 |
-| gso | gso-huggingface--transformers-253f9a3 | 0.727 | medium | 0.590 |
-| strongreject | strongreject_sexual_content_0005_pap_logical_appeal | 0.712 | saturated | 0.980 |
-| devopsgym | devopsgym-testgen__spotbugs__spotbugs-2795 | 0.700 | medium | 0.692 |
-| devopsgym | devopsgym-codegen__containerd__containerd-10275 | 0.700 | frontier | 0.038 |
-| swesmith | swesmith-oauthlib__oauthlib.1fd52536.combine_file__5wgd819s | 0.683 | medium | 0.348 |
-| bixbench | bix-10-q5 | 0.655 | hard | 0.077 |
-| bigcodebench | bigcodebench_492 | 0.635 | hard | 0.231 |
-| swe-lancer | swe-lancer-43022-manager-0 | 0.631 | hard | 0.102 |
+| swebench-multilingual | fastlane__fastlane-19207 | 0.743 | hard | 0.114 |
+| mmmlu | mmmlu-bn-bd-00015 | 0.676 | hard | 0.075 |
+| strongreject | strongreject_hate_harassment_and_discrimination_0000_pap_logical_appeal | 0.616 | easy | 0.887 |
+| bfcl | bfcl-live-multiple-83-38-0 | 0.613 | medium | 0.688 |
+| swebench-multilingual | jordansissel__fpm-1850 | 0.604 | easy | 0.848 |
+| swebench-multilingual | hashicorp__terraform-34814 | 0.604 | medium | 0.561 |
+| crustbench | crustbench-fs-c | 0.600 | hard | 0.175 |
+| bixbench | bix-29-q2 | 0.594 | hard | 0.087 |
+| simpleqa | simpleqa-1339 | 0.592 | hard | 0.250 |
+| strongreject | strongreject_violence_0019_pap_logical_appeal | 0.577 | easy | 0.938 |
+| algotune | algotune-polynomial-real | 0.572 | hard | 0.052 |
+| aime | aime_i-3 | 0.571 | saturated | 0.975 |
 
 Most representative tasks:
 | benchmark | task_id | useful_representativeness_score | representativeness_score | difficulty_tier | task_score |
 | --- | --- | --- | --- | --- | --- |
-| swebench-multilingual | swebench-multilingual-php-cs-fixer__php-cs-fixer-7523 | 0.441 | 0.957 | easy | 0.846 |
-| swebench-multilingual | swebench-multilingual-jqlang__jq-2658 | 0.441 | 0.957 | easy | 0.846 |
-| swebench-multilingual | swebench-multilingual-caddyserver__caddy-6288 | 0.441 | 0.957 | easy | 0.846 |
-| swebench-multilingual | swebench-multilingual-fmtlib__fmt-3729 | 0.441 | 0.957 | easy | 0.846 |
-| labbench | labbench-figqa-0036 | 0.436 | 0.930 | hard | 0.185 |
-| lawbench | lawbench-3-7-11-zero-shot | 0.436 | 0.966 | easy | 0.783 |
-| labbench | labbench-figqa-0128 | 0.433 | 0.932 | medium | 0.323 |
-| swebench-multilingual | swebench-multilingual-jqlang__jq-2919 | 0.432 | 0.957 | easy | 0.846 |
-| swebench-multilingual | swebench-multilingual-fluent__fluentd-3917 | 0.432 | 0.957 | easy | 0.846 |
-| swebench-multilingual | swebench-multilingual-php-cs-fixer__php-cs-fixer-8256 | 0.432 | 0.957 | easy | 0.846 |
-| swebench-multilingual | swebench-multilingual-tokio-rs__tokio-7139 | 0.432 | 0.957 | easy | 0.846 |
-| swebench-multilingual | swebench-multilingual-briannesbitt__carbon-3103 | 0.432 | 0.957 | easy | 0.846 |
+| mmmlu | mmmlu-ko-kr-00106 | 0.470 | 0.941 | medium | 0.500 |
+| mmmlu | mmmlu-bn-bd-00012 | 0.470 | 0.941 | medium | 0.500 |
+| mmmlu | mmmlu-en-us-00032 | 0.470 | 0.941 | medium | 0.500 |
+| mmmlu | mmmlu-ja-jp-00099 | 0.464 | 0.949 | medium | 0.487 |
+| mmmlu | mmmlu-yo-ng-00142 | 0.464 | 0.949 | medium | 0.487 |
+| research-code-bench | minp_convert_logits_to_probabilities | 0.459 | 0.918 | medium | 0.500 |
+| research-code-bench | len_split_input_and_compute_norm | 0.459 | 0.918 | medium | 0.500 |
+| research-code-bench | fractalgen_chunk_mask_to_pred | 0.459 | 0.918 | medium | 0.500 |
+| research-code-bench | fractalgen_cfg_schedule | 0.459 | 0.918 | medium | 0.500 |
+| research-code-bench | eomt_store_parameters | 0.459 | 0.918 | medium | 0.500 |
+| research-code-bench | llm-sci-use_log_likelihood_optimization | 0.459 | 0.918 | medium | 0.500 |
+| research-code-bench | llm-sci-use_token_distribution_computation | 0.459 | 0.918 | medium | 0.500 |
 
 Benchmarks with strongest within-benchmark task similarity:
 | benchmark | n_reliable_tasks | median_abs_task_similarity_within_benchmark |
 | --- | --- | --- |
-| lawbench | 180 | 0.809 |
-| arc-agi-2 | 94 | 0.794 |
-| usaco | 91 | 0.666 |
-| ineqmath | 21 | 0.643 |
-| swebench-verified | 9 | 0.641 |
-| simpleqa | 200 | 0.595 |
-| medagentbench | 71 | 0.534 |
-| compilebench | 2 | 0.525 |
-| labbench | 180 | 0.501 |
-| swebench-multilingual | 255 | 0.484 |
+| humanevalfix | 139 | 0.947 |
+| ineqmath | 96 | 0.837 |
+| mmmlu | 132 | 0.822 |
+| kumo | 3 | 0.808 |
+| research-code-bench | 191 | 0.740 |
+| lawbench | 155 | 0.704 |
+| crustbench | 96 | 0.650 |
+| sldbench | 8 | 0.646 |
+| arc-agi-2 | 92 | 0.638 |
+| compilebench | 15 | 0.610 |
 
 **Insight and findings:** Task predictability and useful representativeness are different objectives. Representative tasks are the base set for predicting benchmark aggregates; hard-to-predict and difficult tasks are additional stress tests for broad coverage.
 
-Paper-facing read: the hardest-to-predict task examples begin with humanevalfix/humanevalfix-python-6, devopsgym/devopsgym-codegen__prometheus__prometheus-7667, gso/gso-pydantic--pydantic-addf1f9. The most useful representative task examples begin with swebench-multilingual/swebench-multilingual-php-cs-fixer__php-cs-fixer-7523, swebench-multilingual/swebench-multilingual-jqlang__jq-2658, swebench-multilingual/swebench-multilingual-caddyserver__caddy-6288. That split is the main reason HaborMix should not be selected from one scalar alone: a task can be representative without being unique, and a unique task can be too idiosyncratic to stand in for its benchmark.
+Paper-facing read: the hardest-to-predict task examples begin with swebench-multilingual/fastlane__fastlane-19207, mmmlu/mmmlu-bn-bd-00015, strongreject/strongreject_hate_harassment_and_discrimination_0000_pap_logical_appeal. The most useful representative task examples begin with mmmlu/mmmlu-ko-kr-00106, mmmlu/mmmlu-bn-bd-00012, mmmlu/mmmlu-en-us-00032. That split is the main reason HaborMix should not be selected from one scalar alone: a task can be representative without being unique, and a unique task can be too idiosyncratic to stand in for its benchmark.
 
 ## Study 6: Terminus Harnessing Effects
 
@@ -418,24 +421,20 @@ Paper-facing read: the hardest-to-predict task examples begin with humanevalfix/
 **Result overview and analysis:**
 | agent | mean_delta_vs_terminus | win_rate_vs_terminus | compared_models |
 | --- | --- | --- | --- |
-| codex | 0.420 | 0.642 | 3 |
-| gemini-cli | 0.097 | 0.512 | 2 |
-| claude-code | -0.183 | 0.254 | 7 |
+| claude-code | 0.292 | 0.627 | 3 |
+| gemini-cli | -0.040 | 0.650 | 2 |
+| codex | -0.211 | 0.707 | 3 |
 
 | model | agent | mean_delta_vs_terminus | win_rate_vs_terminus |
 | --- | --- | --- | --- |
-| gpt-5.4 | codex | 0.808 | 0.850 |
-| gpt-5-mini | codex | 0.547 | 0.725 |
-| gemini-3.1-pro-preview | gemini-cli | 0.170 | 0.550 |
-| claude-haiku-4-5-20251001 | claude-code | 0.064 | 0.250 |
-| gemini-3-flash-preview | gemini-cli | 0.024 | 0.475 |
-| claude-sonnet-4-6 | claude-code | 0.005 | 0.175 |
-| claude-opus-4-6 | claude-code | -0.017 | 0.125 |
-| gpt-5-nano | codex | -0.096 | 0.350 |
-| MiniMax-M2.5 | claude-code | -0.162 | 0.425 |
-| kimi-k2.5 | claude-code | -0.301 | 0.200 |
-| mimo-v2-pro | claude-code | -0.410 | 0.300 |
-| glm-5 | claude-code | -0.458 | 0.300 |
+| gpt-5.4 | codex | 0.855 | 0.940 |
+| claude-haiku-4-5-20251001 | claude-code | 0.761 | 0.820 |
+| gpt-5-mini | codex | 0.455 | 0.840 |
+| gemini-3.1-pro-preview | gemini-cli | 0.144 | 0.680 |
+| claude-sonnet-4-6 | claude-code | 0.094 | 0.680 |
+| claude-opus-4-6 | claude-code | 0.020 | 0.380 |
+| gemini-3-flash-preview | gemini-cli | -0.224 | 0.620 |
+| gpt-5-nano | codex | -1.942 | 0.340 |
 
 **Insight and findings:** Paired deltas are the best current evidence for whether an agent harness improves over Terminus. The deltas vary by model and benchmark, so claims should avoid saying one harness universally dominates.
 
@@ -476,26 +475,26 @@ Paper-facing read: the hardest-to-predict task examples begin with humanevalfix/
 **Result overview and analysis:**
 | benchmark | difficulty_tier | selected_tasks | mean_selection_score | mean_representative_signal | mean_unique_unpredictable_signal | mean_difficulty_signal |
 | --- | --- | --- | --- | --- | --- | --- |
-| arc-agi-2 | hard | 4 | 0.809 | 0.949 | 0.533 | 0.810 |
-| replicationbench | hard | 4 | 0.776 | 0.878 | 0.558 | 0.772 |
-| aider-polyglot | medium | 4 | 0.738 | 0.914 | 0.609 | 0.529 |
-| humanevalfix | easy | 4 | 0.689 | 0.929 | 0.814 | 0.081 |
-| featurebench-modal | hard | 3 | 0.822 | 0.962 | 0.682 | 0.735 |
-| livecodebench | medium | 3 | 0.811 | 0.902 | 0.882 | 0.526 |
-| algotune | hard | 3 | 0.795 | 0.733 | 0.791 | 0.827 |
-| spider2 | medium | 3 | 0.775 | 0.958 | 0.667 | 0.568 |
-| mmmlu | hard | 3 | 0.765 | 0.636 | 0.871 | 0.801 |
-| bixbench | medium | 3 | 0.760 | 0.877 | 0.763 | 0.462 |
-| reasoning-gym | medium | 3 | 0.750 | 0.886 | 0.734 | 0.504 |
-| labbench | hard | 3 | 0.735 | 0.948 | 0.254 | 0.787 |
-| omnimath | medium | 3 | 0.726 | 0.860 | 0.772 | 0.475 |
-| medagentbench | medium | 3 | 0.716 | 0.906 | 0.638 | 0.397 |
+| bfcl | medium | 3 | 0.842 | 0.908 | 0.946 | 0.575 |
+| pixiu | medium | 3 | 0.770 | 0.961 | 0.633 | 0.510 |
+| reasoning-gym | medium | 3 | 0.762 | 0.977 | 0.693 | 0.416 |
+| seal0 | medium | 3 | 0.747 | 0.950 | 0.575 | 0.515 |
+| arc-agi-2 | medium | 3 | 0.737 | 0.960 | 0.417 | 0.608 |
+| featurebench-modal | medium | 3 | 0.728 | 0.970 | 0.410 | 0.573 |
+| strongreject | medium | 3 | 0.717 | 0.974 | 0.542 | 0.372 |
+| aider-polyglot | medium | 3 | 0.707 | 0.991 | 0.416 | 0.446 |
+| skillsbench | medium | 3 | 0.705 | 0.975 | 0.306 | 0.563 |
+| spider2 | medium | 3 | 0.705 | 0.969 | 0.417 | 0.458 |
+| swesmith | medium | 3 | 0.692 | 0.962 | 0.359 | 0.500 |
+| labbench | medium | 3 | 0.687 | 0.977 | 0.203 | 0.583 |
+| omnimath | medium | 3 | 0.679 | 0.890 | 0.443 | 0.446 |
+| gaia | medium | 3 | 0.677 | 0.960 | 0.390 | 0.410 |
 
 - Selected 160 final HaborMix tasks from the broader scored candidate pool.
 
 **Insight and findings:** HaborMix selection is quantitative and auditable: representative tasks anchor the minimal benchmark-prediction base, while difficult and unique/unpredictable tasks add breadth.
 
-Paper-facing read: the final 160-task set is intentionally not just a hard-task list. Its difficulty composition is medium: 68, easy: 42, hard: 40, frontier: 8, saturated: 2. The base representative set keeps each included benchmark anchored to its aggregate behavior, while the diversity-aware fill adds difficult, frontier, and uniquely informative items.
+Paper-facing read: the final 160-task set is intentionally not just a hard-task list. Its difficulty composition is medium: 104, easy: 37, hard: 16, frontier: 2, saturated: 1. The base representative set keeps each included benchmark anchored to its aggregate behavior, while the diversity-aware fill adds difficult, frontier, and uniquely informative items.
 
 ## Study 8: Task Aggregate vs Benchmark-Level Score Alignment
 
@@ -527,18 +526,18 @@ Paper-facing read: the final 160-task set is intentionally not just a hard-task 
 **Result overview and analysis:**
 | benchmark | n_reliable_bounded_tasks | spearman_agent_model_correlation | alignment_quality |
 | --- | --- | --- | --- |
-| gso | 5 | 0.999 | strong |
-| qcircuitbench | 3 | 0.998 | strong |
-| usaco | 91 | 0.997 | strong |
-| aider-polyglot | 218 | 0.996 | strong |
-| simpleqa | 200 | 0.992 | strong |
-| humanevalfix | 115 | 0.991 | strong |
-| gpqa-diamond | 198 | 0.990 | strong |
-| swebench-multilingual | 270 | 0.989 | strong |
-| featurebench-modal | 200 | 0.988 | strong |
-| lawbench | 181 | 0.986 | strong |
-| crustbench | 100 | 0.985 | strong |
-| labbench | 181 | 0.983 | strong |
+| gso | 101 | 0.997 | strong |
+| kumo | 3 | 0.994 | strong |
+| featurebench-modal | 185 | 0.994 | strong |
+| arc-agi-2 | 100 | 0.994 | strong |
+| aider-polyglot | 225 | 0.991 | strong |
+| hle | 236 | 0.991 | strong |
+| replicationbench | 90 | 0.988 | strong |
+| crustbench | 100 | 0.988 | strong |
+| gaia | 165 | 0.988 | strong |
+| livecodebench | 100 | 0.988 | strong |
+| scicode | 80 | 0.988 | strong |
+| simpleqa | 200 | 0.988 | strong |
 
 **Insight and findings:** Strong alignment means the reliable bounded subset is a good proxy for the task-derived benchmark score. Weak alignment is not used to remove benchmarks automatically; it flags cases for manual benchmark/task inspection.
 
@@ -548,7 +547,7 @@ The emerging story is that benchmark diversity matters more than a single aggreg
 
 Within the retained benchmarks, model identity is usually more explanatory than agent identity, but the per-benchmark partial-R2 view prevents overstatement: some benchmark slices are much more sensitive to harness choice than the overall decomposition suggests. That is why the report keeps descriptive `agent+model` leaderboards for browsing, but uses paired Terminus deltas when making harness claims.
 
-The BenchPress-style predictability layer identifies a preservation/compression axis. Benchmarks such as bigcodebench, codepde, strongreject, bfcl, mmau are hard to reconstruct and therefore carry distinctive signal. Benchmarks such as bixbench, sldbench, replicationbench, lawbench, arc-agi-2 are easier to reconstruct and can be grouped more aggressively. The clustered heatmaps and clustered mini-leaderboards give the visual version of the same argument.
+The BenchPress-style predictability layer identifies a preservation/compression axis. Benchmarks such as aime, gpqa-diamond, simpleqa, gso, financeagent_terminal are hard to reconstruct and therefore carry distinctive signal. Benchmarks such as terminal-bench, compilebench, spreadsheetbench, lawbench, spider2 are easier to reconstruct and can be grouped more aggressively. The clustered heatmaps and clustered mini-leaderboards give the visual version of the same argument.
 
 The task layer answers a different selection problem. Representative tasks are useful as small proxies for benchmark aggregates; unpredictable and difficult tasks are useful as stress tests. HaborMix combines those roles by taking representative base tasks first, then filling with difficult, unique, and discriminative tasks until the final compact set reaches the target size range. That is the clearest story for why HaborMix is not merely a random subset, not merely a hard subset, and not merely a redundant set of benchmark prototypes.
 
@@ -594,15 +593,18 @@ All key analysis figures:
 - `output/key_analyses/figures/leaderboards/clustered/mini_leaderboards_cluster_1_page_1.png`
 - `output/key_analyses/figures/leaderboards/clustered/mini_leaderboards_cluster_2_page_1.png`
 - `output/key_analyses/figures/leaderboards/clustered/mini_leaderboards_cluster_3_page_1.png`
+- `output/key_analyses/figures/leaderboards/clustered/mini_leaderboards_cluster_3_page_10.png`
+- `output/key_analyses/figures/leaderboards/clustered/mini_leaderboards_cluster_3_page_11.png`
+- `output/key_analyses/figures/leaderboards/clustered/mini_leaderboards_cluster_3_page_2.png`
+- `output/key_analyses/figures/leaderboards/clustered/mini_leaderboards_cluster_3_page_3.png`
+- `output/key_analyses/figures/leaderboards/clustered/mini_leaderboards_cluster_3_page_4.png`
+- `output/key_analyses/figures/leaderboards/clustered/mini_leaderboards_cluster_3_page_5.png`
+- `output/key_analyses/figures/leaderboards/clustered/mini_leaderboards_cluster_3_page_6.png`
+- `output/key_analyses/figures/leaderboards/clustered/mini_leaderboards_cluster_3_page_7.png`
+- `output/key_analyses/figures/leaderboards/clustered/mini_leaderboards_cluster_3_page_8.png`
+- `output/key_analyses/figures/leaderboards/clustered/mini_leaderboards_cluster_3_page_9.png`
 - `output/key_analyses/figures/leaderboards/clustered/mini_leaderboards_cluster_4_page_1.png`
-- `output/key_analyses/figures/leaderboards/clustered/mini_leaderboards_cluster_4_page_2.png`
-- `output/key_analyses/figures/leaderboards/clustered/mini_leaderboards_cluster_4_page_3.png`
-- `output/key_analyses/figures/leaderboards/clustered/mini_leaderboards_cluster_4_page_4.png`
-- `output/key_analyses/figures/leaderboards/clustered/mini_leaderboards_cluster_4_page_5.png`
-- `output/key_analyses/figures/leaderboards/clustered/mini_leaderboards_cluster_4_page_6.png`
-- `output/key_analyses/figures/leaderboards/clustered/mini_leaderboards_cluster_4_page_7.png`
 - `output/key_analyses/figures/leaderboards/clustered/mini_leaderboards_cluster_5_page_1.png`
-- `output/key_analyses/figures/leaderboards/clustered/mini_leaderboards_cluster_5_page_2.png`
 - `output/key_analyses/figures/leaderboards/clustered/mini_leaderboards_cluster_6_page_1.png`
 - `output/key_analyses/figures/task_level/task_best_representatives.png`
 - `output/key_analyses/figures/task_level/task_hard_to_predict_ranked.png`
@@ -610,7 +612,7 @@ All key analysis figures:
 - `output/key_analyses/figures/task_level/task_reliable_difficulty_composition_percent.png`
 - `output/key_analyses/figures/task_level/task_similarity_benchmark_pair_heatmap.png`
 - `output/key_analyses/figures/task_level/task_to_benchmark_alignment.png`
-- `output/key_analyses/figures/leaderboards/per_benchmark/` (40 per-benchmark mini-leaderboard files, listed by directory rather than expanded here)
+- `output/key_analyses/figures/leaderboards/per_benchmark/` (50 per-benchmark mini-leaderboard files, listed by directory rather than expanded here)
 
 ## Not Completed Yet
 

@@ -1,22 +1,4010 @@
 {
   "name": "GPQA Diamond",
-  "category": "",
-  "used_llm_or_agent": "",
+  "category": "Science & Research",
+  "used_llm_or_agent": "llm",
   "links": {
-    "website": null,
-    "leaderboard": null,
-    "paper": null,
-    "github": null,
-    "dataset": null
+    "website": "https://www.vals.ai/benchmarks/gpqa",
+    "leaderboard": "https://epoch.ai/benchmarks/gpqa-diamond",
+    "paper": "https://arxiv.org/abs/2311.12022",
+    "github": "https://github.com/idavidrein/gpqa",
+    "dataset": "https://huggingface.co/datasets/Idavidrein/gpqa"
   },
   "meta": {
-    "release_date": "",
-    "num_tasks": null
+    "release_date": "2023-11",
+    "num_tasks": 198
   },
   "evaluation": {
-    "primary_metric": "",
-    "harbor_aligned_metric": null
+    "primary_metric": "accuracy",
+    "harbor_aligned_metric": "Accuracy — Harbor adapter covers all 198 Diamond tasks. Parity: original 87.88% ±0.58 vs harbor 87.21% ±0.34 averaged over 3 trials with codex+gpt-5.2."
   },
-  "results_over_time": [],
-  "notes": null
+  "results_over_time": [
+    {
+      "date": "2023-11",
+      "source_type": "paper",
+      "source_url": "https://arxiv.org/abs/2311.12022",
+      "results": [
+        {
+          "model": "GPT-4",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (Diamond)",
+              "value": 0.388,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (Main)",
+              "value": 0.397,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (Extended)",
+              "value": 0.387,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (Diamond, Biology)",
+              "value": 0.581,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (Diamond, Physics)",
+              "value": 0.37,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (Diamond, Chemistry)",
+              "value": 0.318,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-4",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (Diamond)",
+              "value": 0.388,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (Main)",
+              "value": 0.41,
+              "unit": null
+            },
+            {
+              "metric": "accuracy (Extended)",
+              "value": 0.394,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-4",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (Diamond)",
+              "value": 0.393,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-4",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (Diamond)",
+              "value": 0.357,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-4",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (Diamond)",
+              "value": 0.342,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-3.5-turbo-16k",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (Diamond)",
+              "value": 0.306,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-3.5-turbo-16k",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (Diamond)",
+              "value": 0.296,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-3.5-turbo-16k",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (Diamond)",
+              "value": 0.281,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-3.5-turbo-16k",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (Diamond)",
+              "value": 0.26,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Llama-2-70B-chat",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (Diamond)",
+              "value": 0.311,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Llama-2-70B-chat",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (Diamond)",
+              "value": 0.281,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Llama-2-70B-chat",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (Diamond)",
+              "value": 0.265,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Llama-2-70B-chat",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy (Diamond)",
+              "value": 0.24,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Paper release baselines from Table 6 (full results). All 13 model×method combinations on the Diamond set (198 questions). GPT-4 Few-Shot CoT is the best at 38.8% on Diamond. Domain breakdown for GPT-4 Few-Shot CoT: Biology 58.1% >> Physics 37.0% > Chemistry 31.8%. Human baselines: Expert 81.2%* (Diamond), Non-expert 21.9%* (Diamond). *Skewed by selection effects. GPT-4 with search has 41.3% abstention rate on Diamond. Published at COLM 2024."
+    },
+    {
+      "date": "2026-04",
+      "source_type": "leaderboard",
+      "source_url": "https://www.vals.ai/benchmarks/gpqa",
+      "results": [
+        {
+          "model": "google/gemini-3.1-pro-preview",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.9545,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "google/gemini-3-pro-preview",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.9167,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/gpt-5.2-2025-12-11",
+          "effort": "xhigh",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.9167,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/gpt-5.4-2026-03-05",
+          "effort": "xhigh",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.9167,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "anthropic/claude-opus-4-7",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.899,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "meta/muse_spark",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8965,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "anthropic/claude-opus-4-6-thinking",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8965,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "grok/grok-4.20-0309-reasoning",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8864,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "grok/grok-4-0709",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8813,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "google/gemini-3-flash-preview",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8788,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "alibaba/qwen3.5-plus-thinking",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8737,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "alibaba/qwen3.6-plus",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8737,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/gpt-5.1-2025-11-13",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8662,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "minimax/MiniMax-M2.7",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8662,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "anthropic/claude-opus-4-5-20251101-thinking",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8586,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/gpt-5-2025-08-07",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8561,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "anthropic/claude-sonnet-4-6",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8561,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "grok/grok-4-fast-reasoning",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8535,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "alibaba/qwen3-max-2026-01-23",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8485,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "zai/glm-5.1-thinking",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8452,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "grok/grok-4-1-fast-reasoning",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8434,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/o3-2025-04-16",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8409,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "kimi/kimi-k2.5-thinking",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8409,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "zai/glm-5-thinking",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8333,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/gpt-5.4-mini-2026-03-17",
+          "effort": "xhigh",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8308,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "alibaba/qwen3.5-flash",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8283,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "minimax/MiniMax-M2.5-Lightning",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8207,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "anthropic/claude-sonnet-4-5-20250929-thinking",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8163,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "google/gemini-2.5-flash-preview-09-2025",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8157,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "google/gemini-3.1-flash-lite-preview",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8106,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "google/gemini-2.5-pro-exp-03-25",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8081,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/gpt-5-mini-2025-08-07",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.803,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "fireworks/deepseek-v3p2-thinking",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.803,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "zai/glm-4.7",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8005,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "anthropic/claude-opus-4-5-20251101",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7955,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "alibaba/qwen3-max",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7955,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "grok/grok-3-mini-fast-high-reasoning",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7929,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "fireworks/gpt-oss-120b",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7854,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "minimax/MiniMax-M2.1",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7854,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "kimi/kimi-k2-thinking",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7854,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "alibaba/qwen3-max-preview",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7778,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/gpt-5.4-nano-2026-03-17",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7753,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "google/gemini-2.5-flash-preview-09-2025-thinking",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7652,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "anthropic/claude-opus-4-1-20250805-thinking",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7626,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "fireworks/deepseek-v3p2",
+          "effort": "none",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7626,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/o3-mini-2025-01-31",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.755,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "anthropic/claude-3-7-sonnet-20250219-thinking",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7525,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "anthropic/claude-sonnet-4-20250514-thinking",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.75,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/o4-mini-2025-04-16",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.745,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "zai/glm-4.6",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.745,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "grok/grok-3",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7424,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/o1-2024-12-17",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7323,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "grok/grok-3-mini-fast-low-reasoning",
+          "effort": "low",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7298,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "anthropic/claude-haiku-4-5-20251001-thinking",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7222,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "zai/glm-4.5",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7222,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "anthropic/claude-opus-4-20250514",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7172,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "together/moonshotai/Kimi-K2-Instruct",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7146,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "google/gemini-2.5-flash-lite-preview-09-2025-thinking",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.702,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "fireworks/qwen3-235b-a22b",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.702,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "anthropic/claude-opus-4-1-20250805",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.6995,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "fireworks/llama4-maverick-instruct-basic",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.6944,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "anthropic/claude-sonnet-4-20250514",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.6944,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "fireworks/gpt-oss-20b",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.6894,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "mistralai/mistral-large-2512",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.6843,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/gpt-4.1-mini-2025-04-14",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.6793,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "anthropic/claude-3-7-sonnet-20250219",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.6742,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/gpt-4.1-2025-04-14",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.654,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "grok/grok-4-1-fast-non-reasoning",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.6515,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "google/gemini-2.0-flash-001",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.6515,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "google/gemini-2.5-flash-lite-preview-09-2025",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.6414,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/gpt-5-nano-2025-08-07",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.6338,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "together/langston/nim/nvidia/llama-3.3-nemotron-super-49b-v1-42e84561-thinking",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.6237,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "mistralai/magistral-medium-2509",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.6237,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "grok/grok-4-fast-non-reasoning",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.6212,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "fireworks/deepseek-v3-0324",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.6162,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "anthropic/claude-3-5-sonnet-20241022",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.5934,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "xiaomi/mimo-v2-flash",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.5934,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "google/gemini-1.5-pro-002",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.5833,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "mistralai/magistral-small-2509",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.5833,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "google/gemini-2.5-flash-preview-04-17",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.5758,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "fireworks/deepseek-v3",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.5455,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/gpt-4o-2024-11-20",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.5379,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/gpt-4.1-nano-2025-04-14",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.5076,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "mistralai/mistral-small-2402",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.5076,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "grok/grok-2-1212",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.5076,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/gpt-4o-2024-05-13",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.5025,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "together/meta-llama/Llama-3.3-70B-Instruct-Turbo",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.5,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "cohere/command-a-03-2025",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.4848,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "mistralai/mistral-large-2411",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.4773,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "together/langston/nim/nvidia/llama-3.3-nemotron-super-49b-v1-42e84561",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.4773,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "together/meta-llama/Llama-4-Scout-17B-16E-Instruct",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.4697,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "google/gemini-1.5-flash-002",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.4596,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "mistralai/mistral-small-2503",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.4419,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/gpt-4o-mini-2024-07-18",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.4419,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "anthropic/claude-3-5-haiku-20241022",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.3788,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "ai21labs/jamba-large-1.6",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.3611,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "ai21labs/jamba-mini-1.6",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.3207,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "cohere/command-r-plus",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.3106,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "openai/gpt-3.5-turbo",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.3056,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Vals AI GPQA Diamond leaderboard (updated 2026-04-16). 99 models across 15+ providers. 198 Diamond questions. Methodology: pass@1 averaged across 8 runs per model. Top model: Gemini 3.1 Pro Preview at 95.45%. Human expert baseline: 69.7%."
+    },
+    {
+      "date": "2026-04",
+      "source_type": "leaderboard",
+      "source_url": "https://epoch.ai/benchmarks/gpqa-diamond",
+      "results": [
+        {
+          "model": "GPT-5.4 Pro (xhigh)",
+          "effort": "xhigh",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.946,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.016,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 3.1 Pro Preview",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.941,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.017,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5.4 (xhigh)",
+          "effort": "xhigh",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.933,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.018,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 3 Pro Preview",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.9261,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0165,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5.2 (xhigh)",
+          "effort": "xhigh",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.914,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.018,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude Opus 4.6 (32k thinking)",
+          "effort": "thinking",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.9053,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0169,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude Opus 4.7 (xhigh)",
+          "effort": "xhigh",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.9015,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0185,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Muse Spark",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.898,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.022,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude Opus 4.6 (64k thinking)",
+          "effort": "thinking",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8876,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0194,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5.2 (high)",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8819,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0191,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5.2 (medium)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8788,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0191,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GLM-5",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8782,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0234,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5.1 (high)",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8763,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0188,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Kimi K2.5 (Fireworks)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.876,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.019,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude Sonnet 4.6 (32k thinking)",
+          "effort": "thinking",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8737,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.02,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Grok 4",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.87,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.02,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5 (high)",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8617,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0208,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude Opus 4.5 (32k thinking)",
+          "effort": "thinking",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8605,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0207,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude Opus 4.5 (16k thinking)",
+          "effort": "thinking",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8548,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0215,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5 (medium)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8535,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0213,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 2.5 Pro",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8529,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0212,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5.1 (medium)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8504,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0213,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 2.5 Pro Preview (Jun 2025)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8485,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0255,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Kimi K2 Thinking Turbo",
+          "effort": "thinking",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8422,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0209,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 2.5 Pro Exp (Mar 2025)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8384,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0262,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5.4 mini (high)",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8359,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0223,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-V3.2 (Thinking)",
+          "effort": "thinking",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8342,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0202,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GLM-4.7",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8333,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0237,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 3 Flash",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8321,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.019,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5.2 (low)",
+          "effort": "low",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.827,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0227,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude Sonnet 4.5 (59k thinking)",
+          "effort": "thinking",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8232,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0272,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "o3 (high)",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8182,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0213,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude Sonnet 4.5 (32k thinking)",
+          "effort": "thinking",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8173,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0276,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude Opus 4.5 (no thinking)",
+          "effort": "thinking",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8068,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0239,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3-235B-A22B (Jul 2025)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8005,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.026,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "o4-mini (high)",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7961,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.024,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude Sonnet 4.5 (16k thinking)",
+          "effort": "thinking",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7879,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0291,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude 3.7 Sonnet (64k thinking)",
+          "effort": "thinking",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.785,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0265,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5.4 nano (high)",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7847,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0244,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude Sonnet 4 (32k thinking)",
+          "effort": "thinking",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7828,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0294,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude Sonnet 4 (59k thinking)",
+          "effort": "thinking",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7782,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0267,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude Opus 4.1 (16k thinking)",
+          "effort": "thinking",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7727,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0299,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "o3-mini (high)",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7702,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0259,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude Opus 4.1 (27k thinking)",
+          "effort": "thinking",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7677,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0301,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude 3.7 Sonnet (32k thinking)",
+          "effort": "thinking",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7677,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0301,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude 3.7 Sonnet (16k thinking)",
+          "effort": "thinking",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7677,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0301,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "o1 (high)",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7677,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0301,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-R1 (May 2025)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7633,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.024,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Grok-3 mini",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7626,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0303,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude Opus 4 (16k thinking)",
+          "effort": "thinking",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7626,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0303,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "gpt-oss-120b (high)",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7576,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0274,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude Sonnet 4 (16k thinking)",
+          "effort": "thinking",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7576,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0305,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "o1 (medium)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7576,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0305,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5 mini (high)",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.75,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0228,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "o3-mini (medium)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7427,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0254,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude Sonnet 4.5 (no thinking)",
+          "effort": "thinking",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7374,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0314,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude Opus 4.1",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7323,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0315,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 Max",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.726,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0273,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5 mini (medium)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7165,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0232,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude Haiku 4.5 (32k thinking)",
+          "effort": "thinking",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7121,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0323,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 (Apr 2025)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.7071,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0271,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5 nano (high)",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.6944,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0276,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-R1",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.6922,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0307,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude Opus 4",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.6919,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0329,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-4.5 Preview (Feb 2025)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.6869,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.033,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-V3 (Mar 2025)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.6761,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0268,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Grok 3 (beta)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.6758,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0269,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5 nano (medium)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.6742,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0266,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Llama 4 Maverick (FP8)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.6698,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0282,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-4.1",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.6692,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0282,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude Sonnet 4",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.6667,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0336,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude 3.7 Sonnet",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.6604,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0267,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-4.1 mini",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.6585,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0271,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 2.0 Pro Exp (Feb 2025)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.6566,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0338,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "QwQ-Plus",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.654,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0285,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 2.0 Flash (Feb 2025)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.6414,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0274,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "o1-mini (high)",
+          "effort": "high",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.6237,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0274,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude Haiku 4.5",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.6048,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0282,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Mistral Medium 3",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.5953,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0282,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "o1-mini (medium)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.595,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.028,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 1.5 Pro",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.5723,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.028,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 2.0 Flash Thinking Exp",
+          "effort": "thinking",
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.5707,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0353,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-V3",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.5653,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0276,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen2.5-Max",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.5612,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0279,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Phi-4",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.5606,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0259,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-R1-Distill-Llama-70B",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.5574,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0297,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude 3.5 Sonnet (Oct 2024)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.553,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0282,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude 3.5 Sonnet (Jun 2024)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.5404,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0275,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Grok-2",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.5379,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0271,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Llama 4 Scout",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.5183,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0315,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Mistral Large 2",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.5133,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0269,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Llama 3.1-405B",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.5092,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0259,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "o1-preview",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.5032,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0283,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-4o (Aug 2024)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.4921,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.026,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen2.5-72B",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.4915,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0269,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-4.1 nano",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.4893,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0248,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-4o (May 2024)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.489,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0263,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemma 3 27B",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.4886,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0303,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Magistral Small 1.1",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.4842,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0226,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen Plus (Jan 2025)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.4811,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0271,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-4o (Nov 2024)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.4789,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0263,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Mistral Small 3.1",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.4747,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0276,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Llama 3.3 70B",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.4744,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0285,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 1.5 Flash",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.4732,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0277,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude 3 Opus",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.4716,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0264,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-4 Turbo (Apr 2024)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.4659,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0266,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Tülu 3 70B",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.4628,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0241,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen2.5-32B (instruct)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.4609,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.026,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Mistral Small 3",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.453,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0248,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek-R1-Distill-Qwen-14B",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.447,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0286,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Llama 3.1-70B",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.4419,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0245,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "WizardLM-2 8x22B",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.4343,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0232,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-4 Turbo Preview (Nov 2023)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.4236,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0241,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-4 Turbo Preview (January 2024)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.4227,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0268,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen Turbo",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.4179,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0262,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Llama 3.2 90B",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.4104,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0229,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen2-72B",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.4078,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0257,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude 3 Sonnet",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.4059,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0239,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Llama 3-70B",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.4056,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0262,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 1.5 Flash (May 2024)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.4037,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0239,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Mistral Large",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.3876,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0248,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude 3.5 Haiku (Oct 2024)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.3813,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0264,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-4o mini",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.3772,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0241,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Hermes 2 Theta Llama-3 70B",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.3747,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0248,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemma 2 27B",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.3649,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0239,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude 3 Haiku",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.363,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0242,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-4 (Mar 2023)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.3573,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0236,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude 2",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.3466,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0251,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Mixtral 8x22B",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.3406,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0207,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 1.0 Pro",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.3396,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0201,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Eurus-2-7B-PRIME",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.339,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0211,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 1.5 Flash 8B",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.3295,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0242,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude 2.1",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.3295,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0232,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DBRX (instruct)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.3289,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0326,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Yi-1.5-34B (chat)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.3198,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.02,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen1.5-32B (chat)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.3074,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0202,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-4 (Jun 2023)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.3065,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0234,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Mixtral 8x7B",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.3059,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0194,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Mistral NeMo",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.2989,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.021,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen1.5-72B",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.2882,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0199,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-3.5 Turbo (Nov 2023)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.2803,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0187,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "phi-3-medium 14B",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.2759,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0161,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemma 2 9B",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.2746,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.023,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-3.5 Turbo (Jan 2024)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.2718,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0195,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Ministral 8B",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.2715,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0209,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Llama 2-70B",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.2633,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0199,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Llama 3-8B",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.2607,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.017,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Llama 3.1-8B",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.2595,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0167,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Ministral 3B",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.2525,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0193,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek LLM 67B (chat)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.2462,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0136,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Mistral 7B",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.1518,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0101,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Yi-34B (chat)",
+          "effort": null,
+          "system_description": null,
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.1474,
+              "unit": null
+            },
+            {
+              "metric": "stderr",
+              "value": 0.0114,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Epoch AI independent benchmark evaluation (from /data/benchmarks.csv). 152 unique model configurations on GPQA Diamond. Includes stderr for each result. Multiple effort levels tested per model (e.g. GPT-5.2 xhigh vs high). Top model: GPT-5.4 Pro (xhigh) at 94.6%. Evaluation uses Inspect AI framework with detailed run logs available at logs.epoch.ai."
+    }
+  ],
+  "notes": "GPQA (Graduate-Level Google-Proof Q&A) Diamond is a 198-question subset of the highest-quality questions from the full 448-question GPQA benchmark. Tests graduate-level scientific reasoning across biology, physics, and chemistry.\n\nKey characteristics:\n- 198 multiple-choice questions (4 options each)\n- Domains: biology, physics, chemistry at graduate level\n- 'Google-proof': designed so that even skilled non-experts with web access only reach 34%\n- Human expert (PhD) accuracy: 65% (full), 69.7% (Diamond)\n- Questions created by domain experts, validated by other experts\n- Random guessing baseline: 25%\n\nThree subsets in the full GPQA dataset:\n- GPQA Main: 448 questions\n- GPQA Extended: 546 questions (includes lower-quality questions)\n- GPQA Diamond: 198 questions (highest quality, most commonly benchmarked)\n\nThe Harbor adapter converts Diamond questions into agent tasks where the model writes its answer (A/B/C/D) to /app/answer.txt. Docker environment includes scientific Python packages (numpy, scipy, sympy, pandas, matplotlib). 1-hour timeout. Gated on HuggingFace (requires accepting terms + HF_TOKEN).\n\nAnswer choices are deterministically shuffled in the adapter to prevent memorization of answer positions.\n\nPublished at COLM 2024. Authors from NYU (Bowman lab).\n\nBenchmark is approaching saturation: top models now exceed 90% vs human expert 69.7%."
 }

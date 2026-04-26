@@ -65,8 +65,10 @@ def write_key_analysis_reports(
         alignment["included_in_benchmark_level_key_filter"] & (alignment["n_reliable_bounded_tasks"] >= 3)
     ].sort_values("spearman_agent_model_correlation", ascending=False)
     task_pool = task_summary.sort_values("candidate_pool_tasks", ascending=False)
+    _model_col = "model_adj_partial_r2_over_agent" if "model_adj_partial_r2_over_agent" in benchmark_role.columns else "model_partial_r2_over_agent"
+    _agent_col = "agent_adj_partial_r2_over_model" if "agent_adj_partial_r2_over_model" in benchmark_role.columns else "agent_partial_r2_over_model"
     role_gap = benchmark_role.assign(
-        absolute_role_gap=lambda df: (df["model_partial_r2_over_agent"] - df["agent_partial_r2_over_model"]).abs()
+        absolute_role_gap=lambda df: (df[_model_col] - df[_agent_col]).abs()
     ).sort_values("absolute_role_gap", ascending=False)
     hard_tasks = task_predictability.sort_values("task_unpredictability_score", ascending=False)
     representative_top = representative_tasks.sort_values("useful_representativeness_score", ascending=False)
@@ -207,10 +209,10 @@ def write_key_analysis_reports(
         report_image("benchmark_level/benchmark_agent_adjusted_effects.png", "Agent effects adjusted for model and benchmark"),
         "",
         "**Result overview and analysis:**",
-        *markdown_table(variance_filtered, ["component", "partial_r2_over_other_main_effects", "r2", "type"], 7),
+        *markdown_table(variance_filtered, ["component", "adj_partial_r2_over_other_main_effects", "adj_r2", "permutation_p_value", "type"] if "adj_r2" in variance_filtered.columns else ["component", "partial_r2_over_other_main_effects", "r2", "type"], 7),
         "",
         "Benchmarks with the largest model-vs-agent role imbalance:",
-        *markdown_table(role_gap, ["benchmark", "model_partial_r2_over_agent", "agent_partial_r2_over_model", "dominant_dimension"], 10),
+        *markdown_table(role_gap, ["benchmark", _model_col, _agent_col, "dominant_dimension"], 10),
         "",
         "**Insight and findings:** Model identity explains much more overall variation than agent identity, but the role varies by benchmark. Agent effects are more useful as benchmark-specific harnessing effects than as a universal main effect.",
         "",
@@ -417,7 +419,7 @@ def write_key_analysis_reports(
         "",
         report_image("benchmark_level/benchmark_model_vs_agent_role.png", "Per-benchmark model vs agent explanatory power"),
         "",
-        *markdown_table(role_gap, ["benchmark", "model_partial_r2_over_agent", "agent_partial_r2_over_model", "dominant_dimension"], 8),
+        *markdown_table(role_gap, ["benchmark", _model_col, _agent_col, "dominant_dimension"], 8),
         "",
         "3. Separate model and agent dimensions. The useful agent evidence is paired lift over `terminus-2` for the same model, not an unqualified agent+model leaderboard.",
         "",
