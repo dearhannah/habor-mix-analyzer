@@ -1,0 +1,161 @@
+from __future__ import annotations
+
+from ..core import *
+
+
+def save_key_effect_plot(effects: pd.DataFrame, group_col: str, filename: str, title: str) -> None:
+    plot_df = effects.sort_values("adjusted_mean")
+    labels = [wrap_text(value, width=28) for value in plot_df[group_col]]
+    fig, ax = plt.subplots(figsize=(11.5, max(5.2, 0.42 * len(plot_df))))
+    ax.barh(labels, plot_df["adjusted_mean"], color="#a1d99b", edgecolor="white")
+    ax.axvline(0, color="#666666", linewidth=1)
+    ax.set_title(title)
+    ax.set_xlabel("Adjusted benchmark-relative score\n(0 = benchmark median; +1 = one robust scale above median)")
+    ax.set_ylabel("")
+    ax.grid(axis="x", color="#dddddd", linewidth=0.8)
+    fig.tight_layout()
+    save_key_figure(fig, f"benchmark_level/{filename}")
+    plt.close(fig)
+
+
+def save_agent_lift_heatmap(agent_by_benchmark: pd.DataFrame) -> None:
+    if agent_by_benchmark.empty:
+        return
+    pivot = agent_by_benchmark.pivot(index="agent", columns="benchmark", values="mean_delta_vs_terminus").fillna(0)
+    strongest = pivot.abs().mean(axis=0).sort_values(ascending=False).head(24).index
+    pivot = pivot[strongest]
+    fig, ax = plt.subplots(figsize=(14, max(3.8, 1.0 + 0.55 * pivot.shape[0])))
+    image = ax.imshow(pivot.to_numpy(dtype=float), cmap="BrBG", vmin=-2.5, vmax=2.5)
+    ax.set_title("Agent Lift vs terminus-2 by Benchmark")
+    ax.set_xticks(np.arange(pivot.shape[1]))
+    ax.set_xticklabels([wrap_text(col, 14) for col in pivot.columns], rotation=45, ha="right", fontsize=9)
+    ax.set_yticks(np.arange(pivot.shape[0]))
+    ax.set_yticklabels([wrap_text(value, 20) for value in pivot.index])
+    cbar = fig.colorbar(image, ax=ax, fraction=0.035, pad=0.02)
+    cbar.set_label(DELTA_SCORE_LABEL)
+    fig.tight_layout()
+    save_key_figure(fig, "benchmark_level/benchmark_agent_lift_heatmap.png")
+    plt.close(fig)
+
+
+def save_benchmark_uniqueness_plot(uniqueness: pd.DataFrame, filter_table: pd.DataFrame) -> None:
+    plot_df = uniqueness.merge(
+        filter_table[["benchmark", "task_cell_missing_fraction"]],
+        on="benchmark",
+        how="left",
+    ).sort_values("cv_r2_from_other_included_benchmarks")
+    labels = [wrap_text(value, 24) for value in plot_df["benchmark"]]
+    values = plot_df["cv_r2_from_other_included_benchmarks"].astype(float)
+    colors = np.where(values < 0, "#fdae6b", "#9ecae1")
+    fig, ax = plt.subplots(figsize=(11.5, max(8.2, 0.30 * len(plot_df))))
+    ax.barh(labels, values, color=colors, edgecolor="white")
+    ax.axvline(0, color="#777777", linewidth=1)
+    ax.set_title("Benchmark Predictability From Other Benchmarks")
+    ax.set_xlabel("Cross-validated R2 predicted from other included benchmarks\n(lower = more unique / harder to reconstruct)")
+    ax.set_ylabel("")
+    ax.grid(axis="x", color="#dddddd", linewidth=0.8)
+    left_edge = min(values.min(), 0)
+    right_edge = max(values.max(), 0)
+    ax.set_xlim(left_edge - 0.08 * max(1, abs(left_edge)), right_edge + 0.08 * max(1, abs(right_edge)))
+    fig.tight_layout()
+    save_key_figure(fig, "benchmark_level/benchmark_uniqueness_vs_coverage.png")
+    plt.close(fig)
+
+
+def save_benchmark_role_plot(role: pd.DataFrame) -> None:
+    plot_df = role.copy()
+    x_col = "model_adj_partial_r2_over_agent" if "model_adj_partial_r2_over_agent" in plot_df.columns else "model_partial_r2_over_agent"
+    y_col = "agent_adj_partial_r2_over_model" if "agent_adj_partial_r2_over_model" in plot_df.columns else "agent_partial_r2_over_model"
+    fig, ax = plt.subplots(figsize=(10, 8))
+    colors = np.where(plot_df["dominant_dimension"] == "model", "#9ecae1", "#fdae6b")
+    ax.scatter(
+        plot_df[x_col],
+        plot_df[y_col],
+        s=95,
+        color=colors,
+        edgecolor="white",
+        alpha=0.9,
+    )
+    lim = max(plot_df[[x_col, y_col]].max().max(), 0.05)
+    ax.plot([0, lim], [0, lim], color="#666666", linewidth=1)
+    label_df = pd.concat(
+        [
+            plot_df.sort_values(x_col, ascending=False).head(4),
+            plot_df.sort_values(y_col, ascending=False).head(1),
+        ],
+        ignore_index=True,
+    ).drop_duplicates("benchmark")
+    for i, row in label_df.iterrows():
+        x_val = row[x_col]
+        y_val = row[y_col]
+        x_offset = -78 if x_val > 0.75 else 6
+        y_offset = [8, -12, 18, -20][i % 4]
+        ax.annotate(
+            wrap_text(row["benchmark"], 14),
+            (x_val, y_val),
+            xytext=(x_offset, y_offset),
+            textcoords="offset points",
+            fontsize=9,
+        )
+    ax.set_title("Per-Benchmark Model vs Agent Explanatory Power (Adjusted R²)")
+    ax.set_xlabel("Adjusted partial R² added by model after controlling for agent")
+    ax.set_ylabel("Adjusted partial R² added by agent after controlling for model")
+    ax.grid(color="#dddddd", linewidth=0.8)
+    fig.tight_layout()
+    save_key_figure(fig, "benchmark_level/benchmark_model_vs_agent_role.png")
+    plt.close(fig)
+
+
+def save_key_variance_plot(variance_df: pd.DataFrame) -> None:
+    val_col = "adj_partial_r2_over_other_main_effects" if "adj_partial_r2_over_other_main_effects" in variance_df.columns else "partial_r2_over_other_main_effects"
+    plot_df = variance_df[variance_df["component"] != "all_main_effects"].sort_values(val_col)
+    fig, ax = plt.subplots(figsize=(10, 5.8))
+    ax.barh(plot_df["component"], plot_df[val_col], color="#bcbddc", edgecolor="white")
+    ax.set_title("Benchmark-Level Score Variance Attribution (Adjusted)")
+    ax.set_xlabel("Adjusted partial R²: extra variance explained after other main effects")
+    ax.set_ylabel("")
+    ax.grid(axis="x", color="#dddddd", linewidth=0.8)
+    fig.tight_layout()
+    save_key_figure(fig, "benchmark_level/benchmark_variance_attribution.png")
+    plt.close(fig)
+
+
+def save_benchmark_cluster_heatmap(ordered_corr: pd.DataFrame) -> None:
+    matrix = ordered_corr.set_index("benchmark")
+    fig, ax = plt.subplots(figsize=(15, 13))
+    image = ax.imshow(matrix.to_numpy(dtype=float), cmap="RdBu_r", vmin=-1, vmax=1)
+    ax.set_title("Clustered Benchmark Similarity")
+    ax.set_xticks(np.arange(matrix.shape[1]))
+    ax.set_xticklabels([wrap_text(value, 13) for value in matrix.columns], rotation=45, ha="right", fontsize=8)
+    ax.set_yticks(np.arange(matrix.shape[0]))
+    ax.set_yticklabels([wrap_text(value, 16) for value in matrix.index], fontsize=9)
+    cbar = fig.colorbar(image, ax=ax, fraction=0.035, pad=0.02)
+    cbar.set_label("Spearman correlation of agent+model score profiles")
+    distance_array = (1 - matrix.abs()).to_numpy(copy=True)
+    np.fill_diagonal(distance_array, 0)
+    labels = fcluster(linkage(squareform(distance_array, checks=False), method="average"), t=6, criterion="maxclust")
+    boundaries = np.where(labels[1:] != labels[:-1])[0] + 0.5
+    for boundary in boundaries:
+        ax.axhline(boundary, color="white", linewidth=1.8)
+        ax.axvline(boundary, color="white", linewidth=1.8)
+    fig.tight_layout()
+    save_key_figure(fig, "benchmark_level/benchmark_similarity_clustered_heatmap.png")
+    plt.close(fig)
+
+
+def save_terminus_delta_by_model_plot(terminus_by_model: pd.DataFrame) -> None:
+    if terminus_by_model.empty:
+        return
+    pivot = terminus_by_model.pivot(index="agent", columns="model", values="mean_delta_vs_terminus").fillna(0)
+    fig, ax = plt.subplots(figsize=(11, max(3.8, 0.7 * pivot.shape[0])))
+    image = ax.imshow(pivot.to_numpy(dtype=float), cmap="BrBG", vmin=-2.0, vmax=2.0)
+    ax.set_title("How Each Agent Changes Performance vs Terminus by Model")
+    ax.set_xticks(np.arange(pivot.shape[1]))
+    ax.set_xticklabels([wrap_text(value, 18) for value in pivot.columns], rotation=35, ha="right")
+    ax.set_yticks(np.arange(pivot.shape[0]))
+    ax.set_yticklabels([wrap_text(value, 20) for value in pivot.index])
+    cbar = fig.colorbar(image, ax=ax, fraction=0.045, pad=0.02)
+    cbar.set_label(DELTA_SCORE_LABEL)
+    fig.tight_layout()
+    save_key_figure(fig, "benchmark_level/terminus_delta_by_model_heatmap.png")
+    plt.close(fig)

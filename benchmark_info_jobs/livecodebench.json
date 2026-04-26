@@ -1,0 +1,4420 @@
+{
+  "name": "LiveCodeBench",
+  "category": "Competitive/Function-level Programming",
+  "used_llm_or_agent": "llm",
+  "links": {
+    "website": "https://livecodebench.github.io/",
+    "leaderboard": "https://livecodebench.github.io/leaderboard.html",
+    "paper": "https://arxiv.org/abs/2403.07974",
+    "github": "https://github.com/LiveCodeBench/LiveCodeBench",
+    "dataset": "https://huggingface.co/livecodebench/code_generation_lite"
+  },
+  "meta": {
+    "release_date": "2024-03",
+    "num_tasks": 511
+  },
+  "evaluation": {
+    "primary_metric": "pass@1",
+    "harbor_aligned_metric": null
+  },
+  "results_over_time": [
+    {
+      "date": "2023-03",
+      "source_type": "leaderboard",
+      "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
+      "results": [
+        {
+          "model": "Claude Instant",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2023-03-14; creator: Anthropic",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.109,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Models released in 2023-03. pass@1 scores from Artificial Analysis API snapshot (https://artificialanalysis.ai/api/v2/data/llms/models, evaluations.livecodebench). AA uses LiveCodeBench code-generation pass@1; per-model release_date is given in each result's note field. Per-model paper numbers (Jain et al., arXiv:2403.07974) were not merged because the paper reports them in figures rather than text tables."
+    },
+    {
+      "date": "2023-07",
+      "source_type": "leaderboard",
+      "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
+      "results": [
+        {
+          "model": "Claude 2.0",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2023-07-11; creator: Anthropic",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.171,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Llama 2 Chat 70B",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2023-07-18; creator: Meta",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.098,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Llama 2 Chat 13B",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2023-07-18; creator: Meta",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.098,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Models released in 2023-07. pass@1 scores from Artificial Analysis API snapshot (https://artificialanalysis.ai/api/v2/data/llms/models, evaluations.livecodebench). AA uses LiveCodeBench code-generation pass@1; per-model release_date is given in each result's note field. Per-model paper numbers (Jain et al., arXiv:2403.07974) were not merged because the paper reports them in figures rather than text tables."
+    },
+    {
+      "date": "2023-11",
+      "source_type": "leaderboard",
+      "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
+      "results": [
+        {
+          "model": "GPT-4 Turbo",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2023-11-06; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.291,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude 2.1",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2023-11-21; creator: Anthropic",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.195,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Models released in 2023-11. pass@1 scores from Artificial Analysis API snapshot (https://artificialanalysis.ai/api/v2/data/llms/models, evaluations.livecodebench). AA uses LiveCodeBench code-generation pass@1; per-model release_date is given in each result's note field. Per-model paper numbers (Jain et al., arXiv:2403.07974) were not merged because the paper reports them in figures rather than text tables."
+    },
+    {
+      "date": "2023-12",
+      "source_type": "leaderboard",
+      "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
+      "results": [
+        {
+          "model": "Gemini 1.0 Pro",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2023-12-06; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.116,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "OpenChat 3.5 (1210)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2023-12-18; creator: OpenChat",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.115,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Mistral Medium",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2023-12-11; creator: Mistral",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.099,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Models released in 2023-12. pass@1 scores from Artificial Analysis API snapshot (https://artificialanalysis.ai/api/v2/data/llms/models, evaluations.livecodebench). AA uses LiveCodeBench code-generation pass@1; per-model release_date is given in each result's note field. Per-model paper numbers (Jain et al., arXiv:2403.07974) were not merged because the paper reports them in figures rather than text tables."
+    },
+    {
+      "date": "2024-02",
+      "source_type": "leaderboard",
+      "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
+      "results": [
+        {
+          "model": "Mistral Large (Feb '24)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-02-26; creator: Mistral",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.178,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Phi-4 Mini Instruct",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-02-26; creator: Microsoft",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.126,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Mistral Small (Feb '24)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-02-26; creator: Mistral",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.111,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Models released in 2024-02. pass@1 scores from Artificial Analysis API snapshot (https://artificialanalysis.ai/api/v2/data/llms/models, evaluations.livecodebench). AA uses LiveCodeBench code-generation pass@1; per-model release_date is given in each result's note field. Per-model paper numbers (Jain et al., arXiv:2403.07974) were not merged because the paper reports them in figures rather than text tables."
+    },
+    {
+      "date": "2024-03",
+      "source_type": "leaderboard",
+      "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
+      "results": [
+        {
+          "model": "Claude 3 Opus",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-03-04; creator: Anthropic",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.279,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude 3 Sonnet",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-03-04; creator: Anthropic",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.175,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude 3 Haiku",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-03-04; creator: Anthropic",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.154,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DBRX Instruct",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-03-27; creator: Databricks",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.093,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Models released in 2024-03. pass@1 scores from Artificial Analysis API snapshot (https://artificialanalysis.ai/api/v2/data/llms/models, evaluations.livecodebench). AA uses LiveCodeBench code-generation pass@1; per-model release_date is given in each result's note field. Per-model paper numbers (Jain et al., arXiv:2403.07974) were not merged because the paper reports them in figures rather than text tables."
+    },
+    {
+      "date": "2024-04",
+      "source_type": "leaderboard",
+      "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
+      "results": [
+        {
+          "model": "Llama 3 Instruct 70B",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-04-18; creator: Meta",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.198,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Mixtral 8x22B Instruct",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-04-17; creator: Mistral",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.148,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Command-R+ (Apr '24)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-04-04; creator: Cohere",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.122,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Phi-3 Mini Instruct 3.8B",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-04-23; creator: Microsoft",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.116,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Llama 3 Instruct 8B",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-04-18; creator: Meta",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.096,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Models released in 2024-04. pass@1 scores from Artificial Analysis API snapshot (https://artificialanalysis.ai/api/v2/data/llms/models, evaluations.livecodebench). AA uses LiveCodeBench code-generation pass@1; per-model release_date is given in each result's note field. Per-model paper numbers (Jain et al., arXiv:2403.07974) were not merged because the paper reports them in figures rather than text tables."
+    },
+    {
+      "date": "2024-05",
+      "source_type": "leaderboard",
+      "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
+      "results": [
+        {
+          "model": "GPT-4o (May '24)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-05-13; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.334,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 1.5 Pro (May '24)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-05-15; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.244,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 1.5 Flash (May '24)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-05-14; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.196,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Models released in 2024-05. pass@1 scores from Artificial Analysis API snapshot (https://artificialanalysis.ai/api/v2/data/llms/models, evaluations.livecodebench). AA uses LiveCodeBench code-generation pass@1; per-model release_date is given in each result's note field. Per-model paper numbers (Jain et al., arXiv:2403.07974) were not merged because the paper reports them in figures rather than text tables."
+    },
+    {
+      "date": "2024-06",
+      "source_type": "leaderboard",
+      "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
+      "results": [
+        {
+          "model": "Qwen2 Instruct 72B",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-06-07; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.159,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek Coder V2 Lite Instruct",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-06-17; creator: DeepSeek",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.158,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Models released in 2024-06. pass@1 scores from Artificial Analysis API snapshot (https://artificialanalysis.ai/api/v2/data/llms/models, evaluations.livecodebench). AA uses LiveCodeBench code-generation pass@1; per-model release_date is given in each result's note field. Per-model paper numbers (Jain et al., arXiv:2403.07974) were not merged because the paper reports them in figures rather than text tables."
+    },
+    {
+      "date": "2024-07",
+      "source_type": "leaderboard",
+      "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
+      "results": [
+        {
+          "model": "Llama 3.1 Instruct 405B",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-07-23; creator: Meta",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.305,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Mistral Large 2 (Jul '24)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-07-24; creator: Mistral",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.267,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-4o mini",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-07-18; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.234,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Llama 3.1 Instruct 70B",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-07-23; creator: Meta",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.232,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Llama 3.1 Instruct 8B",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-07-23; creator: Meta",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.116,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Models released in 2024-07. pass@1 scores from Artificial Analysis API snapshot (https://artificialanalysis.ai/api/v2/data/llms/models, evaluations.livecodebench). AA uses LiveCodeBench code-generation pass@1; per-model release_date is given in each result's note field. Per-model paper numbers (Jain et al., arXiv:2403.07974) were not merged because the paper reports them in figures rather than text tables."
+    },
+    {
+      "date": "2024-08",
+      "source_type": "leaderboard",
+      "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
+      "results": [
+        {
+          "model": "GPT-4o (Aug '24)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-08-06; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.317,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Grok Beta",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-08-13; creator: xAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.241,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Hermes 3 - Llama-3.1 70B",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-08-15; creator: Nous Research",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.188,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Jamba 1.5 Large",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-08-22; creator: AI21 Labs",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.143,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Models released in 2024-08. pass@1 scores from Artificial Analysis API snapshot (https://artificialanalysis.ai/api/v2/data/llms/models, evaluations.livecodebench). AA uses LiveCodeBench code-generation pass@1; per-model release_date is given in each result's note field. Per-model paper numbers (Jain et al., arXiv:2403.07974) were not merged because the paper reports them in figures rather than text tables."
+    },
+    {
+      "date": "2024-09",
+      "source_type": "leaderboard",
+      "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
+      "results": [
+        {
+          "model": "o1-mini",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-09-12; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.576,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 1.5 Pro (Sep '24)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-09-24; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.316,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen2.5 Instruct 72B",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-09-19; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.276,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 1.5 Flash (Sep '24)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-09-24; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.273,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen2.5 Instruct 32B",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-09-19; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.248,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Llama 3.2 Instruct 90B (Vision)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-09-25; creator: Meta",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.214,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Mistral Small (Sep '24)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-09-17; creator: Mistral",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.141,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen2.5 Coder Instruct 7B ",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-09-19; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.126,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Llama 3.2 Instruct 11B (Vision)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-09-25; creator: Meta",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.11,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "LFM 40B",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-09-30; creator: Liquid AI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.096,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Models released in 2024-09. pass@1 scores from Artificial Analysis API snapshot (https://artificialanalysis.ai/api/v2/data/llms/models, evaluations.livecodebench). AA uses LiveCodeBench code-generation pass@1; per-model release_date is given in each result's note field. Per-model paper numbers (Jain et al., arXiv:2403.07974) were not merged because the paper reports them in figures rather than text tables."
+    },
+    {
+      "date": "2024-10",
+      "source_type": "leaderboard",
+      "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
+      "results": [
+        {
+          "model": "Claude 3.5 Sonnet (Oct '24)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-10-22; creator: Anthropic",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.381,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude 3.5 Haiku",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-10-22; creator: Anthropic",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.314,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 1.5 Flash-8B",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-10-03; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.217,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Llama 3.1 Nemotron Instruct 70B",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-10-15; creator: NVIDIA",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.169,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Models released in 2024-10. pass@1 scores from Artificial Analysis API snapshot (https://artificialanalysis.ai/api/v2/data/llms/models, evaluations.livecodebench). AA uses LiveCodeBench code-generation pass@1; per-model release_date is given in each result's note field. Per-model paper numbers (Jain et al., arXiv:2403.07974) were not merged because the paper reports them in figures rather than text tables."
+    },
+    {
+      "date": "2024-11",
+      "source_type": "leaderboard",
+      "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
+      "results": [
+        {
+          "model": "QwQ 32B-Preview",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-11-27; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.337,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-4o (Nov '24)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-11-20; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.309,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen2.5 Coder Instruct 32B",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-11-11; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.295,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Mistral Large 2 (Nov '24)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-11-18; creator: Mistral",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.293,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Pixtral Large",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-11-18; creator: Mistral",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.261,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen2.5 Turbo",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-11-18; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.163,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Models released in 2024-11. pass@1 scores from Artificial Analysis API snapshot (https://artificialanalysis.ai/api/v2/data/llms/models, evaluations.livecodebench). AA uses LiveCodeBench code-generation pass@1; per-model release_date is given in each result's note field. Per-model paper numbers (Jain et al., arXiv:2403.07974) were not merged because the paper reports them in figures rather than text tables."
+    },
+    {
+      "date": "2024-12",
+      "source_type": "leaderboard",
+      "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
+      "results": [
+        {
+          "model": "o1",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-12-05; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.679,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek V3 (Dec '24)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-12-26; creator: DeepSeek",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.359,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Llama 3.3 Instruct 70B",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-12-06; creator: Meta",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.288,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Grok 2 (Dec '24)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-12-12; creator: xAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.267,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Nova Pro",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-12-03; creator: Amazon",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.233,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Phi-4",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-12-12; creator: Microsoft",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.231,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 2.0 Flash (experimental)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-12-11; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.21,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Nova Lite",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-12-03; creator: Amazon",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.167,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Nova Micro",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2024-12-03; creator: Amazon",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.14,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Models released in 2024-12. pass@1 scores from Artificial Analysis API snapshot (https://artificialanalysis.ai/api/v2/data/llms/models, evaluations.livecodebench). AA uses LiveCodeBench code-generation pass@1; per-model release_date is given in each result's note field. Per-model paper numbers (Jain et al., arXiv:2403.07974) were not merged because the paper reports them in figures rather than text tables."
+    },
+    {
+      "date": "2025-01",
+      "source_type": "leaderboard",
+      "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
+      "results": [
+        {
+          "model": "o3-mini",
+          "effort": "high",
+          "system_description": null,
+          "note": "release_date: 2025-01-31; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.734,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "o3-mini",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-01-31; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.717,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek R1 (Jan '25)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-01-20; creator: DeepSeek",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.617,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek R1 Distill Qwen 14B",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-01-20; creator: DeepSeek",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.376,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen2.5 Max",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-01-28; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.359,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 2.0 Flash Thinking Experimental (Jan '25)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-01-21; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.321,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Sonar",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-01-21; creator: Perplexity",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.295,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Llama 3.1 Tulu3 405B",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-01-30; creator: Allen Institute for AI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.291,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Sonar Pro",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-01-21; creator: Perplexity",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.275,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek R1 Distill Qwen 32B",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-01-20; creator: DeepSeek",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.27,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek R1 Distill Llama 70B",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-01-20; creator: DeepSeek",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.266,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Mistral Small 3",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-01-30; creator: Mistral",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.252,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek R1 Distill Llama 8B",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-01-20; creator: DeepSeek",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.233,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Models released in 2025-01. pass@1 scores from Artificial Analysis API snapshot (https://artificialanalysis.ai/api/v2/data/llms/models, evaluations.livecodebench). AA uses LiveCodeBench code-generation pass@1; per-model release_date is given in each result's note field. Per-model paper numbers (Jain et al., arXiv:2403.07974) were not merged because the paper reports them in figures rather than text tables."
+    },
+    {
+      "date": "2025-02",
+      "source_type": "leaderboard",
+      "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
+      "results": [
+        {
+          "model": "Grok 3 mini Reasoning",
+          "effort": "high",
+          "system_description": null,
+          "note": "release_date: 2025-02-19; creator: xAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.696,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude 3.7 Sonnet",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-02-24; creator: Anthropic",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.473,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Grok 3",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-02-19; creator: xAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.425,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude 3.7 Sonnet",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-02-24; creator: Anthropic",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.394,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 2.0 Pro Experimental (Feb '25)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-02-05; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.347,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 2.0 Flash (Feb '25)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-02-05; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.334,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 2.0 Flash-Lite (Feb '25)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-02-25; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.185,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 2.0 Flash-Lite (Preview)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-02-05; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.179,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Phi-4 Multimodal Instruct",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-02-26; creator: Microsoft",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.131,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Models released in 2025-02. pass@1 scores from Artificial Analysis API snapshot (https://artificialanalysis.ai/api/v2/data/llms/models, evaluations.livecodebench). AA uses LiveCodeBench code-generation pass@1; per-model release_date is given in each result's note field. Per-model paper numbers (Jain et al., arXiv:2403.07974) were not merged because the paper reports them in figures rather than text tables."
+    },
+    {
+      "date": "2025-03",
+      "source_type": "leaderboard",
+      "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
+      "results": [
+        {
+          "model": "Gemini 2.5 Pro Preview (Mar' 25)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-03-25; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.778,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "QwQ 32B",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-03-05; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.631,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Reka Flash 3",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-03-10; creator: Reka AI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.435,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-4o (March 2025, chatgpt-4o-latest)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-03-27; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.425,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek V3 0324",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-03-25; creator: DeepSeek",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.405,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Command A",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-03-13; creator: Cohere",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.287,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Llama 3.3 Nemotron Super 49B v1",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-03-18; creator: NVIDIA",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.28,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Llama 3.3 Nemotron Super 49B v1",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-03-18; creator: NVIDIA",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.277,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Mistral Small 3.1",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-03-17; creator: Mistral",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.212,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepHermes 3 - Mistral 24B Preview",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-03-13; creator: Nous Research",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.195,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Jamba 1.6 Large",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-03-06; creator: AI21 Labs",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.172,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemma 3 27B Instruct",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-03-12; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.137,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemma 3 12B Instruct",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-03-12; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.137,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemma 3 4B Instruct",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-03-12; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.112,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Models released in 2025-03. pass@1 scores from Artificial Analysis API snapshot (https://artificialanalysis.ai/api/v2/data/llms/models, evaluations.livecodebench). AA uses LiveCodeBench code-generation pass@1; per-model release_date is given in each result's note field. Per-model paper numbers (Jain et al., arXiv:2403.07974) were not merged because the paper reports them in figures rather than text tables."
+    },
+    {
+      "date": "2025-04",
+      "source_type": "leaderboard",
+      "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
+      "results": [
+        {
+          "model": "o4-mini",
+          "effort": "high",
+          "system_description": null,
+          "note": "release_date: 2025-04-16; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.859,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "o3",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-04-16; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.808,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Llama 3.1 Nemotron Ultra 253B v1",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-04-07; creator: NVIDIA",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.641,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 235B A22B",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-04-28; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.622,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 32B",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-04-28; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.546,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 14B",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-04-28; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.523,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 30B A3B",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-04-28; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.506,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 2.5 Flash Preview",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-04-17; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.505,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-4.1 mini",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-04-14; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.483,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 4B",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-04-28; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.465,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-4.1",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-04-14; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.457,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 2.5 Flash Preview",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-04-17; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.406,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 8B",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-04-28; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.406,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Llama 4 Maverick",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-04-05; creator: Meta",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.397,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 235B A22B",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-04-28; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.343,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-4.1 nano",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-04-14; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.326,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 30B A3B",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-04-28; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.322,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Nova Premier",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-04-30; creator: Amazon",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.317,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 1.7B",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-04-28; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.308,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Llama 4 Scout",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-04-05; creator: Meta",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.299,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 32B",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-04-28; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.288,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 14B",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-04-28; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.28,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 4B",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-04-28; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.233,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 8B",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-04-28; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.202,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Granite 3.3 8B",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-04-16; creator: IBM",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.127,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 1.7B",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-04-28; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.126,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 0.6B",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-04-28; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.121,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Models released in 2025-04. pass@1 scores from Artificial Analysis API snapshot (https://artificialanalysis.ai/api/v2/data/llms/models, evaluations.livecodebench). AA uses LiveCodeBench code-generation pass@1; per-model release_date is given in each result's note field. Per-model paper numbers (Jain et al., arXiv:2403.07974) were not merged because the paper reports them in figures rather than text tables."
+    },
+    {
+      "date": "2025-05",
+      "source_type": "leaderboard",
+      "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
+      "results": [
+        {
+          "model": "DeepSeek R1 0528 (May '25)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-05-28; creator: DeepSeek",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.77,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 2.5 Pro Preview (May' 25)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-05-06; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.77,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 2.5 Flash",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-05-20; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.695,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude 4 Sonnet",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-05-22; creator: Anthropic",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.655,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude 4 Opus",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-05-22; creator: Anthropic",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.636,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude 4 Opus",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-05-22; creator: Anthropic",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.542,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek R1 0528 Qwen3 8B",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-05-29; creator: DeepSeek",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.513,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 2.5 Flash",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-05-20; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.495,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Llama 3.1 Nemotron Nano 4B v1.1",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-05-20; creator: NVIDIA",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.493,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Solar Pro 2 (Preview)",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-05-20; creator: Upstage",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.462,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude 4 Sonnet",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-05-22; creator: Anthropic",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.449,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Mistral Medium 3",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-05-07; creator: Mistral",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.4,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Solar Pro 2 (Preview)",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-05-20; creator: Upstage",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.385,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Sarvam M",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-05-23; creator: Sarvam",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.295,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Devstral Small (May '25)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-05-21; creator: Mistral",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.258,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemma 3n E4B Instruct Preview (May '25)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-05-20; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.138,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Models released in 2025-05. pass@1 scores from Artificial Analysis API snapshot (https://artificialanalysis.ai/api/v2/data/llms/models, evaluations.livecodebench). AA uses LiveCodeBench code-generation pass@1; per-model release_date is given in each result's note field. Per-model paper numbers (Jain et al., arXiv:2403.07974) were not merged because the paper reports them in figures rather than text tables."
+    },
+    {
+      "date": "2025-06",
+      "source_type": "leaderboard",
+      "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
+      "results": [
+        {
+          "model": "Gemini 2.5 Pro",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-06-05; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.801,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "MiniMax M1 80k",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-06-17; creator: MiniMax",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.711,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "MiniMax M1 40k",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-06-17; creator: MiniMax",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.657,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 2.5 Flash-Lite",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-06-17; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.593,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Magistral Medium 1",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-06-10; creator: Mistral",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.527,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Magistral Small 1",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-06-10; creator: Mistral",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.514,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "ERNIE 4.5 300B A47B",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-06-30; creator: Baidu",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.467,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 2.5 Flash-Lite",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-06-17; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.4,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Mistral Small 3.2",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-06-20; creator: Mistral",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.275,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemma 3n E4B Instruct",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-06-26; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.146,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemma 3n E2B Instruct",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-06-26; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.095,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Models released in 2025-06. pass@1 scores from Artificial Analysis API snapshot (https://artificialanalysis.ai/api/v2/data/llms/models, evaluations.livecodebench). AA uses LiveCodeBench code-generation pass@1; per-model release_date is given in each result's note field. Per-model paper numbers (Jain et al., arXiv:2403.07974) were not merged because the paper reports them in figures rather than text tables."
+    },
+    {
+      "date": "2025-07",
+      "source_type": "leaderboard",
+      "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
+      "results": [
+        {
+          "model": "Grok 4",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-07-10; creator: xAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.819,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 235B A22B 2507",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-07-25; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.788,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "EXAONE 4.0 32B",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-07-15; creator: LG AI Research",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.747,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GLM-4.5",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-07-28; creator: Z AI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.738,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Llama Nemotron Super 49B v1.5",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-07-25; creator: NVIDIA",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.737,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 30B A3B 2507",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-07-30; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.707,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GLM-4.5-Air",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-07-28; creator: Z AI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.684,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Solar Pro 2",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-07-09; creator: Upstage",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.616,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 Coder 480B A35B Instruct",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-07-22; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.585,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Kimi K2",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-07-11; creator: Kimi",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.556,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 235B A22B 2507 Instruct",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-07-21; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.524,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Exaone 4.0 1.2B",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-07-15; creator: LG AI Research",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.516,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 30B A3B 2507 Instruct",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-07-29; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.515,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "EXAONE 4.0 32B",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-07-15; creator: LG AI Research",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.472,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Solar Pro 2",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-07-09; creator: Upstage",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.424,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 Coder 30B A3B Instruct",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-07-31; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.403,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Devstral Medium",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-07-10; creator: Mistral",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.337,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Exaone 4.0 1.2B",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-07-15; creator: LG AI Research",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.293,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Llama Nemotron Super 49B v1.5",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-07-25; creator: NVIDIA",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.29,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Devstral Small (Jul '25)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-07-10; creator: Mistral",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.254,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Jamba 1.7 Large",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-07-07; creator: AI21 Labs",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.181,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Models released in 2025-07. pass@1 scores from Artificial Analysis API snapshot (https://artificialanalysis.ai/api/v2/data/llms/models, evaluations.livecodebench). AA uses LiveCodeBench code-generation pass@1; per-model release_date is given in each result's note field. Per-model paper numbers (Jain et al., arXiv:2403.07974) were not merged because the paper reports them in figures rather than text tables."
+    },
+    {
+      "date": "2025-08",
+      "source_type": "leaderboard",
+      "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
+      "results": [
+        {
+          "model": "gpt-oss-120B",
+          "effort": "high",
+          "system_description": null,
+          "note": "release_date: 2025-08-05; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.878,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5",
+          "effort": "high",
+          "system_description": null,
+          "note": "release_date: 2025-08-07; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.846,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5 mini",
+          "effort": "high",
+          "system_description": null,
+          "note": "release_date: 2025-08-07; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.838,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5 nano",
+          "effort": "high",
+          "system_description": null,
+          "note": "release_date: 2025-08-07; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.789,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek V3.1",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-08-21; creator: DeepSeek",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.784,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "gpt-oss-20B",
+          "effort": "high",
+          "system_description": null,
+          "note": "release_date: 2025-08-05; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.777,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Seed-OSS-36B-Instruct",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-08-20; creator: ByteDance Seed",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.765,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5",
+          "effort": "low",
+          "system_description": null,
+          "note": "release_date: 2025-08-07; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.763,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5 nano",
+          "effort": "medium",
+          "system_description": null,
+          "note": "release_date: 2025-08-07; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.763,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "NVIDIA Nemotron Nano 9B V2",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-08-18; creator: NVIDIA",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.724,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "gpt-oss-120B",
+          "effort": "low",
+          "system_description": null,
+          "note": "release_date: 2025-08-05; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.707,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5",
+          "effort": "medium",
+          "system_description": null,
+          "note": "release_date: 2025-08-07; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.703,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "NVIDIA Nemotron Nano 9B V2",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-08-18; creator: NVIDIA",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.701,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5 mini",
+          "effort": "medium",
+          "system_description": null,
+          "note": "release_date: 2025-08-07; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.692,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Hermes 4 - Llama-3.1 405B",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-08-27; creator: Nous Research",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.686,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Grok Code Fast 1",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-08-28; creator: xAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.657,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude 4.1 Opus",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-08-05; creator: Anthropic",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.654,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Hermes 4 - Llama-3.1 70B",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-08-27; creator: Nous Research",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.653,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "gpt-oss-20B",
+          "effort": "low",
+          "system_description": null,
+          "note": "release_date: 2025-08-05; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.652,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 4B 2507",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-08-06; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.641,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GLM-4.5V",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-08-11; creator: Z AI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.604,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek V3.1",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-08-21; creator: DeepSeek",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.577,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5",
+          "effort": "minimal",
+          "system_description": null,
+          "note": "release_date: 2025-08-07; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.558,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Hermes 4 - Llama-3.1 405B",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-08-27; creator: Nous Research",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.546,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5 mini",
+          "effort": "minimal",
+          "system_description": null,
+          "note": "release_date: 2025-08-07; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.545,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5 (ChatGPT)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-08-07; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.543,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5 nano",
+          "effort": "minimal",
+          "system_description": null,
+          "note": "release_date: 2025-08-07; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.47,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Mistral Medium 3.1",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-08-12; creator: Mistral",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.406,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 4B 2507 Instruct",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-08-06; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.377,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GLM-4.5V",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-08-11; creator: Z AI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.352,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Hermes 4 - Llama-3.1 70B",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-08-27; creator: Nous Research",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.269,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Models released in 2025-08. pass@1 scores from Artificial Analysis API snapshot (https://artificialanalysis.ai/api/v2/data/llms/models, evaluations.livecodebench). AA uses LiveCodeBench code-generation pass@1; per-model release_date is given in each result's note field. Per-model paper numbers (Jain et al., arXiv:2403.07974) were not merged because the paper reports them in figures rather than text tables."
+    },
+    {
+      "date": "2025-09",
+      "source_type": "leaderboard",
+      "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
+      "results": [
+        {
+          "model": "GPT-5 Codex",
+          "effort": "high",
+          "system_description": null,
+          "note": "release_date: 2025-09-23; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.84,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Grok 4 Fast",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-09-19; creator: xAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.832,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek V3.1 Terminus",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-09-22; creator: DeepSeek",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.798,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek V3.2 Exp",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-09-29; creator: DeepSeek",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.789,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 Next 80B A3B",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-09-11; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.784,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 Max",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-09-23; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.767,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Magistral Medium 1.2",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-09-18; creator: Mistral",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.75,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Apriel-v1.5-15B-Thinker",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-09-30; creator: ServiceNow",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.728,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Magistral Small 1.2",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-09-17; creator: Mistral",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.723,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude 4.5 Sonnet",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-09-29; creator: Anthropic",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.714,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 2.5 Flash Preview (Sep '25)",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-09-25; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.713,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GLM-4.6",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-09-30; creator: Z AI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.695,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 2.5 Flash-Lite Preview (Sep '25)",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-09-08; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.688,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 Next 80B A3B Instruct",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-09-11; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.684,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 Omni 30B A3B",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-09-22; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.679,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 Max (Preview)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-09-05; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.651,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 VL 235B A22B",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-09-23; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.646,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 2.5 Flash-Lite Preview (Sep '25)",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-09-25; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.641,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Ring-flash-2.0",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-09-19; creator: InclusionAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.628,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 2.5 Flash Preview (Sep '25)",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-09-25; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.625,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Kimi K2 0905",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-09-05; creator: Kimi",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.61,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 VL 235B A22B Instruct",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-09-23; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.594,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude 4.5 Sonnet",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-09-29; creator: Anthropic",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.59,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Ling-flash-2.0",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-09-17; creator: InclusionAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.589,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GLM-4.6",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-09-30; creator: Z AI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.561,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek V3.2 Exp",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-09-29; creator: DeepSeek",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.554,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek V3.1 Terminus",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-09-22; creator: DeepSeek",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.529,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Ling-mini-2.0",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-09-09; creator: InclusionAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.429,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 Omni 30B A3B Instruct",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-09-22; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.422,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Grok 4 Fast",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-09-19; creator: xAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.401,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Granite 4.0 H Small",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-09-22; creator: IBM",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.251,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Granite 4.0 Micro",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-09-22; creator: IBM",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.18,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Models released in 2025-09. pass@1 scores from Artificial Analysis API snapshot (https://artificialanalysis.ai/api/v2/data/llms/models, evaluations.livecodebench). AA uses LiveCodeBench code-generation pass@1; per-model release_date is given in each result's note field. Per-model paper numbers (Jain et al., arXiv:2403.07974) were not merged because the paper reports them in figures rather than text tables."
+    },
+    {
+      "date": "2025-10",
+      "source_type": "leaderboard",
+      "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
+      "results": [
+        {
+          "model": "MiniMax-M2",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-10-26; creator: MiniMax",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.826,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 VL 32B",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-10-21; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.738,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Nova 2.0 Lite",
+          "effort": "high",
+          "system_description": null,
+          "note": "release_date: 2025-10-29; creator: Amazon",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.711,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 VL 30B A3B",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-10-03; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.697,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "NVIDIA Nemotron Nano 12B v2 VL",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-10-28; creator: NVIDIA",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.694,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Ling-1T",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-10-08; creator: InclusionAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.677,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Nova 2.0 Lite",
+          "effort": "medium",
+          "system_description": null,
+          "note": "release_date: 2025-10-29; creator: Amazon",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.663,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Ring-1T",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-10-13; creator: InclusionAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.643,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude 4.5 Haiku",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-10-15; creator: Anthropic",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.615,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 VL 32B Instruct",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-10-21; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.514,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude 4.5 Haiku",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-10-15; creator: Anthropic",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.511,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 VL 30B A3B Instruct",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-10-03; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.476,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Nova 2.0 Lite",
+          "effort": "low",
+          "system_description": null,
+          "note": "release_date: 2025-10-29; creator: Amazon",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.469,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Kimi Linear 48B A3B Instruct",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-10-30; creator: Kimi",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.378,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 VL 8B",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-10-14; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.353,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Nova 2.0 Lite",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-10-29; creator: Amazon",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.346,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "NVIDIA Nemotron Nano 12B v2 VL",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-10-28; creator: NVIDIA",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.345,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 VL 8B Instruct",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-10-14; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.332,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 VL 4B",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-10-14; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.32,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 VL 4B Instruct",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-10-14; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.29,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Jamba Reasoning 3B",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-10-08; creator: AI21 Labs",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.21,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "LFM2 8B A1B",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-10-07; creator: Liquid AI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.151,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Granite 4.0 H 1B",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-10-28; creator: IBM",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.115,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Models released in 2025-10. pass@1 scores from Artificial Analysis API snapshot (https://artificialanalysis.ai/api/v2/data/llms/models, evaluations.livecodebench). AA uses LiveCodeBench code-generation pass@1; per-model release_date is given in each result's note field. Per-model paper numbers (Jain et al., arXiv:2403.07974) were not merged because the paper reports them in figures rather than text tables."
+    },
+    {
+      "date": "2025-11",
+      "source_type": "leaderboard",
+      "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
+      "results": [
+        {
+          "model": "Gemini 3 Pro Preview",
+          "effort": "high",
+          "system_description": null,
+          "note": "release_date: 2025-11-18; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.917,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude Opus 4.5",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-11-24; creator: Anthropic",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.871,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5.1",
+          "effort": "high",
+          "system_description": null,
+          "note": "release_date: 2025-11-13; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.868,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 3 Pro Preview",
+          "effort": "low",
+          "system_description": null,
+          "note": "release_date: 2025-11-18; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.857,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Kimi K2 Thinking",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-11-06; creator: Kimi",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.853,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5.1 Codex",
+          "effort": "high",
+          "system_description": null,
+          "note": "release_date: 2025-11-13; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.849,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5.1 Codex mini",
+          "effort": "high",
+          "system_description": null,
+          "note": "release_date: 2025-11-13; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.836,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Grok 4.1 Fast",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-11-19; creator: xAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.822,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "ERNIE 5.0 Thinking Preview",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-11-13; creator: Baidu",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.812,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Apriel-v1.6-15B-Thinker",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-11-25; creator: ServiceNow",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.807,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "INTELLECT-3",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-11-27; creator: Prime Intellect",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.777,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Doubao Seed Code",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-11-11; creator: ByteDance Seed",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.766,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "KAT-Coder-Pro V1",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-11-11; creator: KwaiKAT",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.747,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude Opus 4.5",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-11-24; creator: Anthropic",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.738,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Nova 2.0 Pro Preview",
+          "effort": "medium",
+          "system_description": null,
+          "note": "release_date: 2025-11-27; creator: Amazon",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.73,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Cogito v2.1",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-11-18; creator: Deep Cogito",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.688,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Olmo 3 32B Think",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-11-20; creator: Allen Institute for AI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.672,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Nova 2.0 Omni",
+          "effort": "medium",
+          "system_description": null,
+          "note": "release_date: 2025-11-26; creator: Amazon",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.66,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Nova 2.0 Pro Preview",
+          "effort": "low",
+          "system_description": null,
+          "note": "release_date: 2025-11-27; creator: Amazon",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.638,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Olmo 3 7B Think",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-11-20; creator: Allen Institute for AI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.617,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Nova 2.0 Omni",
+          "effort": "low",
+          "system_description": null,
+          "note": "release_date: 2025-11-26; creator: Amazon",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.592,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Qwen3 Max Thinking (Preview)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-11-03; creator: Alibaba",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.535,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5.1",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-11-13; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.494,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Nova 2.0 Pro Preview",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-11-27; creator: Amazon",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.473,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Grok 4.1 Fast",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-11-19; creator: xAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.399,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Nova 2.0 Omni",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-11-26; creator: Amazon",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.305,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Olmo 3 7B Instruct",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-11-20; creator: Allen Institute for AI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.266,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Models released in 2025-11. pass@1 scores from Artificial Analysis API snapshot (https://artificialanalysis.ai/api/v2/data/llms/models, evaluations.livecodebench). AA uses LiveCodeBench code-generation pass@1; per-model release_date is given in each result's note field. Per-model paper numbers (Jain et al., arXiv:2403.07974) were not merged because the paper reports them in figures rather than text tables."
+    },
+    {
+      "date": "2025-12",
+      "source_type": "leaderboard",
+      "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
+      "results": [
+        {
+          "model": "Gemini 3 Flash Preview",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-12-17; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.908,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek V3.2 Speciale",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-12-01; creator: DeepSeek",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.896,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5.2",
+          "effort": "medium",
+          "system_description": null,
+          "note": "release_date: 2025-12-11; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.894,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GLM-4.7",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-12-22; creator: Z AI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.894,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5.2",
+          "effort": "xhigh",
+          "system_description": null,
+          "note": "release_date: 2025-12-11; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.889,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "MiMo-V2-Flash",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-12-16; creator: Xiaomi",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.868,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek V3.2",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-12-01; creator: DeepSeek",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.862,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "MiniMax-M2.1",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-12-23; creator: MiniMax",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.81,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Gemini 3 Flash Preview",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-12-17; creator: Google",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.797,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "K-EXAONE",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-12-31; creator: LG AI Research",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.768,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "NVIDIA Nemotron 3 Nano 30B A3B",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-12-15; creator: NVIDIA",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.741,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Olmo 3.1 32B Think",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-12-12; creator: Allen Institute for AI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.695,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "K2-V2",
+          "effort": "high",
+          "system_description": null,
+          "note": "release_date: 2025-12-05; creator: MBZUAI Institute of Foundation Models",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.694,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-5.2",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-12-11; creator: OpenAI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.669,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Mi:dm K 2.5 Pro",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-12-11; creator: Korea Telecom",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.656,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Motif-2-12.7B-Reasoning",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-12-04; creator: Motif Technologies",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.651,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "HyperCLOVA X SEED Think (32B)",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-12-26; creator: Naver",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.629,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "DeepSeek V3.2",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-12-01; creator: DeepSeek",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.593,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Mi:dm K 2.5 Pro Preview",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-12-11; creator: Korea Telecom",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.576,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GLM-4.7",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-12-22; creator: Z AI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.562,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "K2-V2",
+          "effort": "medium",
+          "system_description": null,
+          "note": "release_date: 2025-12-05; creator: MBZUAI Institute of Foundation Models",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.541,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Mistral Large 3",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-12-02; creator: Mistral",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.465,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Devstral 2",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-12-09; creator: Mistral",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.448,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GLM-4.6V",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-12-08; creator: Z AI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.411,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "MiMo-V2-Flash",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-12-16; creator: Xiaomi",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.402,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "K2-V2",
+          "effort": "low",
+          "system_description": null,
+          "note": "release_date: 2025-12-05; creator: MBZUAI Institute of Foundation Models",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.393,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "NVIDIA Nemotron 3 Nano 30B A3B",
+          "effort": "non-reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-12-15; creator: NVIDIA",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.36,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Ministral 3 14B",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-12-02; creator: Mistral",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.351,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Devstral Small 2",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-12-09; creator: Mistral",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.348,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Ministral 3 8B",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-12-02; creator: Mistral",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.303,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Ministral 3 3B",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2025-12-02; creator: Mistral",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.247,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GLM-4.6V",
+          "effort": "reasoning",
+          "system_description": null,
+          "note": "release_date: 2025-12-08; creator: Z AI",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.16,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Models released in 2025-12. pass@1 scores from Artificial Analysis API snapshot (https://artificialanalysis.ai/api/v2/data/llms/models, evaluations.livecodebench). AA uses LiveCodeBench code-generation pass@1; per-model release_date is given in each result's note field. Per-model paper numbers (Jain et al., arXiv:2403.07974) were not merged because the paper reports them in figures rather than text tables."
+    },
+    {
+      "date": "2026-01",
+      "source_type": "leaderboard",
+      "source_url": "https://artificialanalysis.ai/evaluations/livecodebench",
+      "results": [
+        {
+          "model": "Falcon-H1R-7B",
+          "effort": null,
+          "system_description": null,
+          "note": "release_date: 2026-01-04; creator: TII UAE",
+          "scores": [
+            {
+              "metric": "pass@1 (AA)",
+              "value": 0.724,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "Models released in 2026-01. pass@1 scores from Artificial Analysis API snapshot (https://artificialanalysis.ai/api/v2/data/llms/models, evaluations.livecodebench). AA uses LiveCodeBench code-generation pass@1; per-model release_date is given in each result's note field. Per-model paper numbers (Jain et al., arXiv:2403.07974) were not merged because the paper reports them in figures rather than text tables."
+    }
+  ],
+  "notes": "LiveCodeBench (Jain et al., arXiv:2403.07974) is a contamination-free coding benchmark that continuously harvests new problems from LeetCode, AtCoder, and CodeForces, tagged with release date so models can be evaluated only on problems released after their training cutoff. The benchmark is live: paper Table 1 reports 511 problems in the May'23-end snapshot; the dataset has grown since (HuggingFace livecodebench/code_generation_lite exceeds 60K entries in lite form). num_tasks is set to 511 to match the paper's primary snapshot but should be considered approximate. Per-result scores come from Artificial Analysis (pass@1, code-generation scenario); the LiveCodeBench paper itself reports per-model numbers in figures rather than text tables, so paper-source rows are not included. evaluation.harbor_aligned_metric is left null per template guidance, to be filled after Harbor parity experiments finish."
+}

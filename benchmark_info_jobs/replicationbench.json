@@ -1,0 +1,66 @@
+{
+  "name": "ReplicationBench",
+  "category": "Science & Research",
+  "used_llm_or_agent": "agent",
+  "links": {
+    "website": null,
+    "leaderboard": null,
+    "paper": "https://arxiv.org/abs/2510.24591",
+    "github": "https://github.com/Christine8888/replicationbench-release",
+    "dataset": "https://huggingface.co/datasets/ChristineYe8/ReplicationBench"
+  },
+  "meta": {
+    "release_date": "2025-10",
+    "num_tasks": 111
+  },
+  "evaluation": {
+    "primary_metric": "unweighted score",
+    "harbor_aligned_metric": null
+  },
+  "results_over_time": [
+    {
+      "date": "2025-10",
+      "source_type": "paper",
+      "source_url": "https://arxiv.org/abs/2510.24591",
+      "results": [
+        {
+          "model": "Claude Sonnet 4.5",
+          "system_description": "tool-use scaffold",
+          "score": 0.22
+        },
+        {
+          "model": "Claude Sonnet 4",
+          "system_description": "tool-use scaffold",
+          "score": 0.19
+        },
+        {
+          "model": "Claude Sonnet 3.7",
+          "system_description": "tool-use scaffold",
+          "score": 0.19
+        },
+        {
+          "model": "GPT-5",
+          "system_description": "tool-use scaffold",
+          "score": 0.18
+        },
+        {
+          "model": "o3",
+          "system_description": "tool-use scaffold",
+          "score": 0.16
+        },
+        {
+          "model": "Gemini 2.5",
+          "system_description": "tool-use scaffold",
+          "score": 0.15
+        },
+        {
+          "model": "o4-mini",
+          "system_description": "tool-use scaffold",
+          "score": 0.14
+        }
+      ],
+      "note": "Paper Table 2, unweighted score averaged over 6 runs. Paper scaffold is a simple code-sandbox tool-use loop (Python execution, file read/write, submit()) — not named, so system_description reports the generic descriptor. Best-of-N scores in the same table rise to 0.22–0.39. Paper also reports ReplicationBench-Plus (58 extra LLM-generated tasks on 11 additional papers)."
+    }
+  ],
+  "notes": "20 reproducible, self-contained astrophysics papers decomposed into 111 research-level tasks. Each task rated on a 1–9 log-scale difficulty (minutes → weeks of human-expert effort). Task types: data loading/processing, summary statistics, model fitting, Bayesian inference, physical simulations, ML applications. Leaderboard search on 2026-04-20: no public leaderboard found (paper, GitHub README, and HuggingFace dataset page all checked) — `links.leaderboard` left null and no post-paper results added to results_over_time."
+}

@@ -1,0 +1,3 @@
+effect,mean_across_benchmarks,median_across_benchmarks,p25_across_benchmarks,p75_across_benchmarks,n_benchmarks
+model,1.019774,0.891527,0.705213,1.126465,58
+agent,0.819715,0.588148,0.384048,0.792952,58

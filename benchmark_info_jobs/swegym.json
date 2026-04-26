@@ -1,0 +1,22 @@
+{
+  "name": "SWE-Gym",
+  "category": "Repo-level Software Engineering",
+  "used_llm_or_agent": "agent",
+  "links": {
+    "website": null,
+    "leaderboard": null,
+    "paper": null,
+    "github": "https://github.com/SWE-Gym/SWE-Gym",
+    "dataset": "https://huggingface.co/datasets/SWE-Gym/SWE-Gym"
+  },
+  "meta": {
+    "release_date": "",
+    "num_tasks": null
+  },
+  "evaluation": {
+    "primary_metric": "",
+    "harbor_aligned_metric": null
+  },
+  "results_over_time": [],
+  "notes": "Placeholder entry. Harbor adapter/parity documents SWE-Gym Lite with 230 tasks and full SWE-Gym with 2438 tasks, but the current Harbor analysis matrix contains only 3 swegym tasks. No external metric is selected until the source split/subset and corresponding results are confirmed."
+}
