@@ -360,21 +360,38 @@
     {
       "date": "2026-04",
       "source_type": "leaderboard",
-      "source_url": "https://swtbench.com/?results=verified",
+      "source_url": "https://swtbench.com",
       "results": [
         {
           "model": "Devstral 2",
           "effort": null,
-          "system_description": "DevstralTestGen (Mistral AI)",
+          "system_description": "DevstralTestGen",
           "scores": [
             {
-              "metric": "Success Rate (S) — Script",
+              "metric": "Success Rate (S) — Lite Script",
               "value": 0.891,
               "unit": null
             },
             {
-              "metric": "Change Coverage (ΔC) — Script",
+              "metric": "Change Coverage (ΔC) — Lite Script",
               "value": 0.576,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Bytedance (SE Lab)",
+          "effort": null,
+          "system_description": "AEGIS",
+          "scores": [
+            {
+              "metric": "Success Rate (S) — Lite Script",
+              "value": 0.478,
+              "unit": null
+            },
+            {
+              "metric": "Change Coverage (ΔC) — Lite Script",
+              "value": 0.26,
               "unit": null
             }
           ]
@@ -382,60 +399,33 @@
         {
           "model": "Claude 3.7 Sonnet",
           "effort": null,
-          "system_description": "e-Otter++ (IBM)",
+          "system_description": "e-Otter++",
           "scores": [
             {
-              "metric": "Success Rate (S) — Script",
+              "metric": "Success Rate (S) — Lite Script",
               "value": 0.525,
               "unit": null
             },
             {
-              "metric": "Change Coverage (ΔC) — Script",
+              "metric": "Change Coverage (ΔC) — Lite Script",
               "value": 0.564,
               "unit": null
             }
           ]
         },
         {
-          "model": "N/A",
+          "model": "v20250405-dev",
           "effort": null,
-          "system_description": "AEGIS (Bytedance SE Lab)",
+          "system_description": "Amazon Q Developer Agent",
           "scores": [
             {
-              "metric": "Success Rate (S) — Script",
-              "value": 0.478,
-              "unit": null
-            },
-            {
-              "metric": "Change Coverage (ΔC) — Script",
-              "value": 0.26,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "N/A",
-          "effort": null,
-          "system_description": "Amazon Q Developer Agent v20250405-dev (AWS)",
-          "scores": [
-            {
-              "metric": "Success Rate (S) — Script",
+              "metric": "Success Rate (S) — Lite Script",
               "value": 0.399,
               "unit": null
             },
             {
-              "metric": "Change Coverage (ΔC) — Script",
+              "metric": "Change Coverage (ΔC) — Lite Script",
               "value": 0.527,
-              "unit": null
-            },
-            {
-              "metric": "Success Rate (S) — Unit Test",
-              "value": 0.51,
-              "unit": null
-            },
-            {
-              "metric": "Change Coverage (ΔC) — Unit Test",
-              "value": 0.574,
               "unit": null
             }
           ]
@@ -443,93 +433,295 @@
         {
           "model": "GPT-4o",
           "effort": null,
-          "system_description": "AssertFlip (U. of Waterloo)",
+          "system_description": "AssertFlip",
           "scores": [
             {
-              "metric": "Success Rate (S) — Script",
+              "metric": "Success Rate (S) — Lite Script",
               "value": 0.38,
               "unit": null
             },
             {
-              "metric": "Change Coverage (ΔC) — Script",
+              "metric": "Change Coverage (ΔC) — Lite Script",
               "value": 0.442,
-              "unit": null
-            },
-            {
-              "metric": "Success Rate (S) — Unit Test",
-              "value": 0.455,
-              "unit": null
-            },
-            {
-              "metric": "Change Coverage (ΔC) — Unit Test",
-              "value": 0.474,
               "unit": null
             }
           ]
         },
         {
-          "model": "Claude 3.5 Sonnet",
+          "model": "Cl. Sonnet 3.5, CI setup",
           "effort": null,
-          "system_description": "OpenHands, CI setup (All Hands AI)",
+          "system_description": "OpenHands",
           "scores": [
             {
-              "metric": "Success Rate (S) — Script",
+              "metric": "Success Rate (S) — Lite Script",
               "value": 0.283,
               "unit": null
             },
             {
-              "metric": "Change Coverage (ΔC) — Script",
+              "metric": "Change Coverage (ΔC) — Lite Script",
               "value": 0.524,
               "unit": null
             }
           ]
         },
         {
-          "model": "Claude 3.5 Sonnet",
+          "model": "Cl. Sonnet 3.5, vanilla",
           "effort": null,
-          "system_description": "OpenHands, vanilla (All Hands AI)",
+          "system_description": "OpenHands",
           "scores": [
             {
-              "metric": "Success Rate (S) — Script",
+              "metric": "Success Rate (S) — Lite Script",
               "value": 0.228,
               "unit": null
             },
             {
-              "metric": "Change Coverage (ΔC) — Script",
+              "metric": "Change Coverage (ΔC) — Lite Script",
               "value": 0.436,
               "unit": null
             }
           ]
         },
         {
-          "model": "Claude 4 Sonnet",
+          "model": "GPT-4",
           "effort": null,
-          "system_description": "TEX-T (Salesforce)",
+          "system_description": "SWE-Agent+",
           "scores": [
             {
-              "metric": "Success Rate (S) — Unit Test",
+              "metric": "Success Rate (S) — Lite Script",
+              "value": 0.185,
+              "unit": null
+            },
+            {
+              "metric": "Change Coverage (ΔC) — Lite Script",
+              "value": 0.276,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Mistral Large 2",
+          "effort": null,
+          "system_description": "SWE-Agent",
+          "scores": [
+            {
+              "metric": "Success Rate (S) — Lite Script",
+              "value": 0.163,
+              "unit": null
+            },
+            {
+              "metric": "Change Coverage (ΔC) — Lite Script",
+              "value": 0.23,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-4",
+          "effort": null,
+          "system_description": "SWE-Agent",
+          "scores": [
+            {
+              "metric": "Success Rate (S) — Lite Script",
+              "value": 0.159,
+              "unit": null
+            },
+            {
+              "metric": "Change Coverage (ΔC) — Lite Script",
+              "value": 0.265,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-4",
+          "effort": null,
+          "system_description": "LIBRO",
+          "scores": [
+            {
+              "metric": "Success Rate (S) — Lite Script",
+              "value": 0.141,
+              "unit": null
+            },
+            {
+              "metric": "Change Coverage (ΔC) — Lite Script",
+              "value": 0.238,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-4",
+          "effort": null,
+          "system_description": "Aider",
+          "scores": [
+            {
+              "metric": "Success Rate (S) — Lite Script",
+              "value": 0.127,
+              "unit": null
+            },
+            {
+              "metric": "Change Coverage (ΔC) — Lite Script",
+              "value": 0.278,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Cl. 3.5 Sonnet",
+          "effort": null,
+          "system_description": "SWE-Agent",
+          "scores": [
+            {
+              "metric": "Success Rate (S) — Lite Script",
+              "value": 0.123,
+              "unit": null
+            },
+            {
+              "metric": "Change Coverage (ΔC) — Lite Script",
+              "value": 0.303,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-4o mini",
+          "effort": null,
+          "system_description": "SWE-Agent",
+          "scores": [
+            {
+              "metric": "Success Rate (S) — Lite Script",
+              "value": 0.098,
+              "unit": null
+            },
+            {
+              "metric": "Change Coverage (ΔC) — Lite Script",
+              "value": 0.209,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-4 + BM25",
+          "effort": null,
+          "system_description": "Zero-Shot Plus",
+          "scores": [
+            {
+              "metric": "Success Rate (S) — Lite Script",
+              "value": 0.094,
+              "unit": null
+            },
+            {
+              "metric": "Change Coverage (ΔC) — Lite Script",
+              "value": 0.215,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-4",
+          "effort": null,
+          "system_description": "AutoCodeRover",
+          "scores": [
+            {
+              "metric": "Success Rate (S) — Lite Script",
+              "value": 0.091,
+              "unit": null
+            },
+            {
+              "metric": "Change Coverage (ΔC) — Lite Script",
+              "value": 0.179,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-4 + BM25",
+          "effort": null,
+          "system_description": "Zero-Shot Base",
+          "scores": [
+            {
+              "metric": "Success Rate (S) — Lite Script",
+              "value": 0.036,
+              "unit": null
+            },
+            {
+              "metric": "Change Coverage (ΔC) — Lite Script",
+              "value": 0.076,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Claude 3 Haiku",
+          "effort": null,
+          "system_description": "SWE-Agent",
+          "scores": [
+            {
+              "metric": "Success Rate (S) — Lite Script",
+              "value": 0.025,
+              "unit": null
+            },
+            {
+              "metric": "Change Coverage (ΔC) — Lite Script",
+              "value": 0.03,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "Mixtral 8x22B",
+          "effort": null,
+          "system_description": "SWE-Agent",
+          "scores": [
+            {
+              "metric": "Success Rate (S) — Lite Script",
+              "value": 0.007,
+              "unit": null
+            },
+            {
+              "metric": "Change Coverage (ΔC) — Lite Script",
+              "value": 0.009,
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "note": "SWT-Bench Lite — Script Mode (Reproduction Scripts) leaderboard snapshot as of 2026-04-25 — 19 entries in exact page order (the page does not strictly sort by S; e.g. AEGIS 47.8 listed above e-Otter++ 52.5)."
+    },
+    {
+      "date": "2026-04",
+      "source_type": "leaderboard",
+      "source_url": "https://swtbench.com",
+      "results": [
+        {
+          "model": "Claude 4 Sonnet",
+          "effort": null,
+          "system_description": "TEX-T",
+          "scores": [
+            {
+              "metric": "Success Rate (S) — Verified Unit Test",
               "value": 0.87,
               "unit": null
             },
             {
-              "metric": "Change Coverage (ΔC) — Unit Test",
+              "metric": "Change Coverage (ΔC) — Verified Unit Test",
               "value": 0.698,
               "unit": null
             }
           ]
         },
         {
-          "model": "N/A",
+          "model": "L*Agent v1",
           "effort": null,
-          "system_description": "LogicStar AI L*Agent v1 (LogicStar)",
+          "system_description": "LogicStar AI",
           "scores": [
             {
-              "metric": "Success Rate (S) — Unit Test",
+              "metric": "Success Rate (S) — Verified Unit Test",
               "value": 0.84,
               "unit": null
             },
             {
-              "metric": "Change Coverage (ΔC) — Unit Test",
+              "metric": "Change Coverage (ΔC) — Verified Unit Test",
               "value": 0.677,
               "unit": null
             }
@@ -538,15 +730,15 @@
         {
           "model": "GPT-5",
           "effort": null,
-          "system_description": "OpenHands (All Hands AI)",
+          "system_description": "OpenHands",
           "scores": [
             {
-              "metric": "Success Rate (S) — Unit Test",
+              "metric": "Success Rate (S) — Verified Unit Test",
               "value": 0.798,
               "unit": null
             },
             {
-              "metric": "Change Coverage (ΔC) — Unit Test",
+              "metric": "Change Coverage (ΔC) — Verified Unit Test",
               "value": 0.663,
               "unit": null
             }
@@ -555,15 +747,15 @@
         {
           "model": "GPT-5-mini",
           "effort": null,
-          "system_description": "OpenHands (All Hands AI)",
+          "system_description": "OpenHands",
           "scores": [
             {
-              "metric": "Success Rate (S) — Unit Test",
+              "metric": "Success Rate (S) — Verified Unit Test",
               "value": 0.624,
               "unit": null
             },
             {
-              "metric": "Change Coverage (ΔC) — Unit Test",
+              "metric": "Change Coverage (ΔC) — Verified Unit Test",
               "value": 0.606,
               "unit": null
             }
@@ -572,16 +764,33 @@
         {
           "model": "Claude 3.7 Sonnet",
           "effort": null,
-          "system_description": "e-Otter++ (IBM)",
+          "system_description": "e-Otter++",
           "scores": [
             {
-              "metric": "Success Rate (S) — Unit Test",
+              "metric": "Success Rate (S) — Verified Unit Test",
               "value": 0.621,
               "unit": null
             },
             {
-              "metric": "Change Coverage (ΔC) — Unit Test",
+              "metric": "Change Coverage (ΔC) — Verified Unit Test",
               "value": 0.623,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "v20250405-dev",
+          "effort": null,
+          "system_description": "Amazon Q Developer Agent",
+          "scores": [
+            {
+              "metric": "Success Rate (S) — Verified Unit Test",
+              "value": 0.51,
+              "unit": null
+            },
+            {
+              "metric": "Change Coverage (ΔC) — Verified Unit Test",
+              "value": 0.574,
               "unit": null
             }
           ]
@@ -589,15 +798,32 @@
         {
           "model": "GPT-4o",
           "effort": null,
-          "system_description": "Otter++ (IBM)",
+          "system_description": "AssertFlip",
           "scores": [
             {
-              "metric": "Success Rate (S) — Unit Test",
+              "metric": "Success Rate (S) — Verified Unit Test",
+              "value": 0.455,
+              "unit": null
+            },
+            {
+              "metric": "Change Coverage (ΔC) — Verified Unit Test",
+              "value": 0.474,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "model": "GPT-4o",
+          "effort": null,
+          "system_description": "Otter++",
+          "scores": [
+            {
+              "metric": "Success Rate (S) — Verified Unit Test",
               "value": 0.374,
               "unit": null
             },
             {
-              "metric": "Change Coverage (ΔC) — Unit Test",
+              "metric": "Change Coverage (ΔC) — Verified Unit Test",
               "value": 0.428,
               "unit": null
             }
@@ -606,32 +832,32 @@
         {
           "model": "GPT-4o",
           "effort": null,
-          "system_description": "Otter (IBM)",
+          "system_description": "Otter",
           "scores": [
             {
-              "metric": "Success Rate (S) — Unit Test",
+              "metric": "Success Rate (S) — Verified Unit Test",
               "value": 0.316,
               "unit": null
             },
             {
-              "metric": "Change Coverage (ΔC) — Unit Test",
+              "metric": "Change Coverage (ΔC) — Verified Unit Test",
               "value": 0.376,
               "unit": null
             }
           ]
         },
         {
-          "model": "Claude 3.5 Sonnet",
+          "model": "Cl. Sonnet 3.5",
           "effort": null,
-          "system_description": "OpenHands (All Hands AI)",
+          "system_description": "OpenHands",
           "scores": [
             {
-              "metric": "Success Rate (S) — Unit Test",
+              "metric": "Success Rate (S) — Verified Unit Test",
               "value": 0.277,
               "unit": null
             },
             {
-              "metric": "Change Coverage (ΔC) — Unit Test",
+              "metric": "Change Coverage (ΔC) — Verified Unit Test",
               "value": 0.529,
               "unit": null
             }
@@ -640,39 +866,39 @@
         {
           "model": "GPT-4o",
           "effort": null,
-          "system_description": "LIBRO (KAIST)",
+          "system_description": "LIBRO",
           "scores": [
             {
-              "metric": "Success Rate (S) — Unit Test",
+              "metric": "Success Rate (S) — Verified Unit Test",
               "value": 0.178,
               "unit": null
             },
             {
-              "metric": "Change Coverage (ΔC) — Unit Test",
+              "metric": "Change Coverage (ΔC) — Verified Unit Test",
               "value": 0.38,
               "unit": null
             }
           ]
         },
         {
-          "model": "GPT-4o",
+          "model": "GPT-4o + BM25",
           "effort": null,
-          "system_description": "Zero-Shot Plus + BM25 (OpenAI)",
+          "system_description": "Zero-Shot Plus",
           "scores": [
             {
-              "metric": "Success Rate (S) — Unit Test",
+              "metric": "Success Rate (S) — Verified Unit Test",
               "value": 0.143,
               "unit": null
             },
             {
-              "metric": "Change Coverage (ΔC) — Unit Test",
+              "metric": "Change Coverage (ΔC) — Verified Unit Test",
               "value": 0.34,
               "unit": null
             }
           ]
         }
       ],
-      "note": "swtbench.com leaderboard snapshot as of 2026-04-22. The site reports Lite and Verified results with two modes: Script (standalone reproduction scripts) and Unit Test. Rows preserve the mode labels from the site. Modern Verified Unit Test results include TEX-T with Claude 4 Sonnet at 87.0%, LogicStar AI L*Agent v1 at 84.0%, OpenHands with GPT-5 at 79.8%, and OpenHands with GPT-5-mini at 62.4%. Paper baselines (2024-05-22) omitted from this entry as they appear in the paper results above."
+      "note": "SWT-Bench Verified — Unit Test Mode leaderboard snapshot as of 2026-04-25 — 12 entries in exact page order (descending by S). This is the Verified split (433 tasks), the same split the Harbor adapter targets."
     }
   ],
   "notes": "SWT-Bench is a test generation benchmark derived from SWE-Bench. The task: given a GitHub issue description and buggy codebase, generate tests that fail on the original code but pass after the developer's patch.\n\nThree dataset splits:\n- SWT-Bench Full: 1,983 instances (2,294 after filtering)\n- SWT-Bench Lite: 276 instances (subset used for paper experiments)\n- SWT-Bench Verified: 433 instances\n\nKey metrics:\n- **Success Rate (S)**: % instances where generated tests contain ≥1 fail-to-pass test and no tests incorrectly fail after patch\n- **Change Coverage (ΔC)**: portion of executable lines modified by golden patch that generated tests exercise\n- **Well-formedness (W)**: portion of instances with applicable patches\n- **F→P rate**: tests that fail before patch and pass after (issue reproduction)\n- **F→× rate**: tests that fail before patch (potentially reproducing)\n- **P→P rate**: valid but irrelevant tests\n\nKey findings from the paper:\n- Code repair agents (SWE-Agent) outperform test-generation-specific methods (LIBRO)\n- Novel fault-tolerant diff format boosts well-formedness from 48.6% to 89.5%\n- Generated tests double SWE-Agent precision from 23.9% to 47.8% when used as fix filter\n- Test generation and code repair show negligible correlation at instance level (p>70%)\n- The four best methods combined solve 87 instances vs 51 for best single method\n\nThe Harbor adapter covers the Verified split (433 tasks) with parity across 3 agents. Published at NeurIPS 2024.\n\nLeaderboard exists at swtbench.com — submissions accepted via email."

@@ -294,150 +294,126 @@
       "source_type": "leaderboard",
       "source_url": "https://spider2-sql.github.io/",
       "results": [
-        {
-          "model": "Genloop's Sentinel Agent v2 Pro",
-          "system_description": "Genloop's Sentinel Agent v2 Pro",
-          "scores": [
-            {
-              "metric": "EX (Spider 2.0-Snow)",
-              "value": 0.967,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "Native mini",
-          "system_description": "Native mini",
-          "scores": [
-            {
-              "metric": "EX (Spider 2.0-Snow)",
-              "value": 0.9653,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "Gemini-3-pro-preview",
-          "system_description": "QUVI-3",
-          "scores": [
-            {
-              "metric": "EX (Spider 2.0-Snow)",
-              "value": 0.9415,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "SOMA-SQL",
-          "system_description": "SOMA-SQL",
-          "scores": [
-            {
-              "metric": "EX (Spider 2.0-Lite)",
-              "value": 0.7202,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "Databao Agent",
-          "system_description": "Databao Agent",
-          "scores": [
-            {
-              "metric": "EX (Spider 2.0-Lite)",
-              "value": 0.6965,
-              "unit": null
-            },
-            {
-              "metric": "SR (Spider 2.0-DBT)",
-              "value": 0.4411,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "Claude-Opus-4.5",
-          "system_description": "QUVI-2.3",
-          "scores": [
-            {
-              "metric": "EX (Spider 2.0-Lite)",
-              "value": 0.6581,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "GPT-5",
-          "system_description": "Shadowfax-DBT-Agent",
-          "scores": [
-            {
-              "metric": "SR (Spider 2.0-DBT)",
-              "value": 0.4118,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "GPT-5",
-          "system_description": "Spider-Agent-Extended",
-          "scores": [
-            {
-              "metric": "SR (Spider 2.0-DBT)",
-              "value": 0.3971,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "o3",
-          "system_description": "ReFoRCE",
-          "scores": [
-            {
-              "metric": "EX (Spider 2.0-Snow)",
-              "value": 0.6289,
-              "unit": null
-            },
-            {
-              "metric": "EX (Spider 2.0-Lite)",
-              "value": 0.5521,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "Claude-Sonnet-4.5",
-          "system_description": "Prism Swarm with Deepthink",
-          "scores": [
-            {
-              "metric": "EX (Spider 2.0-Snow)",
-              "value": 0.9049,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "Claude-Sonnet-4.5",
-          "system_description": "Spider-Agent",
-          "scores": [
-            {
-              "metric": "EX (Spider 2.0-Lite)",
-              "value": 0.4186,
-              "unit": null
-            }
-          ]
-        },
-        {
-          "model": "Claude-Sonnet-4.5",
-          "system_description": "Chicory AI Agent",
-          "scores": [
-            {
-              "metric": "SR (Spider 2.0-DBT)",
-              "value": 0.3529,
-              "unit": null
-            }
-          ]
-        }
+        { "model": "Genloop's Sentinel Agent v2 Pro", "system_description": "Genloop's Sentinel Agent v2 Pro", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.967, "unit": null }] },
+        { "model": "Native mini", "system_description": "Native mini", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.9653, "unit": null }] },
+        { "model": "Gemini-3-pro-preview", "system_description": "QUVI-3", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.9415, "unit": null }] },
+        { "model": "TCDataAgent-SQL with Contextual Scaling Engine", "system_description": "TCDataAgent-SQL with Contextual Scaling Engine", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.9397, "unit": null }] },
+        { "model": "Claude-Sonnet-4.5", "system_description": "Prism Swarm with Deepthink", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.9049, "unit": null }] },
+        { "model": "Genloop's Sentinel Agent v2", "system_description": "Genloop's Sentinel Agent v2", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.8848, "unit": null }] },
+        { "model": "Claude-Opus-4.6", "system_description": "QUVI-3", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.8628, "unit": null }] },
+        { "model": "Ask Data with Relational Knowledge Graph", "system_description": "Ask Data with Relational Knowledge Graph", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.8628, "unit": null }] },
+        { "model": "ByteBrain-Agent", "system_description": "ByteBrain-Agent", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.841, "unit": null }] },
+        { "model": "Genloop's Sentinel Agent v1.5", "system_description": "Genloop's Sentinel Agent v1.5", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.8336, "unit": null }] },
+        { "model": "AiCheng Agent", "system_description": "AiCheng Agent", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.8281, "unit": null }] },
+        { "model": "Claude-Sonnet-4.5", "system_description": "Prism Swarm", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.8263, "unit": null }] },
+        { "model": "Claude-Sonnet-4.5", "system_description": "LingXi Agent", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.7989, "unit": null }] },
+        { "model": "Arctic-FLEX", "system_description": "Arctic-FLEX", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.7514, "unit": null }] },
+        { "model": "Sophon-Agent", "system_description": "Sophon-Agent", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.7404, "unit": null }] },
+        { "model": "APEX-SQL", "system_description": "APEX-SQL", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.7313, "unit": null }] },
+        { "model": "Deepseek3.2", "system_description": "QiSi-SQL", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.7038, "unit": null }] },
+        { "model": "PExA", "system_description": "PExA", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.702, "unit": null }] },
+        { "model": "Claude Sonnet 4.5 + Opus 4.5 Judge", "system_description": "Chicory AI Agent", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.6728, "unit": null }] },
+        { "model": "GPT-5", "system_description": "SSDAT", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.6563, "unit": null }] },
+        { "model": "DeepSeek-R1", "system_description": "DSR-SQL", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.638, "unit": null }] },
+        { "model": "o3", "system_description": "ReFoRCE", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.6289, "unit": null }] },
+        { "model": "Claude-4-Sonnet", "system_description": "WindAgent", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.6143, "unit": null }] },
+        { "model": "PAI-DataSurfer Agent", "system_description": "PAI-DataSurfer Agent", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.6033, "unit": null }] },
+        { "model": "Kimi K2.5", "system_description": "DSR-SQL (w/o voting)", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.5594, "unit": null }] },
+        { "model": "DeepSeek-R1", "system_description": "AutoLink", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.5484, "unit": null }] },
+        { "model": "GLM-5", "system_description": "PGV-Agent", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.5027, "unit": null }] },
+        { "model": "Meituan-agent", "system_description": "Meituan-agent", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.4534, "unit": null }] },
+        { "model": "Qwen3-Max", "system_description": "KDGCCloud-KCILab", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.4515, "unit": null }] },
+        { "model": "GPT-5-mini", "system_description": "AgenticView", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.4095, "unit": null }] },
+        { "model": "Claude-4-Sonnet", "system_description": "Chat2DB-Agent", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.3839, "unit": null }] },
+        { "model": "DeepSeek-V3", "system_description": "ReFoRCE", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.3803, "unit": null }] },
+        { "model": "Qwen3-Coder-Plus", "system_description": "Spider-Agent", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.378, "unit": null }] },
+        { "model": "o1-preview", "system_description": "ReFoRCE", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.3126, "unit": null }] },
+        { "model": "Qwen3-Coder", "system_description": "Spider-Agent", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.3108, "unit": null }] },
+        { "model": "Claude-4-Sonnet-20250514", "system_description": "Spider-Agent", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.2578, "unit": null }] },
+        { "model": "Claude-3.7-Sonnet-20250219", "system_description": "Spider-Agent", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.245, "unit": null }] },
+        { "model": "Claude-3.7-Sonnet-20250219-Thinking", "system_description": "Spider-Agent", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.2431, "unit": null }] },
+        { "model": "o1-preview", "system_description": "Spider-Agent", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.2358, "unit": null }] },
+        { "model": "o1-2024-12-17", "system_description": "Spider-Agent", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.2321, "unit": null }] },
+        { "model": "o3-mini-2025-01-31", "system_description": "Spider-Agent", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.192, "unit": null }] },
+        { "model": "Claude-3.5-Sonnet-20241022 (AWS ProServe)", "system_description": "Spider-Agent", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.1901, "unit": null }] },
+        { "model": "Claude-3.5-Sonnet-20241022", "system_description": "Spider-Agent", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.1554, "unit": null }] },
+        { "model": "Gemini-2.0-Pro", "system_description": "Spider-Agent", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.1389, "unit": null }] },
+        { "model": "GPT-4o-2024-11-20", "system_description": "Spider-Agent", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.1298, "unit": null }] },
+        { "model": "DeepSeek-R1", "system_description": "Spider-Agent", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.1055, "unit": null }] },
+        { "model": "GPT-4o", "system_description": "CollideNL2SQL", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.0968, "unit": null }] },
+        { "model": "QwQ-32B", "system_description": "Spider-Agent", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.0896, "unit": null }] },
+        { "model": "DeepSeek-V3", "system_description": "Spider-Agent", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.0878, "unit": null }] },
+        { "model": "Qwen2.5-Coder-32B-Instruct", "system_description": "Spider-Agent", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.0548, "unit": null }] },
+        { "model": "GPT-4o", "system_description": "Dail-SQL", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.022, "unit": null }] },
+        { "model": "GPT-4o", "system_description": "CHESS", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.0128, "unit": null }] },
+        { "model": "GPT-4o", "system_description": "DIN-SQL", "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.0, "unit": null }] },
+        { "model": "SFT CodeS-15B", "system_description": null, "scores": [{ "metric": "EX (Spider 2.0-Snow)", "value": 0.0, "unit": null }] }
       ],
-      "note": "Current leaderboard snapshot as of 2026-04-18. Leaderboard entries like SOMA-SQL, Databao Agent, Native mini are products where the leaderboard does not separate model from scaffold — both fields are set to the product name per template copy rules. For entries like 'Spider-Agent + Claude-Sonnet-4.5', the model and scaffold are split. Full leaderboard tables: 54 entries (Snow), 12 entries (DBT), 35 entries (Lite)."
+      "note": "Spider 2.0-Snow leaderboard snapshot as of 2026-04-25 — 54 entries in rank order. For 'X + Y' entries, system_description = X (scaffold/agent) and model = Y. For single-name product entries (e.g., Native mini, ByteBrain-Agent), both fields = product name per template copy rules. Two distinct Spider-Agent + Claude-3.5-Sonnet-20241022 entries appear (ranks 42 and 43); the higher-scored one is annotated 'AWS ProServe' on the leaderboard."
+    },
+    {
+      "date": "2026-04",
+      "source_type": "leaderboard",
+      "source_url": "https://spider2-sql.github.io/",
+      "results": [
+        { "model": "SignalPilot Agent", "system_description": "SignalPilot Agent", "scores": [{ "metric": "SR (Spider 2.0-DBT)", "value": 0.5156, "unit": null }] },
+        { "model": "Databao Agent", "system_description": "Databao Agent", "scores": [{ "metric": "SR (Spider 2.0-DBT)", "value": 0.4411, "unit": null }] },
+        { "model": "GPT-5", "system_description": "Shadowfax-DBT-Agent", "scores": [{ "metric": "SR (Spider 2.0-DBT)", "value": 0.4118, "unit": null }] },
+        { "model": "Qwen3-Max", "system_description": "CT-ChatBI", "scores": [{ "metric": "SR (Spider 2.0-DBT)", "value": 0.404, "unit": null }] },
+        { "model": "GPT-5", "system_description": "Spider-Agent-Extended", "scores": [{ "metric": "SR (Spider 2.0-DBT)", "value": 0.3971, "unit": null }] },
+        { "model": "GPT-5", "system_description": "Symbiote Agent", "scores": [{ "metric": "SR (Spider 2.0-DBT)", "value": 0.3529, "unit": null }] },
+        { "model": "Claude Sonnet 4.5", "system_description": "Chicory AI Agent", "scores": [{ "metric": "SR (Spider 2.0-DBT)", "value": 0.3529, "unit": null }] },
+        { "model": "DAQUV_QUVI_Agent", "system_description": "DAQUV_QUVI_Agent", "scores": [{ "metric": "SR (Spider 2.0-DBT)", "value": 0.1765, "unit": null }] },
+        { "model": "Claude-3.7-Sonnet-20250219", "system_description": "Spider-Agent", "scores": [{ "metric": "SR (Spider 2.0-DBT)", "value": 0.147, "unit": null }] },
+        { "model": "o1-preview", "system_description": "Spider-Agent", "scores": [{ "metric": "SR (Spider 2.0-DBT)", "value": 0.1324, "unit": null }] },
+        { "model": "GPT-4.1", "system_description": "Spider-Agent", "scores": [{ "metric": "SR (Spider 2.0-DBT)", "value": 0.1029, "unit": null }] },
+        { "model": "GPT-4o", "system_description": "Spider-Agent", "scores": [{ "metric": "SR (Spider 2.0-DBT)", "value": 0.0735, "unit": null }] },
+        { "model": "o3-mini", "system_description": "Spider-Agent", "scores": [{ "metric": "SR (Spider 2.0-DBT)", "value": 0.0441, "unit": null }] },
+        { "model": "o3", "system_description": "Spider-Agent", "scores": [{ "metric": "SR (Spider 2.0-DBT)", "value": 0.0294, "unit": null }] }
+      ],
+      "note": "Spider 2.0-DBT leaderboard snapshot as of 2026-04-25 — 14 entries in rank order. SignalPilot Agent (#1) and CT-ChatBI + Qwen3-Max (#4) are new entries since the prior snapshot; CT-ChatBI previously appeared on the Lite leaderboard."
+    },
+    {
+      "date": "2026-04",
+      "source_type": "leaderboard",
+      "source_url": "https://spider2-sql.github.io/",
+      "results": [
+        { "model": "SOMA-SQL", "system_description": "SOMA-SQL", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.7202, "unit": null }] },
+        { "model": "Databao Agent", "system_description": "Databao Agent", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.6965, "unit": null }] },
+        { "model": "Claude-Opus-4.5", "system_description": "QUVI-2.3", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.6581, "unit": null }] },
+        { "model": "EXA-SQL", "system_description": "EXA-SQL", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.6416, "unit": null }] },
+        { "model": "Claude-4.5-Opus", "system_description": "ProSPy: Profiling-driven SQL-Python Analysis Framework", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.6015, "unit": null }] },
+        { "model": "o3", "system_description": "ReFoRCE", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.5521, "unit": null }] },
+        { "model": "GPT-5", "system_description": "CoFD-SQL", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.5466, "unit": null }] },
+        { "model": "Deepseek-R1", "system_description": "AutoLink", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.5228, "unit": null }] },
+        { "model": "Gemini-3-Flash + DeepSeek-V3.2", "system_description": "GRASP + Reforce", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.5131, "unit": null }] },
+        { "model": "DeepSeek-R1-0528 + DeepSeek-V3.2", "system_description": "DSR-SQL", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.468, "unit": null }] },
+        { "model": "Qwen3", "system_description": "AgenticData", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.445, "unit": null }] },
+        { "model": "Claude-Sonnet-4.5", "system_description": "Spider-Agent", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.4186, "unit": null }] },
+        { "model": "Qwen3", "system_description": "ReFoRCE", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.356, "unit": null }] },
+        { "model": "o3", "system_description": "RSL-SQL", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.3309, "unit": null }] },
+        { "model": "DeepSeek-R1", "system_description": "LinkAlign", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.3309, "unit": null }] },
+        { "model": "DeepSeek-R1", "system_description": "RSL-SQL", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.3053, "unit": null }] },
+        { "model": "o1-preview", "system_description": "ReFoRCE", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.3035, "unit": null }] },
+        { "model": "Claude-3.7-Sonnet-20250219-Thinking", "system_description": "Spider-Agent", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.2852, "unit": null }] },
+        { "model": "Claude-4-Sonnet-20250514", "system_description": "Spider-Agent", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.2779, "unit": null }] },
+        { "model": "DeepSeek-V3", "system_description": "RSL-SQL", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.2614, "unit": null }] },
+        { "model": "Claude-3.7-Sonnet-20250219", "system_description": "Spider-Agent", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.2541, "unit": null }] },
+        { "model": "DeepSeek-V3", "system_description": "LinkAlign", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.2486, "unit": null }] },
+        { "model": "o3-mini-2025-01-31", "system_description": "Spider-Agent", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.234, "unit": null }] },
+        { "model": "o1-preview", "system_description": "Spider-Agent", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.2303, "unit": null }] },
+        { "model": "DeepSeek-R1", "system_description": "Spider-Agent", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.1371, "unit": null }] },
+        { "model": "GPT-4o-2024-11-20", "system_description": "Spider-Agent", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.1316, "unit": null }] },
+        { "model": "QwQ-32B", "system_description": "Spider-Agent", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.1133, "unit": null }] },
+        { "model": "Duo", "system_description": "Duo", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.0896, "unit": null }] },
+        { "model": "Claude-3.5-Sonnet-20240620", "system_description": "Spider-Agent", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.0832, "unit": null }] },
+        { "model": "Qwen2.5-Coder-32B-Instruct", "system_description": "Spider-Agent", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.0585, "unit": null }] },
+        { "model": "GPT-4o", "system_description": "DailSQL", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.0568, "unit": null }] },
+        { "model": "GPT-4o", "system_description": "CHESS", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.0384, "unit": null }] },
+        { "model": "GPT-4o", "system_description": "DIN-SQL", "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.0146, "unit": null }] },
+        { "model": "SFT CodeS-15B", "system_description": null, "scores": [{ "metric": "EX (Spider 2.0-Lite)", "value": 0.0073, "unit": null }] }
+      ],
+      "note": "Spider 2.0-Lite leaderboard snapshot as of 2026-04-25 — 34 entries in rank order. Each entry carries only the Lite metric — Snow and DBT are tracked as separate entries above. CT-ChatBI no longer appears on the Lite leaderboard (now on DBT)."
     }
   ],
   "notes": "Spider 2.0 is a multi-setting benchmark with THREE distinct sub-benchmarks that should be tracked separately:\n\n1. **Spider 2.0-Lite** (547 tasks): Text-to-SQL across BigQuery (214), Snowflake (198), SQLite (135). Metric: Execution Accuracy (EX). Cost: some BigQuery/Snowflake costs.\n2. **Spider 2.0-Snow** (547 tasks): Text-to-SQL on Snowflake only. Metric: Execution Accuracy (EX). Cost: free.\n3. **Spider 2.0-DBT** (68 tasks): Code agent tasks using DuckDB with DBT projects. Metric: Success Rate (SR). Cost: free.\n4. **Spider 2.0 (full)** (632 tasks): The complete benchmark including all database systems and DBT tasks. Metric: Success Rate (SR). Reported in the paper but not on the current leaderboard.\n\nThe Harbor adapter only covers the spider2-dbt split (64 of 68 tasks, 4 excluded due to upstream data bugs). There are NO Harbor adapters for spider2-lite or spider2-snow.\n\nKey characteristics distinguishing Spider 2.0 from prior text-to-SQL benchmarks:\n- Real enterprise databases with avg 812 columns/DB (vs 27 in Spider 1.0, 54 in BIRD)\n- Multiple SQL dialects (BigQuery, Snowflake, SQLite, DuckDB, Postgres, ClickHouse)\n- 85.98% of tasks use specialized dialect functions (avg 7.1 per query)\n- Average SQL length: 148 tokens (vs 18.5 in Spider 1.0)\n- Includes project-level DBT tasks requiring codebase navigation\n- Tasks sourced from real tutorials and forums, rewritten to prevent data leakage\n- Annotated by 8 expert SQL annotators through a 6-step pipeline with multi-round quality control"
