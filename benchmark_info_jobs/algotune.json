@@ -24,7 +24,8 @@
       "source_url": "https://arxiv.org/abs/2507.15887",
       "results": [
         {
-          "model": "o4-mini-high",
+          "model": "o4-mini",
+          "effort": "high",
           "system_description": "AlgoTuner",
           "scores": [
             {
@@ -36,6 +37,7 @@
         },
         {
           "model": "DeepSeek R1 0528",
+          "effort": null,
           "system_description": "AlgoTuner",
           "scores": [
             {
@@ -47,6 +49,7 @@
         },
         {
           "model": "Gemini 2.5 Pro",
+          "effort": null,
           "system_description": "AlgoTuner",
           "scores": [
             {
@@ -58,6 +61,7 @@
         },
         {
           "model": "Claude Opus 4 20250514",
+          "effort": null,
           "system_description": "AlgoTuner",
           "scores": [
             {
@@ -76,7 +80,8 @@
       "source_url": "https://algotune.io/",
       "results": [
         {
-          "model": "GPT-5.2 (high)",
+          "model": "GPT-5.2",
+          "effort": "high",
           "system_description": "AlgoTuner",
           "scores": [
             {
@@ -87,7 +92,8 @@
           ]
         },
         {
-          "model": "Gemini 3.1 Pro Preview (high)",
+          "model": "Gemini 3.1 Pro Preview",
+          "effort": "high",
           "system_description": "AlgoTuner",
           "scores": [
             {
@@ -98,7 +104,8 @@
           ]
         },
         {
-          "model": "GPT-5.4 (high)",
+          "model": "GPT-5.4",
+          "effort": "high",
           "system_description": "AlgoTuner",
           "scores": [
             {
@@ -109,7 +116,8 @@
           ]
         },
         {
-          "model": "Gemini 3 Pro Preview (high)",
+          "model": "Gemini 3 Pro Preview",
+          "effort": "high",
           "system_description": "AlgoTuner",
           "scores": [
             {
@@ -120,7 +128,8 @@
           ]
         },
         {
-          "model": "Claude Opus 4.5 (high)",
+          "model": "Claude Opus 4.5",
+          "effort": "high",
           "system_description": "AlgoTuner",
           "scores": [
             {
@@ -131,7 +140,8 @@
           ]
         },
         {
-          "model": "o4-mini (high)",
+          "model": "o4-mini",
+          "effort": "high",
           "system_description": "AlgoTuner",
           "scores": [
             {
@@ -142,7 +152,8 @@
           ]
         },
         {
-          "model": "DeepSeek R1 (high)",
+          "model": "DeepSeek R1",
+          "effort": "high",
           "system_description": "AlgoTuner",
           "scores": [
             {
@@ -153,7 +164,8 @@
           ]
         },
         {
-          "model": "GPT-5 (high)",
+          "model": "GPT-5",
+          "effort": "high",
           "system_description": "AlgoTuner",
           "scores": [
             {
@@ -164,7 +176,8 @@
           ]
         },
         {
-          "model": "Claude Sonnet 4.5 (high)",
+          "model": "Claude Sonnet 4.5",
+          "effort": "high",
           "system_description": "AlgoTuner",
           "scores": [
             {
@@ -175,7 +188,8 @@
           ]
         },
         {
-          "model": "GLM-4.5 (high)",
+          "model": "GLM-4.5",
+          "effort": "high",
           "system_description": "AlgoTuner",
           "scores": [
             {
@@ -186,7 +200,8 @@
           ]
         },
         {
-          "model": "Gemini 2.5 Pro (high)",
+          "model": "Gemini 2.5 Pro",
+          "effort": "high",
           "system_description": "AlgoTuner",
           "scores": [
             {
@@ -197,7 +212,8 @@
           ]
         },
         {
-          "model": "Claude Opus 4.6 (high)",
+          "model": "Claude Opus 4.6",
+          "effort": "high",
           "system_description": "AlgoTuner",
           "scores": [
             {
@@ -208,7 +224,8 @@
           ]
         },
         {
-          "model": "Qwen3 Coder (high)",
+          "model": "Qwen3 Coder",
+          "effort": "high",
           "system_description": "AlgoTuner",
           "scores": [
             {
@@ -219,7 +236,8 @@
           ]
         },
         {
-          "model": "gpt-oss-120b (high)",
+          "model": "gpt-oss-120b",
+          "effort": "high",
           "system_description": "AlgoTuner",
           "scores": [
             {
@@ -230,7 +248,8 @@
           ]
         },
         {
-          "model": "GPT-5 Mini (high)",
+          "model": "GPT-5 Mini",
+          "effort": "high",
           "system_description": "AlgoTuner",
           "scores": [
             {
@@ -241,7 +260,8 @@
           ]
         },
         {
-          "model": "Claude Opus 4.1 (high)",
+          "model": "Claude Opus 4.1",
+          "effort": "high",
           "system_description": "AlgoTuner",
           "scores": [
             {
@@ -252,7 +272,8 @@
           ]
         },
         {
-          "model": "Claude Opus 4 (high)",
+          "model": "Claude Opus 4",
+          "effort": "high",
           "system_description": "AlgoTuner",
           "scores": [
             {
@@ -263,7 +284,8 @@
           ]
         },
         {
-          "model": "GPT-5 Pro (medium)",
+          "model": "GPT-5 Pro",
+          "effort": "medium",
           "system_description": "AlgoTuner",
           "scores": [
             {

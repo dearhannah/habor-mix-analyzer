@@ -25,6 +25,7 @@
       "results": [
         {
           "model": "o4-mini",
+          "effort": null,
           "system_description": null,
           "scores": [
             {
@@ -56,6 +57,7 @@
         },
         {
           "model": "GPT-4.1",
+          "effort": null,
           "system_description": null,
           "scores": [
             {
@@ -87,6 +89,7 @@
         },
         {
           "model": "o3",
+          "effort": null,
           "system_description": null,
           "scores": [
             {
@@ -118,6 +121,7 @@
         },
         {
           "model": "GPT-5.1",
+          "effort": null,
           "system_description": null,
           "scores": [
             {
@@ -149,6 +153,7 @@
         },
         {
           "model": "Gemini-Pro-2.5",
+          "effort": null,
           "system_description": null,
           "scores": [
             {
@@ -180,6 +185,7 @@
         },
         {
           "model": "Gemini-Pro-3",
+          "effort": null,
           "system_description": null,
           "scores": [
             {
@@ -211,6 +217,7 @@
         },
         {
           "model": "GPT-5.2",
+          "effort": null,
           "system_description": null,
           "scores": [
             {
@@ -242,6 +249,7 @@
         },
         {
           "model": "DeepSeek-Chat",
+          "effort": null,
           "system_description": null,
           "scores": [
             {
@@ -273,6 +281,7 @@
         },
         {
           "model": "DeepSeek-Reasoner",
+          "effort": null,
           "system_description": null,
           "scores": [
             {
@@ -304,6 +313,7 @@
         },
         {
           "model": "o3-deep-research",
+          "effort": null,
           "system_description": "o3-deep-research",
           "scores": [
             {
@@ -335,6 +345,7 @@
         },
         {
           "model": "GPT-4.1",
+          "effort": null,
           "system_description": "Smolagent",
           "scores": [
             {
@@ -366,6 +377,7 @@
         },
         {
           "model": "GPT-4.1",
+          "effort": null,
           "system_description": "OWL",
           "scores": [
             {

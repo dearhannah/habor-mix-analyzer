@@ -25,6 +25,7 @@
       "results": [
         {
           "model": "OpenAI o1-mini",
+          "effort": null,
           "system_description": null,
           "scores": [
             {
@@ -91,6 +92,7 @@
         },
         {
           "model": "OpenAI o1-preview",
+          "effort": null,
           "system_description": null,
           "scores": [
             {
@@ -157,6 +159,7 @@
         },
         {
           "model": "Qwen2.5-MATH-72b-Instruct",
+          "effort": null,
           "system_description": null,
           "scores": [
             {
@@ -223,6 +226,7 @@
         },
         {
           "model": "Qwen2-MATH-72b-Instruct",
+          "effort": null,
           "system_description": null,
           "scores": [
             {
@@ -289,6 +293,7 @@
         },
         {
           "model": "Qwen2.5-MATH-7b-Instruct",
+          "effort": null,
           "system_description": null,
           "scores": [
             {
@@ -355,6 +360,7 @@
         },
         {
           "model": "GPT-4o",
+          "effort": null,
           "system_description": null,
           "scores": [
             {
@@ -421,6 +427,7 @@
         },
         {
           "model": "Qwen2-MATH-7b-Instruct",
+          "effort": null,
           "system_description": null,
           "scores": [
             {
@@ -487,6 +494,7 @@
         },
         {
           "model": "NuminaMATH-72B-COT",
+          "effort": null,
           "system_description": null,
           "scores": [
             {
@@ -553,6 +561,7 @@
         },
         {
           "model": "Claude-3.5-SONNET",
+          "effort": null,
           "system_description": null,
           "scores": [
             {
@@ -619,6 +628,7 @@
         },
         {
           "model": "DeepSeek-Coder-V2",
+          "effort": null,
           "system_description": null,
           "scores": [
             {
@@ -685,6 +695,7 @@
         },
         {
           "model": "MetaLlama-3.1-70B-instruct",
+          "effort": null,
           "system_description": null,
           "scores": [
             {
@@ -751,6 +762,7 @@
         },
         {
           "model": "DeepSeek-Coder-V2-Lite-Instruct",
+          "effort": null,
           "system_description": null,
           "scores": [
             {
@@ -817,6 +829,7 @@
         },
         {
           "model": "Mathstral-7B-v0.1",
+          "effort": null,
           "system_description": null,
           "scores": [
             {
@@ -883,6 +896,7 @@
         },
         {
           "model": "DeepSeekMATH-7b-RL",
+          "effort": null,
           "system_description": null,
           "scores": [
             {
@@ -949,6 +963,7 @@
         },
         {
           "model": "InternLM2-math-plus-mixtral8*22B",
+          "effort": null,
           "system_description": null,
           "scores": [
             {
@@ -1023,6 +1038,7 @@
       "results": [
         {
           "model": "o1-mini",
+          "effort": null,
           "system_description": null,
           "scores": [
             {
@@ -1034,6 +1050,7 @@
         },
         {
           "model": "o1-preview",
+          "effort": null,
           "system_description": null,
           "scores": [
             {
@@ -1045,6 +1062,7 @@
         },
         {
           "model": "Qwen-QwQ",
+          "effort": null,
           "system_description": null,
           "scores": [
             {
@@ -1056,6 +1074,7 @@
         },
         {
           "model": "qwen2.5-MATH-72b-Instruct",
+          "effort": null,
           "system_description": null,
           "scores": [
             {
@@ -1067,6 +1086,7 @@
         },
         {
           "model": "qwen2.5-MATH-7b-Instruct",
+          "effort": null,
           "system_description": null,
           "scores": [
             {
@@ -1078,6 +1098,7 @@
         },
         {
           "model": "GPT-4o",
+          "effort": null,
           "system_description": null,
           "scores": [
             {
@@ -1089,6 +1110,7 @@
         },
         {
           "model": "NuminaMATH-72b-cot",
+          "effort": null,
           "system_description": null,
           "scores": [
             {
@@ -1100,6 +1122,7 @@
         },
         {
           "model": "DeepseekMATH-7b-RL",
+          "effort": null,
           "system_description": null,
           "scores": [
             {

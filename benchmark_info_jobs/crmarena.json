@@ -25,6 +25,7 @@
       "results": [
         {
           "model": "gpt-4o",
+          "effort": null,
           "system_description": "Act",
           "scores": [
             {
@@ -36,6 +37,7 @@
         },
         {
           "model": "gpt-4o-mini",
+          "effort": null,
           "system_description": "Act",
           "scores": [
             {
@@ -47,6 +49,7 @@
         },
         {
           "model": "claude-3.5-sonnet",
+          "effort": null,
           "system_description": "Act",
           "scores": [
             {
@@ -58,6 +61,7 @@
         },
         {
           "model": "claude-3-sonnet",
+          "effort": null,
           "system_description": "Act",
           "scores": [
             {
@@ -69,6 +73,7 @@
         },
         {
           "model": "llama3.1-405b",
+          "effort": null,
           "system_description": "Act",
           "scores": [
             {
@@ -80,6 +85,7 @@
         },
         {
           "model": "llama3.1-70b",
+          "effort": null,
           "system_description": "Act",
           "scores": [
             {
@@ -91,6 +97,7 @@
         },
         {
           "model": "llama3.1-8b",
+          "effort": null,
           "system_description": "Act",
           "scores": [
             {
@@ -102,6 +109,7 @@
         },
         {
           "model": "gpt-4o",
+          "effort": null,
           "system_description": "ReAct",
           "scores": [
             {
@@ -113,6 +121,7 @@
         },
         {
           "model": "gpt-4o-mini",
+          "effort": null,
           "system_description": "ReAct",
           "scores": [
             {
@@ -124,6 +133,7 @@
         },
         {
           "model": "claude-3.5-sonnet",
+          "effort": null,
           "system_description": "ReAct",
           "scores": [
             {
@@ -135,6 +145,7 @@
         },
         {
           "model": "claude-3-sonnet",
+          "effort": null,
           "system_description": "ReAct",
           "scores": [
             {
@@ -146,6 +157,7 @@
         },
         {
           "model": "llama3.1-405b",
+          "effort": null,
           "system_description": "ReAct",
           "scores": [
             {
@@ -157,6 +169,7 @@
         },
         {
           "model": "llama3.1-70b",
+          "effort": null,
           "system_description": "ReAct",
           "scores": [
             {
@@ -168,6 +181,7 @@
         },
         {
           "model": "llama3.1-8b",
+          "effort": null,
           "system_description": "ReAct",
           "scores": [
             {
@@ -179,6 +193,7 @@
         },
         {
           "model": "o1",
+          "effort": null,
           "system_description": "ReAct",
           "scores": [
             {
@@ -190,6 +205,7 @@
         },
         {
           "model": "deepseek-r1",
+          "effort": null,
           "system_description": "ReAct",
           "scores": [
             {
@@ -201,6 +217,7 @@
         },
         {
           "model": "gpt-4o",
+          "effort": null,
           "system_description": null,
           "note": "Function Calling",
           "scores": [
@@ -213,6 +230,7 @@
         },
         {
           "model": "gpt-4o-mini",
+          "effort": null,
           "system_description": null,
           "note": "Function Calling",
           "scores": [
@@ -225,6 +243,7 @@
         },
         {
           "model": "claude-3.5-sonnet",
+          "effort": null,
           "system_description": null,
           "note": "Function Calling",
           "scores": [
@@ -237,6 +256,7 @@
         },
         {
           "model": "claude-3-sonnet",
+          "effort": null,
           "system_description": null,
           "note": "Function Calling",
           "scores": [
@@ -249,6 +269,7 @@
         },
         {
           "model": "llama3.1-405b",
+          "effort": null,
           "system_description": null,
           "note": "Function Calling (prompt)",
           "scores": [
@@ -261,6 +282,7 @@
         },
         {
           "model": "llama3.1-70b",
+          "effort": null,
           "system_description": null,
           "note": "Function Calling (prompt)",
           "scores": [
@@ -273,6 +295,7 @@
         },
         {
           "model": "llama3.1-8b",
+          "effort": null,
           "system_description": null,
           "note": "Function Calling (prompt)",
           "scores": [
@@ -285,6 +308,7 @@
         },
         {
           "model": "o1",
+          "effort": null,
           "system_description": null,
           "note": "Function Calling (prompt)",
           "scores": [
@@ -297,6 +321,7 @@
         },
         {
           "model": "deepseek-r1",
+          "effort": null,
           "system_description": null,
           "note": "Function Calling (prompt)",
           "scores": [

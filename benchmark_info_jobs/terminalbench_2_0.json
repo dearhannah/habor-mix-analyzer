@@ -19,12 +19,25 @@
   },
   "results_over_time": [
     {
-      "date": "2026-04-02",
+      "date": "2026-04-23",
       "source_type": "leaderboard",
       "source_url": "https://www.tbench.ai/leaderboard/terminal-bench/2.0",
       "results": [
         {
+          "model": "GPT-5.5",
+          "effort": null,
+          "system_description": "Codex",
+          "scores": [
+            {
+              "metric": "accuracy",
+              "value": 0.8202247191011236,
+              "unit": null
+            }
+          ]
+        },
+        {
           "model": "GPT-5.4",
+          "effort": null,
           "system_description": "ForgeCode",
           "scores": [
             {
@@ -36,6 +49,7 @@
         },
         {
           "model": "Gemini 3.1 Pro",
+          "effort": null,
           "system_description": "TongAgents",
           "scores": [
             {
@@ -47,6 +61,7 @@
         },
         {
           "model": "Claude Opus 4.6",
+          "effort": null,
           "system_description": "ForgeCode",
           "scores": [
             {
@@ -58,6 +73,7 @@
         },
         {
           "model": "GPT-5.3-Codex",
+          "effort": null,
           "system_description": "SageAgent",
           "scores": [
             {
@@ -69,6 +85,7 @@
         },
         {
           "model": "Gemini 3.1 Pro",
+          "effort": null,
           "system_description": "ForgeCode",
           "scores": [
             {
@@ -80,6 +97,7 @@
         },
         {
           "model": "GPT-5.3-Codex",
+          "effort": null,
           "system_description": "Droid",
           "scores": [
             {
@@ -91,6 +109,7 @@
         },
         {
           "model": "Claude Opus 4.6",
+          "effort": null,
           "system_description": "Capy",
           "scores": [
             {
@@ -102,6 +121,7 @@
         },
         {
           "model": "GPT-5.3-Codex",
+          "effort": null,
           "system_description": "Simple Codex",
           "scores": [
             {
@@ -113,6 +133,7 @@
         },
         {
           "model": "Gemini 3.1 Pro",
+          "effort": null,
           "system_description": "Terminus-KIRA",
           "scores": [
             {
@@ -124,6 +145,7 @@
         },
         {
           "model": "Claude Opus 4.6",
+          "effort": null,
           "system_description": "Terminus-KIRA",
           "scores": [
             {
@@ -135,6 +157,7 @@
         },
         {
           "model": "GPT-5.3-Codex",
+          "effort": null,
           "system_description": "Mux",
           "scores": [
             {
@@ -146,6 +169,7 @@
         },
         {
           "model": "Claude 4.6 Opus",
+          "effort": null,
           "system_description": "MAYA-V2",
           "scores": [
             {
@@ -157,6 +181,7 @@
         },
         {
           "model": "Claude Opus 4.6",
+          "effort": null,
           "system_description": "TongAgents",
           "scores": [
             {
@@ -168,6 +193,7 @@
         },
         {
           "model": "Claude Opus 4.6 + Gemini 3 Flash + Gemini 3.1 Pro + GPT-5.3-Codex",
+          "effort": null,
           "system_description": "Junie CLI",
           "scores": [
             {
@@ -179,6 +205,7 @@
         },
         {
           "model": "GPT-5.3-Codex",
+          "effort": null,
           "system_description": "CodeBrain-1",
           "scores": [
             {
@@ -190,6 +217,7 @@
         },
         {
           "model": "Claude Opus 4.6",
+          "effort": null,
           "system_description": "Droid",
           "scores": [
             {
@@ -201,6 +229,7 @@
         },
         {
           "model": "Gemini 3 Pro",
+          "effort": null,
           "system_description": "Ante",
           "scores": [
             {
@@ -212,6 +241,7 @@
         },
         {
           "model": "GPT-5.3-Codex",
+          "effort": null,
           "system_description": "IndusAGI Coding Agent",
           "scores": [
             {
@@ -223,6 +253,7 @@
         },
         {
           "model": "Claude Opus 4.6",
+          "effort": null,
           "system_description": "Crux",
           "scores": [
             {
@@ -234,6 +265,7 @@
         },
         {
           "model": "GPT-5.2-Codex",
+          "effort": null,
           "system_description": "Deep Agents",
           "scores": [
             {
@@ -245,6 +277,7 @@
         },
         {
           "model": "Claude Opus 4.6",
+          "effort": null,
           "system_description": "Mux",
           "scores": [
             {
@@ -256,6 +289,7 @@
         },
         {
           "model": "Gemini 3 Pro",
+          "effort": null,
           "system_description": "SageAgent",
           "scores": [
             {
@@ -267,6 +301,7 @@
         },
         {
           "model": "GPT-5.2",
+          "effort": null,
           "system_description": "Droid",
           "scores": [
             {
@@ -278,6 +313,7 @@
         },
         {
           "model": "GPT-5.3-Codex",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
@@ -289,6 +325,7 @@
         },
         {
           "model": "Gemini 3 Flash",
+          "effort": null,
           "system_description": "Junie CLI",
           "scores": [
             {
@@ -300,6 +337,7 @@
         },
         {
           "model": "Claude Opus 4.5",
+          "effort": null,
           "system_description": "Droid",
           "scores": [
             {
@@ -311,6 +349,7 @@
         },
         {
           "model": "Claude Opus 4.6",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
@@ -322,6 +361,7 @@
         },
         {
           "model": "GPT-5.2",
+          "effort": null,
           "system_description": "Codex CLI",
           "scores": [
             {
@@ -333,6 +373,7 @@
         },
         {
           "model": "Gemini 3 Pro",
+          "effort": null,
           "system_description": "CodeBrain-1",
           "scores": [
             {
@@ -344,6 +385,7 @@
         },
         {
           "model": "Gemini 3 Pro",
+          "effort": null,
           "system_description": "II-Agent",
           "scores": [
             {
@@ -355,6 +397,7 @@
         },
         {
           "model": "Claude Haiku 4.5 + GPT-5.2",
+          "effort": null,
           "system_description": "Warp",
           "scores": [
             {
@@ -366,6 +409,7 @@
         },
         {
           "model": "Gemini 3 Pro",
+          "effort": null,
           "system_description": "Droid",
           "scores": [
             {
@@ -377,6 +421,7 @@
         },
         {
           "model": "GPT-5.2",
+          "effort": null,
           "system_description": "Mux",
           "scores": [
             {
@@ -387,7 +432,8 @@
           ]
         },
         {
-          "model": "GPT-5.1-Codex-Max",
+          "model": "GPT-5.1-Codex",
+          "effort": "max",
           "system_description": "Codex CLI",
           "scores": [
             {
@@ -399,6 +445,7 @@
         },
         {
           "model": "Claude Opus 4.5",
+          "effort": null,
           "system_description": "Letta Code",
           "scores": [
             {
@@ -410,6 +457,7 @@
         },
         {
           "model": "Claude Haiku 4.5 + Gemini 3 Pro + GPT-5-Nano",
+          "effort": null,
           "system_description": "Warp",
           "scores": [
             {
@@ -421,6 +469,7 @@
         },
         {
           "model": "Claude Opus 4.5",
+          "effort": null,
           "system_description": "Mux",
           "scores": [
             {
@@ -432,6 +481,7 @@
         },
         {
           "model": "Claude Haiku 4.5 + Gemini 3 Pro",
+          "effort": null,
           "system_description": "Abacus AI Desktop",
           "scores": [
             {
@@ -443,6 +493,7 @@
         },
         {
           "model": "Claude Opus 4.6",
+          "effort": null,
           "system_description": "Claude Code",
           "scores": [
             {
@@ -454,6 +505,7 @@
         },
         {
           "model": "GPT-5.1-Codex",
+          "effort": null,
           "system_description": "Crux",
           "scores": [
             {
@@ -465,6 +517,7 @@
         },
         {
           "model": "Claude Opus 4.5",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
@@ -476,6 +529,7 @@
         },
         {
           "model": "Grok 4.20 Reasoning",
+          "effort": null,
           "system_description": "grok-cli",
           "scores": [
             {
@@ -487,6 +541,7 @@
         },
         {
           "model": "Gemini 3 Pro",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
@@ -498,6 +553,7 @@
         },
         {
           "model": "Gemini 3 Pro",
+          "effort": null,
           "system_description": "Letta Code",
           "scores": [
             {
@@ -509,6 +565,7 @@
         },
         {
           "model": "Claude Opus 4.5",
+          "effort": null,
           "system_description": "Goose",
           "scores": [
             {
@@ -520,6 +577,7 @@
         },
         {
           "model": "GPT-5.2",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
@@ -531,6 +589,7 @@
         },
         {
           "model": "GPT-5.1-Codex",
+          "effort": null,
           "system_description": "Letta Code",
           "scores": [
             {
@@ -542,6 +601,7 @@
         },
         {
           "model": "GLM 5",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
@@ -553,6 +613,7 @@
         },
         {
           "model": "Claude Opus 4.5",
+          "effort": null,
           "system_description": "Claude Code",
           "scores": [
             {
@@ -564,6 +625,7 @@
         },
         {
           "model": "Claude Opus 4.5",
+          "effort": null,
           "system_description": "OpenHands",
           "scores": [
             {
@@ -575,6 +637,7 @@
         },
         {
           "model": "Claude Opus 4.5",
+          "effort": null,
           "system_description": "OpenCode",
           "scores": [
             {
@@ -586,6 +649,7 @@
         },
         {
           "model": "Gemini 3 Flash",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
@@ -597,6 +661,7 @@
         },
         {
           "model": "Claude Haiku 4.5 + Claude Sonnet 4.5 + GPT-5-Nano",
+          "effort": null,
           "system_description": "Warp",
           "scores": [
             {
@@ -608,6 +673,7 @@
         },
         {
           "model": "GPT-5",
+          "effort": null,
           "system_description": "Codex CLI",
           "scores": [
             {
@@ -619,6 +685,7 @@
         },
         {
           "model": "GPT-5.1",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
@@ -630,6 +697,7 @@
         },
         {
           "model": "Gemini 3 Flash",
+          "effort": null,
           "system_description": "Gemini CLI",
           "scores": [
             {
@@ -641,6 +709,7 @@
         },
         {
           "model": "Claude Sonnet 4.5",
+          "effort": null,
           "system_description": "CAMEL-AI",
           "scores": [
             {
@@ -652,6 +721,7 @@
         },
         {
           "model": "GPT-5-Codex",
+          "effort": null,
           "system_description": "Codex CLI",
           "scores": [
             {
@@ -663,6 +733,7 @@
         },
         {
           "model": "GPT-5",
+          "effort": null,
           "system_description": "OpenHands",
           "scores": [
             {
@@ -674,6 +745,7 @@
         },
         {
           "model": "GPT-5-Codex",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
@@ -685,6 +757,7 @@
         },
         {
           "model": "Kimi K2.5",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
@@ -696,6 +769,7 @@
         },
         {
           "model": "Claude Sonnet 4.5",
+          "effort": null,
           "system_description": "Goose",
           "scores": [
             {
@@ -707,6 +781,7 @@
         },
         {
           "model": "GPT-5.1-Codex-Mini",
+          "effort": null,
           "system_description": "Crux",
           "scores": [
             {
@@ -718,6 +793,7 @@
         },
         {
           "model": "Claude Sonnet 4.5",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
@@ -729,6 +805,7 @@
         },
         {
           "model": "Claude 4.5 Sonnet",
+          "effort": null,
           "system_description": "MAYA-V2",
           "scores": [
             {
@@ -740,6 +817,7 @@
         },
         {
           "model": "minimax-m2.5",
+          "effort": null,
           "system_description": "cchuter",
           "scores": [
             {
@@ -751,6 +829,7 @@
         },
         {
           "model": "Claude Sonnet 4.5",
+          "effort": null,
           "system_description": "OpenHands",
           "scores": [
             {
@@ -762,6 +841,7 @@
         },
         {
           "model": "Claude Sonnet 4.5",
+          "effort": null,
           "system_description": "Mini-SWE-Agent",
           "scores": [
             {
@@ -773,6 +853,7 @@
         },
         {
           "model": "Minimax m2.5",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
@@ -784,6 +865,7 @@
         },
         {
           "model": "GPT-5-Codex",
+          "effort": null,
           "system_description": "Mini-SWE-Agent",
           "scores": [
             {
@@ -795,6 +877,7 @@
         },
         {
           "model": "Claude Sonnet 4.5",
+          "effort": null,
           "system_description": "Claude Code",
           "scores": [
             {
@@ -806,6 +889,7 @@
         },
         {
           "model": "DeepSeek-V3.2",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
@@ -817,6 +901,7 @@
         },
         {
           "model": "Claude Opus 4.1",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
@@ -828,6 +913,7 @@
         },
         {
           "model": "Claude Opus 4.1",
+          "effort": null,
           "system_description": "OpenHands",
           "scores": [
             {
@@ -839,6 +925,7 @@
         },
         {
           "model": "GPT-5.1-Codex",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
@@ -850,6 +937,7 @@
         },
         {
           "model": "MiniMax M2.1",
+          "effort": null,
           "system_description": "Crux",
           "scores": [
             {
@@ -861,6 +949,7 @@
         },
         {
           "model": "Kimi K2 Thinking",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
@@ -872,6 +961,7 @@
         },
         {
           "model": "Claude Haiku 4.5",
+          "effort": null,
           "system_description": "Goose",
           "scores": [
             {
@@ -883,6 +973,7 @@
         },
         {
           "model": "GPT-5",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
@@ -894,6 +985,7 @@
         },
         {
           "model": "Claude Opus 4.1",
+          "effort": null,
           "system_description": "Mini-SWE-Agent",
           "scores": [
             {
@@ -905,6 +997,7 @@
         },
         {
           "model": "GPT-5-Mini",
+          "effort": null,
           "system_description": "spoox-m",
           "scores": [
             {
@@ -916,6 +1009,7 @@
         },
         {
           "model": "Claude Opus 4.1",
+          "effort": null,
           "system_description": "Claude Code",
           "scores": [
             {
@@ -927,6 +1021,7 @@
         },
         {
           "model": "GPT-5",
+          "effort": null,
           "system_description": "Mini-SWE-Agent",
           "scores": [
             {
@@ -938,6 +1033,7 @@
         },
         {
           "model": "GLM 4.7",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
@@ -949,6 +1045,7 @@
         },
         {
           "model": "GLM 4.7",
+          "effort": null,
           "system_description": "Crux",
           "scores": [
             {
@@ -960,6 +1057,7 @@
         },
         {
           "model": "Gemini 2.5 Pro",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
@@ -971,6 +1069,7 @@
         },
         {
           "model": "GPT-5-Mini",
+          "effort": null,
           "system_description": "Codex CLI",
           "scores": [
             {
@@ -982,6 +1081,7 @@
         },
         {
           "model": "MiniMax M2",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
@@ -993,6 +1093,7 @@
         },
         {
           "model": "Claude Haiku 4.5",
+          "effort": null,
           "system_description": "Mini-SWE-Agent",
           "scores": [
             {
@@ -1004,6 +1105,7 @@
         },
         {
           "model": "MiniMax M2.1",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
@@ -1015,6 +1117,7 @@
         },
         {
           "model": "GPT-5-Mini",
+          "effort": null,
           "system_description": "OpenHands",
           "scores": [
             {
@@ -1026,6 +1129,7 @@
         },
         {
           "model": "Claude Haiku 4.5",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
@@ -1037,6 +1141,7 @@
         },
         {
           "model": "Kimi K2 Instruct",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
@@ -1048,6 +1153,7 @@
         },
         {
           "model": "Claude Haiku 4.5",
+          "effort": null,
           "system_description": "Claude Code",
           "scores": [
             {
@@ -1059,6 +1165,7 @@
         },
         {
           "model": "Qwen 3 Coder 480B",
+          "effort": null,
           "system_description": "Dakou Agent",
           "scores": [
             {
@@ -1070,6 +1177,7 @@
         },
         {
           "model": "Grok 4",
+          "effort": null,
           "system_description": "OpenHands",
           "scores": [
             {
@@ -1081,6 +1189,7 @@
         },
         {
           "model": "Kimi K2 Instruct",
+          "effort": null,
           "system_description": "OpenHands",
           "scores": [
             {
@@ -1092,6 +1201,7 @@
         },
         {
           "model": "Gemini 2.5 Pro",
+          "effort": null,
           "system_description": "Mini-SWE-Agent",
           "scores": [
             {
@@ -1103,6 +1213,7 @@
         },
         {
           "model": "Grok Code Fast 1",
+          "effort": null,
           "system_description": "Mini-SWE-Agent",
           "scores": [
             {
@@ -1114,6 +1225,7 @@
         },
         {
           "model": "Qwen 3 Coder 480B",
+          "effort": null,
           "system_description": "OpenHands",
           "scores": [
             {
@@ -1125,6 +1237,7 @@
         },
         {
           "model": "Grok 4",
+          "effort": null,
           "system_description": "Mini-SWE-Agent",
           "scores": [
             {
@@ -1136,6 +1249,7 @@
         },
         {
           "model": "GLM 4.6",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
@@ -1147,6 +1261,7 @@
         },
         {
           "model": "GPT-5-Mini",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
@@ -1158,6 +1273,7 @@
         },
         {
           "model": "Qwen 3 Coder 480B",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
@@ -1169,6 +1285,7 @@
         },
         {
           "model": "Grok 4",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
@@ -1180,6 +1297,7 @@
         },
         {
           "model": "GPT-5-Mini",
+          "effort": null,
           "system_description": "Mini-SWE-Agent",
           "scores": [
             {
@@ -1191,6 +1309,7 @@
         },
         {
           "model": "Gemini 2.5 Pro",
+          "effort": null,
           "system_description": "Gemini CLI",
           "scores": [
             {
@@ -1202,6 +1321,7 @@
         },
         {
           "model": "GPT-OSS-120B",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
@@ -1213,6 +1333,7 @@
         },
         {
           "model": "Gemini 2.5 Flash",
+          "effort": null,
           "system_description": "Mini-SWE-Agent",
           "scores": [
             {
@@ -1224,6 +1345,7 @@
         },
         {
           "model": "AfterQuery-GPT-OSS-20B",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
@@ -1235,6 +1357,7 @@
         },
         {
           "model": "Gemini 2.5 Flash",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
@@ -1246,6 +1369,7 @@
         },
         {
           "model": "Gemini 2.5 Flash",
+          "effort": null,
           "system_description": "OpenHands",
           "scores": [
             {
@@ -1257,6 +1381,7 @@
         },
         {
           "model": "Gemini 2.5 Pro",
+          "effort": null,
           "system_description": "OpenHands",
           "scores": [
             {
@@ -1268,6 +1393,7 @@
         },
         {
           "model": "Gemini 2.5 Flash",
+          "effort": null,
           "system_description": "Gemini CLI",
           "scores": [
             {
@@ -1279,6 +1405,7 @@
         },
         {
           "model": "Grok Code Fast 1",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
@@ -1290,6 +1417,7 @@
         },
         {
           "model": "GPT-OSS-120B",
+          "effort": null,
           "system_description": "Mini-SWE-Agent",
           "scores": [
             {
@@ -1301,6 +1429,7 @@
         },
         {
           "model": "Claude Haiku 4.5",
+          "effort": null,
           "system_description": "OpenHands",
           "scores": [
             {
@@ -1312,6 +1441,7 @@
         },
         {
           "model": "GPT-5-Nano",
+          "effort": null,
           "system_description": "Codex CLI",
           "scores": [
             {
@@ -1323,6 +1453,7 @@
         },
         {
           "model": "GPT-5-Nano",
+          "effort": null,
           "system_description": "OpenHands",
           "scores": [
             {
@@ -1334,6 +1465,7 @@
         },
         {
           "model": "GPT-5-Nano",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
@@ -1345,6 +1477,7 @@
         },
         {
           "model": "GPT-5-Nano",
+          "effort": null,
           "system_description": "Mini-SWE-Agent",
           "scores": [
             {
@@ -1356,6 +1489,7 @@
         },
         {
           "model": "GPT-OSS-20B",
+          "effort": null,
           "system_description": "Mini-SWE-Agent",
           "scores": [
             {
@@ -1367,6 +1501,7 @@
         },
         {
           "model": "GPT-OSS-20B",
+          "effort": null,
           "system_description": "Terminus 2",
           "scores": [
             {
