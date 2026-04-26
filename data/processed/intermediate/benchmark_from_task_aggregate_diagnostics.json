@@ -1,9 +1,0 @@
-{
-  "matrix": "benchmark",
-  "method": "task_imputation_then_benchmark_aggregate",
-  "task_imputation_method": "row_mean_shrunk",
-  "task_imputation_rank": 0,
-  "missing_fraction_before_task_aggregation": 0.052801724137931036,
-  "columns": 58,
-  "agent_model_rows": 16
-}
